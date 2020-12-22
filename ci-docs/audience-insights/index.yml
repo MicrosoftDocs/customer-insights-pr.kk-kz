@@ -1,0 +1,79 @@
+### YamlMime:Landing
+title: Dynamics 365 Customer Insights бағдарламасындағы аудитория мәліметтерінің мүмкіндіктері
+summary: Бірнеше көздің тұтынушы деректерін енгізіңіз, біріктіріңіз және ұйымдастырыңыз. Тұтынушы профильдерін және нақты уақыттағы сегменттеуді жасаңыз және басқарыңыз. Өзекті ету үшін тұтынушы деректерін басқа жүйелермен біріктіріңіз.
+metadata:
+  title: Аудитория мәліметтерінің құжаттамасы
+  description: Хабқа аудитория мәліметтері үшін негізгі сілтемелер көмегімен көмектесіңіз.
+  ms.service: customer-insights
+  ms.subservice: audience-insights
+  ms.topic: landing-page
+  author: m-hartmann
+  ms.author: mhart
+  ms.date: 10/16/2020
+  ms.openlocfilehash: 9dcbbecf793cca2ef1d79d6fad7f3b420f5a8806
+  ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+  ms.translationtype: HT
+  ms.contentlocale: kk-KZ
+  ms.lasthandoff: 11/03/2020
+  ms.locfileid: "4406242"
+landingContent:
+- title: Аудитория мәліметтері жайлы
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Өнімге шолу
+      url: overview.md
+    - text: Жаңа және жаңартылған мүмкіндіктер
+      url: whats-new-audience-insights.md
+    - text: Қауымдастық торабы
+      url: https://go.microsoft.com/fwlink/?linkid=2073991
+- title: Дерек көздерін қабылдау
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Дерек көздерін қосу
+      url: data-sources.md
+    - text: Біртіндеп жаңарту
+      url: incremental-refresh-data-sources.md
+    - text: Нысандарды түсіну
+      url: entities.md
+- title: Деректерді біріктіру
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Картаға түсіру
+      url: map-entities.md
+    - text: Сәйкестендіру
+      url: match-entities.md
+    - text: Біріктіру
+      url: merge-entities.md
+- title: Тұтынушы профильдерін анықтау
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Қарым-қатынастарды теңшеу
+      url: relationships.md
+    - text: Тұтынушы әрекеттерінің тізімі
+      url: activities.md
+    - text: Өз компьютерлік оқыту үлгілеріңізді келтіріңіз
+      url: custom-models.md
+- title: Тұтынушы деректерін экспорттау
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Экспорттаудың межелі орындарын орнату
+      url: export-destinations.md
+    - text: Dynamics 365 бағдарламаларындағы тұтынушы карталары
+      url: customer-card-add-in.md
+    - text: Power BI коннекторы
+      url: export-power-bi.md
+- title: Қолданбаны басқару
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Жүйені конфигурациялаңыз
+      url: system.md
+    - text: Пайдаланушы рұқсаттарын анықтау
+      url: permissions.md
+    - text: Бірнеше ортаны басқару
+      url: manage-environments.md
