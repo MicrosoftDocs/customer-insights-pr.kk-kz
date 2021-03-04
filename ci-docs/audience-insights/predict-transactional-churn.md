@@ -5,16 +5,16 @@ ms.date: 11/12/2020
 ms.reviewer: zacook
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: f3cbbf99a6cecba2aab2cf85428d53e5df8346e4
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: af461d290c69687fb47bacfcff446a0c62978383
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644410"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268325"
 ---
 # <a name="transactional-churn-prediction-preview"></a>Транзакциялық кетудің болжамы (алдын ала қарау)
 
@@ -96,6 +96,8 @@ ms.locfileid: "4644410"
 1. Оған қоса, **Тұтынушы әрекеті** үшін **Деректерді қосу** пәрменін таңдаңыз. Алғышарттарда сипатталғандай ктұтынушы әрекеті туралы ақпаратты ұсынатын нысанды таңдаңыз.
 
 1. Тұтынушы әрекеті нысанындағы төлсипаттарға семантикалық өрістердің картасын түсіріп, **Келесі** опциясын таңдаңыз. Өрістер сипаттамалары үшін [алғышарттарды](#prerequisites) қараңыз.
+
+   :::image type="content" source="media/map-transaction-data-fields.png" alt-text="Транзакциялық деректерге арналған тұтынушы өрістерін салыстырыңыз.":::
 
 1. Сіз теңшеп жатқан тұтынушы әрекетінің түріне сәйкес әрекет түрін таңдаңыз. **Жаңа** опциясын таңдап, қолжетімді әрекет түрін таңдаңыз немесе жаңа түрін жасаңыз.
 
@@ -185,3 +187,6 @@ ms.locfileid: "4644410"
 1. Жою керек болжамнан кейінгі тік көп нүктені таңдаңыз.
 
 1. **Жою** пәрменін таңдаңыз.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

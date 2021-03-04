@@ -4,17 +4,17 @@ description: Dynamics 365 Customer Insights бағдарламасындағы M
 ms.date: 12/03/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: tutorial
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: ameetj
 manager: shellyha
-ms.openlocfilehash: 556b6810db0ed2733a3f086291757bd85b77e371
-ms.sourcegitcommit: a9b2cf598f256d07a48bba8617347ee90024a1dd
+ms.openlocfilehash: 8a861d62bdfee6a3a82468fe1ab4a3fbbdad43d4
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4669025"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270211"
 ---
 # <a name="use-models-based-on-azure-machine-learning-studio-classic"></a>Azure Machine Learning Studio (классикалық) негізіндегі үлгілерді пайдалану
 
@@ -171,3 +171,6 @@ CLTV болжау регрессия мәселесіне жатады, себе
 Осы болжамдарды Customer Insights ішінде пайдалану үшін болжамдарды тұтынушы идентификаторларымен бірге **экспорттау** керек. Бастапқы деректерді экспорттаған [Azure Blob сақтау орнына экспорттаңыз](https://docs.microsoft.com/azure/storage/common/storage-import-export-data-from-blobs). Болжалды веб-қызметті ұпайларды жүйелі түрде іске қосу және жаңарту үшін жоспарлауға болады.
 
 Тұтынушы үлгісімен жасалған деректер тұтынушының деректерін одан әрі байыту үшін қолданыла алады. Қосымша ақпаратты [Реттелетін компьютерлік оқыту модельдері](custom-models.md) бөлімінен қараңыз.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

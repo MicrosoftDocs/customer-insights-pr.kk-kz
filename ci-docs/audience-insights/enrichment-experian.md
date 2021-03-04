@@ -1,20 +1,20 @@
 ---
 title: Үшінші тараптың арттыру Experian платформасымен арттыру
 description: Үшінші тараптың Experian арттыруы туралы жалпы ақпарат.
-ms.date: 09/17/2020
+ms.date: 12/10/2020
 ms.reviewer: kishorem
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 60fc49734e54740e83b47a7028be216a0eb81e49
-ms.sourcegitcommit: a9b2cf598f256d07a48bba8617347ee90024a1dd
+ms.openlocfilehash: baf3cc58a233b70c48fb94ac4a543d162f91bdd1
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668819"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269567"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Тұтынушы профильдерін Experian ұсынған демография көмегімен арттыру (алдын ала қарау)
 
@@ -41,7 +41,9 @@ Experian деректерін конфигурациялау үшін келес
 
 ## <a name="map-your-fields"></a>Өрістерді салыстыру
 
-1. **Деректерді қосу** пәрменін таңдап, идентификацияны анықтау мақсатында Experian компаниясына жіберу үшін **Атауы және мекенжайы**, **Электрондық пошта** немесе **Телефон** ішінен негізгі идентификаторды таңдаңыз.
+1.  **Деректерді қосу** опциясын таңдап, Experian жүйесіндегі демографиялық деректермен арттыру қажет **Тұтынушы деректерінің жиынтығын** таңдаңыз. Барлық тұтынушы профильдерін арттыру үшін **Тұтынушы** нысанын таңдауға болады немесе сол сегменттегі тек тұтынушы профильдерін арттыру үшін сегмент нысанын таңдауға болады.
+
+1. Идентификациялық рұқсат үшін Experian жүйесіне жіберілетін **Атауы және мекенжайы**, **Электрондық поштасы** немесе **Телефон** кілттік идентификаторларын таңдаңыз.
 
    > [!TIP]
    > Experian компаниясына жіберілген басқа негізгі идентификатор сипаттары сәйкес келу жылдамдығын жоғарылатуы мүмкін.
@@ -52,8 +54,8 @@ Experian деректерін конфигурациялау үшін келес
 
 1.  Өрісті салыстыруды аяқтау үшін **Сақтау** опциясын таңдаңыз.
 
-   > [!div class="mx-imgBorder"]
-   > ![Experian өрісін салыстыру](media/experian-field-mapping.png "Experian өрісін салыстыру")
+    > [!div class="mx-imgBorder"]
+    > ![Experian өрісін салыстыру](media/experian-field-mapping.png "Experian өрісін салыстыру")
 
 ## <a name="enrichment-results"></a>Толықтыру нәтижелері
 
@@ -71,3 +73,6 @@ Experian деректерін конфигурациялау үшін келес
 
 Деректерді Experian платформасына жіберу үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде, Dynamics 365 Customer Insights талаптарына сәйкестік шекарасынан тыс деректерді, соның ішінде жеке деректер сияқты ықтимал құпия деректерді беруге мүмкіндік бересіз. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ Experian платформасының кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сәйкес келуіне жауап бересіз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
 Бұл функцияны тоқтату үшін бұл арттыруды кез келген уақытта Dynamics 365 Customer Insights әкімшісі жоя алады.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

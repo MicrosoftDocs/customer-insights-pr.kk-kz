@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: f276a73feca52023391ad92fbc84359921b85328
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: ed9aa09fba938606611c6ce86c2b250c5e19c606
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268693"
 ---
 # <a name="data-subject-rights-dsr-requests-under-gdpr"></a>GDPR бойынша деректер субъектілерінің құқықтарына (DSR) қатысты сұраулар
 
@@ -75,3 +75,6 @@ Customer Insights әкімшісі Customer Insights пайдаланушысы 
 1. Сұрауда пайдаланушының электрондық пошта мекенжайын көрсетіп, D365CI@microsoft.com мекенжайына электрондық хабар жіберіңіз. Customer Insights тобы деректерді экспорттау растауын сұрайтын тіркелген қатысушы әкімшісі электрондық пошта мекенжайына электрондық хабарды жібереді.
 2. Сұралған пайдаланушыға деректерді экспорттау үшін растауды мақұлдаңыз.
 3. Қатысушы әкімшісінің электрондық пошта мекенжайы арқылы экспортталған деректерді алыңыз.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,20 +1,20 @@
 ---
 title: Power Apps коннекторы
 description: Power Apps және Power Automate арқылы қосылу.
-ms.date: 08/21/2020
+ms.date: 01/19/2021
 ms.reviewer: nikeller
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: b6ec103e29e218b2f27bfc1193300ea793a6b30b
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 5a8bbb9a09218d54228589d43c21c8894680b56e
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5268923"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps қосқышы (алдын ала қарау)
 
@@ -31,7 +31,7 @@ Customer Insights көптеген [Power Apps бағдарламасында қ
 Customer Insights деректер қосылымы ретінде қосқаннан кейін, келесі нысандарды Power Apps бағдарламасында таңдауға болады:
 
 - Тұтынушы: [бірыңғай тұтынушы профилінің](customer-profiles.md) деректерін пайдалану.
-- Бірыңғай тұтынушы әрекеті: бағдарламада [бірыңғай уақыт шкаласын](activities.md) көрсету.
+- Бірыңғай әрекет: бағдарламада [әрекеттің уақыт шкаласын](activities.md) көрсету.
 
 ## <a name="limitations"></a>Шектеулер
 
@@ -72,3 +72,6 @@ Customer Insights деректер қосылымы ретінде қосқан�
 1. Тұтынушының бірыңғай уақыт шкаласын көрсету үшін галерея элементін қосып, элементтер сипатын қосыңыз: **Filter('UnifiedActivity', CustomerId = {Customer_Id})**
 
     Мысалы: Filter('UnifiedActivity', CustomerId = Gallery1.Selected.CustomerId)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

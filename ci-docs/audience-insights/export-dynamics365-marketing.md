@@ -1,20 +1,20 @@
 ---
 title: Customer Insights деректерін Dynamics 365 Marketing бағдарламасына экспорттау
 description: Dynamics 365 Marketing жүйесіне қосылымды конфигурациялау жолы.
-ms.date: 08/21/2020
+ms.date: 02/01/2021
 ms.reviewer: philk
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 163387779b64bd78ef08e2d96a5f1c9615062f28
-ms.sourcegitcommit: 6a6df62fa12dcb9bd5f5a39cc3ee0e2b3988184b
+ms.openlocfilehash: a06920b8ff25d7102ccd14ae68cf42fe91fa1ee6
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643780"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269061"
 ---
 # <a name="connector-for-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing қосқышы (алдын ала қарау)
 
@@ -24,7 +24,10 @@ ms.locfileid: "4643780"
 
 ## <a name="prerequisite"></a>Алғышарт
 
-[Common Data Service көмегімен қабылданған Dynamics 365 Marketing бағдарламасынан алынған](connect-power-query.md) байланыс жазбалары.
+- Сегментті Customer Insights қызметінен маркетингке экспорттау алдында Dynamics 365 Marketing жүйесінде контакт жазбалары болуы тиіс. [Dynamics 365 Marketing жүйесінде Common Data Services](connect-power-query.md) арқылы контактілерді қабылдау жолдары туралы толығырақ оқыңыз.
+
+  > [!NOTE]
+  > Сегменттерді аудитория туралы түсініктерден маркетингке экспорттау маркетинг даналарында жаңа контакт жазбаларын жасамайды. Маркетингтегі контакт жазбалары аудитория туралы түсінікке қабылданып, деректер көзі ретінде пайдаланылуы тиіс. Сондай-ақ, оларды сегменттер экспортталмас бұрын тұтынушы идентификаторларын контакт идентификаторларымен салыстыру үшін бірыңғай тұтынушы нысанына қосу қажет.
 
 ## <a name="configure-the-connector-for-marketing"></a>Marketing қызметіне арналған қосқышты конфигурациялау
 
@@ -49,3 +52,6 @@ ms.locfileid: "4643780"
 ## <a name="export-the-data"></a>Деректерді экспорттау
 
 [Сұрау бойынша деректерді экспорттауға](export-destinations.md) болады. Экспорттау сондай-ақ әрбір [жоспарланған жаңарту](system.md#schedule-tab) сайын іске қосылады.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

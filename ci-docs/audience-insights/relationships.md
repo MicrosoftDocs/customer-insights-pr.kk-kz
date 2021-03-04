@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 295c372bb452e7c40aa950506dc494d4a2de1108
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 292da986faa7f62d8aa73ed7214075612178e2e1
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406252"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5269888"
 ---
 # <a name="relationships-between-entities"></a>Нысандар арасындағы қарым-қатынастар
 
@@ -28,8 +28,8 @@ ms.locfileid: "4406252"
 > ![Қарым-қатынас жасау](media/relationships-entities-merge.png "Қарым-қатынас жасау")
 
 - ***CustomerToContact* қарым-қатынасы** Тұтынушы нысаны мен Контакт нысаны арасында жасалды. Тұтынушы нысаны Контакт нысанының **contactId** негізгі өрісімен байланыстыру үшін **Contact_contactId** негізгі өрісін алады.
-- **_CustomerToAccount_ қарым-қатынасы** Тұтынушы нысаны мен Тіркелгі нысаны арасында жасалды. Тұтынушы нысаны Тіркелгі нысанының **accountId** негізгі өрісімен байланыстыру үшін **Account_accountId** негізгі өрісін алады.
-- **_CustomerToWebAccount_ қарым-қатынасы** Тұтынушы нысаны мен Веб-тіркелгі нысаны арасында жасалды. Тұтынушы нысаны Веб-тіркелгі нысанының **webaccountId** негізгі өрісімен байланыстыру үшін **WebAccount_webaccountId** негізгі өрісін алады.
+- ***CustomerToAccount* қарым-қатынасы** Тұтынушы нысаны мен Тіркелгі нысаны арасында жасалды. Тұтынушы нысаны Тіркелгі нысанының **accountId** негізгі өрісімен байланыстыру үшін **Account_accountId** негізгі өрісін алады.
+- ***CustomerToWebAccount* қарым-қатынасы** Тұтынушы нысаны мен Веб-тіркелгі нысаны арасында жасалды. Тұтынушы нысаны Веб-тіркелгі нысанының **webaccountId** негізгі өрісімен байланыстыру үшін **WebAccount_webaccountId** негізгі өрісін алады.
 
 ## <a name="create-a-relationship"></a>Қатынас жасау
 
@@ -69,3 +69,6 @@ ms.locfileid: "4406252"
 ## <a name="next-step"></a>Келесі қадам
 
 Жүйе мен теңшелетін қарым-қатынастар енді оқшауланбаған бірнеше деректер көзі негізінде сегменттерді жасауға қолданылады. Қосымша ақпаратты [Сегменттер](segments.md) бөлімінен қараңыз.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

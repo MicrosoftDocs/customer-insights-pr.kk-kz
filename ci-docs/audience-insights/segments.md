@@ -4,17 +4,17 @@ description: Әр түрлі төлсипаттарға байланысты т�
 ms.date: 10/15/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: jimsonc
 manager: shellyha
-ms.openlocfilehash: 6931110c2ae93cd2792d319aa5a34f0df3088552
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: a1308f07ac3ba7d4b09931bab3d19b6dfaf479ee
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270363"
 ---
 # <a name="create-and-manage-segments"></a>Сегменттерді жасау және басқару
 
@@ -222,3 +222,6 @@ Dynamics 365 Sales бағдарламасына сегменттерді экс�
 ## <a name="next-steps"></a>Келесі қадамдар
 
 Тұтынушы деңгейі бойынша түсініктер алу үшін [Сегментті экспорттаңыз](export-destinations.md) және [Тұтынушы картасы](customer-card-add-in.md) мен [Қосқыштар](export-power-bi.md) параметрлерін зерттеңіз.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

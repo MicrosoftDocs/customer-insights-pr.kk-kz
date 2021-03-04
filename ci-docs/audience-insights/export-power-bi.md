@@ -5,16 +5,16 @@ ms.date: 09/21/2020
 ms.reviewer: sthe
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: d497ca779a337c512a7254524f597cff226bcb45
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
+ms.openlocfilehash: 0607a4644ac7d7beb19e4faecf012efcd197d48c
+ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406211"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5477095"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI арналған қосқыш (алдын ала қарау)
 
@@ -31,7 +31,7 @@ Power BI Desktop көмегімен деректерге арналған көр
 
 1. **Қосымша ақпарат** опциясын таңдап, **Dynamics 365 Customer Insights** бағдарламасын іздеңіз
 
-1. Нәтижені таңдап, **Қосу** опциясын басыңыз.
+1. **Қосылу** опциясын таңдаңыз.
 
 1. Customer Insights бағдарламасы үшін пайдаланатын ұйым тіркелгісімен **кіріңіз** және **Қосу** опциясын басыңыз.
    > [!NOTE]
@@ -52,3 +52,22 @@ Power BI үшін Customer Insights коннекторы 1 миллионға д
 ### <a name="work-with-a-subset-of-data"></a>Деректер жиынымен жұмыс
 
 Деректердің ішкі жиынымен жұмыс жасауды қарастырыңыз. Мысалы, барлық тұтынушы жазбаларын Power BI бағдарламасына экспорттаудың орнына [сегменттер](segments.md) жасауға болады.
+
+## <a name="troubleshooting"></a>Ақауларын жою
+
+### <a name="customer-insights-environment-doesnt-show-in-power-bi"></a>Customer Insights ортасы Power BI ішінде көрсетілмейді
+
+Аудитория туралы түсініктердегі екі бірдей нысан аралығында анықталған бірнеше [қатынасы](relationships.md) бар орталар Power BI қосқышында қолжетімді болмайды.
+
+Қайталанатын қатынастарды анықтауға және жоюға болады.
+
+1. Аудитория туралы түсініктерде Power BI қызметінде жоқ ортада **Деректер** > **Қатынастар** тармағына өтіңіз.
+2. Қайталанатын қатынастарды анықтаңыз:
+   - Бірдей екі нысан арасында анықталған бірнеше қатынастың бар-жоғын тексеріңіз.
+   - Біріктіру процесіне қосылатын екі нысан арасында байланыс бар-жоғын тексеріңіз. Біріктіру процесіне кіретін барлық нысандар арасында айқын емес қатынас бар.
+3. Анықталған қайталанатын қатынастарды жойыңыз.
+
+Қайталанатын қатынастарды жойғаннан кейін, Power BI қосқышын қайта конфигурациялап көріңіз. Орта қазір қолжетімді болуы керек.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

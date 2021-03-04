@@ -4,16 +4,16 @@ description: Dynamics 365 Customer Insights бағдарламасында Azure
 ms.date: 11/19/2020
 ms.reviewer: zacook
 ms.service: dynamics-365-ai
-ms.topic: article
+ms.topic: tutorial
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: ef248086b30b870359970529a7bfb37792be62d5
-ms.sourcegitcommit: a9b2cf598f256d07a48bba8617347ee90024a1dd
+ms.openlocfilehash: 34489faaecc5da1ce3dd68d799b3e0e0d9672ab7
+ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668910"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5267241"
 ---
 # <a name="custom-machine-learning-models"></a>Реттелетін компьютерлік оқыту үлгілері
 
@@ -46,15 +46,15 @@ ms.locfileid: "4668910"
 
 1. **Үлгіңізді қамтитын веб-қызмет** ашылмалы тізімінен Machine Learning Studio (классикалық) веб-қызметін немесе Azure Machine Learning үрдістер тізбегін таңдаңыз. Содан кейін **Келесі** түймешігін таңдаңыз.
    - [Machine Learning Studio (классикалық) бағдарламасында веб-қызметті жариялау](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) туралы қосымша ақпарат
-   - [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. 
-     > [!NOTE]
-     > Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
+   - [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
 
 1. Әр **Веб-қызмет кірісі** үшін аудитория түсініктерінен сәйкес **Нысан** опциясын таңдап, **Келесі** пәрменін басыңыз.
+   > [!NOTE]
+   > Реттелетін үлгінің жұмыс ағыны веб-қызметтің кіріс өрістерін өрістің атауы мен деректер түріне негізделген нысан төлсипаттарымен салыстыру үшін эвристиканы қолданады. Егер веб-қызмет өрісін нысанмен салыстыру мүмкін болмаса, қате көрсетіледі..
 
    > [!div class="mx-imgBorder"]
    > ![Жұмыс ағынын конфигурациялау](media/intelligence-screen2-updated.png "Жұмыс ағынын конфигурациялау")
-
+   
 1. **Үлгі шығысының параметрлері** қадамында келесі сипаттарды орнатыңыз:
    - Machine Learning Studio (классикалық)
       1. Веб-қызметтің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
@@ -112,3 +112,6 @@ ms.locfileid: "4668910"
 1. **Жою** параметрін таңдап, жоюды растаңыз.
 
 Жұмыс ағыныңыз жойылады. Жұмыс ағыны жасалған кездегі [нысан](entities.md) сақталады және оны **Нысандар** бетінде көруге болады.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
