@@ -2,19 +2,19 @@
 title: Dynamics 365 Customer Insights үшін аудитория түсініктеріне шолу
 description: Dynamics 365 Customer Insights үшін аудитория түсініктеріне шолу жасаңыз.
 ms.date: 01/18/2021
-ms.reviewer: nimagen
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: overview
-author: m-hartmann
-ms.author: mhart
+author: NimrodMagen
+ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 735aae12abebd2d6d9b6aedb5835164834f480c0
-ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
+ms.openlocfilehash: 146994b739748c615ca002add4e64216da6c1dea
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5477002"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598637"
 ---
 # <a name="audience-insights-for-dynamics-365-customer-insights-overview"></a>Dynamics 365 Customer Insights үшін аудитория түсініктеріне шолу
 
@@ -25,7 +25,7 @@ ms.locfileid: "5477002"
 - **Дерекқорларды және тұтынушы деректерін біріктіру**
 
   - Деректерді оңай қосу және біріктіру—[алдын ала құрастырылған коннекторларды](data-sources.md) пайдалану арқылы танымал деректер көздерінен транзакциялық, бақылау және мінез-құлық деректерін келтіріңіз.
-  - Тұтынушы деректерін саналы түрде өзгертіңіз -[Жалпы деректер моделіне](https://docs.microsoft.com/common-data-model/) сәйкес келетін бірыңғай тұтынушы профильдерін жасаңыз. AI/ML басқарылатын ұсыныстарымен тұтынушының сәйкестік куәліктерін шешіңіз.
+  - Тұтынушы деректерін саналы түрде өзгертіңіз -[Жалпы деректер моделіне](/common-data-model/) сәйкес келетін бірыңғай тұтынушы профильдерін жасаңыз. AI/ML басқарылатын ұсыныстарымен тұтынушының сәйкестік куәліктерін шешіңіз.
 
 - **Microsoft Graph құрамындағы аудиторияның ақпаратын байытыңыз**
 
@@ -42,7 +42,7 @@ ms.locfileid: "5477002"
 - **Деректер сарапшылары/әкімшілер:**
 
   - Барлық тұтынушы деректерін қабылдау үшін коннекторларының кең жинағына кіріңіз.
-  - Тұтынушы деректерін біріктіру және оны [Жалпы деректер моделі](https://docs.microsoft.com/common-data-model/) пішіміне өзгерту.
+  - Тұтынушы деректерін біріктіру және оны [Жалпы деректер моделі](/common-data-model/) пішіміне өзгерту.
   - Брендке жақындық пен қызығушылықтар секілді Microsoft Graph ішіндегі аудитория интеллектісі түсініктерімен тұтынушы ақпаратын арттырыңыз.
   - Аудитория мәліметтерін оңай конфигурациялап, ықтимал мәселелерді анықтауға арналған "Код емес, шертулер" конфигурациясы мен түзету тәжірибесі.
   - AI негізделген ұсыныстармен түрлі көздердегі тұтынушы деректерін тазартып, стандарттаңыз.  

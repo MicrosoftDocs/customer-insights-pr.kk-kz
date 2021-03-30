@@ -2,19 +2,19 @@
 title: SFTP реттелетін импорттауы көмегімен арттыру
 description: SFTP ерттелетін импорт арттыруы туралы жалпы ақпарат.
 ms.date: 11/18/2020
-ms.reviewer: kishorem
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: jdahl
-ms.author: mhart
+author: jodahlMSFT
+ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: f25dcc08d96d36507e47af0d7b184003ae095819
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: d9e095ef793cbd25415864f76a541dce68fafe47
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269613"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5595862"
 ---
 # <a name="enrich-customer-profiles-with-custom-data-preview"></a>Тұтынушы профилдерін реттелетін деректермен арттыру (алдын ала қарау)
 
@@ -50,7 +50,7 @@ SFTP реттелетін импортын конфигурациялау үші
 
 ## <a name="defining-field-mappings"></a>Салыстырылатын өрісті анықтау 
 
-SFTP серверіне импортталатын файлды қамтитын каталогта *model.json* файлы болуы тиіс. Бұл файл деректерді импорттауға арналған схеманы анықтайды. Салыстырылатын өрісті көрсету үшін схема [Common Data Model](https://docs.microsoft.com/common-data-model/) пайдалануы керек. Model.json файлының қарапайым мысалы келесідей:
+SFTP серверіне импортталатын файлды қамтитын каталогта *model.json* файлы болуы тиіс. Бұл файл деректерді импорттауға арналған схеманы анықтайды. Салыстырылатын өрісті көрсету үшін схема [Common Data Model](/common-data-model/) пайдалануы керек. Model.json файлының қарапайым мысалы келесідей:
 
 ```
 {

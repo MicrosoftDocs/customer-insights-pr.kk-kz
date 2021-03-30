@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eebbac1370a847869d98beaf70db49b809d762e7
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: c670b0065a2833a6dc311d9e86d2b351140382ce
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267729"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596506"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>Аудитория мәліметтері бойынша Azure субъект-қызметімен Azure Data Lake Storage Gen2 тіркелгісіне қосылыңыз
 
@@ -23,7 +23,7 @@ Azure қызметтерін пайдаланатын автоматтандыр
 [Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу](connect-common-data-model.md) немесе [жаңасын жасау немесе бұрыннан бар ортаны жаңарту үшін](manage-environments.md#create-an-environment-in-an-existing-organization) субъект-қызметін пайдалануға болады.
 
 > [!IMPORTANT]
-> - Субъект-қызметін пайдалануға арналған Azure Data Lake Gen2 сақтау орны тіркелгісінде [Иерархиялық аттар кеңістігі (HNS) қосулы](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.
+> - Субъект-қызметін пайдалануға арналған Azure Data Lake Gen2 сақтау орны тіркелгісінде [Иерархиялық аттар кеңістігі (HNS) қосулы](/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.
 > - Субъект-қызметін жасау үшін Azure жазылымына арналған әкімші рұқсаттары қажет.
 
 ## <a name="create-azure-service-principal-for-audience-insights"></a>Аудитория мәліметтеріне арналған Azure субъект-қызметін жасаңыз
@@ -48,7 +48,7 @@ Azure қызметтерін пайдаланатын автоматтандыр
 
 ### <a name="create-a-new-service-principal"></a>Жаңа субъект-қызметін жасау
 
-1. **Графикке арналған Azure Active Directory PowerShell** соңғы нұсқасын орнатыңыз. Қосымша ақпарат алу үшін [Графикке арналған Azure Active Directory PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) бөлімін қараңыз.
+1. **Графикке арналған Azure Active Directory PowerShell** соңғы нұсқасын орнатыңыз. Қосымша ақпарат алу үшін [Графикке арналған Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2) бөлімін қараңыз.
    - Дербес компьютерде пернетақтада Windows кілтін таңдап, **Windows PowerShell** және **Әкімші ретінде іске қосу** параметрлерін іздеңіз.
    
    - Ашылатын PowerShell терезесінде `Install-Module AzureAD` енгізіңіз.

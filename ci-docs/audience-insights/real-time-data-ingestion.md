@@ -2,19 +2,19 @@
 title: Нақты уақыттағы деректерді қабылдау және шектеулер
 description: Аудитория түсініктеріндегі нақты уақыттағы мүмкіндіктер туралы жалпы ақпарат.
 ms.date: 10/27/2020
-ms.reviewer: nikeller
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+author: Nils-2m
+ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 7421ed9d2cb399d546815b2d1b0ea5ec51ca6b6d
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 3c84cfe7441eb026c1fd45eda1f72421388d01d7
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270287"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5598576"
 ---
 # <a name="real-time-data-ingestion-preview"></a>Нақты уақыттағы деректерді қабылдау (алдын-ала қарау)
 
@@ -54,7 +54,7 @@ ms.locfileid: "5270287"
 
 Нақты уақыттағы API интерфейсіне қосылудың екі әдісі бар:
 
-- [жанама түрде](#connect-via-the-dynamics-365-customer-insights-connector) [Dynamics 365 Customer Insights қосқышы](https://docs.microsoft.com/connectors/customerinsights/) арқылы
+- [жанама түрде](#connect-via-the-dynamics-365-customer-insights-connector) [Dynamics 365 Customer Insights қосқышы](/connectors/customerinsights/) арқылы
 - [тікелей](#connect-directly-to-the-real-time-api), кодпен
 
 Екі әдіс те келесі алғышарттарға ие:
@@ -66,13 +66,13 @@ ms.locfileid: "5270287"
 
 ## <a name="connect-via-the-dynamics-365-customer-insights-connector"></a>Dynamics 365 Customer Insights қосқышы арқылы қосылыңыз
 
-Нақты уақыттағы API деректерді берілген Power Platform қосқышынан, [Dynamics 365 Customer Insights қосқышы](https://docs.microsoft.com/connectors/customerinsights/), қандай да бір кодты жазудың және орналастырудың қажетінсіз қабылдай алады.    
-Қосқыш API сияқты нақты уақыттағы әрекеттерді орындай алады. Сізге премиум қосқыштар үшін жарамды лицензия қажет. Қосымша ақпарат алу үшін, [Power Apps және Power Automate лицензиялауға қатысты жиі қойылатын сұрақтар](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) бөлімін қараңыз.
+Нақты уақыттағы API деректерді берілген Power Platform қосқышынан, [Dynamics 365 Customer Insights қосқышы](/connectors/customerinsights/), қандай да бір кодты жазудың және орналастырудың қажетінсіз қабылдай алады.    
+Қосқыш API сияқты нақты уақыттағы әрекеттерді орындай алады. Сізге премиум қосқыштар үшін жарамды лицензия қажет. Қосымша ақпарат алу үшін, [Power Apps және Power Automate лицензиялауға қатысты жиі қойылатын сұрақтар](/power-platform/admin/powerapps-flow-licensing-faq) бөлімін қараңыз.
 
-- Power Platform [Power Apps және/немесе Power Automate](https://docs.microsoft.com/connectors/)
-- Azure [Логика бағдарламалары](https://docs.microsoft.com/azure/connectors/apis-list)
+- Power Platform [Power Apps және/немесе Power Automate](/connectors/)
+- Azure [Логика бағдарламалары](/azure/connectors/apis-list)
 
-Ағындарды жасау туралы толық мәліметтерді мына жерден қараңыз [Power Automate құжаттамасы](https://docs.microsoft.com/power-automate/).
+Ағындарды жасау туралы толық мәліметтерді мына жерден қараңыз [Power Automate құжаттамасы](/power-automate/).
 
 ## <a name="connect-directly-to-the-real-time-api"></a>Нақты уақыттағы API интерфейсіне тікелей қосылыңыз
 

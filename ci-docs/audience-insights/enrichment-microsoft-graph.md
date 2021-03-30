@@ -2,19 +2,19 @@
 title: Тұтынушы профильдерін Microsoft Graph көмегімен арттыру
 description: Тұтынушы деректерін бренд және қызығушылық ұқсастықтарымен толықтыру үшін Microsoft Graph жеке меншік деректерін пайдаланыңыз.
 ms.date: 12/10/2020
-ms.reviewer: kishorem
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: kishorem-MS
+ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 2c95369c778f592bc1460799aca0fa8cff813d68
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: aa46dac4f9c0d27881371877b14a92a6725710da
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269337"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596460"
 ---
 # <a name="enrich-customer-profiles-with-brand-and-interest-affinities-preview"></a>Тұтынушы деректерін бренд және қызығушылық ұқсастықтарымен толықтыру (алдын-ала қарау)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5269337"
 
 Microsoft Graph онлайн іздеу деректерін әртүрлі демографиялық сегменттерде (жасына, жынысына немесе орналасқан жеріне байланысты) брендтер мен қызығушылықтарды анықтау үшін пайдаланамыз. Брендке немесе қызығушылыққа арналған онлайн іздеу көлемі демографиялық сегменттің басқа сегменттермен салыстырғанда сол брендке немесе қызығушылыққа қаншалықты жақын екенін анықтайды.
 
-[Microsoft Graph туралы қосымша ақпарат](https://docs.microsoft.com/graph/overview).
+[Microsoft Graph туралы қосымша ақпарат](/graph/overview).
 
 ## <a name="affinity-level-and-score"></a>Ұқсастық деңгейі және ұпай
 

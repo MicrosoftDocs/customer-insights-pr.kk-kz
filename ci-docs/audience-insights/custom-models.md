@@ -1,19 +1,20 @@
 ---
 title: Реттелетін компьютерлік оқыту үлгілері | Microsoft Docs
 description: Dynamics 365 Customer Insights бағдарламасында Azure Machine Learning қызметінен реттелетін үлгілермен жұмыс жасаңыз.
-ms.date: 11/19/2020
-ms.reviewer: zacook
-ms.service: dynamics-365-ai
+ms.date: 03/22/2021
+ms.reviewer: mhart
+ms.service: customer-insights
+ms.subservice: audience-insights
 ms.topic: tutorial
-author: m-hartmann
-ms.author: mhart
+author: zacookmsft
+ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 34489faaecc5da1ce3dd68d799b3e0e0d9672ab7
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 87fb517e9f0b380f9721f77470dceb3bcb7e5616
+ms.sourcegitcommit: 55c00ea61c78db7b3b54894c01afb3246dff31c8
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267241"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5700675"
 ---
 # <a name="custom-machine-learning-models"></a>Реттелетін компьютерлік оқыту үлгілері
 
@@ -21,13 +22,18 @@ ms.locfileid: "5267241"
 
 ## <a name="responsible-ai"></a>Жауапты жасанды интелект
 
-Болжамдар тұтынушылардың жақсы тәжірибесін жасауға, бизнес мүмкіндіктерін жақсартуға және кіріс ағындарына мүмкіндіктер ұсынады. Болжам мәнін оның әсері мен этикалық тәртіпте енгізілуі мүмкін жағымсыздықтарға теңестіруді қатаң түрде ұсынамыз. Microsoft корпорациясының [Жауапты жасанды интеллектке жүгіну](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1%3aprimaryr6) жолы туралы қосымша ақпарат. Сонымен қатар Azure Machine Learning бағдарламасына тән [жауапты компьютерлік оқытуларға арналған әдістер мен процестер](https://docs.microsoft.com/azure/machine-learning/concept-responsible-ml) туралы біле аласыздар.
+Болжамдар тұтынушылардың жақсы тәжірибесін жасауға, бизнес мүмкіндіктерін жақсартуға және кіріс ағындарына мүмкіндіктер ұсынады. Болжам мәнін оның әсері мен этикалық тәртіпте енгізілуі мүмкін жағымсыздықтарға теңестіруді қатаң түрде ұсынамыз. Microsoft корпорациясының [Жауапты жасанды интеллектке жүгіну](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1%3aprimaryr6) жолы туралы қосымша ақпарат. Сонымен қатар Azure Machine Learning бағдарламасына тән [жауапты компьютерлік оқытуларға арналған әдістер мен процестер](/azure/machine-learning/concept-responsible-ml) туралы біле аласыздар.
 
 ## <a name="prerequisites"></a>Алғышарттар
 
-- Қазіргі уақытта бұл функция [Machine Learning Studio (классикалық)](https://studio.azureml.net) және [ Azure Machine Learning топтамалық құбырлары ](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines) арқылы жарияланған веб-қызметтерді қолдайды.
+- Қазіргі уақытта бұл функция [Machine Learning Studio (классикалық)](https://studio.azureml.net) және [ Azure Machine Learning топтамалық құбырлары ](/azure/machine-learning/concept-ml-pipelines) арқылы жарияланған веб-қызметтерді қолдайды.
 
-- Бұл мүмкіндікті пайдалану үшін сізге Azure Studio данасымен байланысты Azure Data Lake Gen2 сақтау орны тіркелгісі қажет. Қосымша ақпарат алу үшін [Azure Data Lake Storage Gen2 сақтау орны тіркелгісін жасау](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account) бөлімін қараңыз
+- Бұл мүмкіндікті пайдалану үшін сізге Azure Studio данасымен байланысты Azure Data Lake Gen2 сақтау орны тіркелгісі қажет. Қосымша ақпарат алу үшін [Azure Data Lake Storage Gen2 сақтау орны тіркелгісін жасау](/azure/storage/blobs/data-lake-storage-quickstart-create-account) бөлімін қараңыз.
+
+- Сату үрдістері бар Azure Machine Learning жұмыс кеңістіктері бойынша Azure Machine Learning жұмыс кеңістігіне жауапты немесе пайдаланушылық қатынас әкімшісі рұқсаттары қажет.
+
+   > [!NOTE]
+   > Деректер сіздің Customer Insights даналарыңыз және таңдалған Azure веб-қызметтері немесе жұмыс ағынындағы сату үрдістері арасында тасымалданады. Деректерді Azure қызметіне тасымалдағанда, қызмет ұйымыңызға деректерге қатысты қойылатын кез келген заңдық немесе нормативтік талаптарға сай болуы үшін қажетті түрде және орында деректерді өңдеуге конфигурацияланғанына көз жеткізіңіз.
 
 ## <a name="add-a-new-workflow"></a>Жаңа жұмыс ағынын қосу
 
@@ -45,8 +51,8 @@ ms.locfileid: "5267241"
 1. Веб-қызметіңізбен байланысты **Жұмыс кеңістіктері** пәрменін таңдаңыз. Берілген екі бөлім бар, олардың бірі Azure Machine Learning v1 (Machine Learning Studio (классикалық)) және Azure Machine Learning v2 (Azure Machine Learning). Егер сіз Machine Learning Studio (классикалық) веб-қызметі үшін қай жұмыс кеңістігінің дұрыс екеніне сенімді болмасаңыз, **Кез келген** пәрменін таңдаңыз.
 
 1. **Үлгіңізді қамтитын веб-қызмет** ашылмалы тізімінен Machine Learning Studio (классикалық) веб-қызметін немесе Azure Machine Learning үрдістер тізбегін таңдаңыз. Содан кейін **Келесі** түймешігін таңдаңыз.
-   - [Machine Learning Studio (классикалық) бағдарламасында веб-қызметті жариялау](https://docs.microsoft.com/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) туралы қосымша ақпарат
-   - [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](https://docs.microsoft.com/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](https://docs.microsoft.com/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
+   - [Machine Learning Studio (классикалық) бағдарламасында веб-қызметті жариялау](/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) туралы қосымша ақпарат
+   - [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
 
 1. Әр **Веб-қызмет кірісі** үшін аудитория түсініктерінен сәйкес **Нысан** опциясын таңдап, **Келесі** пәрменін басыңыз.
    > [!NOTE]
@@ -54,7 +60,7 @@ ms.locfileid: "5267241"
 
    > [!div class="mx-imgBorder"]
    > ![Жұмыс ағынын конфигурациялау](media/intelligence-screen2-updated.png "Жұмыс ағынын конфигурациялау")
-   
+
 1. **Үлгі шығысының параметрлері** қадамында келесі сипаттарды орнатыңыз:
    - Machine Learning Studio (классикалық)
       1. Веб-қызметтің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
@@ -62,12 +68,12 @@ ms.locfileid: "5267241"
       1. Үрдістер тізбегінің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
       1. Ашылмалы тізімнен топтама үрдістер тізбегінің **Шығыс деректер қоймасы параметрінің атауы** пәрменін таңдаңыз.
       1. Ашылмалы тізімнен топтама үрдістер тізбегінің **Шығыс жолы параметрінің атауы** пәрменін таңдаңыз.
-      
+
       > [!div class="mx-imgBorder"]
       > ![Үлгі шығысының параметрлер бөлігі](media/intelligence-screen3-outputparameters.png "Үлгі шығысының параметрлер бөлігі")
 
 1. Тұтынушыларды анықтайтын **Нәтижелердегі тұтынушы идентификаторы** ашылмалы тізіміндегі салыстыру төлсипатын таңдап, **Сақтау** опциясын басыңыз.
-   
+
    > [!div class="mx-imgBorder"]
    > ![Нәтижелерді тұтынушы деректерімен байланыстыру бөлігі](media/intelligence-screen4-relatetocustomer.png "Нәтижелерді тұтынушы деректерімен байланыстыру бөлігі")
 
@@ -95,7 +101,7 @@ ms.locfileid: "5267241"
       1. Сынақ үрдістер тізбегі үшін **Шығыс жолы параметрінің атауын** таңдаңыз.
 
 1. Тұтынушыларды анықтайтын **Нәтижелердегі тұтынушы идентификаторы** ашылмалы тізіміндегі салыстыру төлсипатын таңдап, **Сақтау** опциясын басыңыз.
-   Тұтынушы нысанының тұтынушы идентификаторы бағанына ұқсас мәндері бар қорытынды нәтижесінен төлсипат таңдау керек. Егер деректер жиынында мұндай баған болмаса, жолды бірегей анықтайтын төлсипатты таңдаңыз.
+   Тұтынушы нысанының тұтынушы идентификаторы бағанына ұқсас мәндері бар қорытынды нәтижесінен төлсипатты таңдаңыз. Егер деректер жиынында мұндай баған болмаса, жолды бірегей анықтайтын төлсипатты таңдаңыз.
 
 ## <a name="run-a-workflow"></a>Жұмыс үрдісін іске қосу
 
@@ -113,5 +119,28 @@ ms.locfileid: "5267241"
 
 Жұмыс ағыныңыз жойылады. Жұмыс ағыны жасалған кездегі [нысан](entities.md) сақталады және оны **Нысандар** бетінде көруге болады.
 
+## <a name="results"></a>Нәтижелер
+
+Жұмыс ағынының нәтижелері Үлгі шығысының параметрлер кезеңі барысында конфигурацияланған нысанда сақталады. Бұл деректерге [нысандар бетінен](entities.md) немесе [API қатынасы](apis.md) арқылы қатынасуға болады.
+
+### <a name="api-access"></a>API қатынасы
+
+Реттелетін үлгі нысанынан деректер алу үшін нақты OData сұрауы бойынша келесі пішімді пайдаланыңыз:
+
+`https://api.ci.ai.dynamics.com/v1/instances/<your instance id>/data/<custom model output entity name>%3Ffilter%3DCustomerId%20eq%20'<guid value>'`
+
+1. `<your instance id>` данасын Customer Insights қызметіне қатынасу кезінде браузердің мекенжай жолағында табуға болатын Customer Insights ортасының идентификаторымен алмастырыңыз.
+
+1. `<custom model output entity>` данасын реттелетін үлгі конфигурациясының үлгі шығысының параметрлері қадамы барысында берілген нысан атауымен алмастырыңыз.
+
+1. `<guid value>` мәнін жазбаға қатынасу қажет тұтынушы идентификаторымен алмастырыңыз. Бұл идентификаторды әдетте тұтынушы идентификаторы өрісіндегі [тұтынушы профильдері бетінде](customer-profiles.md) табуға болады.
+
+## <a name="frequently-asked-questions"></a>Жиі қойылатын сұрақтар
+
+- Реттелетін үлгінің жұмыс ағынын ретте кезінде неліктен маған тиесілі сату үрдісін көре алмаймын?    
+  Бұл мәселе көбінесе сату үрдісіндегі конфигурация мәселесінен туындайды. [Кіріс параметрінің конфигурацияланып](azure-machine-learning-experiments.md#dataset-configuration), сондай-ақ [шығыс дерекқоры мен жол параметрлерінің](azure-machine-learning-experiments.md#import-pipeline-data-into-customer-insights) конфигурацияланғанын тексеріңіз.
+
+- "Сараптау жұмыс ағынын сақтау мүмкін емес" қатесі нені білдіреді?    
+  Жұмыс кеңістігінде жауапты немесе пайдаланушылық қатынасу әкімшісінің артықшылықтары болмаса пайдаланушылар әдетте осы қате туралы хабарды көреді. Пайдаланушыға пайдаланушы тіркелгі деректерін келесі жұмыс процесін бастау үшін пайдаланбай, Customer Insights қызметіне жұмыс ағынын қызмет ретінде өңдеуге мүмкіндік бер үшін рұқсаттардың жоғары деңгейі қажет.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

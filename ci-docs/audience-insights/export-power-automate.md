@@ -1,20 +1,20 @@
 ---
 title: Power Automate қосқышы | Microsoft Docs
-description: Dynamics 365 Customer Insights жүйесінен Microsoft Power Automate ішінде ағындар жасаңыз.
+description: Microsoft Power Automate бағдарламасында Dynamics 365 Customer Insights бағдарламасынан ағындар жасау.
 ms.date: 01/20/2021
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: philk
+author: phkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: fb1df4e9ab1f78300b8ec1f8dfdfbfbac0e71447
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: e973bb11b31c9e70b695ebec8aa2700fdaa5e44f
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5268831"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5597932"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate коннекторы (алдын ала қарау)
 
@@ -34,7 +34,7 @@ ms.locfileid: "5268831"
 [Power Automate жүйесінде триггерлеріңізді теңшеңіз](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
 
 ## <a name="power-automate-actions"></a>Power Automate әрекеттері
-Power Automate коннекторы қолжетімді триггерлерден бөлек басқа әрекеттерді қамтамасыз етеді. Толық ақпарат алу үшін [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/) қараңыз.
+Power Automate коннекторы қолжетімді триггерлерден бөлек басқа әрекеттерді қамтамасыз етеді. Толық ақпарат алу үшін [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) қараңыз.
 
 ## <a name="create-a-power-automate-flow"></a>Power Automate ағынын жасау
 
@@ -44,7 +44,7 @@ Power Automate коннекторы қолжетімді триггерлерд�
 
 1. Power Automate жүйесінде Customer Insights қосқышы (алдын ала қарау) ашылады. Power Automate жүйесіне **кіріңіз**.
 
-1. Қолжетімді триггерлердің бірін таңдап, жаңа ағынға қосымша қадамдар қосыңыз. Қосымша ақпарат алу үшін [Power Automate бағдарламасында бұлттық ағынды жасау](https://docs.microsoft.com/power-automate/get-started-logic-flow) бөлімін қараңыз.
+1. Қолжетімді триггерлердің бірін таңдап, жаңа ағынға қосымша қадамдар қосыңыз. Қосымша ақпарат алу үшін [Power Automate бағдарламасында бұлттық ағынды жасау](/power-automate/get-started-logic-flow) бөлімін қараңыз.
 
 Ағындарды пайдалану мысалдары: 
 - Деректер көзін жаңарту орындалмаса, Microsoft Teams арнасына хабар жіберіңіз. 

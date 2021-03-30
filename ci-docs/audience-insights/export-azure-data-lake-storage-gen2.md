@@ -2,19 +2,19 @@
 title: Customer Insights деректерін Azure Data Lake Storage Gen2 жүйесіне экспорттау
 description: Azure Data Lake Storage Gen2 қосылымын конфигурациялау жолы туралы ақпарат.
 ms.date: 02/04/2021
-ms.reviewer: sthe
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: b00c3d6178150cbc93fe800779f094809d4dc67b
-ms.sourcegitcommit: 0260ed244b97c2fd0be5e9a084c4c489358e8d4f
+ms.openlocfilehash: 7c0eef575f745efa6312d7141a6dd96607f9797e
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5477186"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596644"
 ---
 # <a name="connector-for-azure-data-lake-storage-gen2-preview"></a>Azure Data Lake Storage Gen2 қосқышы (алдын ала қарау)
 
@@ -29,8 +29,8 @@ Customer Insights деректерін Azure Data Lake Storage Gen2 ішінде
 1. **Көрсетілу аты** өрісінде межелі орынға оңай танылатын атау енгізіңіз.
 
 1. Azure Data Lake Storage Gen2 арналған **Тіркелгі атауы**, **Тіркелгі кілті** және **Контейнер** элементтерін енгізіңіз.
-    - Azure Data Lake Storage Gen2 жүйесімен пайдалану үшін сақтау орны тіркелгісін жасау жолы туралы мәлімет алу үшін [Сақтау орны тіркелгісін жасау](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) бөлімін қараңыз. 
-    - Azure Data Lake Gen2 сақтау орны тіркелгісінің атауы мен тіркелгі кілтін табу жолдары туралы мәлімет алу үшін [Azure порталында сақтау орны тіркелгісінің параметрлерін басқару](https://docs.microsoft.com/azure/storage/common/storage-account-manage) бөлімін қараңыз.
+    - Azure Data Lake Storage Gen2 жүйесімен пайдалану үшін сақтау орны тіркелгісін жасау жолы туралы мәлімет алу үшін [Сақтау орны тіркелгісін жасау](/azure/storage/blobs/create-data-lake-storage-account) бөлімін қараңыз. 
+    - Azure Data Lake Gen2 сақтау орны тіркелгісінің атауы мен тіркелгі кілтін табу жолдары туралы мәлімет алу үшін [Azure порталында сақтау орны тіркелгісінің параметрлерін басқару](/azure/storage/common/storage-account-manage) бөлімін қараңыз.
 
 1. **Келесі** пәрменін таңдаңыз.
 

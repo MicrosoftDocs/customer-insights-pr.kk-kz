@@ -1,22 +1,22 @@
 ---
-title: Жұмыс мәліметтеріндегі веб-деректерді аудтория туралы түсініктермен біріктіру
+title: Жұмыс мәліметтеріндегі веб-деректерді аудитория туралы түсініктермен біріктіру
 description: Тұтынушылар туралы веб-ақпаратты жұмыс туралы түсінік пен аудитория туралы түсінікке дейін жеткізіңіз.
 ms.date: 12/17/2020
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: mukeshpo
+author: mukeshpo
+ms.author: mukeshpo
+ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: ba1cf6c7e85b8fe90baf34018f1309095573adf1
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 14ebff30d3ec7fc52dca6f86136309a3f454fa27
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5267683"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5597472"
 ---
-# <a name="integrate-web-data-from-engagement-insights-with-audience-insights"></a>Жұмыс мәліметтеріндегі веб-деректерді аудтория туралы түсініктермен біріктіру
+# <a name="integrate-web-data-from-engagement-insights-with-audience-insights"></a>Жұмыс мәліметтеріндегі веб-деректерді аудитория туралы түсініктермен біріктіру
 
 Тұтынушылар күнделікті транзакцияларды көбінесе веб-сайттардың көмегімен онлайн режимінде жасайды. Dynamics 365 Customer Insights қызметіндегі жұмыс мәліметтері мүмкіндігі - бұл дерек көзі ретінде веб-деректерді біріктіру үшін ыңғайлы шешім. Транзакциялық, демографиялық немесе мінез-құлықтық мәліметтерден басқа, біз интернеттегі әрекеттерді тұтынушылардың бірыңғай профильдерінен көре аламыз. Біз бұл профильді сегменттер, өлшемдер немесе аудиторияны белсендіру үшін болжамдар сияқты қосымша түсініктер алу үшін пайдалана аламыз.
 
