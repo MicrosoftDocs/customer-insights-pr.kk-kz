@@ -2,61 +2,61 @@
 title: Нысандар мен деректер жиындары
 description: Нысандар бетіндегі деректерді қараңыз.
 ms.date: 04/16/2020
-ms.reviewer: mukeshpo
+ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+author: mukeshpo
+ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: e71c69a6207147d8cd65363d51a5fa6bbf896151
-ms.sourcegitcommit: 139548f8a2d0f24d54c4a6c404a743eeeb8ef8e0
+ms.openlocfilehash: 383523bad5105e08e57758838e90a49e805b5f9b
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5269383"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596414"
 ---
-# <a name="entities-in-audience-insights"></a><span data-ttu-id="473e5-103">Аудитория мәліметтеріндегі нысандар</span><span class="sxs-lookup"><span data-stu-id="473e5-103">Entities in audience insights</span></span>
+# <a name="entities-in-audience-insights"></a><span data-ttu-id="4f660-103">Аудитория мәліметтеріндегі нысандар</span><span class="sxs-lookup"><span data-stu-id="4f660-103">Entities in audience insights</span></span>
 
-<span data-ttu-id="473e5-104">[Деректер көздерін теңшегеннен](data-sources.md) кейін қабылданған деректер сапасын бағалау үшін **Нысандар** бетіне өтіңіз.</span><span class="sxs-lookup"><span data-stu-id="473e5-104">After [configuring your data sources](data-sources.md), go to the **Entities** page to evaluate the quality of the ingested data.</span></span> <span data-ttu-id="473e5-105">Нысандар деректер жиындары болып саналады.</span><span class="sxs-lookup"><span data-stu-id="473e5-105">Entities are considered datasets.</span></span> <span data-ttu-id="473e5-106">Бірнеше Dynamics 365 Customer Insights мүмкіндіктері осы нысандардың айналасында құрылады.</span><span class="sxs-lookup"><span data-stu-id="473e5-106">Multiple capabilities of Dynamics 365 Customer Insights are built around these entities.</span></span> <span data-ttu-id="473e5-107">Оларды мұқият қарап шығу осы мүмкіндіктердің шығысын тексеруге көмектесуі мүмкін.</span><span class="sxs-lookup"><span data-stu-id="473e5-107">Reviewing them closely can help you validate the output of those capabilities.</span></span>
+<span data-ttu-id="4f660-104">[Деректер көздерін теңшегеннен](data-sources.md) кейін қабылданған деректер сапасын бағалау үшін **Нысандар** бетіне өтіңіз.</span><span class="sxs-lookup"><span data-stu-id="4f660-104">After [configuring your data sources](data-sources.md), go to the **Entities** page to evaluate the quality of the ingested data.</span></span> <span data-ttu-id="4f660-105">Нысандар деректер жиындары болып саналады.</span><span class="sxs-lookup"><span data-stu-id="4f660-105">Entities are considered datasets.</span></span> <span data-ttu-id="4f660-106">Бірнеше Dynamics 365 Customer Insights мүмкіндіктері осы нысандардың айналасында құрылады.</span><span class="sxs-lookup"><span data-stu-id="4f660-106">Multiple capabilities of Dynamics 365 Customer Insights are built around these entities.</span></span> <span data-ttu-id="4f660-107">Оларды мұқият қарап шығу осы мүмкіндіктердің шығысын тексеруге көмектесуі мүмкін.</span><span class="sxs-lookup"><span data-stu-id="4f660-107">Reviewing them closely can help you validate the output of those capabilities.</span></span>
 
-<span data-ttu-id="473e5-108">**Нысандар** бетінде нысандар тізімделген және бірнеше бағаннан тұрады:</span><span class="sxs-lookup"><span data-stu-id="473e5-108">The **Entities** page lists entities and includes several columns:</span></span>
+<span data-ttu-id="4f660-108">**Нысандар** бетінде нысандар тізімделген және бірнеше бағаннан тұрады:</span><span class="sxs-lookup"><span data-stu-id="4f660-108">The **Entities** page lists entities and includes several columns:</span></span>
 
-- <span data-ttu-id="473e5-109">**Аты**: деректер нысанының аты.</span><span class="sxs-lookup"><span data-stu-id="473e5-109">**Name**: The name of your data entity.</span></span> <span data-ttu-id="473e5-110">Нысан атынан кейін ескерту таңбасын көрсеңіз, ол нысан деректерінің сәтті жүктелмегенін білдіреді.</span><span class="sxs-lookup"><span data-stu-id="473e5-110">If you see a warning symbol next to an entity name, it means that the data for that entity didn't load successfully.</span></span>
-- <span data-ttu-id="473e5-111">**Көзі**: нысанды қабылдаған деректер көзінің түрі</span><span class="sxs-lookup"><span data-stu-id="473e5-111">**Source**: The type of data source that ingested the entity</span></span>
-- <span data-ttu-id="473e5-112">**Жасаған**: нысанды жасаған тұлғаның аты</span><span class="sxs-lookup"><span data-stu-id="473e5-112">**Created by**: Name of the person who created the entity</span></span>
-- <span data-ttu-id="473e5-113">**Жасалды**: нысанды жасау күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="473e5-113">**Created**: Date and time of the entity creation</span></span>
-- <span data-ttu-id="473e5-114">**Жаңартқан**: нысанды жаңартқан тұлғаның аты</span><span class="sxs-lookup"><span data-stu-id="473e5-114">**Updated by**: Name of the person who updated the entity</span></span>
-- <span data-ttu-id="473e5-115">**Соңғы жаңартылды**: нысаның соңғы жаңарту күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="473e5-115">**Last updated**: Date and time of the last update of the entity</span></span>
-- <span data-ttu-id="473e5-116">**Соңғы жаңарту**: соңғы деректерді жаңарту күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="473e5-116">**Last refresh**: Date and time of the last data refresh</span></span>
+- <span data-ttu-id="4f660-109">**Аты**: деректер нысанының аты.</span><span class="sxs-lookup"><span data-stu-id="4f660-109">**Name**: The name of your data entity.</span></span> <span data-ttu-id="4f660-110">Нысан атынан кейін ескерту таңбасын көрсеңіз, ол нысан деректерінің сәтті жүктелмегенін білдіреді.</span><span class="sxs-lookup"><span data-stu-id="4f660-110">If you see a warning symbol next to an entity name, it means that the data for that entity didn't load successfully.</span></span>
+- <span data-ttu-id="4f660-111">**Көзі**: нысанды қабылдаған деректер көзінің түрі</span><span class="sxs-lookup"><span data-stu-id="4f660-111">**Source**: The type of data source that ingested the entity</span></span>
+- <span data-ttu-id="4f660-112">**Жасаған**: нысанды жасаған тұлғаның аты</span><span class="sxs-lookup"><span data-stu-id="4f660-112">**Created by**: Name of the person who created the entity</span></span>
+- <span data-ttu-id="4f660-113">**Жасалды**: нысанды жасау күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="4f660-113">**Created**: Date and time of the entity creation</span></span>
+- <span data-ttu-id="4f660-114">**Жаңартқан**: нысанды жаңартқан тұлғаның аты</span><span class="sxs-lookup"><span data-stu-id="4f660-114">**Updated by**: Name of the person who updated the entity</span></span>
+- <span data-ttu-id="4f660-115">**Соңғы жаңартылды**: нысаның соңғы жаңарту күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="4f660-115">**Last updated**: Date and time of the last update of the entity</span></span>
+- <span data-ttu-id="4f660-116">**Соңғы жаңарту**: соңғы деректерді жаңарту күні мен уақыты</span><span class="sxs-lookup"><span data-stu-id="4f660-116">**Last refresh**: Date and time of the last data refresh</span></span>
 
-## <a name="exploring-a-specific-entitys-data"></a><span data-ttu-id="473e5-117">Белгілі бір нысан деректерін зерттеу</span><span class="sxs-lookup"><span data-stu-id="473e5-117">Exploring a specific entity's data</span></span>
+## <a name="exploring-a-specific-entitys-data"></a><span data-ttu-id="4f660-117">Белгілі бір нысан деректерін зерттеу</span><span class="sxs-lookup"><span data-stu-id="4f660-117">Exploring a specific entity's data</span></span>
 
-<span data-ttu-id="473e5-118">Нысанға қосылған әр түрлі өрістер мен жазбаларды зерттеу үшін нысанды таңдаңыз.</span><span class="sxs-lookup"><span data-stu-id="473e5-118">Select an entity to explore the different fields and records included within that entity.</span></span>
-
-> [!div class="mx-imgBorder"]
-> <span data-ttu-id="473e5-119">![Нысанды таңдау](media/data-manager-entities-data.png "Нысанды таңдау")</span><span class="sxs-lookup"><span data-stu-id="473e5-119">![Select an entity](media/data-manager-entities-data.png "Select an entity")</span></span>
-
-- <span data-ttu-id="473e5-120">Әдепкі бойынша **Деректер** қойыншасы таңдалады және нысанның жеке жазбалары туралы мәліметтер тізімделген кестені көрсетеді.</span><span class="sxs-lookup"><span data-stu-id="473e5-120">The **Data** tab is selected by default and shows a table listing details about individual records of the entity.</span></span>
+<span data-ttu-id="4f660-118">Нысанға қосылған әр түрлі өрістер мен жазбаларды зерттеу үшін нысанды таңдаңыз.</span><span class="sxs-lookup"><span data-stu-id="4f660-118">Select an entity to explore the different fields and records included within that entity.</span></span>
 
 > [!div class="mx-imgBorder"]
-> <span data-ttu-id="473e5-121">![Өрістер кестесі](media/data-manager-entities-fields.PNG "Өрістер кестесі")</span><span class="sxs-lookup"><span data-stu-id="473e5-121">![Fields table](media/data-manager-entities-fields.PNG "Fields table")</span></span>
+> <span data-ttu-id="4f660-119">![Нысанды таңдау](media/data-manager-entities-data.png "Нысанды таңдау")</span><span class="sxs-lookup"><span data-stu-id="4f660-119">![Select an entity](media/data-manager-entities-data.png "Select an entity")</span></span>
 
-- <span data-ttu-id="473e5-122">**Өрістер** қойыншасында өріс аттары, деректер түрлері және түрлер сияқты таңдалған нысанның мәліметтерін қарап шығу кестесі көрсетілген.</span><span class="sxs-lookup"><span data-stu-id="473e5-122">The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types.</span></span> <span data-ttu-id="473e5-123">**Түрі** бағанында жүйемен автоматты анықталатын немесе пайдаланушылар [қолмен салыстыратын](map-entities.md) Common Data Model байланысты түрлері көрсетіледі.</span><span class="sxs-lookup"><span data-stu-id="473e5-123">The **Type** column shows Common Data Model associated types, which are either auto-identified by the system or [manually mapped](map-entities.md) by users.</span></span> <span data-ttu-id="473e5-124">Олар — төлсипаттардан өзгеше болуы мүмкін семантикалық түрлер (мысалы, төмендегі *Электрондық пошта* өрісінде *Мәтін* деректер түрі бар), бірақ оның (семантикалық) Common Data Model түрі *Электрондық пошта* немесе *Электрондық пошта мекенжайы* болуы мүмкін.</span><span class="sxs-lookup"><span data-stu-id="473e5-124">These are semantic types that can differ from the attributes' data types—for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*.</span></span>
+- <span data-ttu-id="4f660-120">Әдепкі бойынша **Деректер** қойыншасы таңдалады және нысанның жеке жазбалары туралы мәліметтер тізімделген кестені көрсетеді.</span><span class="sxs-lookup"><span data-stu-id="4f660-120">The **Data** tab is selected by default and shows a table listing details about individual records of the entity.</span></span>
+
+> [!div class="mx-imgBorder"]
+> <span data-ttu-id="4f660-121">![Өрістер кестесі](media/data-manager-entities-fields.PNG "Өрістер кестесі")</span><span class="sxs-lookup"><span data-stu-id="4f660-121">![Fields table](media/data-manager-entities-fields.PNG "Fields table")</span></span>
+
+- <span data-ttu-id="4f660-122">**Өрістер** қойыншасында өріс аттары, деректер түрлері және түрлер сияқты таңдалған нысанның мәліметтерін қарап шығу кестесі көрсетілген.</span><span class="sxs-lookup"><span data-stu-id="4f660-122">The **Fields** tab shows a table to review details for the selected entity, such as field names, data types, and types.</span></span> <span data-ttu-id="4f660-123">**Түрі** бағанында жүйемен автоматты анықталатын немесе пайдаланушылар [қолмен салыстыратын](map-entities.md) Common Data Model байланысты түрлері көрсетіледі.</span><span class="sxs-lookup"><span data-stu-id="4f660-123">The **Type** column shows Common Data Model associated types, which are either auto-identified by the system or [manually mapped](map-entities.md) by users.</span></span> <span data-ttu-id="4f660-124">Олар — төлсипаттардан өзгеше болуы мүмкін семантикалық түрлер (мысалы, төмендегі *Электрондық пошта* өрісінде *Мәтін* деректер түрі бар), бірақ оның (семантикалық) Common Data Model түрі *Электрондық пошта* немесе *Электрондық пошта мекенжайы* болуы мүмкін.</span><span class="sxs-lookup"><span data-stu-id="4f660-124">These are semantic types that can differ from the attributes' data types—for example, the field *Email* below has a data type *Text* but its (semantic) Common Data Model type might be *Email* or *EmailAddress*.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="473e5-125">Екі кестеде тек нысан деректерінің үлгісі көрсетіледі.</span><span class="sxs-lookup"><span data-stu-id="473e5-125">Both tables show only a sample of your entity's data.</span></span> <span data-ttu-id="473e5-126">Толық деректер жиынын көру үшін **Деректер көздері** бетіне өтіп, нысанды таңдап, **Өңдеу** параметрін таңдап, [Деректер көздері](data-sources.md) ішінде түсіндірілгендей Power Query редакторы бар осы нысан деректерін көріңіз.</span><span class="sxs-lookup"><span data-stu-id="473e5-126">To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](data-sources.md).</span></span>
+> <span data-ttu-id="4f660-125">Екі кестеде тек нысан деректерінің үлгісі көрсетіледі.</span><span class="sxs-lookup"><span data-stu-id="4f660-125">Both tables show only a sample of your entity's data.</span></span> <span data-ttu-id="4f660-126">Толық деректер жиынын көру үшін **Деректер көздері** бетіне өтіп, нысанды таңдап, **Өңдеу** параметрін таңдап, [Деректер көздері](data-sources.md) ішінде түсіндірілгендей Power Query редакторы бар осы нысан деректерін көріңіз.</span><span class="sxs-lookup"><span data-stu-id="4f660-126">To view the full data set, go to the **Data sources** page, select an entity, select **Edit**, and then view this entity's data with the Power Query editor as explained in [Data sources](data-sources.md).</span></span>
 
-<span data-ttu-id="473e5-127">Нысанда қабылданған деректер туралы қосымша ақпарат алу үшін, **Қорытынды** бағанында бос мәндер, жоқ мәндер, бірегей мәндер, сандар сияқты кейбір маңызды сипаттамалар және деректеріңізге қолданылатын таратулар қамтамасыз етіледі.</span><span class="sxs-lookup"><span data-stu-id="473e5-127">To learn more about the data ingested in the entity, the **Summary** column provides you with some important characteristics of the data, such as nulls, missing values, unique values, counts, and distributions, as applicable to your data.</span></span>
+<span data-ttu-id="4f660-127">Нысанда қабылданған деректер туралы қосымша ақпарат алу үшін, **Қорытынды** бағанында бос мәндер, жоқ мәндер, бірегей мәндер, сандар сияқты кейбір маңызды сипаттамалар және деректеріңізге қолданылатын таратулар қамтамасыз етіледі.</span><span class="sxs-lookup"><span data-stu-id="4f660-127">To learn more about the data ingested in the entity, the **Summary** column provides you with some important characteristics of the data, such as nulls, missing values, unique values, counts, and distributions, as applicable to your data.</span></span>
 
-<span data-ttu-id="473e5-128">Деректер қорытындысын көру үшін диаграмма белгішесін таңдаңыз.</span><span class="sxs-lookup"><span data-stu-id="473e5-128">Select the chart icon to see the summary of the data.</span></span>
+<span data-ttu-id="4f660-128">Деректер қорытындысын көру үшін диаграмма белгішесін таңдаңыз.</span><span class="sxs-lookup"><span data-stu-id="4f660-128">Select the chart icon to see the summary of the data.</span></span>
 
 > [!div class="mx-imgBorder"]
-> <span data-ttu-id="473e5-129">![Қорытынды таңбасы](media/data-manager-entities-summary.png "Деректер қорытындысы кестесі")</span><span class="sxs-lookup"><span data-stu-id="473e5-129">![Summary symbol](media/data-manager-entities-summary.png "Data summary table")</span></span>
+> <span data-ttu-id="4f660-129">![Қорытынды таңбасы](media/data-manager-entities-summary.png "Деректер қорытындысы кестесі")</span><span class="sxs-lookup"><span data-stu-id="4f660-129">![Summary symbol](media/data-manager-entities-summary.png "Data summary table")</span></span>
 
-### <a name="next-step"></a><span data-ttu-id="473e5-130">Келесі қадам</span><span class="sxs-lookup"><span data-stu-id="473e5-130">Next step</span></span>
+### <a name="next-step"></a><span data-ttu-id="4f660-130">Келесі қадам</span><span class="sxs-lookup"><span data-stu-id="4f660-130">Next step</span></span>
 
-<span data-ttu-id="473e5-131">Қабылданған деректерді *салыстыру*, *сәйкестендіру* және *біріктіру* жолы туралы ақпарат алу үшін [Біріктіру](data-unification.md) тақырыбын қараңыз.</span><span class="sxs-lookup"><span data-stu-id="473e5-131">See the [Unify](data-unification.md) topic to learn how to *map*, *match*, and *merge* the ingested data.</span></span>
+<span data-ttu-id="4f660-131">Қабылданған деректерді *салыстыру*, *сәйкестендіру* және *біріктіру* жолы туралы ақпарат алу үшін [Біріктіру](data-unification.md) тақырыбын қараңыз.</span><span class="sxs-lookup"><span data-stu-id="4f660-131">See the [Unify](data-unification.md) topic to learn how to *map*, *match*, and *merge* the ingested data.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
