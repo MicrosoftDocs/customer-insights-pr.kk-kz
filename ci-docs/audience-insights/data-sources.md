@@ -1,7 +1,7 @@
 ---
 title: Деректерді қабылдау үшін деректер көздерін пайдалану
 description: Деректерді әртүрлі көздерден импорттау әдісін үйреніңіз.
-ms.date: 11/03/2020
+ms.date: 04/12/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 780dc61a82d6ed9856a37dc8f164fa946d982bbe
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 0fc13d3ac0a5176637b6fe481dabe0b2aec11649
+ms.sourcegitcommit: d89b19b2a3497722b78362aeee688ae7e94915d9
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5595954"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5887901"
 ---
 # <a name="data-sources-overview"></a>Деректер көздеріне шолу
 
@@ -32,8 +32,15 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 - [Common Data Model қалтасынан](connect-common-data-model.md)
 - [Common Data Service көлінен](connect-common-data-service-lake.md)
 
-> [!NOTE]
-> Жергілікті деректер көздерінен деректерді әлі қосуға болмайды.
+## <a name="add-data-from-on-premises-data-sources"></a>Жергілікті деректер көздерінен деректерді қосу
+
+Жергілікті деректер көздеріндегі деректерді Audience Insights бағдарламасына енгізуге Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](manage-environments.md#create-an-environment-in-an-existing-organization) арқылы қосуға болады.
+
+Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюздерін пайдаланып жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы жергілікті деректер шлюздерін пайдалану үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
+
+Бұрыннан бар Power BI немесе Power Apps ортасындағы деректер шлюздері көрінеді және оларды Customer Insights бағдарламасында қайта пайдалануға болады. Деректер көздері бетінде жергілікті деректер шлюздерін көруге және конфигурациялауға болатын Power Platform ортасына сілтеме көрсетіледі.
+
+:::image type="content" source="media/data-sources-onpremises-gateways.png" alt-text="Power Platform ортасын көрсететін сілтемелерді көрсететін деректер көздері бетінің скриншоты.":::
 
 ## <a name="review-ingested-data"></a>Қабылданған деректерді қарап шығу
 
@@ -65,7 +72,7 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 2. Жаңартқыңыз келетін деректер көзі жанындағы тік эллипсті таңдап, ашылмалы тізімнен **Жаңарту** пәрменін таңдаңыз.
 
-3. Қолмен жаңарту үшін деректер көзі іске қосылды. Деректер көзін жаңарту нысан схемасын және деректер көзінде көрсетілген барлық нысандар үшін деректерді жаңартады.
+3. Қолмен жаңарту үшін деректер көзі іске қосылды. Деректер көзін жаңарту нысан схемасын да, деректер көзінде көрсетілген барлық нысандар үшін деректерді де жаңартады.
 
 4. Бұрыннан жаңартудан бас тартқыңыз келсе, **Жаңартуды тоқтату** пәрменін таңдаңыз және деректер көзі соңғы жаңарту күйіне оралады.
 
