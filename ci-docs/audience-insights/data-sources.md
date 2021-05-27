@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 0fc13d3ac0a5176637b6fe481dabe0b2aec11649
-ms.sourcegitcommit: d89b19b2a3497722b78362aeee688ae7e94915d9
+ms.openlocfilehash: 3c0b4690e18285aa37eef481b3cfac951884ead6
+ms.sourcegitcommit: fcc94f55dc2dce84eae188d582801dc47696c9cc
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5887901"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085537"
 ---
 # <a name="data-sources-overview"></a>Деректер көздеріне шолу
 
@@ -36,11 +36,9 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 Жергілікті деректер көздеріндегі деректерді Audience Insights бағдарламасына енгізуге Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](manage-environments.md#create-an-environment-in-an-existing-organization) арқылы қосуға болады.
 
-Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюздерін пайдаланып жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы жергілікті деректер шлюздерін пайдалану үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
+Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы [жергілікті деректер шлюздерін пайдалану](/powerapps/maker/data-platform/using-dataflows-with-on-premises-data.md) үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
 
 Бұрыннан бар Power BI немесе Power Apps ортасындағы деректер шлюздері көрінеді және оларды Customer Insights бағдарламасында қайта пайдалануға болады. Деректер көздері бетінде жергілікті деректер шлюздерін көруге және конфигурациялауға болатын Power Platform ортасына сілтеме көрсетіледі.
-
-:::image type="content" source="media/data-sources-onpremises-gateways.png" alt-text="Power Platform ортасын көрсететін сілтемелерді көрсететін деректер көздері бетінің скриншоты.":::
 
 ## <a name="review-ingested-data"></a>Қабылданған деректерді қарап шығу
 

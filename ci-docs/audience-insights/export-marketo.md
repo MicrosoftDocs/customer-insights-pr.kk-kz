@@ -6,15 +6,15 @@ ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: phkieffer
+author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 01290d5fae7af1737b73373d75e334ae1ed67d37
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: b5a644e286bd44d4ebf7d1837255326c005b48d6
+ms.sourcegitcommit: 74cd4fa9cbb784d9dff174c0eec7b4dcb408d66b
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5759828"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059323"
 ---
 # <a name="export-segments-to-marketo-preview"></a>Сегменттерді Marketo қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -44,7 +44,7 @@ ms.locfileid: "5759828"
 
 1. Осы қосылымды кім пайдалана алатынын таңдаңыз. Егер сіз ешқандай әрекет жасамасаңыз, әдепкі бойынша Әкімшілер болады. Қосымша ақпарат алу үшін [Салымшыларға экспорттау үшін қосылымды пайдалануға рұқсат беру](connections.md#allow-contributors-to-use-a-connection-for-exports) бөлімін қараңыз.
 
-1. **[Marketo клиент идентификаторы, клиент құпиясы және REST соңғы хост атауын](https://developers.marketo.com/rest-api/authentication/)** енгізіңіз.
+1. **[Marketo клиент идентификаторы, клиент құпиясы және REST соңғы хост атауын](https://developers.marketo.com/rest-api/authentication/)** енгізіңіз. REST соңғы нүктесінің хост атауы тек хосттың атауы болып табылады, яғни `https://` префиксі жоқ. Мысал:`xyz-abc-123.mktorest.com`. 
 
 1. **Деректер құпиялығы және сәйкестігін** растау үшін **Мен келісемін** пәрменін таңдаңыз және Marketo платформасына қосылуды баптандыру үшін **Қосылу** пәрменін таңдаңыз.
 
@@ -62,7 +62,7 @@ ms.locfileid: "5759828"
 
 1. **Экспорттауға арналған қосылым** өрісінде Marketo бөлімінен қосылым таңдаңыз. Егер сіз осы бөлімнің атын көрмесеңіз, сізге қолжетімді осы түрдегі қосылым жоқ.
 
-1. **[Marketo тізімінің идентификаторын](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists)** енгізіңіз 
+1. **[Marketo тізімінің идентификаторын](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists)** енгізіңіз. Тізім идентификаторы — бұл тек сандық мән. Мысалы, егер сіздің Marketo тізімінің идентификаторы ST12345A7 болса, сандарға дейінгі және кейінгі таңбаны алып тастаңыз және `12345` мәнін енгізіңіз. 
 
 1. **Деректерді салыстыру** бөліміндегі **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. 
 
@@ -74,7 +74,7 @@ ms.locfileid: "5759828"
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
-Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. Marketo платформасында, өз сегменттеріңізді [Marketo аудиториялары](ttps://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists) астынан табуға болады.
+Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. Marketo платформасында, өз сегменттеріңізді [Marketo аудиториялары](https://docs.marketo.com/display/public/DOCS/Understanding+Static+Lists) астынан табуға болады.
 
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі

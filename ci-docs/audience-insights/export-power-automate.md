@@ -6,15 +6,15 @@ ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
-author: phkieffer
+author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: e973bb11b31c9e70b695ebec8aa2700fdaa5e44f
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: ce2477d957a1792e0436a0dfc15a33621b1c89a9
+ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5597932"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5976095"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate коннекторы (алдын ала қарау)
 
@@ -27,7 +27,7 @@ ms.locfileid: "5597932"
 - Дереккөзді жаңарту сәтсіз болған кезде іске қосыңыз. 
 - Дереккөзді жаңарту сәтті болған кезде іске қосыңыз.
 - Сегментте шектен асқан кезде іске қосыңыз. Триггер шектен асырмауға шектелген.
-- Іскери шарада шектен асқан кезде іске қосыңыз. Триггер шектен асырмау күйіне шектелген.
+- Іскери шарада шектен асқан кезде іске қосыңыз. Тек өлшемсіз бизнес көрсеткіштеріне қолдау көрсетіледі. Триггер шектен асырмау күйіне шектелген.
 - Толық жаңарту (деректер көздері, сегменттер, шаралар,...) аяқталған кезде іске қосыңыз.
 - Бірегейлендіру процесін жаңарту (карта, сәйкестік, біріктіру) аяқталған кезде іске қосу.
 
