@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 4979f0147dea2270f11342c1bb6b0693f3c24aea
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: dce5d51ca4587b4d7a0644cc701c1826854882b5
+ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760573"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6124096"
 ---
-# <a name="export-segment-lists-to-rollworks-preview"></a>Сегмент тізімдерін RollWorks қызметіне экспорттау (алдын ала қарау нұсқасы)
+# <a name="export-segments-to-rollworks-preview"></a>Сегменттерді RollWorks қызметіне экспорттау (алдын ала қарау нұсқасы)
 
 Тұтынушылардың бірыңғай профильдерінің сегменттерін RollWorks қызметіне экспорттаңыз және оларды жарнама үшін пайдаланыңыз. 
 
@@ -79,6 +79,6 @@ ms.locfileid: "5760573"
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 
-Деректерді RollWorks қызметіне тасымалдау үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде жеке деректер сияқты ықтимал құпия деректерді қоса алғанда, деректерді Dynamics 365 Customer Insights бағдарламасының үйлесімділік шегінен тыс тасымалдауға рұқсат бересіз. Microsoft корпорациясы мұндай деректерді сіздің нұсқауыңыз бойынша жібереді, бірақ сіз RollWorks қызметінің кез-келген құпиялылық немесе қауіпсіздік міндеттемелерінің орындалуына кепілдік беретініне жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
+Деректерді RollWorks қызметіне тасымалдау үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде жеке деректер сияқты ықтимал құпия деректерді қоса алғанда, деректерді Dynamics 365 Customer Insights бағдарламасының үйлесімділік шегінен тыс тасымалдауға рұқсат бересіз. Microsoft корпорациясы мұндай деректерді сіздің нұсқауыңыз бойынша жібереді, бірақ сіз RollWorks қызметінің кез келген құпиялылық немесе қауіпсіздік міндеттемелерінің орындалуына кепілдік беретініне жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
 
 Бұл функцияны тоқтату үшін бұл экспорттау мақсатын кез келген уақытта Dynamics 365 Customer Insights әкімшісі жоя алады.

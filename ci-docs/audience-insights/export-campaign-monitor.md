@@ -9,14 +9,14 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 7fd6af37b40e21d030a1ace0cd5f8fcc7861c3fa
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: 091a3197dc0c19ff78f0419fb4e88868e0f78359
+ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760572"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6124188"
 ---
-# <a name="export-segment-lists-to-campaign-monitor-preview"></a>Сегмент тізімдерін Campaign Monitor қызметіне экспорттау (алдын ала қарау нұсқасы)
+# <a name="export-segments-to-campaign-monitor-preview"></a>Сегменттерді Campaign Monitor қызметіне экспорттау (алдын ала қарау нұсқасы)
 
 Тұтынушылардың бірыңғай профильдерінің сегменттерін Campaign Monitor қызметіне экспорттаңыз және оларды маркетингтік әрекеттер үшін пайдаланыңыз.
 
@@ -77,6 +77,6 @@ ms.locfileid: "5760572"
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 
-Деректерді Campaign Monitor қызметіне тасымалдау үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде жеке деректер сияқты ықтимал құпия деректерді қоса алғанда, деректерді Dynamics 365 Customer Insights бағдарламасының үйлесімділік шегінен тыс тасымалдауға рұқсат бересіз. Microsoft корпорациясы мұндай деректерді сіздің нұсқауыңыз бойынша жібереді, бірақ сіз Campaign Monitor қызметінің кез-келген құпиялылық немесе қауіпсіздік міндеттемелерінің орындалуына кепілдік беретініне жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
+Деректерді Campaign Monitor қызметіне тасымалдау үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде жеке деректер сияқты ықтимал құпия деректерді қоса алғанда, деректерді Dynamics 365 Customer Insights бағдарламасының үйлесімділік шегінен тыс тасымалдауға рұқсат бересіз. Microsoft корпорациясы мұндай деректерді сіздің нұсқауыңыз бойынша жібереді, бірақ сіз Campaign Monitor қызметінің кез келген құпиялылық немесе қауіпсіздік міндеттемелерінің орындалуына кепілдік беретініне жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
 
 Бұл функцияны тоқтату үшін бұл экспорттау мақсатын кез келген уақытта Dynamics 365 Customer Insights әкімшісі жоя алады.

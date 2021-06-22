@@ -9,14 +9,14 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: d08504856e1c673ef32433b83bf491d7f4e8cee4
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: 8b0bda638c9bc7bb9cb2fdb01be11489b44f28a5
+ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5976853"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6124418"
 ---
-# <a name="export-segment-lists-to-dotdigital-preview"></a>Сегмент тізімдерін DotDigital қызметіне экспорттау (алдын ала қарау нұсқасы)
+# <a name="export-segments-to-dotdigital-preview"></a>Сегменттерді DotDigital қызметіне экспорттау (алдын ала қарау нұсқасы)
 
 Бірыңғай тұтынушы профильдерінің сегменттерін DotDigital мекенжай кітаптарына экспорттаңыз және оларды науқандар, электрондық пошта маркетингі және dotdigital көмегімен тұтынушы сегменттерін құру үшін пайдаланыңыз. 
 
