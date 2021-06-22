@@ -96,30 +96,40 @@
           href: audience-insights/measures.md
     - name: Болжамдар
       items:
-        - name: Мән болжамдарын пайдаланып деректерді толтырыңыз
-          href: audience-insights/predictions.md
-        - name: Жазылымның бітуін болжау
-          href: audience-insights/predict-subscription-churn.md
-        - name: Жазылым бойынша тұтынушылардың кетуі болжамына арналған үлгі нұсқаулығы
-          href: audience-insights/sample-guide-predict-subscription-churn.md
-        - name: Транзакциялық кетуді болжау
-          href: audience-insights/predict-transactional-churn.md
-        - name: Транзакциялық кету болжамына арналған үлгі нұсқаулығы
-          href: audience-insights/sample-guide-predict-transactional-churn.md
-        - name: Тұтынушының өмір бойғы құндылығын (CLV) болжау
-          href: audience-insights/predict-customer-lifetime-value.md
-        - name: Өнім ұсыныстарын болжау
-          href: audience-insights/predict-product-recommendation.md
-        - name: Өнім ұсынысының болжамы бойынша нұсқаулық үлгісі
-          href: audience-insights/sample-guide-predict-product-recommendation.md
+        - name: АІ көмегімен деректерді болжау
+          items:
+            - name: Болжам модельдеріне шолу
+              href: audience-insights/predictions-overview.md
+            - name: Тұтынушының өмір бойғы құндылығын (CLV) болжау
+              href: audience-insights/predict-customer-lifetime-value.md
+            - name: Өнім ұсыныстарын болжау
+              href: audience-insights/predict-product-recommendation.md
+            - name: Жазылымның бітуін болжау
+              href: audience-insights/predict-subscription-churn.md
+            - name: Транзакциялық кетуді болжау
+              href: audience-insights/predict-transactional-churn.md
+            - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
+              href: audience-insights/custom-models.md
+            - name: Толық емес деректерді толықтыру
+              href: audience-insights/predictions.md
+        - name: Үлгі нұсқаулықтары
+          items:
+            - name: CLV болжамына арналған үлгі нұсқаулық
+              href: audience-insights/sample-guide-predict-clv.md
+            - name: Жазылым бойынша тұтынушылардың кетуі болжамына арналған үлгі нұсқаулығы
+              href: audience-insights/sample-guide-predict-subscription-churn.md
+            - name: Транзакциялық кету болжамына арналған үлгі нұсқаулығы
+              href: audience-insights/sample-guide-predict-transactional-churn.md
+            - name: Өнім ұсынысының болжамы бойынша нұсқаулық үлгісі
+              href: audience-insights/sample-guide-predict-product-recommendation.md
+            - name: Azure Machine learning қызметімен эксперименттер
+              href: audience-insights/azure-machine-learning-experiments.md
+            - name: Azure Machine Learning студиосымен тәжірибелер
+              href: audience-insights/machine-learning-studio-experiments.md
+        - name: Болжамдарды басқару
+          href: audience-insights/manage-predictions.md
         - name: Болжамдар негізінде сегменттер жасау
           href: audience-insights/prediction-based-segment.md
-        - name: Компьютерлік оқытудың реттелетін үлгілерін енгізу
-          href: audience-insights/custom-models.md
-        - name: Azure Machine learning қызметімен эксперименттер
-          href: audience-insights/azure-machine-learning-experiments.md
-        - name: Azure Machine Learning студиосымен тәжірибелер
-          href: audience-insights/machine-learning-studio-experiments.md
     - name: Экспорттау параметрлері
       items:
         - name: Экспорттаулар
@@ -154,12 +164,18 @@
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
+            - name: LinkedIn Ads
+              href: audience-insights/export-linkedin-ads.md
             - name: LiveRamp
               href: audience-insights/export-liveramp.md
             - name: Mailchimp
               href: audience-insights/export-mailchimp.md
             - name: Marketo
               href: audience-insights/export-marketo.md
+            - name: Microsoft Advertising
+              href: audience-insights/export-microsoft-advertising.md
+            - name: Omnisend
+              href: audience-insights/export-omnisend.md
             - name: RollWorks
               href: audience-insights/export-rollworks.md
             - name: SendGrid
@@ -200,6 +216,8 @@
           href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
           href: audience-insights/entity-schemas.md
+        - name: Dataverse жүйесіндегі Customer Insights деректері
+          href: audience-insights/customer-insights-dataverse.md
         - name: API интерфейсімен жұмыс істеу
           href: audience-insights/apis.md
         - name: API сілтемелері
@@ -236,10 +254,16 @@
       items:
         - name: Есептерді көру
           href: engagement-insights/view-reports.md
-        - name: Теңшелетін есептерді жасау
+        - name: Реттелетін есептерді жасау
           href: engagement-insights/custom-reports.md
         - name: Бірыңғай профиль есептерін жасау
           href: engagement-insights/profile-reports.md
+        - name: Өлшемдерді көру және жасау
+          href: engagement-insights/dimensions.md
+        - name: Көрсеткіштерді көру және жасау
+          href: engagement-insights/metrics.md
+        - name: Сегменттерді көру және жасау
+          href: engagement-insights/segments.md
     - name: Жол талдауы
       items:
         - name: Шұңғыма тәрізді кесте есептеріне жасау және басқару
