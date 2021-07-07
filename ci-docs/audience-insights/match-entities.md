@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 2155042d86cda0cffee1588760a06d6c7eb7077e
-ms.sourcegitcommit: fcc94f55dc2dce84eae188d582801dc47696c9cc
+ms.openlocfilehash: 50b11e7d6f62d7a25eb25a0f2b1c4ad7d859def1
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085629"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306035"
 ---
 # <a name="match-entities"></a>Нысандарды сәйкестендіру
 
@@ -209,7 +209,7 @@ ms.locfileid: "6085629"
 
 Сәйкестік параметрлерінің көпшілігін қайта конфигурациялауға және дәл реттеуге болады.
 
-:::image type="content" source="media/match-rules-management.png" alt-text="Сәйкестік ережелерінің параметрлері бар ашылмалы мәзірдің скриншоты.":::
+:::image type="content" source="media/match-rules-management.png" alt-text="Сәйкестік ережелерінің опциялары бар ашылмалы мәзірдің скриншоты.":::
 
 - Бірнеше ережені анықтасаңыз, **ережелер ретін өзгертіңіз**. **Жоғары жылжыту** және **Төмен жылжыту** параметрлерін таңдау арқылы немесе сүйреп апару арқылы сәйкестендіру ережелерінің ретін өзгертуге болады.
 

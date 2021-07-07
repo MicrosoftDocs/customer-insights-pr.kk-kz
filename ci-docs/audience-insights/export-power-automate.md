@@ -1,7 +1,7 @@
 ---
 title: Power Automate қосқышы | Microsoft Docs
 description: Microsoft Power Automate бағдарламасында Dynamics 365 Customer Insights бағдарламасынан ағындар жасау.
-ms.date: 01/20/2021
+ms.date: 06/24/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ce2477d957a1792e0436a0dfc15a33621b1c89a9
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: 57be0a204ef920b7a4bb31cf9a5b3a77f96eca0d
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5976095"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305071"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate коннекторы (алдын ала қарау)
 
@@ -27,13 +27,14 @@ ms.locfileid: "5976095"
 - Дереккөзді жаңарту сәтсіз болған кезде іске қосыңыз. 
 - Дереккөзді жаңарту сәтті болған кезде іске қосыңыз.
 - Сегментте шектен асқан кезде іске қосыңыз. Триггер шектен асырмауға шектелген.
-- Іскери шарада шектен асқан кезде іске қосыңыз. Тек өлшемсіз бизнес көрсеткіштеріне қолдау көрсетіледі. Триггер шектен асырмау күйіне шектелген.
-- Толық жаңарту (деректер көздері, сегменттер, шаралар,...) аяқталған кезде іске қосыңыз.
+- Іскери шарада шектен асқан кезде іске қосыңыз. Тек өлшемсіз бизнес көрсеткіштеріне қолдау көрсетіледі. Триггер шектен асырмауға шектелген.
+- Толық жаңарту (деректер көздері, сегменттер, шаралар, ...) аяқталған кезде іске қосыңыз.
 - Бірегейлендіру процесін жаңарту (карта, сәйкестік, біріктіру) аяқталған кезде іске қосу.
 
-[Power Automate жүйесінде триггерлеріңізді теңшеңіз](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
+[Power Automate бағдарламасындағы триггерлерді конфигурациялаңыз.](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/)
 
 ## <a name="power-automate-actions"></a>Power Automate әрекеттері
+
 Power Automate коннекторы қолжетімді триггерлерден бөлек басқа әрекеттерді қамтамасыз етеді. Толық ақпарат алу үшін [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) қараңыз.
 
 ## <a name="create-a-power-automate-flow"></a>Power Automate ағынын жасау

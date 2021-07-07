@@ -1,5 +1,5 @@
 ---
-title: Үшінші тараптың арттыру HERE Technologies платформасымен арттыру
+title: HERE Technologies үшінші тарап толықтыруымен толықтыру
 description: HERE Technologies үшінші тарап арттыруы туралы жалпы ақпарат.
 ms.date: 04/09/2021
 ms.reviewer: mhart
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 5d1f037377010153045c9255d2d01f98ebf1fdfd
-ms.sourcegitcommit: aaa275c60c0c77c88196277b266a91d653f8f759
+ms.openlocfilehash: b3c1da0f541efb85b2ca9d87a2e3b97bbfb6ca7f
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5896058"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305301"
 ---
 # <a name="enrichment-of-customer-profiles-with-here-technologies-preview"></a>Тұтынушы профильдерін HERE Technologies көмегімен арттыру (алдын ала қарау)
 
@@ -26,7 +26,7 @@ HERE Technologies арттыруларын конфигурациялау үші
 
 - Сізде белсенді HERE Technologies жазылымы болуы қажет. Жазылым алу үшін [осы жерде тіркелуге](https://developer.here.com/sign-up?utm_medium=referral&utm_source=Microsoft-Dynamics-CI&create=Freemium-Basic) немесе тікелей [HERE Technologies компаниясына хабарласуға](https://developer.here.com/help?utm_medium=referral&utm_source=Microsoft-Dynamics-CI#how-can-we-help-you) болады. [HERE Technologies орынды арттыру туралы қосымша ақпарат.](https://developer.here.com/location-enrichment?cid=Dev-MicrosoftDynamics-DB-0-Dev-&utm_source=MicrosoftDynamics&utm_medium=referral&utm_campaign=Online_Dev_ReferralMicrosoft)
 
-- Мұнда HERE [қосылымы](connections.md) қолжетімді *немесе* сізде [әкімші](permissions.md#administrator) рұқсаттары және HERE Technologies API кілті бар.
+- HERE [қосылымы](connections.md) қолжетімді *немесе* сізде [әкімші](permissions.md#administrator) рұқсаттары мен HERE Technologies API кілті бар.
 
 ## <a name="configure-the-enrichment"></a>Жақсартуды конфигурациялау
 
@@ -37,7 +37,7 @@ HERE Technologies арттыруларын конфигурациялау үші
    > [!div class="mx-imgBorder"]
    > ![HERE Technologies тақтасы](media/HERE-tile.png "HERE Technologies тақтасы")
 
-1. Ашылмалы тізімнен [қосылымды](connections.md) таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз. Егер сіз әкімші болсаңыз, **Қосылым қосу** түймешігін таңдау арқылы қосылым жасай аласыз. Ашылмалы тізімнен **HERE Technologies** параметрін таңдаңыз. 
+1. Ашылмалы тізімнен [қосылым](connections.md) таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз. Егер сіз әкімші болсаңыз, **Қосылым қосу** түймешігін таңдау арқылы қосылым жасай аласыз. Ашылмалы тізімнен **HERE Technologies** таңдаңыз. 
 
 1. Таңдауды растау үшін **HERE Technologies қосылымына қосылу** түймешігін таңдаңыз.
 
@@ -58,7 +58,7 @@ HERE Technologies арттыруларын конфигурациялау үші
 
 1. Таңдауларды қарап шыққаннан кейін **Жақсартуды сақтау** түймешігін таңдаңыз.
 
-## <a name="configure-the-connection-for-here-technologies"></a>HERE technologies үшін қосылымды конфигурациялау 
+## <a name="configure-the-connection-for-here-technologies"></a>HERE Technologies үшін қосылымды конфигурациялау 
 
 Қосылымдарды конфигурациялау үшін сіз әкімші болуыңыз керек. Жақсартуды конфигурациялау кезінде **Қосылым қосу** түймешігін таңдаңыз *немесе* **Әкімші** > **Қосылымдар** тармағына өтіңіз және HERE technologies тақтасында **Орнату** түймешігін таңдаңыз.
 
@@ -66,31 +66,31 @@ HERE Technologies арттыруларын конфигурациялау үші
 
 1. Жарамды HERE Technologies API кілтін беріңіз.
 
-1. **Келісемін** құсбелгісін таңдау арқылы **Деректер құпиялығы мен сәйкестігі** келісімін қарап шығыңыз және қамтамасыз етіңіз
+1. **Деректердің құпиялылығы мен сәйкестігі** бөлімін қарап шығыңыз және **Келісемін** құсбелгісін қою арқылы келісім беріңіз.
 
 1. Конфигурацияны тексеру үшін **Тексеру** түймешігін таңдаңыз.
 
 1. Тексеруді аяқтағаннан кейін **Сақтау** түймешігін таңдаңыз.
 
-> [!div class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > ![HERE technologies қосылымын конфигурациялау беті](media/enrichment-HERE-connection.png "HERE technologies қосылымын конфигурациялау беті")
 
 ## <a name="enrichment-results"></a>Толықтыру нәтижелері
 
 Арттыру процесін бастау үшін пәрмендер жолағынан **Іске қосу** пәрменін таңдаңыз. Сондай-ақ, жүйеге [жоспарланған жаңарту](system.md#schedule-tab) бөлігі ретінде арттыруды автоматты түрде іске қосуына мүмкіндік беруге болады. Өңдеу уақыты тұтынушы деректерінің көлеміне және HERE Technologies платформасындағы API жауап беру уақытына байланысты болады.
 
-Арттыру процесі аяқталғаннан кейін, жаңа арттырылған тұтынушы профильдерінің деректерін **Менің арттыруларым** астынан қарап шығуға болады. Сонымен қатар, соңғы жаңартудың уақыты мен арттырылған профильдер санын таба аласыз.
+Арттыру процесі аяқталғаннан кейін, жаңа арттырылған тұтынушы профильдерінің деректерін **Менің арттыруларым** астынан қарап шығуға болады. Сонымен қатар соңғы жаңартудың уақыты мен арттырылған профильдер санын таба аласыз.
 
 **Толықтырылған деректерді көру** параметрін таңдау арқылы әрбір толықтырылған профильдің толық көрінісіне қатынаса аласыз.
 
 ## <a name="next-steps"></a>Келесі қадамдар
 
-Толықтырылған тұтынушы деректерінің негізінде жасаңыз. Тұтынушыларға жекелендірілген тәжірибелерді жеткізу үшін [сегменттер](segments.md), [шаралар](measures.md) жасаңыз және [деректерді экспорттаңыз](export-destinations.md).
+Толықтырылған тұтынушы деректерінің негізінде жасаңыз. Тұтынушыларға жеке тәжірибелер ұсыну үшін [сегменттер](segments.md) мен [өлшемдер](measures.md) жасаңыз және тіпті [деректерді экспорттаңыз](export-destinations.md).
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 
 Деректерді HERE Technologies платформасына жіберу үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде, Dynamics 365 Customer Insights талаптарына сәйкестік шекарасынан тыс деректерді, соның ішінде жеке деректер сияқты ықтимал құпия деректерді беруге мүмкіндік бересіз. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ HERE Technologies платформасының кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сәйкес келуіне жауап бересіз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
-Бұл функцияны тоқтату үшін бұл арттыруды кез келген уақытта Dynamics 365 Customer Insights әкімшісі жоя алады.
+Бұл функцияны тоқтату үшін Dynamics 365 Customer Insights әкімшісі бұл толықтыруды кез келген уақытта жоя алады.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

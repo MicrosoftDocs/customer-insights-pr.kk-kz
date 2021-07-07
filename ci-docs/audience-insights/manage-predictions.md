@@ -9,12 +9,12 @@ ms.topic: how-to
 author: diegogranados117
 ms.author: digranad
 manager: shellyha
-ms.openlocfilehash: b935be08199f20e83bceb3317985b0e1dc120016
-ms.sourcegitcommit: 6b07c9c3102761be162e4842f3c9fbc19f948a9b
+ms.openlocfilehash: dccb8dcca8f65f64973e46fed9d83034d58282e2
+ms.sourcegitcommit: bcc47d15d4f0eacf008e4dbc09baac7f062b3ca8
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6095726"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6315885"
 ---
 # <a name="manage-predictions"></a>Болжамдарды басқару
 
@@ -35,9 +35,6 @@ ms.locfileid: "6095726"
 Кіріс деректерді пайдалану туралы есеп дайын болжамдар жасауы мүмкін қателер мен ескертулердің біріккен көрінісін ұсынады. Сондай-ақ ол модель өнімділігін жақсарту бойынша ұсыныстар береді.
 
 Есеп модель оқыту процесін аяқтағаннан кейін қолжетімді болады. Ол сәтті аяқталғанына немесе аяқталмағанына қарамастан, әр модель үшін бөлек жасалады.
-
-> [!NOTE]
-> Қазіргі уақытта бұл функция тек транзакциялық жылыстау моделі үшін жұмыс істейді.
 
 ### <a name="view-the-input-data-usability-report"></a>Кіріс деректерді пайдалану туралы есепті көру
 

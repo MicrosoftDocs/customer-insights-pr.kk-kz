@@ -9,27 +9,26 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 73f3257a3ae6e8423f45410546535df5e3b400ce
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: c23c8b4e6758df08e04bf1e3ae0cba4dee06fe2b
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5976325"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305347"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Сегменттерді Google Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 
-Тұтынушылардың біріңғай профильдерінің сегменттерін Google Ads аудиториясының тізіміне экспорттаңыз және оларды Google Search, Gmail, YouTube және Google көрсету желілерінде жарнамалаңыз. 
+Бірыңғай тұтынушы профильдерінің сегменттерін Google Ads аудиториясының тізіміне экспорттаңыз және оларды Google Search, Gmail, YouTube және Google Display Network желісінде жарнамалау үшін пайдаланыңыз. 
 
 ## <a name="prerequisites-for-connection"></a>Қосылым алғышарттары
 
 -   Сізде [Google Ads тіркелгісі](https://ads.google.com/) және тиісті әкімшінің тіркелгі деректері бар.
--   Сізде [бекітілген Google Ads әзірлеуші таңбалауышы](https://developers.google.com/google-ads/api/docs/first-call/dev-token) бар 
--   Сіз [тұтынушы сәйкестігі саясатының](https://support.google.com/adspolicy/answer/6299717) талаптарына сәйкес келесіз
--   Сіз [ремаркетинг тізімі өлшемдерінің](https://support.google.com/google-ads/answer/7558048) талаптарына сәйкес келесіз 
-
+-   Сізде [бекітілген Google Ads әзірлеуші таңбалауышы](https://developers.google.com/google-ads/api/docs/first-call/dev-token) бар. 
+-   Сіз [тұтынушы сәйкестігі саясатының](https://support.google.com/adspolicy/answer/6299717) талаптарына сәйкес келесіз.
+-   Сіз [ремаркетинг тізімі өлшемдерінің](https://support.google.com/google-ads/answer/7558048) талаптарына сәйкес келесіз.
 -   Google Ads платформасында қолданыстағы аудиториялар және тиісті идентификаторлар бар. Қосымша ақпарат алу үшін [Google Ads аудиториялары](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.) бөлімін қараңыз.
--   Сізде [конфигурацияланған сегменттер](segments.md) бар
--   Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын, аты және тегін көрсететін өрістерден тұрады
+-   Сізде [конфигурацияланған сегменттер](segments.md) бар.
+-   Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын, аты және тегін көрсететін өрістерден тұрады.
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
@@ -68,7 +67,7 @@ ms.locfileid: "5976325"
 
 1. Жаңа экспорттау жасау үшін **Мақсатты орын қосу** түймешігін таңдаңыз.
 
-1. **Экспорттауға арналған қосылым** өрісінде Google Ads бөлімінен қосылым таңдаңыз. Егер сіз осы бөлімнің атын көрмесеңіз, сізге қолжетімді осы түрдегі қосылым жоқ.
+1. **Экспорттауға арналған қосылым** өрісінде Google Ads бөлімінен қосылым таңдаңыз. Егер сіз бұл бөлімнің атауын көрмесеңіз, онда сіз үшін осы түрдегі қосылымдар қолжетімді емес.
 
 1. Google Ads платформасына қосылуды баптандыру үшін **[Google Ads аудиториясының идентификаторын](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)** енгізіп, **Қосылу** пәрменін таңдаңыз.
 
@@ -78,7 +77,9 @@ ms.locfileid: "5976325"
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
-Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. 
+Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. 
+
+Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. 
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 

@@ -9,12 +9,12 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 2cab702509596dd87c0c9b9769d1af8ba8387f9d
-ms.sourcegitcommit: fcc94f55dc2dce84eae188d582801dc47696c9cc
+ms.openlocfilehash: 86ab3cefa70e5fab4bdb27cde363adee26efee4c
+ms.sourcegitcommit: 0b754d194d765afef70d1008db7b347dd1f0ee40
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085583"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6305651"
 ---
 # <a name="merge-entities"></a>Нысандарды біріктіру
 
@@ -34,7 +34,7 @@ ms.locfileid: "6085583"
 
 Тұтынушының бірыңғай профилін құру үшін жүйенің біріктірілген төлсипаттарды өңдеу әдісін өзгерте аласыз. **Қосымша көрсету** түймешігін таңдаңыз және өзгерту керек нәрсені таңдаңыз.
 
-:::image type="content" source="media/manage-merged-attributes.png" alt-text="Біріктірілген төлсипаттарды басқаруға арналған Қосымша көрсету ашылмалы мәзіріндегі параметрлер.":::
+:::image type="content" source="media/manage-merged-attributes.png" alt-text="Біріктірілген төлсипаттарды басқаруға арналған Көбірек көрсету ашылмалы мәзіріндегі опциялар.":::
 
 Қосымша ақпарат алу үшін келесі бөлімдерді қараңыз.
 
