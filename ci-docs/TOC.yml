@@ -72,7 +72,7 @@
           href: audience-insights/enrichment-here.md
         - name: Leadspace көмегімен арттыру
           href: audience-insights/enrichment-leadspace.md
-        - name: Experian жүйесімен арттыру
+        - name: Experian қызметімен толықтыру
           href: audience-insights/enrichment-experian.md
         - name: SFTP реттемелі импорттау әдісі арқылы арттыру
           href: audience-insights/enrichment-SFTP-custom-import.md
@@ -136,6 +136,8 @@
           items:
             - name: Экспорттауларға шолу
               href: audience-insights/export-destinations.md
+            - name: Белсенді науқан
+              href: audience-insights/export-active-campaign.md
             - name: AdRoll
               href: audience-insights/export-adroll.md
             - name: Autopilot
@@ -178,8 +180,12 @@
               href: audience-insights/export-omnisend.md
             - name: RollWorks
               href: audience-insights/export-rollworks.md
+            - name: Salesforce Marketing Cloud
+              href: audience-insights/export-salesforce.md
             - name: SendGrid
               href: audience-insights/export-sendgrid.md
+            - name: SendInBlue
+              href: audience-insights/export-sendinblue.md
             - name: Snapchat
               href: audience-insights/export-snapchat.md
             - name: SFTP
@@ -240,8 +246,8 @@
           href: engagement-insights/get-started.md
         - name: Жұмыс кеңістігін жасау
           href: engagement-insights/create-workspace.md
-        - name: Веб-сайтты жабдықтау
-          href: engagement-insights/instrument-website.md
+        - name: Веб‑сайттар мен мобильді бағдарламалардағы оқиғаларды түсіру
+          href: engagement-insights/developer-resources.md
         - name: Тұжырымдамалар мен терминология
           href: engagement-insights/glossary.md
     - name: Оқиғалар
@@ -272,11 +278,19 @@
       items:
         - name: Әзірлеуші ресурстарына шолу
           href: engagement-insights/developer-resources.md
-        - name: Веб SDK оқулығы
+        - name: Web SDK оқулығы
           href: engagement-insights/advanced-SDK-implementation.md
         - name: Веб SDK үлгісі
           href: engagement-insights/websdk-sample.md
-    - name: Басқару
+        - name: Android SDK оқулығы
+          href: engagement-insights/get-started-android.md
+        - name: Android SDK үлгісі
+          href: engagement-insights/androidsdk-sample.md
+        - name: iOS SDK оқулығы
+          href: engagement-insights/get-started-ios.md
+        - name: iOS SDK үлгісі
+          href: engagement-insights/iossdk-sample.md
+    - name: Әкімшілік
       items:
         - name: Рөлдер және рұқсаттар
           href: engagement-insights/user-roles.md
