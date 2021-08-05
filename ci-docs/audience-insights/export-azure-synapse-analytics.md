@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 822082d661863e737ea3d3a749a6c878db766967
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: 7ee57aa9e86ebf9bd1989d88750642f0b01bd4bf
+ms.sourcegitcommit: f18635c29bb25d9e424a3f5825dc2696278450cf
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5977384"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327371"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді Azure Synapse Analytics (алдын ала қарау нұсқасы) қызметіне экспорттау
 
@@ -74,8 +74,10 @@ Azure қызметінде:
 1. Экспорттау және **Дерекқор атауы** үшін танылатын **Көрсетілетін атау** беріңіз.
 
 1. Azure Synapse Analytics қызметіне экспорттау керек нысандарды таңдаңыз.
+   > [!NOTE]
+   > [Common Data Model қалтасына](connect-common-data-model.md) негізделген деректер көздеріне қолдау көрсетілмейді.
 
-1. **Сақтау** опциясын таңдаңыз.
+2. **Сақтау** опциясын таңдаңыз.
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 

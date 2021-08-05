@@ -9,18 +9,18 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: c670b0065a2833a6dc311d9e86d2b351140382ce
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: cc94ad49f12067d513db4663bff60620d6501eb0
+ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596506"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "6692120"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-gen2-account-with-an-azure-service-principal-for-audience-insights"></a>Аудитория мәліметтері бойынша Azure субъект-қызметімен Azure Data Lake Storage Gen2 тіркелгісіне қосылыңыз
 
 Azure қызметтерін пайдаланатын автоматтандырылған құралдарда әрдайым шектеулі рұқсаттар болуы тиіс. Бағдарламалардың толық артықшылықты пайдаланушы ретінде кіруінің орнына, Azure субъект-қызметтерін ұсынады. Сақтау тіркелгісі кілттерінің орнына Azure субхект-қызметін пайдаланып Azure Data Lake Storage Gen2 тіркелгісімен аудитория мәліметтерін қосу жолдары туралы оқыңыз. 
 
-[Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу](connect-common-data-model.md) немесе [жаңасын жасау немесе бұрыннан бар ортаны жаңарту үшін](manage-environments.md#create-an-environment-in-an-existing-organization) субъект-қызметін пайдалануға болады.
+[Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу](connect-common-data-model.md) немесе [жаңасын жасау немесе бұрыннан бар ортаны жаңарту үшін](get-started-paid.md) субъект-қызметін пайдалануға болады.
 
 > [!IMPORTANT]
 > - Субъект-қызметін пайдалануға арналған Azure Data Lake Gen2 сақтау орны тіркелгісінде [Иерархиялық аттар кеңістігі (HNS) қосулы](/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.
@@ -81,7 +81,7 @@ Azure қызметтерін пайдаланатын автоматтандыр
 
 ## <a name="enter-the-azure-resource-id-or-the-azure-subscription-details-in-the-storage-account-attachment-to-audience-insights"></a>Аудитория мәліметтеріне сақтау тіркелгісін тіркеуде Azure ресурс идентификаторын немесе Azure жазылымы мәліметтерін енгізіңіз.
 
-[Нәтиже деректерін сақтау](manage-environments.md) үшін немесе [оны деректер көзі ретінде пайдалану](connect-common-data-service-lake.md) үшін аудитория мәліметтерінде Azure Data Lake сақтау тіркелгісін тіркеңіз. Azure Data Lake опциясын таңдау ресурстарға негізделген немесе жазылымға негізделген тәсілдерді таңдауға мүмкіндік береді.
+[Нәтиже деректерін сақтау](manage-environments.md) үшін немесе [оны деректер көзі ретінде пайдалану](connect-dataverse-managed-lake.md) үшін аудитория мәліметтерінде Azure Data Lake сақтау тіркелгісін тіркеңіз. Azure Data Lake опциясын таңдау ресурстарға негізделген немесе жазылымға негізделген тәсілдерді таңдауға мүмкіндік береді.
 
 Таңдалған тәсіл туралы қажетті ақпаратты беру үшін төмендегі қадамдарды орындаңыз.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 6667e411a1b56e13105a6b59b7b5d249bc8141ea
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: e21f8a9422357fbc5c9425f91f3ba241c9dec9d8
+ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5596368"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "6692312"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
 
@@ -24,7 +24,7 @@ ms.locfileid: "5596368"
 
 Бұл ортақ деректер үлгісі бағдарламалар мен деректерді біріктірушілерге деректердің бірыңғай анықтамасын беру арқылы өзара әрекеттесуді жеңілдетуге мүмкіндік береді. Common Data Model жүйесі стандартты нысандар, қарым-қатынастар, иерархиялар, белгілер және тағы басқалары бар пішімделген метадеректер жүйесін қамтиды. Ол Dynamics 365 бағдарламаларынан құрылған және 260-тан астам стандартты нысандардан тұратын GitHub жүйесінде ашық болып табылады. Ішкі және сыртқы серіктестердің ірі жүйесі Common Data Model қызметіне салалық тұжырымдамалар енгізеді.
 
-Бүгінде бірнеше жүйелер мен платформалар, оған қоса Power BI деректер ағыны мен Azure Data Services Azure Data Services қызметтері Common Data Model жүйесін жүзеге асырады. [Тікелей Open Data Initiative](https://www.microsoft.com/open-data-initiative) жүйесінің мәнін арттыра отырып, оған Common Data Service, Dynamics 365, Power Apps, Power BI және алдағы Azure деректер қызметінде қолдау көрсетіледі.
+Қазіргі уақытта Power BI деректер ағыны мен Azure Data Services жүйелерімен қоса Common Data Model жүйесі бірнеше жүйелер мен платформаларда жүзеге асырылады. Оған Microsoft Dataverse, Dynamics 365, Power Apps, Power BI және алдағы Azure деректер қызметтерінде қолдау көрсетіледі, ол [Open Data Initiative](https://www.microsoft.com/open-data-initiative) қызметінің құндылығын тікелей арттырады.
 
 ## <a name="customer-insights-entity-schemas"></a>Customer Insights нысаны схемалары
 
@@ -44,7 +44,7 @@ ms.locfileid: "5596368"
 
 [Common Data Model нысаны навигаторында](https://microsoft.github.io/CDM/) нысандарды көре аласыз. **GitHub жүйесінен жүктеңіз!** опциясын таңдаңыз түймесін басып, Customer Insights нысандарының тізімі мен олардың анықтамалары орналасатын **foundationCommon** > **crmCommon** > **шешімдер** > **customerInsights** тармағына өтіңіз.
 > [!div class="mx-imgBorder"]
-> ![CustomerActivity нысанын көрсететін CDM нысаны навигаторы](media/CDM-entity-navigator.png "CustomerActivity нысанын көрсететін CDM нысаны навигаторы")
+> ![CustomerActivity нысанын көрсететін CDM нысаны навигаторы.](media/CDM-entity-navigator.png "CustomerActivity нысанын көрсететін CDM нысаны навигаторы")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

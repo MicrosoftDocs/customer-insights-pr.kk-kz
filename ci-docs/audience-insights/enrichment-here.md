@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: b3c1da0f541efb85b2ca9d87a2e3b97bbfb6ca7f
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 00be15367001a5f4342d60bb284726ef7154d05c
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305301"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555314"
 ---
 # <a name="enrichment-of-customer-profiles-with-here-technologies-preview"></a>Тұтынушы профильдерін HERE Technologies көмегімен арттыру (алдын ала қарау)
 
@@ -35,7 +35,7 @@ HERE Technologies арттыруларын конфигурациялау үші
 1. HERE Technologies тақтасында **Менің деректерімді жақсарту** параметрін таңдаңыз және **Жұмысты бастау** түймешігін таңдаңыз.
 
    > [!div class="mx-imgBorder"]
-   > ![HERE Technologies тақтасы](media/HERE-tile.png "HERE Technologies тақтасы")
+   > ![HERE Technologies тақтасы.](media/HERE-tile.png "HERE Technologies тақтасы")
 
 1. Ашылмалы тізімнен [қосылым](connections.md) таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз. Егер сіз әкімші болсаңыз, **Қосылым қосу** түймешігін таңдау арқылы қосылым жасай аласыз. Ашылмалы тізімнен **HERE Technologies** таңдаңыз. 
 
@@ -50,7 +50,7 @@ HERE Technologies арттыруларын конфигурациялау үші
 1. HERE Technologies платформасынан тиісті орын деректерін іздеу үшін бірыңғай профильдердің қай өрістерін пайдалану керектігін анықтаңыз. **1-көше** және **Пошта индексі** өрістері таңдалған негізгі және/немесе қосымша мекенжай үшін қажет. Сәйкестіктің жоғары дәлдігі үшін қосымша өрістер қосуға болады.
 
    > [!div class="mx-imgBorder"]
-   > ![HERE Technologies арттыру конфигурациясының беті](media/enrichment-HERE-configuration.png "HERE Technologies арттыру конфигурациясының беті")
+   > ![HERE Technologies арттыру конфигурациясының беті.](media/enrichment-HERE-configuration.png "HERE Technologies арттыру конфигурациясының беті")
 
 1. Өрістерді салыстыруды аяқтау үшін **Келесі** түймешігін таңдаңыз.
 
@@ -73,7 +73,7 @@ HERE Technologies арттыруларын конфигурациялау үші
 1. Тексеруді аяқтағаннан кейін **Сақтау** түймешігін таңдаңыз.
 
    > [!div class="mx-imgBorder"]
-   > ![HERE technologies қосылымын конфигурациялау беті](media/enrichment-HERE-connection.png "HERE technologies қосылымын конфигурациялау беті")
+   > ![HERE Technologies қосылымын конфигурациялау беті.](media/enrichment-HERE-connection.png "HERE Technologies қосылымын конфигурациялау беті")
 
 ## <a name="enrichment-results"></a>Толықтыру нәтижелері
 

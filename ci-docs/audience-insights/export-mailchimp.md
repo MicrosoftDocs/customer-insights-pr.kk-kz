@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 7922a6a69f863caae5401549ed6f88a61aa77d39
-ms.sourcegitcommit: 831765a55775d358447cb7ffa56f2c3b85459084
+ms.openlocfilehash: ac6642c0ce02f1a92458a16250fd3b4cdef5fd1c
+ms.sourcegitcommit: adb9c43ddaba25e511535d78a4bcf8815f154a7b
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6124234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6362516"
 ---
 # <a name="export-segments-to-mailchimp-preview"></a>Сегменттерді Mailchimp қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -38,7 +38,7 @@ ms.locfileid: "6124234"
 
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
-1. **Қосылым қосу** түймешігін таңдаңыз және қосылымды конфигурациялау үшін **Autopilot** параметрін таңдаңыз.
+1. **Қосылым қосу** түймешігін таңдаңыз және қосылымды конфигурациялау үшін **Mailchimp** қызметін таңдаңыз.
 
 1. **Көрсетілетін аты** өрісінде қосылымға оңай танылатын атау енгізіңіз. Қосылым атауы мен түрі осы қосылымды сипаттайды. Қосылымның мақсатын түсіндіретін атауды таңдауды ұсынамыз.
 

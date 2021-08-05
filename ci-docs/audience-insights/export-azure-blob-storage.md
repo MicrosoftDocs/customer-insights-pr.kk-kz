@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Azure Blob сақтау орнына экспорттау
 description: Blob сақтау орны үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 03/03/2021
+ms.date: 06/30/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 3c19dc6d4956a33a5bd3cea706f8a154198d487f
-ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.openlocfilehash: e38fc06a948178fcbc62c08a4cf4816e1d030e79
+ms.sourcegitcommit: 656b1a6cdff37ba4f808311fd0327ab38e02ed13
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5976188"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318306"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Сегменттер тізімін және басқа деректерді Azure Blob сақтау орнына экспорттау (алдын ала қарау нұсқасы)
 
@@ -40,11 +40,14 @@ Customer Insights деректерін Azure Blob сақтау орнында с
 
 Егер сіз осы түрдегі қосылымға қатынаса алсаңыз, сіз бұл экспорттауды конфигурациялай аласыз. Қосымша ақпарат алу үшін [Экспорттауды конфигурациялау үшін қажет рұқсаттар](export-destinations.md#set-up-a-new-export) бөлімін қараңыз.
 
+> [!IMPORTANT]
+> Егер сіз Azure Blob сақтау орны тіркелгісі үшін жұмсақ жою параметрін қоссаңыз, экспорттау сәтсіз аяқталады. Деректерді BLOB нысандарына экспорттау үшін жұмсақ жоюды өшіріңіз. Қосымша ақпарат алу үшін [Blob жұмсақ жою мүмкіндігін қосу](/azure/storage/blobs/soft-delete-blob-enable.md) тақырыбын қараңыз
+
 1. **Деректер** > **Экспорттау** тармағына өтіңіз.
 
 1. Жаңа экспорттау жасау үшін **Мақсатты орын қосу** түймешігін таңдаңыз.
 
-1. **Экспорттауға арналған қосылым** өрісінде Azure Blob сақтау орны бөлімінен қосылым таңдаңыз. Егер сіз осы бөлімнің атын көрмесеңіз, сізге қолжетімді осы түрдегі қосылым жоқ.
+1. **Экспорттауға арналған қосылым** өрісінде Azure Blob сақтау орны бөлімінен қосылым таңдаңыз. Егер сіз бұл бөлімнің атауын көрмесеңіз, онда сіз үшін осы түрдегі қосылымдар қолжетімді емес.
 
 1. Осы межелі орынға экспорттағыңыз келетін нысандардың жанына құсбелгіні қойыңыз.
 
@@ -53,13 +56,16 @@ Customer Insights деректерін Azure Blob сақтау орнында с
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
 Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады.     
+
 Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. 
 
 Экспортталған деректер конфигурациялаған Blob сақтау орны контейнерінде сақталады. Контейнерде келесі қалта жолдары автоматты түрде жасалады:
 
-- Бастапқы нысандар және жүйе арқылы жасалған нысандар үшін: `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`
+- Бастапқы нысандар және жүйе арқылы жасалған нысандар үшін:   
+  `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`  
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
-- Экспортталатын нысандарға арналған model.json файлы %ExportDestinationName% деңгейінде болады
+ 
+- Экспортталатын нысандарға арналған model.json файлы %ExportDestinationName% деңгейінде болады.  
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

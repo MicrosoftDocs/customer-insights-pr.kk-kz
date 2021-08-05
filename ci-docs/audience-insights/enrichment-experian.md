@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 7c82fe92b3351a782a4fa6510300d870b742d042
-ms.sourcegitcommit: 42b3bce1e20e7cc707d232844dacfeed3d6fc096
+ms.openlocfilehash: abe9ee447745081e3c462d44e5901b6dac919adf
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309827"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555360"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Тұтынушы профильдерін Experian (алдын ала қарау нұсқасы) демографиялық деректермен толықтырыңыз
 
@@ -39,7 +39,7 @@ Experian қызметін конфигурациялау үшін, келесі 
 1. Experian қатарында **Деректерімді толықтыру** түймешігін таңдаңыз.
 
    > [!div class="mx-imgBorder"]
-   > ![Experian қатар](media/experian-tile.png "Experian tile")
+   > ![Experian тақтасы.](media/experian-tile.png "Experian tile")
    > 
 
 1. Ашылмалы тізімнен [қосылым](connections.md) таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз. Егер сіз әкімші болсаңыз, **Қосылым қосу** және ашылмалы тізімнен Experian қызметін таңдау арқылы қосылым жасай аласыз. 

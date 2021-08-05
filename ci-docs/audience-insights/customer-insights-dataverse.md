@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 7157ad930f3cea17c12bd4f95028d291483329d3
-ms.sourcegitcommit: e5425f060c8d80f9510283dc610ce70a4e709b1e
+ms.openlocfilehash: 220e01a06711a5d35b8df09e265017a6d8fd0490
+ms.sourcegitcommit: 5c9c54ffe045017c19f0042437ada2c101dcaa0f
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6259198"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6650049"
 ---
 # <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse жүйесіндегі Customer Insights деректерімен жұмыс істеу
 
@@ -24,11 +24,11 @@ Customer Insights шығыс нысандарын [Microsoft Dataverse](/powerap
 
 **Бұрыннан бар Dataverse орталары бар ұйымдар**
 
-Dataverse жүйесін бұрыннан пайдаланатын ұйымдар әкімші аудитория туралы пайдалы мәліметтерді орнатқан кезде [өздерінің бұрыннан бар Dataverse орталарын пайдалана](manage-environments.md#create-an-environment-in-an-existing-organization) алады. Dataverse ортасының URL мекенжайын ұсыну арқылы бұл олардың жаңа аудитория туралы пайдалы мәліметтер ортасына тіркеледі. Үздік ықтимал өнімділікті қамтамасыз ету үшін, Customer Insights және Dataverse орталары бір аймаққа орналастырылуы керек.
+Dataverse жүйесін бұрыннан пайдаланатын ұйымдар әкімші аудитория туралы пайдалы мәліметтерді орнатқан кезде [өздерінің бұрыннан бар Dataverse орталарын пайдалана](get-started-paid.md) алады. Dataverse ортасының URL мекенжайын ұсыну арқылы бұл олардың жаңа аудитория туралы пайдалы мәліметтер ортасына тіркеледі. Үздік ықтимал өнімділікті қамтамасыз ету үшін, Customer Insights және Dataverse орталары бір аймаққа орналастырылуы керек.
 
 Dataverse ортасын тіркеу үшін, аудитория туралы пайдалы мәліметтер ортасын жасау кезінде **Кеңейтілген параметрлер** бөлімін кеңейтіңіз. **Microsoft Dataverse ортасының URL мекенжайын** ұсыныңыз және **Деректерді бөлісуді қосу** құсбелгісін қойыңыз.
 
-:::image type="content" source="media/Datasharing-with-DataverseMDL.png" alt-text="alt":::
+:::image type="content" source="media/Datasharing-with-DataverseMDL.png" alt-text="alt.":::
 
 **Жаңа ұйым**
 

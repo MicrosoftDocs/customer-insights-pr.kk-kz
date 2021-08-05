@@ -9,12 +9,13 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 54dd7b629d4b4e7f640b932b0f9246e0602f46bd
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.custom: intro-internal
+ms.openlocfilehash: 0a017a37777adaaf7de079cf481ec10c70c7adba
+ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304703"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "6692442"
 ---
 # <a name="data-sources-overview"></a>Деректер көздеріне шолу
 
@@ -30,13 +31,13 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 - [Ондаған Power Query қосқыштары арқылы](connect-power-query.md)
 - [Common Data Model қалтасынан](connect-common-data-model.md)
-- [Microsoft Dataverse көлінен](connect-common-data-service-lake.md)
+- [Microsoft Dataverse көлінен](connect-dataverse-managed-lake.md)
 
 ## <a name="add-data-from-on-premises-data-sources"></a>Жергілікті деректер көздерінен деректерді қосу
 
-Жергілікті деректер көздеріндегі деректерді аудитория туралы түсініктеріне енгізуге Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](manage-environments.md#create-an-environment-in-an-existing-organization) арқылы қосуға болады.
+Жергілікті деректер көздеріндегі деректерді аудитория туралы түсініктеріне енгізуге Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](get-started-paid.md) арқылы қосуға болады.
 
-Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы [жергілікті деректер шлюздерін пайдалану](/data-integration/gateway/service-gateway-app.md) үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
+Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы [жергілікті деректер шлюздерін пайдалану](/data-integration/gateway/service-gateway-app) үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
 
 Бұрыннан бар Power BI немесе Power Apps ортасындағы деректер шлюздері көрінеді және оларды Customer Insights бағдарламасында қайта пайдалануға болады. Деректер көздері бетінде Microsoft Power Platform ортасына өтетін сілтемелер көрсетіледі, онда сіз жергілікті деректер шлюздерін көріп және конфигурациялай аласыз.
 
@@ -45,11 +46,11 @@ Dataverse ортасын Customer Insights бағдарламасымен бай
 Әр қабылданған деректер көзі атауын, күйін және осы көздер үшін соңғы рет жаңартылған деректерді көресіз. Деректер көздерінің тізімін әр баған бойынша сұрыптауға болады.
 
 > [!div class="mx-imgBorder"]
-> ![Деректер көзі қосылды](media/configure-data-datasource-added.png "Деректер көзі қосылды")
+> ![Деректер көзі қосылды.](media/configure-data-datasource-added.png "Деректер көзі қосылды")
 
 |Күй  |Сипаттамасы  |
 |---------|---------|
-|Орындалды   |Уақыт **Қайта жаңартылған** бағанында көрсетілген болса, деректер көзі сәтті қабылданады.
+|Сәтті аяқталды   |Уақыт **Қайта жаңартылған** бағанында көрсетілген болса, деректер көзі сәтті қабылданады.
 |Басталған жоқ   |Деректер көзінде әлі қабылданған немесе жоба режиміндегі деректер жоқ.         |
 |Жаңартылуда    |Деректер қабылдануда. **Әрекеттер** бағанынан **Жаңартуды тоқтату** параметрін таңдау арқылы осы жұмыстан бас тарта аласыз. Деректер көзін жаңартуды тоқтату оның соңғы жаңарту күйін қайтарады.       |
 |Сәтсіз аяқталған     |Деректер қабылдау кезінде қателер орын алды.         |

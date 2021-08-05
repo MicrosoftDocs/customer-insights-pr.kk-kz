@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 987457966fe1fc034d9e3cd2a1ce33902c7a84f4
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
+ms.openlocfilehash: b377a3500c5d91962e59d46fbc259db5cc8fa7d0
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760334"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555452"
 ---
 # <a name="export-segments-to-liverampreg-preview"></a>Сегменттерді LiveRamp&reg; қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -56,7 +56,7 @@ ms.locfileid: "5760334"
 
 1. **Негізгі идентификаторды таңдау** өрісінде сәйкестік шешімі үшін LiveRamp платформасына жіберу үшін **Электрондық пошта**, **Атауы және мекенжайы** немесе **Телефон** параметрлерін таңдаңыз.
    > [!div class="mx-imgBorder"]
-   > ![Төлсипаттық салыстыру жүйесі бар LiveRamp қосқышы](media/export-liveramp-segments.png "Төлсипаттық салыстыру жүйесі бар LiveRamp қосқышы")
+   > ![Төлсипаттық салыстыру жүйесі бар LiveRamp қосқышы.](media/export-liveramp-segments.png "Төлсипаттық салыстыру жүйесі бар LiveRamp қосқышы")
 
 1. Таңдалған негізгі идентификаторға арналған бірыңғай тұтынушы нысанының тиісті төлсипаттарын салыстырыңыз.
 

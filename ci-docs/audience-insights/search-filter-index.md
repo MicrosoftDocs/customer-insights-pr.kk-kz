@@ -9,19 +9,19 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: b6cc0ad1a47a6c00e3bf220271f42870fc53621b
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: a6131d4dddce48b0fba153bcefe5631e0d22d808
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5597150"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554028"
 ---
 # <a name="customer-profiles-search--filter-index"></a>Тұтынушы профильдері: Іздеу және сүзгілеу индексі
 
 Тұтынушы деректерін біріктіру нәтижесі — жалпы тұтынушы негізіне бірыңғай көріністі қамтамасыз ететін Тұтынушы профилінің нысаны. [Белгілі бір тұтынушыны немесе тұтынушылар тобын](customer-profiles.md) жылдам табу үшін **Тұтынушылар** бетінде **Іздеу** және **Сүзгілеу** мүмкіндіктерін теңшей аласыз. Пайдаланушыларға іздеу және сүзгілеу үшін қолжетімді әкімшілердің **Іздеу және сүзгілеу индексі** бетінде төлсипаттарды өңдеу жолы туралы ақпаратты оқып шығыңыз.
 
 > [!div class="mx-imgBorder"]
-> ![Сүзгіні іздеу](media/search-filter.png "Сүзгіні іздеу")
+> ![Сүзгіні іздеу.](media/search-filter.png "Сүзгіні іздеу")
 
 ## <a name="add-fields-and-specify-attributes"></a>Өрістерді қосу және төлсипаттарды көрсету
 

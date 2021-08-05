@@ -1,7 +1,7 @@
 ---
 title: Қызмет шектеулері
 description: Шектеулер мен шектерді түсіну.
-ms.date: 10/15/2020
+ms.date: 07/08/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b68ab833538db7020c8be8be7658c86f083f137a
-ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.openlocfilehash: 81253332cbea3110c0b3804db3a4d03b514f92d4
+ms.sourcegitcommit: 9a99e48e96dfb3d895db428f37c30ae55eea66b7
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "5598524"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6604376"
 ---
 # <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights аудитория түсініктерінің мүмкіндігіндегі қызмет шектеулері
 
@@ -23,6 +23,7 @@ ms.locfileid: "5598524"
 | Аумақ  | Шектеулер  | Ескертпелер |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | Сегменттер мен шаралар | 100 сегмент немесе шара. | Белсенді [сегменттер](segments.md) мен [шаралардың](measures.md) ортақ жалпы саны 100-ден аспауы керек.  |
+| Қатынастар | Нысан жолдарындағы қатынастардың 20 тереңдік деңгейі. | Құрастырушы интерфейсін пайдаланып [сегменттер](segments.md) немесе [өлшеулер](measures.md) жасау кезінде нысан жолдарында бастапқы нысан мен мақсатты нысан арасында 20 қарым-қатынас секірісі болуы мүмкін.  |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

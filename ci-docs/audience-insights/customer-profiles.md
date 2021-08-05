@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: c9adb4d7db74573d0512ae7a68a0e7ab51c994a0
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 8ab55d101f98169b8f794ce580ddd0a71ede6642
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304611"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554625"
 ---
 # <a name="customer-profiles"></a>Тұтынушы профильдері
 
@@ -23,11 +23,11 @@ ms.locfileid: "6304611"
 Тұтынушылар жеке тұлғалар немесе ұйымдар болуы мүмкін (алдын ала қарау). Әрбір тұтынушы немесе ұйым профилі қатар бойынша көрсетіледі. Белгілі бір тұтынушыдағы немесе ұйымдағы қосымша ақпаратты көру үшін қатарды таңдаңыз. Қосымша жазбаларды көру үшін беттің астындағы парақтау басқару құралдарын пайдаланыңыз.
 
 > [!div class="mx-imgBorder"] 
-> ![Бизнес - тұтынушы профильдері](media/profiles-customers.png "Бизнес - тұтынушы профильдері")
+> ![Бизнес - тұтынушы профильдері.](media/profiles-customers.png "Бизнес - тұтынушы профильдері")
 
 Ұйымдар (алдын ала қарау)
 > [!div class="mx-imgBorder"] 
-> ![Бизнес - бизнес профильдері](media/profile-customers-b2b.png "Бизнес - бизнес профильдері")
+> ![Бизнес - тұтынушы профильдері.](media/profile-customers-b2b.png "Бизнес - бизнес профильдері")
 
 > [!NOTE]
 > Шарлау кезінде **Тұтынушылар** опциясын таңдағанда қатарлар көрінбесе, әкімшіңіз **Іздеу және сүзгілеу индексі** опциясында [кемінде бір іздеу төлсипатын анықтауы](search-filter-index.md) қажет.
@@ -47,7 +47,7 @@ ms.locfileid: "6304611"
 2. Тұтынушыларды сүзгілеу керек төлсипаттардан кейінгі терезелерді белгілеңіз.
 
    > [!div class="mx-imgBorder"] 
-   > ![Тұтынушы профильдері](media/profiles-customers3.png "Тұтынушы профильдері")
+   > ![Тұтынушы профильдері.](media/profiles-customers3.png "Тұтынушы профильдері")
 
 3. **Тұтынушылар** бетінде **Сүзгілерді жою** опциясын таңдау арқылы сүзгілерді алып тастаңыз.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 author: kishorem-MS
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: 1b11c325649b91ebb47cde924227eacedae64b7a
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: 3b10fb23cca03ed918aa7fd46478b568d5ebbf1a
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305163"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6555498"
 ---
 # <a name="enrich-customer-profiles-with-brand-and-interest-affinities-preview"></a>Тұтынушы деректерін бренд және қызығушылық ұқсастықтарымен толықтыру (алдын ала қарау)
 
@@ -27,7 +27,7 @@ ms.locfileid: "6305163"
 Қызығушылық ұқсастықтары толықтыруын теңшеу үшін **Табу** қойыншасына өтіп, **Қызығушылықтар** тақтасынан **Деректерімді толықтыру** параметрін таңдаңыз.
 
    > [!div class="mx-imgBorder"]
-   > ![Брендтер мен қызығушылықтар қатарлары](media/BrandsInterest-tile-Hub.png "Брендтер мен қызығушылық қатарлары")
+   > ![Брендтер мен қызығушылықтар қатарлары.](media/BrandsInterest-tile-Hub.png "Брендтер мен қызығушылық қатарлары")
 
 ## <a name="how-we-determine-affinities"></a>Ұқсастықтарды анықтау жолы
 
@@ -123,7 +123,7 @@ ms.locfileid: "6305163"
 
 Толықтыру процесін бастағаннан кейін толықтырылған тұтынушылардың жалпы санын және тұтынушылардың толықтырылған профильдеріндегі брендтердің немесе қызығушылықтардың өзгеруін қарастыру үшін **Менің толықтыруларым** тармағына өтіңіз.
 
-:::image type="content" source="media/my-enrichments.png" alt-text="Толықтыру процесін іске қосқаннан кейінгі нәтижелерді алдын ала қарау":::
+:::image type="content" source="media/my-enrichments.png" alt-text="Толықтыру процесін іске қосқаннан кейінгі нәтижелерді алдын ала қарау.":::
 
 Диаграммадан **Толықтырылған деректерді қарау** опциясын таңдау арқылы толықтырылған деректерді қараңыз. Брендтер үшін толықтырылған деректер **BrandAffinityFromMicrosoft** нысанына өтеді. **InterestAffinityFromMicrosoft** нысанындағы қызығушылықтарға арналған деректер. **Деректер** > **Нысандар** тармағындағы **Толықтыру** тобында тізімделген осы нысандарды да таба аласыз.
 
@@ -131,7 +131,7 @@ ms.locfileid: "6305163"
 
 Сонымен қатар жеке тұтынушы карталарынан бренд пен қызығушылық ұқсастықтарын көре аласыз. **Тұтынушылар** тармағына өтіп, тұтынушы профилін таңдаңыз. Тұтынушы картасында тұтынушының демографиялық профилінде қамтылған адамдар брендтері немесе қызығушылықтары сызбаларын табасыз.
 
-:::image type="content" source="media/enrichment-customer-card.png" alt-text="Толықтырылған деректері бар тұтынушы картасы":::
+:::image type="content" source="media/enrichment-customer-card.png" alt-text="Толықтырылған деректері бар тұтынушы картасы.":::
 
 ## <a name="next-steps"></a>Келесі қадамдар
 
