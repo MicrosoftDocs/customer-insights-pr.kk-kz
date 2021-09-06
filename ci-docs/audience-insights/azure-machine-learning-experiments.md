@@ -9,12 +9,12 @@ author: naravill
 ms.author: naravill
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 3f97e22687ae4f5536d492bac83bdf9c711e2c94
-ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.openlocfilehash: 4c04a1d08aba152ce91d452ae2300c1ce0fc79e5d6980ac506dc40d9914c9fca
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6554442"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7033179"
 ---
 # <a name="use-azure-machine-learning-based-models"></a>Azure Machine Learning негізіндегі үлгілерді пайдаланыңыз
 
@@ -31,7 +31,7 @@ Dynamics 365 Customer Insights бағдарламасындағы бірыңға
 
 1. Жұмыс кеңістігін жасау үшін түрлі опциялар бойынша [Azure Machine Learning жұмыс кеңістігін жасау](/azure/machine-learning/concept-workspace#-create-a-workspace) бөлімін қараңыз. Үздік өнімділікке қол жеткізу мақсатында географиялық тұрғыдан сіздің Customer Insights ортаңызға жақын Azure аймағында жұмыс аймағын жасаңыз.
 
-1. Жұмыс кеңістігіне [Azure Machine Learning Studio](https://ml.azure.com/) бағдарламасы арқылы қатынасыңыз. Жұмыс кеңістігімен [өазара әрекеттесудің](/azure/machine-learning/concept-workspace#tools-for-workspace-interaction) бірнеше жолдары бар.
+1. Жұмыс кеңістігіне [Azure Machine Learning Studio](https://ml.azure.com/) бағдарламасы арқылы қатынасыңыз. Жұмыс кеңістігімен [өзара әрекеттесудің](/azure/machine-learning/concept-workspace#tools-for-workspace-interaction) бірнеше жолдары бар.
 
 ## <a name="work-with-azure-machine-learning-designer"></a>Azure Machine Learning құрастырушысымен жұмыс істеңіз
 

@@ -1,6 +1,6 @@
 ---
-title: Customer Insights деректерін Adobe Campaign Standard бағдарламасына экспорттау
-description: Adobe Campaign Standard бағдарламасында аудитория мәліметтері сегменттерін пайдалану жолы туралы мәлімет алыңыз.
+title: Customer Insights деректерін Adobe Campaign Standard қызметіне экспорттау
+description: Adobe Campaign Standard қызметіндегі аудитория туралы түсінік сегменттерін пайдалану жолы туралы ақпарат.
 ms.date: 03/29/2021
 ms.reviewer: mhart
 ms.service: customer-insights
@@ -9,16 +9,16 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 917ab9559416f3ee0ffd66e471e590e8da3faffc
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: d301b4f0cb875303fb3d373b77177acd1c1f5219cd6f23c2a1d29ce67a222eab
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305393"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7032170"
 ---
-# <a name="use-customer-insights-segments-in-adobe-campaign-standard-preview"></a>Adobe Campaign Standard бағдарламасында Customer Insights сегменттерін пайдалану (алдын ала қарау нұсқасы)
+# <a name="use-customer-insights-segments-in-adobe-campaign-standard-preview"></a>Adobe Campaign Standard бағдарламасында Customer Insights сегменттерін пайдалану (алдын ала қарау)
 
-Dynamics 365 Customer Insights бағдарламасындағы аудитория туралы түсініктердің пайдаланушысы ретінде сіз тиісті аудиторияларға бағытталу арқылы маркетинг науқандарын тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Adobe Experience Platform платформасында және Adobe Campaign Standard секілді бағдарламаларда аудитория туралы түсініктерден сегментті пайдалану үшін осы мақалада көрсетілген бірнеше қадамды орындауыңыз қажет.
+Dynamics 365 Customer Insights бағдарламасындағы аудитория туралы түсініктердің пайдаланушысы ретінде сіз тиісті аудиторияларға бағытталу арқылы маркетинг науқандарын тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Adobe Experience Platform қызметінде және Adobe Campaign Standard секілді бағдарламаларда аудитория туралы пайдалы мәліметтер сегментін пайдалану үшін осы мақалада көрсетілген кейбір қадамдарды орындау қажет.
 
 :::image type="content" source="media/ACS-flow.png" alt-text="Осы мақалада көрсетілген қадамдардың процестік диаграммасы.":::
 
@@ -30,11 +30,11 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 ## <a name="campaign-overview"></a>Науқанға шолу
 
-Adobe Experience Platform платформасында аудитория туралы түсініктердегі сегменттерді пайдалану жолы туралы толығырақ түсіну үшін үлгі ретінде берілген науқанды қарастырайық.
+Adobe Experience Platform қызметінде аудитория туралы пайдалы мәліметтердегі сегменттерді пайдалану жолын жақсырақ түсіну үшін жасанды үлгі науқанын қарастырайық.
 
-Сіздің компанияңыз АҚШ-тағы тұтынушыларыңызға ай сайынғы жазылымға негізделген қызметті ұсынады делік. Сізге жазылымы келесі сегіз күнде жаңартылуы керек, бірақ жазылымын әлі ұзартпаған тұтынушыларды анықтау қажет. Осы тұтынушыларды ұстап тұру үшін Adobe Campaign Standard бағдарламасы көмегімен электрондық пошта арқылы оларға жарнамалық акция жіберу қажет болуы мүмкін.
+Сіздің компанияңыз АҚШ-тағы тұтынушыларыңызға ай сайынғы жазылымға негізделген қызметті ұсынады делік. Сізге жазылымы келесі сегіз күнде жаңартылуы керек, бірақ жазылымын әлі ұзартпаған тұтынушыларды анықтау қажет. Бұл тұтынушыларды сақтау үшін оларға Adobe Campaign Standard көмегімен электрондық пошта арқылы жарнамалық ұсыныс жіберу қажет.
 
-Бұл мысалда біз жарнамалық науқанды бір рет электрондық пошта арқылы жүргізгіміз келеді. Бұл мақалада науқанды бірнеше рет жүргізу жағдайлары қарастырылмаған. Дегенмен, аудитория мәліметтері мен Adobe Campaign Standard бағдарламасы қайталанатын науқандық сценарий үшін жұмыс істеуге конфигурациялануы мүмкін.
+Бұл мысалда біз жарнамалық науқанды бір рет электрондық пошта арқылы жүргізгіміз келеді. Бұл мақалада науқанды бірнеше рет жүргізу жағдайлары қарастырылмаған. Дегенмен, аудитория туралы пайдалы мәліметтер мен Adobe Campaign Standard бағдарламасын қайталанатын науқан сценарийімен жұмыс істеу үшін конфигурациялауға болады.
 
 ## <a name="identify-your-target-audience"></a>Мақсатты аудиторияңызды анықтаңыз
 
@@ -54,9 +54,9 @@ Adobe Experience Platform платформасында аудитория тур
 
 1. Audience insights бағдарламасында **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
-1. **Қосылым қосу** түймешігін таңдаңыз және қосылымды конфигурациялау үшін **Adobe Campaign** параметрін таңдаңыз немесе **Adobe Campaign** тақтасында **Орнату** түймешігін таңдаңыз.
+1. Қосылымды конфигурациялау үшін **Қосылымды қосу** опциясын таңдап, **Adobe Campaign** опциясын таңдаңыз немесе **Adobe Campaign** тақтасында **Орнату** опциясын таңдаңыз.
 
-   :::image type="content" source="media/adobe-campaign-standard-tile.png" alt-text="Adobe Campaign Standard бағдарламасының конфигурация тақтасы.":::
+   :::image type="content" source="media/adobe-campaign-standard-tile.png" alt-text="Adobe Campaign Standard жүйесіне арналған конфигурация тақтасы.":::
 
 1. **Көрсетілетін аты** өрісінде қосылымға оңай танылатын атау енгізіңіз. Қосылым атауы мен түрі осы қосылымды сипаттайды. Қосылымның мақсатын түсіндіретін атауды таңдауды ұсынамыз.
 
@@ -88,14 +88,14 @@ Adobe Experience Platform платформасында аудитория тур
 
 1. **Келесі** пәрменін таңдаңыз.
 
-1. Енді біз аудитория мәліметтері сегментіндегі **Дереккөз** өрістерін Adobe Campaign Standard профилінің схемасындағы **Мақсат** өріс атауларымен салыстырамыз.
+1. Аудитория туралы пайдалы мәліметтер сегментіндегі **Бастапқы** өрістерін Adobe Campaign Standard профилінің схемасындағы **Мақсатты** өріске салыстырамыз.
 
-   :::image type="content" source="media/ACS-field-mapping.png" alt-text="Adobe Campaign Standard қосқышына арналған өрістерді салыстыру.":::
+   :::image type="content" source="media/ACS-field-mapping.png" alt-text="Adobe Campaign Standard қосқышына арналған өрісті салыстыру.":::
 
-   Егер қосымша төлсипаттар қосу қажет болса, **Төлсипат қосу** пәрменін таңдаңыз. Мақсатты атау бастапқы өріс атауынан өзгеше болуы мүмкін, егер өрістердің екі жүйедегі атауы бірдей болмаса, аудитория мәліметтеріндегі сегмент шығысын Adobe Campaign Standard жүйесімен салыстыруға болады.
+   Егер қосымша төлсипаттар қосу қажет болса, **Төлсипат қосу** пәрменін таңдаңыз. Мақсатты өрістің атауы бастапқы өрістің атауынан өзгеше болуы мүмкін, сондықтан екі жүйеде бірдей аттар болмаса, аудитория туралы пайдалы мәліметтердегі сегмент шығысын Adobe Campaign Standard жүйесіне экспорттауға болады.
 
    > [!NOTE]
-   > Электрондық пошта мекенжайы жеке куәлік өрісі ретінде пайдаланылады, бірақ Adobe Campaign Standard жүйесіне деректерді салыстыру үшін аудитория мәліметтерінің тұтынушы профилінен кез келген басқа идентификаторды пайдалана аласыз.
+   > Электрондық пошта мекенжайын идентификациялық өріс ретінде пайдалануға болады, бірақ деректерді Adobe Campaign Standard жүйесіне салыстыру үшін аудитория туралы пайдалы мәліметтер тұтынушы профиліндегі басқа идентификацияны пайдалануға болады.
 
 1. **Сақтау** опциясын таңдаңыз.
 
@@ -104,7 +104,7 @@ Adobe Experience Platform платформасында аудитория тур
 [Сегментті сұраныс бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. Экспорттау сондай-ақ әрбір [жоспарланған жаңарту](system.md) сайын іске қосылады.
 
 > [!NOTE]
-> Экспортталған сегменттегі жазбалар санының Adobe Campaign Standard лицензиясының рұқсат етілген шегінде болуын тексеріңіз.
+> Экспортталатын сегменттегі жазбалар саны Adobe Campaign Standard лицензиясының рұқсат етілген шегінде екеніне көз жеткізіңіз.
 
 Экспортталған деректер сіз жоғарыда конфигурациялаған Azure Blob сақтау контейнерінде сақталады. Контейнерде келесі қалта жолы автоматты түрде жасалады:
 
@@ -114,30 +114,30 @@ Adobe Experience Platform платформасында аудитория тур
 
 ## <a name="configure-adobe-campaign-standard"></a>Adobe Campaign Standard жүйесін конфигурациялау
 
-Аудитория мәліметтерінен алынған сегмент экспортталған кезде, алдыңғы қадамда экспорттауды анықтаған кезде сіз таңдаған бағандарды қамтиды. Бұл деректерді [Adobe Campaign Standard жүйесінде профильдер жасау](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/about-profiles.html#managing-profiles) үшін пайдалануға болады.
+Аудитория мәліметтерінен алынған сегмент экспортталған кезде, алдыңғы қадамда экспорттауды анықтаған кезде сіз таңдаған бағандарды қамтиды. Бұл деректерді [Adobe Campaign Standard жүйесіндегі профильдерді жасау](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/about-profiles.html#managing-profiles) үшін пайдалануға болады.
 
-Adobe Campaign Standard жүйесінде сегментті пайдалану үшін Adobe Campaign Standard жүйесінде профиль схемасын екі қосымша өрісті қосу үшін кеңейту қажет. [Профиль ресурсын](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/use-cases--extending-resources/extending-the-profile-resource-with-a-new-field.html#developing) Adobe Campaign Standard жүйесінде жаңа өрістермен кеңейту жолдары туралы мәлімет алыңыз.
+Adobe Campaign Standard жүйесінде сегментті пайдалану үшін екі қосымша өріс қосу үшін Adobe Campaign Standard бағдарламасында профиль схемасын кеңейту қажет. Adobe Campaign Standard жүйесіндегі жаңа өрістермен [профиль ресурсын кеңейту](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/use-cases--extending-resources/extending-the-profile-resource-with-a-new-field.html#developing) жолы туралы мәлімет алыңыз.
 
 Біздің мысалда бұл өрістер *Сегмент атауы және сегмент күні (міндетті емес)* болып табылады.
 
-Біз осы өрістерді Adobe Campaign Standard қызметінде осы науқанға бағыттағымыз келетін профильдерді анықтау үшін пайдаланамыз.
+Бұл өрістерді осы науқан үшін назар аударғымыз келетін Adobe Campaign Standard бағдарламасында профильдерді анықтау үші пайдаланамыз.
 
-Егер Adobe Campaign Standard қызметінде импортталатын жазбалардан басқа жазбалар болмаса, бұл қадамды өткізіп жіберуге болады.
+Егер Adobe Campaign Standard бағдарламасында импортталатыннан басқа жазбалар болмаса, бұл қадамды өткізіп жіберуге болады.
 
 ## <a name="import-data-into-adobe-campaign-standard"></a>Деректерді Adobe Campaign Standard жүйесіне импорттау
 
-Енді барлығы дайын болған кезде профильдер жасау үшін дайындалған аудитория деректерін аудитория туралы түсініктерден Adobe Campaign Standard жүйесіне импорттауымыз қажет. Жұмыс ағынын пайдаланып [Adobe Campaign Standard жүйесінде профильдерді импорттау туралы](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/creating-profiles.html#profiles-and-audiences) мәлімет алыңыз.
+Енді барлығы өз орнында, профильдер жасау үшін аудитория туралы пайдалы мәліметтердегі дайындалған аудитория деректерін Adobe Campaign Standard қызметіне импорттау қажет. Жұмыс ағынын пайдалану арқылы [Adobe Campaign Standard жүйесінде профильдерді импорттау жолдары туралы](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/creating-profiles.html#profiles-and-audiences) мәлімет алыңыз.
 
-Төмендегі кескіндегі импорттау жұмыс ағыны әр сегіз сағат сайын іске қосылатындай етіп және экспортталған аудитория түсініктерін іздейтін етіп (Azure екілік нысан сақтау орнындағы .csv файлы) конфигурацияланған. Жұмыс ағыны .csv файл мазмұнын көрсетілген баған ретімен шығарады. Бұл жұмыс ағыны негізгі қателермен жұмыс істеуді жүзеге асыру және Adobe Campaign Standard жүйесінде деректерді сутектендірмес бұрын әр жазбада электрондық пошта мекенжайы болуын қамтамасыз ету үшін жасалған. Жұмыс ағыны Adobe Campaign Standard профилінің деректерін енгізбес бұрын файл атауынан сегменттің атауын шығарады.
+Төмендегі кескіндегі импорттау жұмыс ағыны әр сегіз сағат сайын іске қосылатындай етіп және экспортталған аудитория түсініктерін іздейтін етіп (Azure екілік нысан сақтау орнындағы .csv файлы) конфигурацияланған. Жұмыс ағыны .csv файл мазмұнын көрсетілген баған ретімен шығарады. Бұл жұмыс ағыны негізгі қателерді өңдеуді орындау және Adobe Campaign Standard бағдарламасындағы деректерді жоймас бұрын әр жазбада электрондық пошта мекенжайы болуын қамтамасыз ету үшін жасалды. Жұмыс ағыны Adobe Campaign Standard профиль деректеріне жүктемес бұрын файл атауынан сегмент атауын алады.
 
-:::image type="content" source="media/ACS-import-workflow.png" alt-text="Adobe Campaign Standard пайдаланушы интерфейсіндегі импорттық жұмыс ағынының скриншоты.":::
+:::image type="content" source="media/ACS-import-workflow.png" alt-text="Adobe Campaign Standard пайдаланушы интерфейсіндегі импорттау жұмыс ағынының скриншоты.":::
 
-## <a name="retrieve-the-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard жүйесінде аудиторияны алу
+## <a name="retrieve-the-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard қызметінде аудитория алу
 
-Деректер Adobe Campaign Standard жүйесіне импортталғаннан кейін біздің үлгі науқанымыз үшін анықталған профильдерді таңдау үшін [жұмыс ағынын жасауға](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html#managing-processes-and-data) және *Сегмент атауы* мен *Сегмент күні* параметрлеріне негізделген тұтынушыларды [сұрауға](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/targeting-activities/query.html#managing-processes-and-data) болады.
+Деректер Adobe Campaign Standard жүйесіне импортталғаннан кейін үлгі науқаны үшін анықталған профильдерді таңдау үшін тұтынушылар *Сегмент атауы* және *Сегмент күні* параметрлеріне негізделген [жұмыс ағыны](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html#managing-processes-and-data) мен [сұрауды](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/targeting-activities/query.html#managing-processes-and-data) жасауға болады.
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe Campaign Standard көмегімен электрондық пошта хабарын жасау және жіберу
 
 Электрондық пошта мазмұнын жасап, содан кейін электрондық пошта хабарын [тексеріп, жіберіңіз](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/get-started-sending-messages.html#preparing-and-testing-messages).
 
-:::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard ұсынған жаңарту ұсынысы бар электрондық пошта хабарының үлгісі.":::
+:::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard жүйесінен жаңарту ұсынысы бар электрондық поштаның үлгісі.":::

@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 8ab55d101f98169b8f794ce580ddd0a71ede6642
-ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.openlocfilehash: 87323d15c44ef82ae8bc3cc971be6c36356121571cb9a9630be699ac2d157bf6
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6554625"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7032811"
 ---
 # <a name="customer-profiles"></a>Тұтынушы профильдері
 
@@ -69,7 +69,7 @@ ms.locfileid: "6554625"
 
 ## <a name="next-steps"></a>Келесі қадамдар
 
-[Қосымша дерек көздерін қосу ](data-sources.md)немесе [тұтынушы сегменттерін құру](segments.md).
+Басқа бағдарламаларда бірыңғай профильдермен жұмыс істеу үшін [қосымша деректер көзін қосыңыз](data-sources.md), [бірыңғай профильдерді арттырыңыз](enrichment-hub.md) немесе [сегменттер жасаңыз](segments.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

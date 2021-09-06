@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Adobe Experience Platform жүйесіне экспорттау
+title: Customer Insights деректерін Adobe Experience Platform қызметіне экспорттау
 description: Adobe Experience Platform қызметіндегі аудитория туралы түсінік сегменттерін пайдалану жолы туралы ақпарат.
 ms.date: 03/29/2021
 ms.reviewer: mhart
@@ -9,16 +9,16 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 1045d0e373fd5ea8987684e51bd9a07b7b535ee3
-ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
+ms.openlocfilehash: fac976a49b1b5c5485b75e1262135738c913bd2230be7df8aa0ec12c59734053
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6305531"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7032124"
 ---
-# <a name="use-customer-insights-segments-in-adobe-experience-platform-preview"></a>Adobe Experience Platform жүйесіндегі Customer Insights сегменттерін пайдалану (алдын ала қарау нұсқасы)
+# <a name="use-customer-insights-segments-in-adobe-experience-platform-preview"></a>Adobe Experience Platform бағдарламасында Customer Insights сегменттерін пайдалану (алдын ала қарау)
 
-Dynamics 365 Customer Insights бағдарламасындағы аудитория туралы түсініктердің пайдаланушысы ретінде сіз тиісті аудиторияларға бағытталу арқылы маркетинг науқандарын тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Adobe Experience Platform платформасында және Adobe Campaign Standard секілді бағдарламаларда аудитория туралы түсініктерден сегментті пайдалану үшін осы мақалада көрсетілген бірнеше қадамды орындауыңыз қажет.
+Dynamics 365 Customer Insights бағдарламасындағы аудитория туралы түсініктердің пайдаланушысы ретінде сіз тиісті аудиторияларға бағытталу арқылы маркетинг науқандарын тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Adobe Experience Platform қызметінде және Adobe Campaign Standard секілді бағдарламаларда аудитория туралы пайдалы мәліметтер сегментін пайдалану үшін осы мақалада көрсетілген кейбір қадамдарды орындау қажет.
 
 :::image type="content" source="media/AEP-flow.png" alt-text="Осы мақалада көрсетілген қадамдардың процестік диаграммасы.":::
 
@@ -31,9 +31,9 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 ## <a name="campaign-overview"></a>Науқанды шолу
 
-Adobe Experience Platform платформасында аудитория туралы түсініктердегі сегменттерді пайдалану жолы туралы толығырақ түсіну үшін үлгі ретінде берілген науқанды қарастырайық.
+Adobe Experience Platform қызметінде аудитория туралы пайдалы мәліметтердегі сегменттерді пайдалану жолын жақсырақ түсіну үшін жасанды үлгі науқанын қарастырайық.
 
-Сіздің компанияңыз АҚШ-тағы тұтынушыларыңызға ай сайынғы жазылымға негізделген қызметті ұсынады делік. Сізге жазылымы келесі сегіз күнде жаңартылуы керек, бірақ жазылымын әлі ұзартпаған тұтынушыларды анықтау қажет. Осы тұтынушыларды ұстап тұру үшін Adobe Experience Platform бағдарламасы көмегімен электрондық пошта арқылы оларға жарнамалық акция жіберу қажет болуы мүмкін.
+Сіздің компанияңыз АҚШ-тағы тұтынушыларыңызға ай сайынғы жазылымға негізделген қызметті ұсынады делік. Сізге жазылымы келесі сегіз күнде жаңартылуы керек, бірақ жазылымын әлі ұзартпаған тұтынушыларды анықтау қажет. Бұл тұтынушыларды сақтау үшін оларға Adobe Experience Platform көмегімен электрондық пошта арқылы жарнамалық ұсыныс жіберу қажет.
 
 Бұл мысалда біз жарнамалық науқанды бір рет электрондық пошта арқылы жүргізгіміз келеді. Бұл мақалада науқанды бірнеше рет жүргізу жағдайлары қарастырылмаған.
 
@@ -93,7 +93,7 @@ Adobe Experience Platform платформасында аудитория тур
 [Сегментті сұраныс бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. Экспорттау сондай-ақ әрбір [жоспарланған жаңарту](system.md) сайын іске қосылады.
 
 > [!NOTE]
-> Экспортталған сегменттегі жазбалар санының Adobe Campaign Standard лицензиясының рұқсат етілген шегінде болуын тексеріңіз.
+> Экспортталатын сегменттегі жазбалар саны Adobe Campaign Standard лицензиясының рұқсат етілген шегінде екеніне көз жеткізіңіз.
 
 Экспортталған деректер сіз жоғарыда конфигурациялаған Azure Blob сақтау контейнерінде сақталады. Контейнерде келесі қалта жолы автоматты түрде жасалады:
 
@@ -105,29 +105,29 @@ Adobe Experience Platform платформасында аудитория тур
 
 Мысал: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo/model.json
 
-## <a name="define-experience-data-model-xdm-in-adobe-experience-platform"></a>Adobe Experience Platform бағдарламасындағы Experience Data Model (XDM) үлгісін анықтау
+## <a name="define-experience-data-model-xdm-in-adobe-experience-platform"></a>Adobe Experience Platform қызметінде тәжірибе деректерінің үлгісін (XDM) анықтау
 
-Аудитория туралы түсініктердегі экспортталған деректер Adobe Experience Platform шегінде пайдаланылғанға дейін Experience Data Model схемасын анықтап, [нақты уақыттағы тұтынушы профиліне арналған деректерді конфигурациялау](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials) қажет.
+Adobe Experience Platform қызметінде аудитория туралы мәліметтердегі экспортталған деректер пайдаланылғанға дейін тәжірибе деректері үлгісінің схемасын анықтап, [нақты уақыттағы тұтынушы профилінің деректерін конфигурациялау](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials) қажет.
 
 [XDM үлгісі дегеніміз не екендігі туралы](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) мәлімет алып, [схема құрамының негіздері туралы](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schema) түсінік алыңыз.
 
-## <a name="import-data-into-adobe-experience-platform"></a>Деректерді Adobe Experience Platform бағдарламасына импорттау
+## <a name="import-data-into-adobe-experience-platform"></a>Деректерді Adobe Experience Platform жүйесіне импорттау
 
-Енді барлығы дайын болған кезде профильдер жасау үшін дайындалған аудитория деректерін аудитория туралы түсініктерден Adobe Experience Platform жүйесіне импорттауымыз қажет.
+Енді барлығы өз орнында, аудитория туралы пайдалы мәліметтердегі дайындалған аудитория деректерін Adobe Experience Platform қызметіне импорттау қажет.
 
 Алдымен, [Azure Blob сақтау орнының бастапқы қосылымын жасаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).    
 
-Бастапқы қосылымды анықтағаннан кейін сегмент шығысын аудитория туралы түсініктерден Adobe Experience Platform платформасына импорттау үшін бұлттағы сақтау орнының топтық қосылымына арналған [деректер ағынын](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials) конфигурациялаңыз.
+Бастапқы байланысты анықтағаннан кейін сегмент шығысын аудитория туралы пайдалы мәліметтерден Adobe Experience Platform қызметіне импорттау үшін бұлттық сақтау орны топтамасының қосылымы үшін [деректер ағынын конфигурациялаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials).
 
-## <a name="create-an-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard жүйесінде аудиторияны жасау
+## <a name="create-an-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard қызметінде аудитория жасау
 
-Осы науқанға электрондық хабар жіберу үшін біз Adobe Campaign Standard қызметін қолданамыз. Деректерді Adobe Experience Platform бағдарламасына импорттағаннан кейін Adobe Experience Platform бағдарламасындағы деректерді пайдаланып Adobe Campaign Standard жүйесінде [аудитория жасау](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) қажет.
+Осы науқанға электрондық хабар жіберу үшін біз Adobe Campaign Standard қызметін қолданамыз. Деректерді Adobe Experience Platform жүйесіне импорттағаннан кейін Adobe Campaign Standard жүйесінде Adobe Experience Platform қызметіндегі деректерді пайдаланып, [аудитория жасау](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) қажет.
 
 
-Adobe Experience Platform жүйесіндегі деректер негізінде аудиторияны анықтау үшін Adobe Campaign Standard бағдарламасында [сегментті құрастыру құралын пайдалану](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) бойынша мәлімет алыңыз.
+Adobe Experience Platform қызметіндегі деректер негізінде аудиторияны анықтау үшін Adobe Campaign Standard жүйесінде [сегмент құрастырғышын пайдалану](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) жолдары туралы мәлімет алыңыз.
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe Campaign Standard көмегімен электрондық пошта хабарын жасау және жіберу
 
 Электрондық пошта мазмұнын жасап, содан кейін электрондық пошта хабарын [тексеріп, жіберіңіз](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/get-started-sending-messages.html#preparing-and-testing-messages).
 
-:::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard ұсынған жаңарту ұсынысы бар электрондық пошта хабарының үлгісі.":::
+:::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard жүйесінен жаңарту ұсынысы бар электрондық поштаның үлгісі.":::
