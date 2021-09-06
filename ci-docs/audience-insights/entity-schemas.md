@@ -1,7 +1,7 @@
 ---
 title: Common Data Model бағдарламасындағы Customer Insights нысаны схемалары
 description: Common Data Model ішіндегі нысандармен жұмыс істеу.
-ms.date: 04/17/2020
+ms.date: 08/13/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: e21f8a9422357fbc5c9425f91f3ba241c9dec9d8
-ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
+ms.openlocfilehash: 66d846c3e9404ca7993cae742ea6e16833233fba
+ms.sourcegitcommit: 205f931ec671a0ab1850f2c1c94df3307ffb62c9
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "6692312"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380750"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
 
@@ -42,7 +42,7 @@ ms.locfileid: "6692312"
 
 ## <a name="view-entities-using-the-common-data-model-entity-navigator"></a>Common Data Model нысан навигаторы арқылы нысандарды қарау
 
-[Common Data Model нысаны навигаторында](https://microsoft.github.io/CDM/) нысандарды көре аласыз. **GitHub жүйесінен жүктеңіз!** опциясын таңдаңыз түймесін басып, Customer Insights нысандарының тізімі мен олардың анықтамалары орналасатын **foundationCommon** > **crmCommon** > **шешімдер** > **customerInsights** тармағына өтіңіз.
+[Common Data Model нысаны навигаторында](https://microsoft.github.io/CDM/) нысандарды көре аласыз. Customer Insights нысандары мен олардың анықтамаларын алу үшін Insights бағдарлама бөлімінен нысанды таңдаңыз.
 > [!div class="mx-imgBorder"]
 > ![CustomerActivity нысанын көрсететін CDM нысаны навигаторы.](media/CDM-entity-navigator.png "CustomerActivity нысанын көрсететін CDM нысаны навигаторы")
 

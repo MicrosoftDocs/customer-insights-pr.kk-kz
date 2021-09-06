@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Dynamics 365 Marketing бағдарламасына экспорттау
 description: Dynamics 365 Marketing жүйесі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 03/03/2021
+ms.date: 08/24/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,18 +9,20 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: bd8189f8daee1a6aea75e75e116186f62a360ba4
-ms.sourcegitcommit: 8cc70f30baaae13dfb9c4c201a79691f311634f5
+ms.openlocfilehash: b8e63a738abaf4fbb902e3edbf83f5a815978478
+ms.sourcegitcommit: 8e89575fe2acb4b289fc157fa7c4c29caf9be967
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "6692488"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7417212"
 ---
 # <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing жүйесіндегі сегменттерді пайдалану (алдын ала қарау нұсқасы)
 
 [!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[Сегменттерді](segments.md) науқандар құру және Dynamics 365 Marketing арқылы тұтынушылардың белгілі бір топтарымен байланысу үшін пайдаланыңыз. Қосымша ақпаратты [Dynamics 365 Marketing бар Dynamics 365 Customer Insights сегменттерін пайдалану](/dynamics365/marketing/customer-insights-segments) бөлімінен қараңыз
+[Сегменттерді](segments.md) науқандар құру және Dynamics 365 Marketing арқылы тұтынушылардың белгілі бір топтарымен байланысу үшін пайдаланыңыз. Қосымша ақпаратты [Dynamics 365 Marketing бар Dynamics 365 Customer Insights сегменттерін пайдалану](/dynamics365/marketing/customer-insights-segments) бөлімінен қараңыз.
+
+Dataverse ұйымында нақты уақыттағы тұтынушымен өзара қатынас топтамасын басқару үшін Dynamics 365 Marketing жаңа мүмкіндіктерін пайдаланатын болсаңыз, Dynamics 365 Marketing бағдарламасын стандартты экспортты жасау қажет емес. Аудитория туралы пайдалы мәліметтердегі контактілер мен сегменттер Marketing және Customer Insights бағдарламаларын қосқаннан кейін тікелей Dynamics 365 Marketing бағдарламасында қолжетімді. Бар экспорттауды жоймас бұрын, [аудитория туралы пайдалы мәліметтер мен Dynamics 365 Marketing тұтынушымен өзара қатынас топтамасын басқару жолдары бойынша](/dynamics365/marketing/real-time-marketing-ci-profile) құжаттаманы қарап шығыңыз.
 
 ## <a name="prerequisite-for-a-connection"></a>Қосылым алғышарты
 

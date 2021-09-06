@@ -3,21 +3,21 @@ title: Өнімге шолу
 author: m-hartmann
 description: Dynamics 365 Customer Insights және оның мүмкіндіктеріне шолу жасаңыз.
 ms.author: mhart
-ms.date: 02/16/2021
+ms.date: 07/30/2021
 ms.service: customer-insights
 ms.topic: overview
 ms.manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 1bc75959229fd2ffef9a5fd5617889888eb72e55
-ms.sourcegitcommit: b78c9680b213204e6b0ed47f0147205083f6a98f
+ms.openlocfilehash: 651bd151a77b9d7f44d5fcca15da0f131b9fb3f07ffc89bfac9c0aa6f799e9b1
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6539396"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7036518"
 ---
 # <a name="product-overview-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights өніміне шолу
 
-Dynamics 365 Customer Insights — тұтынушылардың жеке тәжірибесін жеткізуге көмектесетін Microsoft корпорациясының тұтынушы туралы деректер платформасының (CDP) бөлігі. Платформаның мүмкіндіктері тұтынушыларыңыздың кім екенін және олардың платформаңызбен әрекеттесу жолы туралы түсінік береді. Тұтынушылардың жалғыз көрінісін алу үшін бірнеше дереккөз бойынша тұтынушы деректерін біріктіріңіз.
+[Dynamics 365 Customer Insights](https://dynamics.microsoft.com/ai/customer-insights/) — тұтынушылардың жеке тәжірибесін жеткізуге көмектесетін Microsoft корпорациясының тұтынушы туралы деректер платформасының (CDP) бөлігі. Платформаның мүмкіндіктері тұтынушыларыңыздың кім екенін және олардың платформаңызбен әрекеттесу жолы туралы түсінік береді. Тұтынушылардың жалғыз көрінісін алу үшін бірнеше дереккөз бойынша тұтынушы деректерін біріктіріңіз.
 
 
 - [Аудитория түсініктері](audience-insights/overview.md) бөлімшеңізді тұтынушыға бағытталған ұйымға айналдыруға көмектеседі. Маркетинг, сатылым және қызмет көрсету саласындағы мамандар тәжірибені жекелендіру үшін қажетті түсініктерге ие. Тұтынушының 360 градустық көрінісін құру үшін транзакциялық, әрекеттік және бақылау көздерінен деректерді қосыңыз. Әрекет етуге болатын мәліметті жіберу үшін жасалған CDP көмегімен нәтижелерді тезірек көріңіз. 

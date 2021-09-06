@@ -4,17 +4,17 @@ metadata:
   author: m-hartmann
   description: Анықтама мазмұны көмегімен бастау үшін тиісті мақалаларды табыңыз.
   ms.author: mhart
-  ms.date: 10/29/2020
+  ms.date: 07/30/2021
   ms.service: customer-insights
   ms.topic: landing-page
-  ms.openlocfilehash: e9c4aa3347d6f477751804790bd3dc9b20eb5dbe
-  ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+  ms.openlocfilehash: 1446a2bcb24739187a37b2024c9a6070ab008989d722ebf84ef5259ec2ee4d5c
+  ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
   ms.translationtype: HT
   ms.contentlocale: kk-KZ
-  ms.lasthandoff: 03/15/2021
-  ms.locfileid: "5598470"
+  ms.lasthandoff: 08/10/2021
+  ms.locfileid: "7036564"
 title: Dynamics 365 Customer Insights құжаттамасы
-summary: Жұмысты бастау және Customer Insights функциялары мен мүмкіндіктері туралы қосымша ақпарат алу үшін пайдалы ресурстарды табыңыз.
+summary: Жұмысты бастау үшін пайдалы ресурстарды табыңыз және Customer Insights функциялары мен мүмкіндіктері туралы мәлімет алыңыз.
 landingContent:
 - title: Customer Insights бағдарламасымен танысу
   linkLists:
@@ -23,9 +23,9 @@ landingContent:
     - text: Customer Insights бағдарламасына шолу
       url: overview.md
     - text: Жоспарларды шығару
-      url: /dynamics365-release-plan/2020wave2/customer-data-platform/dynamics365-customer-insights/planned-features
-    - text: Ортаға кіріңіз
-      url: https://home.ci.ai.dynamics.com/
+      url: /dynamics365-release-plan/
+    - text: CDP платформасын анықтау
+      url: https://dynamics.microsoft.com/ai/customer-insights/
 - title: Аудитория мәліметтерімен жұмысты бастаңыз
   linkLists:
   - linkListType: get-started
