@@ -14,8 +14,14 @@
       href: audience-insights/overview.md
     - name: Жаңа және жаңартылған мүмкіндіктер
       href: audience-insights/whats-new-audience-insights.md
-    - name: Жаңа орта жасау
-      href: audience-insights/get-started-paid.md
+    - name: Бастау
+      items:
+        - name: Жылдам іске қосу нұсқаулығы
+          href: audience-insights/get-started.md
+        - name: Жаңа орта жасау
+          href: audience-insights/get-started-paid.md
+        - name: Аудитория туралы пайдалы мәліметтерді зерттеу
+          href: audience-insights/home.md
     - name: Модульдер туралы мәліметтер алу
       items:
         - name: Деректерді қабылдау
@@ -46,7 +52,7 @@
       items:
         - name: Деректерді біріктіруге шолу
           href: audience-insights/data-unification.md
-        - name: Нысандар мен атрибуттарды салыстыру
+        - name: Нысандар мен төлсипаттарды салыстыру
           href: audience-insights/map-entities.md
         - name: Нысандарды сәйкестендіру
           href: audience-insights/match-entities.md
@@ -68,6 +74,8 @@
           href: audience-insights/enrichment-microsoft.md
         - name: Жақсартылған мекенжайлар
           href: audience-insights/enrichment-enhanced-addresses.md
+        - name: Azure Maps жүйесімен жетілдіру
+          href: audience-insights/enrichment-azure-maps.md
         - name: Деректерді HERE Technologies арқылы арттыру
           href: audience-insights/enrichment-here.md
         - name: Leadspace көмегімен арттыру
@@ -230,21 +238,15 @@
           href: audience-insights/apis.md
         - name: API сілтемелері
           href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
-    - name: Қызмет шектеулері
-      href: audience-insights/service-limits.md
-    - name: GDPR бойынша DSR сұраулары
-      href: audience-insights/gdpr.md
-- name: Жұмыс мәліметтері (алдын ала қарау нұсқасы)
+- name: Өзара әрекеттестік туралы пайдалы мәліметтер (алдын ала қарау нұсқасы)
   items:
     - name: Анықтама орталығы
       href: engagement-insights/index.yml
     - name: Мүмкіндіктерге шолу
       href: engagement-insights/overview.md
-    - name: Тегін сынақ нұсқасы
-      href: 'https://pi.dynamics.com/'
     - name: Бастау
       items:
-        - name: Бастау
+        - name: Жылдам іске қосу нұсқаулығы
           href: engagement-insights/get-started.md
         - name: Жұмыс кеңістігін жасау
           href: engagement-insights/create-workspace.md
@@ -300,18 +302,10 @@
           href: engagement-insights/user-roles.md
         - name: Орталар мен жұмыс кеңістіктерін басқару
           href: engagement-insights/manage-environments-workspaces.md
-        - name: Қосылымдарды конфигурациялау
-          href: engagement-insights/configure-connections.md
         - name: Cookies файлдарын және пайдаланушы келісімін басқару
           href: engagement-insights/user-consent-storage.md
-    - name: GDPR
-      items:
-        - name: Жеке деректерді жою және экспорттау
-          href: engagement-insights/delete-export-personal-data.md
     - name: Аймақтық қолжетімділік
       href: engagement-insights/regional-availability.md
-    - name: Қызмет шектеулері
-      href: engagement-insights/quotas.md
 - name: Аудитория мен өзара әрекеттестік туралы пайдалы мәліметтерді біріктіру
   items:
     - name: Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтерді байланыстыру
@@ -320,5 +314,9 @@
       href: engagement-insights/integrate-audience-insights-segments.md
     - name: Мінез-құлық деректерін бөлу үшін демографиялық өлшемдерді пайдалану
       href: engagement-insights/curate-dimensions.md
+- name: Қызмет шектеулері
+  href: service-limits.md
+- name: DSR құқықтары мен сұраулары
+  href: dsr-rights-requests.md
 - name: Қолдау алу
-  href: 'https://dynamics.microsoft.com/en-us/support/'
+  href: 'https://dynamics.microsoft.com/support/'

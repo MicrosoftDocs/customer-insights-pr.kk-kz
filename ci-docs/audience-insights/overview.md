@@ -10,12 +10,12 @@ author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 15cc495359af1faefe32225ae490fd7e7b6b08cc7a411e0a9804da6ec704099c
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 925cb5c2ccb4279ae5db2eb927a356708d310360
+ms.sourcegitcommit: 048d65bded22abadcbbad1e22f15b05828bb977b
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7034367"
+ms.lasthandoff: 09/06/2021
+ms.locfileid: "7474064"
 ---
 # <a name="audience-insights-for-dynamics-365-customer-insights-overview"></a>Dynamics 365 Customer Insights үшін аудитория түсініктеріне шолу
 
@@ -57,11 +57,5 @@ ms.locfileid: "7034367"
 
   - Ұйымыңызға тиесілі тұтынушыңыздың 360 градустағы көрінісін алу үшін реттелетін профильдер құрыңыз, өлшемдерді анықтап, сегменттер жасаңыз және болжамды аналитика артықшылығына ие болыңыз.  
   - Пайдалы мәліметтерді өңдеу үшін бірнеше Microsoft және үшінші тарапты бағдарламалар немесе API интерфейстеріне арналған кірістірілген қосқыштарды пайдаланыңыз.
-
-## <a name="pricing-and-licensing"></a>Баға белгілеу және лицензиялау
-
-Customer Insights әр қатысушыға лицензияланған және көптеген мүмкіндіктерді қамтиды. Тиісті мүмкіндіктер профильдер жинағын, күнделікті жүйе жаңартуларын, Power Platform сұрауларын және екі ортаны қамтиды. Әдепкі квотаны арттыру үшін қосымша мүмкіндік пен лицензияны сатып алуға болады. 
-- Толық мүмкіндіктер мен құқықтар: [Dynamics 365 лицензиялау бойынша нұсқаулық](https://go.microsoft.com/fwlink/?LinkId=866544)
-- Бағаларға шолу: [Dynamics 365 бағалары](https://dynamics.microsoft.com/pricing/#CustomerDataPlatform)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

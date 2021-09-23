@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Dynamics 365 Customer Insights бағдарламасындағы өзара әрекеттестік түсініктері (алдын ала қарау нұсқасы) мүмкіндігі
+title: Dynamics 365 Customer Insights бағдарламасындағы өзара әрекеттестік туралы мәліметтер мүмкіндігі (алдын ала қарау нұсқасы)
 summary: Веб-сайттар деректерін жинаңыз. Тұтынушылармен өзара әрекеттесуді және оларды веб-сайттарда интерактивті түрде пайдалану туралы түсінік алыңыз. Нақты уақыттағы әрекеттік аналитиканы тұтынушы профильдері туралы есептермен жетілдіру үшін өзара әрекеттестік түсініктері мен аудитория түсініктері арасындағы терең интеграцияны пайдаланыңыз. Тиісті тұтынушы деректерімен қатар нақты уақыттағы әрекеттік деректерді алу үшін тұтынушы профильдерін веб-әрекеттермен жетілдіріңіз. Тұтынушы деректерінен жедел сапа көрсеткішін алу үшін бизнесіңізді өзгертіңіз.
 metadata:
   title: Өзара әрекеттестік туралы пайдалы мәліметтер (алдын ала қарау нұсқасы) құжаттамасы
@@ -10,24 +10,24 @@ metadata:
   author: m-hartmann
   ms.author: mhart
   ms.reviewer: mhart
-  ms.date: 07/30/2021
-  ms.openlocfilehash: 9951b1834d18acf0c4961a776d9d6247d4ae3505b5721a41314266e41f8ae928
-  ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+  ms.date: 09/15/2021
+  ms.openlocfilehash: bf2e40b1ca304e7b26687eaff298d2e70615cd2b
+  ms.sourcegitcommit: fecdee73e26816c42d39d160d4d5cfb6c8a91596
   ms.translationtype: HT
   ms.contentlocale: kk-KZ
-  ms.lasthandoff: 08/10/2021
-  ms.locfileid: "7036245"
+  ms.lasthandoff: 09/15/2021
+  ms.locfileid: "7494191"
 landingContent:
 - title: Қолданба туралы
   linkLists:
   - linkListType: overview
     links:
-    - text: Мүмкіндіктерге шолу
+    - text: Мүмкіндіктердің артықшылықтары
       url: overview.md
-    - text: Талаптар мен тұжырымдамалар
+    - text: Терминдер глоссарийі
       url: glossary.md
-    - text: Өзара әрекеттесу туралы пайдалы мәліметтерді анықтау
-      url: https://dynamics.microsoft.com/ai/customer-insights/engagement-insights-capability/
+    - text: Жаңа және жаңартылған мүмкіндіктер
+      url: /dynamics365-release-plan/2021wave1/customer-data-platform/engagement-insights/planned-features
 - title: Қарсы алу
   linkLists:
   - linkListType: how-to-guide
@@ -38,28 +38,30 @@ landingContent:
       url: create-workspace.md
     - text: Веб-сайтты жабдықтау
       url: instrument-website.md
-- title: Есептер
+- title: Есептерді көру және сүзгілеу
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Есептерді көру
       url: view-reports.md
-    - text: Реттелетін есептерді жасау
-      url: custom-reports.md
     - text: Біріктірілген профильдер есептерін қарау
       url: profile-reports.md
-    - text: Шұңғыма тәрізді кесте есептерін жасау
-      url: funnel-reports.md
-- title: Оқиғалар
+    - text: Есептерді сүзгілеу үшін аудитория сегменттерін пайдаланыңыз
+      url: integrate-audience-insights-segments.md
+- title: Талдау
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Шұңғыма тәрізді кесте есептерін жасау
+      url: funnel-reports.md
+    - text: Әрекет деректерін талдау
+      url: curate-dimensions.md
+    - text: Реттелетін есептерді жасау
+      url: custom-reports.md
     - text: Нақтыланған оқиғаларды жасау
       url: refined-events.md
     - text: Оқиғаларды экспорттау
       url: export-events.md
-    - text: Жеке деректерді жою және экспорттау
-      url: delete-export-personal-data.md
 - title: Әзірлеуші ресурстары
   linkLists:
   - linkListType: reference
@@ -81,6 +83,10 @@ landingContent:
     - text: Орталар мен жұмыс кеңістіктерін басқару
       url: manage-environments-workspaces.md
     - text: Аудитория туралы пайдалы мәліметтерге қосылу
-      url: configure-connections.md
+      url: integrate-audience-insights-engagement-insights.md
     - text: Cookies файлдарын және пайдаланушы келісімін басқару
       url: user-consent-storage.md
+    - text: Жеке деректерді жою және экспорттау
+      url: delete-export-personal-data.md
+    - text: Қызмет шектеулері
+      url: ../service-limits.md
