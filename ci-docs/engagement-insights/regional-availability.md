@@ -4,16 +4,16 @@ description: Қызмет орналастырылатын аймақтар ме
 author: mkisel11
 ms.reviewer: mhart
 ms.author: mkisel
-ms.date: 09/01/2021
+ms.date: 09/28/2021
 ms.service: customer-insights
 ms.topic: article
 ms.manager: shellyha
-ms.openlocfilehash: c89637cbbe6626f95bcadb1f69831a1647f448a4
-ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
+ms.openlocfilehash: d4ae7a085ba68c482372868e75376b6f769325d7
+ms.sourcegitcommit: ce2c011f06999dba2e886b8804d3439fbf67074d
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483304"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7564601"
 ---
 # <a name="regional-availability-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights арналған аймақтық қолжетімділік
 
@@ -23,7 +23,7 @@ ms.locfileid: "7483304"
 
 Өзара әрекеттестік туралы пайдалы мәліметтерді бірінші рет орнатқан кезде, [қадамдық алғашқы іске қосу тәжірибесі](quickstart.md) арқылы өткенде аймақты таңдауға болады. Кейінірек әрбір жаңа орта деректер сақталатын аймақты таңдауға мүмкіндік береді.
 
-Қазіргі уақытта екі географиялық аймақ бар: АҚШ пен Еуропа. Пайдаланушылар АҚШ-тың Батыс аймағы мен Солтүстік Еуропа аймағын таңдай алады.
+Қазіргі уақытта біз АҚШ пен Еуропаның географиялық орналасқан жерлерін қолдаймыз. Пайдаланушылар осы аймақтардың бірін таңдай алады: Батыс АҚШ, Шығыс АҚШ, Солтүстік Еуропа және Батыс Еуропа.
 
 Ұйым әртүрлі аймақтарда ортаны сақтай алады. Мысалы, А ортасы деректерді АҚШ -тың батысында, В ортасы Солтүстік Еуропада сақтайды.
 

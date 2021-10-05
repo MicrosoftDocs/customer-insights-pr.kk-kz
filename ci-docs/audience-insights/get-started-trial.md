@@ -10,12 +10,12 @@ author: MichelleDevaney
 ms.author: midevane
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: f038dedd369ac9e623146b66528efa87c47a8c23769037d8709fa9b804a0b723
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 3a235e924395a606b9332de3d205289288a597a9
+ms.sourcegitcommit: f1e3cc51ea4cf68210eaf0210ad6e14b15ac4fe8
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035422"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558830"
 ---
 # <a name="set-up-a-trial-environment"></a>Сынақ нұсқасының ортасын орнатыңыз 
 
@@ -95,7 +95,7 @@ Dynamics 365 Customer Insights сынақ нұсқасы негізгі мүмк
 
 - Сынақ нұсқалар әдепкі бойынша 30 күн бойы белсенді болады. Алайда, сіз сынақ нұсқасына кірген кезде оларды 23-ші күннен кейін ұзартуға болады.
 - Сынақ кезінде шығыс деректерді сақтау үшін өзіңіздің Azure Data Lake Storage сақтау орнының тіркелгісін пайдалана алмайсыз. Дегенмен, Data Lake сақтау тіркелгісінен деректерді қабылдай аласыз.
-- Dataverse ортасында Customer Insights сынақ данасын іске қосқан кезде автоматты түрде дайындалатын 3 ГБ дейінгі деректерді сақтай аласыз.
+- Customer Insights сынақ нұсқасын бастаған кезде, автоматты түрде қамтамасыз етілетін Dataverse ортасына 3 ГБ дейінгі деректерді сақтауға болады.
 
 ## <a name="copy-data-from-a-trial-to-a-paid-subscription"></a>Деректерді сынақ нұсқасынан ақылы жазылымға көшіру
 

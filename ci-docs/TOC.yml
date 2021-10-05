@@ -242,7 +242,7 @@
   items:
     - name: Анықтама орталығы
       href: engagement-insights/index.yml
-    - name: Мүмкіндіктерге шолу
+    - name: Өзара әрекеттестік бойынша түсініктер туралы ақпарат
       href: engagement-insights/overview.md
     - name: Бастау
       items:
@@ -306,7 +306,7 @@
           href: engagement-insights/user-consent-storage.md
     - name: Аймақтық қолжетімділік
       href: engagement-insights/regional-availability.md
-- name: Аудитория мен өзара әрекеттестік туралы пайдалы мәліметтерді біріктіру
+- name: Деректерді мүмкіндіктер арасында бөлісу
   items:
     - name: Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтерді байланыстыру
       href: engagement-insights/integrate-audience-insights-engagement-insights.md
@@ -318,5 +318,3 @@
   href: service-limits.md
 - name: DSR құқықтары мен сұраулары
   href: dsr-rights-requests.md
-- name: Қолдау алу
-  href: 'https://dynamics.microsoft.com/support/'
