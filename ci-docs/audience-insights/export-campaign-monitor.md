@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Campaign Monitor қызметіне экспорттау
 description: Campaign Monitor қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 03/03/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: d2cc3ec944faa1d77ffb44e8abb422d753c5625d0ccef75cbb7efb14cb7c3741
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 063de14c4ffd51b3afd89786606d7b37626695dc
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031894"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618988"
 ---
 # <a name="export-segments-to-campaign-monitor-preview"></a>Сегменттерді Campaign Monitor қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,10 +28,10 @@ ms.locfileid: "7031894"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Campaign Monitor қызметіне бір экспорттаған кезде 1 миллион профильді экспорттауға болады.
+- Campaign Monitor қызметіне бір экспорттағанда 1 миллион тұтынушы профилін экспорттауға болады.
 - Campaign Monitor қызметіне экспорттау сегменттермен шектеледі.
-- Campaign Monitor қызметіне 1 миллионға дейінгі профильді экспорттауды аяқтау 20 минутқа созылуы мүмкін. 
-- Campaign Monitor қызметіне экспорттауға болатын профильдер саны Campaign Monitor қызметімен келісімшартқа байланысты және шектеулі.
+- Campaign Monitor қызметіне 1 миллион тұтынушы профилін экспорттау 20 минутқа дейін созылуы мүмкін. 
+- Campaign Monitor қызметіне экспорттауға болатын тұтынушы профильдерінің саны Campaign Monitor қызметімен жасалған келісім-шартқа байланысты және шектеулі.
 
 ## <a name="set-up-connection-to-campaign-monitor"></a>Campaign Monitor қызметіне қосылым орнату
 
@@ -66,7 +66,7 @@ ms.locfileid: "7031894"
 1. [**Campaign Monitor тізімінің идентификаторын**](https://www.campaignmonitor.com/api/getting-started/#your-list-id) енгізіңіз.    
    API тізімінің идентификаторын көру үшін алдымен Campaign Monitor қызметіндегі **Тіркелгі параметрлері** өрісінен [API кілтін жасаңыз](https://www.campaignmonitor.com/api/getting-started/).  
 
-3. **Деректерді салыстыру** бөліміндегі **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. Бұл Campaign Monitor қызметіне сегменттерді экспорттау үшін қажет.
+1. **Деректерді сәйкестендіру** бөлімінде **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін өрісті таңдаңыз. Бұл Campaign Monitor қызметіне сегменттерді экспорттау үшін қажет.
 
 1. **Сақтау** опциясын таңдаңыз.
 

@@ -1,7 +1,7 @@
 ---
 title: Power Apps коннекторы
 description: Power Apps және Power Automate арқылы қосылу.
-ms.date: 01/19/2021
+ms.date: 10/01/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: Nils-2m
 ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: fc0af656cd5b436d9efd65b2a2c75dde9c9deb9dbcdd56ffc6a960f5878a631f
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 985e6c85795fba8ca3063cdffc7f9012e798856a
+ms.sourcegitcommit: 5d82e5b808517e0e99fdfdd7e4a4422a5b8ebd5c
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031802"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "7623230"
 ---
 # <a name="microsoft-power-apps-connector-preview"></a>Microsoft Power Apps қосқышы (алдын ала қарау)
 
@@ -30,48 +30,47 @@ Customer Insights көптеген [Power Apps бағдарламасында қ
 
 Customer Insights деректер қосылымы ретінде қосқаннан кейін, келесі нысандарды Power Apps бағдарламасында таңдауға болады:
 
-- Тұтынушы: [бірыңғай тұтынушы профилінің](customer-profiles.md) деректерін пайдалану.
-- Бірыңғай әрекет: бағдарламада [әрекеттің уақыт шкаласын](activities.md) көрсету.
+- **Тұтынушы**: [бірыңғай тұтынушы профилінің](customer-profiles.md) деректерін пайдалану үшін.
+- **UnifiedActivity** : бағдарламадағы [әрекеттің уақыт шкаласын](activities.md) көрсету үшін.
+- **ContactProfile**: тұтынушының контактілерін көрсету үшін. Бұл нысан бизнес тіркелгілеріне арналған аудитория туралы түсініктер орталарында ғана қолжетімді.
 
 ## <a name="limitations"></a>Шектеулер
 
 ### <a name="retrievable-entities"></a>Шығарып алуға болатын нысандар
 
-**Тұтынушы**, **Бірыңғай әрекет** және **Сегменттер** нысандарын тек Power Apps коннекторы арқылы шығарып ала аласыз. Басқа нысандар негізгі коннектор бұл нысандарды Power Automate ішіндегі триггерлер арқылы қолдайтындықтан көрсетіледі.  
+Power Apps қосқышы арқылы тек **Тұтынушы**, **UnifiedActivity**, **Сегменттер** және **ContactProfile** нысандарын ғана шығаруға болады. ContactProfile нысаны бизнес тіркелгілеріне арналған аудитория туралы түсініктер данасында ғана қолжетімді. Басқа нысандар негізгі коннектор бұл нысандарды Power Automate ішіндегі триггерлер арқылы қолдайтындықтан көрсетіледі.
 
 ### <a name="delegation"></a>Өкіл
 
-Өкілеттеу «Тұтынушы» нысаны мен «Бірыңғай әрекет нысаны» үшін жұмыс істейді. 
+**Тұтынушы** нысаны және **UnifiedActivity** нысаны үшін жұмысты өкілеттеу. 
 
 - **Тұтынушы** нысанына арналған өкілеттік: осы нысан үшін өкілеттікті пайдалану үшін өрістерді [Іздеу және сүзгілеу индексі](search-filter-index.md) жүйесінде индекстеу керек.  
-
 - **Бірыңғай әрекет** үшін өкілеттеу: бұл нысан үшін өкілеттеу тек **Әрекет идентификаторы** және **Тұтынушы идентификаторы** өрістері үшін жұмыс істейді.  
+- **ContactProfile** нысаны үшін өкілеттеу: бұл нысан үшін өкілеттеу тек **ContactId** және **CustomerId** өрістері үшін ғана жұмыс істейді. ContactProfile нысаны бизнес тіркелгілеріне арналған аудитория туралы түсініктер орталарында ғана қолжетімді.
 
-- Өкілеттеу туралы қосымша ақпаратты [Power Apps өкілеттеуге болатын функциялары мен әрекеттері](/connectors/commondataservice/#power-apps-delegable-functions-and-operations-for-the-cds-for-apps) бөлімінен қараңыз. 
+Өкілеттеу туралы қосымша ақпарат алу үшін [Power Apps өкілетті функциялары мен операциялары](/powerapps/maker/canvas-apps/delegation-overview) бөліміне өтіңіз. 
 
 ## <a name="example-gallery-control"></a>Галереяны басқару мысалы
 
-Мысалы, тұтынушы профильдерін [галереяны басқару элементіне](/powerapps/maker/canvas-apps/add-gallery) қосасыз.
+Тұтынушы профильдерін [галерея басқару элементіне](/powerapps/maker/canvas-apps/add-gallery) қосуға болады.
 
-1. Құрылатын бағдарламаға **Галерея** басқару құралын қосыңыз.
-
-> [!div class="mx-imgBorder"]
-> ![Галерея элементін қосыңыз.](media/connector-powerapps9.png "Галерея элементін қосу")
-
-1. **Тұтынушы** параметрін элементтердің деректер көзі ретінде таңдаңыз.
+1. Жасап жатқан бағдарламаға **галерея** басқару элементін қосыңыз.
 
     > [!div class="mx-imgBorder"]
-    > ![Деректер көзін таңдаңыз.](media/choose-datasource-powerapps.png "Деректер көзін таңдау")
+    > ![Галерея элементін қосыңыз.](media/connector-powerapps9.png "Галерея элементін қосыңыз.")
 
-1. Галереяда көрсетілетін Тұтынушы нысаны өрісін таңдау үшін оң жақта деректер тақтасын өзгерте аласыз.
+2. **Тұтынушы** параметрін элементтердің деректер көзі ретінде таңдаңыз.
 
-1. Галереяда таңдалған тұтынушыдан кез келген өрісті көрсету керек болса, белгінің мәтін сипатын толтырыңыз:  **{Name_of_the_gallery}.Selected.{property_name}**
+    > [!div class="mx-imgBorder"]
+    > ![Деректер көзін таңдаңыз.](media/choose-datasource-powerapps.png "Деректер көзін таңдаңыз.")
 
-    Мысалы: Gallery1.Selected.address1_city
+3. Галереяда көрсетілетін Тұтынушы нысаны өрісін таңдау үшін оң жақта деректер тақтасын өзгерте аласыз.
 
-1. Тұтынушының бірыңғай уақыт шкаласын көрсету үшін галерея элементін қосып, элементтер сипатын қосыңыз: **Filter('UnifiedActivity', CustomerId = {Customer_Id})**
+4. Галереяда таңдалған тұтынушыдан кез келген өрісті көрсету керек болса, **{Name_of_the_gallery}.Selected.{property_name}** параметрін пайдалану арқылы белгінің **мәтін** сипатын толтырыңыз  
+    - Мысалы: _Gallery1.Selected.address1_city_
 
-    Мысалы: Filter('UnifiedActivity', CustomerId = Gallery1.Selected.CustomerId)
+5. Тұтынушының бірыңғай уақыт шкаласын көрсету үшін галерея элементін қосып, **Filter('UnifiedActivity', CustomerId = {Customer_Id})** параметрін пайдалану арқылы **Элементтер** сипатын қосыңыз  
+    - Мысалы: _Filter('UnifiedActivity', CustomerId = Gallery1.Selected.CustomerId)_
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

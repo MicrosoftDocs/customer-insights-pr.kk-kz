@@ -1,7 +1,7 @@
 ---
 title: Аудитория мәліметтеріндегі басты бет
 description: Басты беттегі бағдарламаны зерттеуді бастау.
-ms.date: 08/26/2021
+ms.date: 09/30/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 55c0313d1dbf7fb6774c058a6784cf02821d9133
-ms.sourcegitcommit: b9a81c2acd42d774669d2db3d0430c7d81de991c
+ms.openlocfilehash: 4ab5497024cb15b103e96b0fc9a2e0739fd4691c
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "7469996"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617701"
 ---
 # <a name="explore-audience-insights"></a>Аудитория туралы пайдалы мәліметтерді зерттеу
 
@@ -23,7 +23,7 @@ ms.locfileid: "7469996"
 
 :::image type="content" source="media/home-page.png" alt-text="Үлгі түсініктері көрсетілген негізгі экран скриншоты.":::
 
-1 - Customer Insights мүмкіндіктері арасында ауысу 2 - Әртүрлі аймақтар арасында жылжу үшін сол жақ тақтаны пайдаланыңыз 3 - Қандай ортада жұмыс жасайтыныңызды білу және әкімші ретінде ортаны басқару 4 - Customer Insights үшін жеке параметрлерді көрсету
+1 - Customer Insights мүмкіндіктері арасында ауысу 2 - Әртүрлі аймақтар арасында шарлау және негізгі мақсатты аудиторияны таңдау үшін сол жақ тақтаны пайдалану 3 - Қандай ортада жұмыс жасайтыныңызды білу және ортаны әкімші ретінде басқару 4 - Customer Insights үшін жеке параметрлерді көрсету
 
 **Соңғы сегменттер** астында сіз анықтаған демографиялық, мінез-құлықтық немесе транзакциялық төлсипаттарға негізделген тұтынушылар топтарын көресіз. [Сегменттер жасау](segments.md) клиенттер базасын топтастыруға және бизнестік іс-әрекеттерді дұрыс бағыттауға көмектеседі.
 

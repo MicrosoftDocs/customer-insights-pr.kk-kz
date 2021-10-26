@@ -9,18 +9,18 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b96c7f580b4067e059e00a9cdb4e872e9acd4a5c
-ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
+ms.openlocfilehash: b901d799dbd73841a6ddbae754c4e4275f61146a
+ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483532"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645179"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure қызмет негізін пайдалану арқылы Azure Data Lake Storage тіркелгісіне қосылу
 
 Azure қызметтерін пайдаланатын автоматтандырылған құралдарда әрдайым шектеулі рұқсаттар болуы тиіс. Бағдарламалардың толық артықшылықты пайдаланушы ретінде кіруінің орнына, Azure субъект-қызметтерін ұсынады. Сақтау орнының тіркелгі кілттерінің орнына Azure қызмет негізін пайдалану арқылы Dynamics 365 Customer Insights қызметін Azure Data Lake Storage тіркелгісімен байланыстыру жолы туралы мәлімет алу үшін оқыңыз. 
 
-Қызмет негізін [Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу және өңдеу](connect-common-data-model.md) немесе [ортаны жасау және жаңарту](get-started-paid.md) үшін пайдалануға болады.
+Қызмет негізін [Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу және өңдеу](connect-common-data-model.md) немесе [ортаны жасау және жаңарту](create-environment.md) үшін пайдалануға болады.
 
 > [!IMPORTANT]
 > - Қызмет негізін пайдаланатын Data Lake Storage тіркелгісіне қосылған [иерархиялық аттар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.

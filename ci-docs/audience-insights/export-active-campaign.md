@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін ActiveCampaign қызметіне экспорттау
 description: ActiveCampaign қызметіне қосылымды және экспорттауды конфигурациялау жолы туралы ақпарат.
-ms.date: 06/29/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 14d420205a5c60d471ef21a04ab6d02295a65ca8fd5205ba782a300703b06102
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: 4fbdd5a51a3df35d31ad072eef64d20ee967d7ee
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032216"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618160"
 ---
 # <a name="export-segments-to-activecampaign-preview"></a>Сегменттерді ActiveCampaign қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,9 +28,9 @@ ms.locfileid: "7032216"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- ActiveCampaign қызметіне бір экспорттағанда 1 миллион профильді экспорттауға болады және оны аяқтау 90 минутқа созылуы мүмкін.
+- ActiveCampaign қызметіне бір экспорттағанда 1 миллион тұтынушы профилін экспорттауға болады және оны аяқтауға 90 минут кетуі мүмкін.
 - ActiveCampaign қызметіне экспорттау сегменттермен шектеледі.
-- ActiveCampaign қызметіне экспорттауға болатын профильдер саны ActiveCampaign қызметімен келісімшартқа байланысты.
+- ActiveCampaign қызметіне экспорттауға болатын тұтынушы профильдерінің саны ActiveCampaign қызметімен жасалған келісім-шартқа байланысты.
 
 ## <a name="set-up-connection-to-activecampaign"></a>ActiveCampaign қызметіне қосылым орнату
 
@@ -64,7 +64,7 @@ ms.locfileid: "7032216"
 
 1. [**ActiveCampaign тізім идентификаторын**](https://help.activecampaign.com/hc/articles/360000030559-How-to-create-a-list-in-ActiveCampaign) енгізіңіз.    
 
-3. **Деректерді салыстыру** бөліміндегі **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. Сегменттерді ActiveCampaign қызметіне экспорттау қажет. Таңдау бойынша жеке электронды хаттар жасау үшін аты, тегі және телефон өрістерін экспорттауға болады. Осы өрістерді салыстыру үшін Төлсипат қосу пәрменін таңдаңыз.
+1. **Деректерді сәйкестендіру** бөлімінде **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін өрісті таңдаңыз. Сегменттерді ActiveCampaign қызметіне экспорттау қажет. Таңдау бойынша жеке электронды хаттар жасау үшін аты, тегі және телефон өрістерін экспорттауға болады. Осы өрістерді салыстыру үшін Төлсипат қосу пәрменін таңдаңыз.
 
 1. **Сақтау** опциясын таңдаңыз.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: b67aa7477033222b0bc9512a962a1580edd973b4882ce925620ff5ec14f83fe3
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: fa1d4ffd9f77e128b5d804e4562e964561f4684f
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032719"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7618689"
 ---
 # <a name="enrich-customer-profiles-with-custom-data-preview"></a>Тұтынушы профилдерін реттелетін деректермен арттыру (алдын ала қарау)
 
@@ -44,6 +44,8 @@ SFTP реттелетін импортын конфигурациялау үші
 1.  **Келесі** түймешігін таңдаңыз және импорттау керек деректер файлының **Жол** және **Файл атауы** өрістерін енгізіңіз.
 
     :::image type="content" source="media/enrichment-SFTP-path-and-filename.png" alt-text="Деректердің орнын енгізу кезіндегі скриншот.":::
+
+1. **Келесі** түймешігін таңдаңыз және тұтынушы деректер жиынтығын таңдаңыз. Бұл барлық тұтынушы профилі немесе сегмент болуы мүмкін.
 
 1. **Келесі** түймешігін таңдаңыз және жақсарту атауын және шығыс ұйымның атауын көрсетіңіз. 
 
@@ -123,6 +125,6 @@ SFTP серверіне импортталатын файлды қамтитын
 
 ## <a name="next-steps"></a>Келесі қадамдар
 
-Толықтырылған тұтынушы деректерінің негізінде жасаңыз. Тұтынушыларға жеке тәжірибелер ұсыну үшін [сегменттер](segments.md) мен [өлшемдер](measures.md) жасаңыз және [деректерді экспорттаңыз](export-destinations.md).
+[!INCLUDE [next-steps-enrichment](../includes/next-steps-enrichment.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

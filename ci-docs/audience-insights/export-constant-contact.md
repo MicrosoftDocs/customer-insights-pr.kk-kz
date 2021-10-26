@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Constant Contact қызметіне экспорттау
 description: Constant Contact қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 03/22/2021
+ms.date: 10/08/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 30dfe4d6c2374ba9979827ea70a71c52a1334b45dd3e36ccb1de90fae0c61ad9
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: b25e4f11e21d059c2d867e925c0ae5635a87addc
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031848"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7619126"
 ---
 # <a name="export-segments-to-constant-contact-preview"></a>Сегменттерді Constant Contact қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,10 +28,10 @@ ms.locfileid: "7031848"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Constant Contact қызметіне бір экспорттаған кезде 1 миллион профильді экспорттауға болады.
+- Constant Contact қызметіне бір экспорттағанда 1 миллион тұтынушы профилін экспорттауға болады.
 - Constant Contact қызметіне экспорттау сегменттермен шектеледі.
-- Constant Contact қызметіне 1 миллионға дейінгі профильді экспорттауды аяқтау 1 сағатқа созылуы мүмкін. 
-- Constant Contact қызметіне экспорттауға болатын профильдер саны Constant Contact қызметімен келісімшартқа байланысты және шектеулі.
+- Constant Contact қызметіне 1 миллион тұтынушы профилін экспорттау 1 сағатқа дейін созылуы мүмкін. 
+- Constant Contact қызметіне экспорттауға болатын тұтынушы профильдерінің саны Constant Contact қызметімен жасалған келісім-шартқа байланысты және шектеулі.
 
 ## <a name="set-up-connection-to-constant-contact"></a>Constant Contact қызметіне қосылым орнату
 
@@ -65,7 +65,7 @@ ms.locfileid: "7031848"
 
 1. [**Constant Contact тізімінің идентификаторын**](https://app.constantcontact.com/pages/contacts/ui#lists) енгізіңіз. URL мекенжайындағы тізім идентификаторын табу үшін Constant Contact қызметіндегі тізімді ашыңыз.
 
-1. **Деректерді салыстыру** бөліміндегі **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. Бұл Constant Contact қызметіне сегменттерді экспорттау үшін қажет.
+1. **Деректерді сәйкестендіру** бөлімінде **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін өрісті таңдаңыз. Бұл Constant Contact қызметіне сегменттерді экспорттау үшін қажет.
 
 1. Сонымен қатар Аты және Тегі өрістерін қосымша жеке электрондық пошталар жасау үшін қосымша өрістер ретінде экспорттауға болады. Осы өрістерді салыстыру үшін **Төлсипат қосу** пәрменін таңдаңыз.
 

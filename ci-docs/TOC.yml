@@ -2,8 +2,14 @@
   href: index.yml
 - name: Өнімге шолу
   href: overview.md
-- name: Сынақ нұсқасын жасау
-  href: audience-insights/get-started-trial.md
+- name: Тегін сынақ нұсқасы
+  items:
+    - name: ' Тегін сынақ нұсқасына жазылу '
+      href: trial-signup.md
+    - name: Сынақ нұсқа ЖҚС
+      href: trial-FAQ.md
+- name: Ақылы лицензиямен бастау
+  href: paid-license.md
 - name: Ортаға кіріңіз
   href: 'https://home.ci.ai.dynamics.com/'
 - name: Аудитория туралы пайдалы мәліметтер
@@ -19,9 +25,11 @@
         - name: Жылдам іске қосу нұсқаулығы
           href: audience-insights/get-started.md
         - name: Жаңа орта жасау
-          href: audience-insights/get-started-paid.md
+          href: audience-insights/create-environment.md
         - name: Аудитория туралы пайдалы мәліметтерді зерттеу
           href: audience-insights/home.md
+    - name: Бизнес тіркелгілермен жұмыс істеу
+      href: audience-insights/work-with-business-accounts.md
     - name: Модульдер туралы мәліметтер алу
       items:
         - name: Деректерді қабылдау
@@ -66,6 +74,8 @@
           href: audience-insights/relationships.md
         - name: Тұтынушы әрекеттерінің тізімі
           href: audience-insights/activities.md
+        - name: Семантикалық салыстыруларды анықтау
+          href: audience-insights/semantic-mappings.md
     - name: Деректерді арттыру
       items:
         - name: Тұтынушы профильдерін арттыру
@@ -114,7 +124,7 @@
               href: audience-insights/predict-product-recommendation.md
             - name: Жазылымның бітуін болжау
               href: audience-insights/predict-subscription-churn.md
-            - name: Транзакциялық кетуді болжау
+            - name: Транзакция жылыстауын болжау
               href: audience-insights/predict-transactional-churn.md
             - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
               href: audience-insights/custom-models.md
@@ -126,7 +136,7 @@
               href: audience-insights/sample-guide-predict-clv.md
             - name: Жазылым бойынша тұтынушылардың кетуі болжамына арналған үлгі нұсқаулығы
               href: audience-insights/sample-guide-predict-subscription-churn.md
-            - name: Транзакциялық кету болжамына арналған үлгі нұсқаулығы
+            - name: Транзакция жылыстауы болжамының үлгі нұсқаулығы
               href: audience-insights/sample-guide-predict-transactional-churn.md
             - name: Өнім ұсынысының болжамы бойынша нұсқаулық үлгісі
               href: audience-insights/sample-guide-predict-product-recommendation.md
@@ -222,10 +232,14 @@
           href: audience-insights/connections.md
         - name: Бірнеше ортаны басқару
           href: audience-insights/manage-environments.md
-        - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
-          href: audience-insights/connect-service-principal.md
         - name: Қолдау көрсетілетін тілдер
           href: audience-insights/supported-languages.md
+        - name: Қауіпсіздік
+          items:
+            - name: Жеке Key Vault қызметін пайдалану
+              href: audience-insights/use-azure-key-vault.md
+            - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
+              href: audience-insights/connect-service-principal.md
     - name: Кеңейтімділік
       items:
         - name: Өзара әрекеттестік туралы мәліметтерден веб-деректерді біріктіру
@@ -248,6 +262,8 @@
       items:
         - name: Жылдам іске қосу нұсқаулығы
           href: engagement-insights/get-started.md
+        - name: Орта жасау
+          href: engagement-insights/create-new-environment.md
         - name: Жұмыс кеңістігін жасау
           href: engagement-insights/create-workspace.md
         - name: Веб‑сайттар мен мобильді бағдарламалардағы оқиғаларды түсіру

@@ -10,12 +10,12 @@ ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 75d597158233f75f0eb5f94389f9dba199d81719f2bbe4e5cc58d2a3afc7dcf8
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: de31e1f25c08d0bcb5341c5f465b1999de48acf3
+ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032857"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645362"
 ---
 # <a name="data-sources-overview"></a>Деректер көздеріне шолу
 
@@ -35,7 +35,7 @@ Dynamics 365 Customer Insights бағдарламасындағы аудитор
 
 ## <a name="add-data-from-on-premises-data-sources"></a>Жергілікті деректер көздерінен деректерді қосу
 
-Жергілікті деректер көздеріндегі деректерді аудитория туралы түсініктеріне енгізуге Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](get-started-paid.md) арқылы қосуға болады.
+Жергілікті деректер көздеріндегі деректерді аудитория туралы түсініктеріне енгізуге Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights бағдарламасында ортаны орнату кезінде [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](create-environment.md) арқылы қосуға болады.
 
 Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері әдепкі бойынша [Power Platform деректер ағындарын](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) пайдаланады. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. Dataverse ортасы [жергілікті деректер шлюздерін пайдалану](/data-integration/gateway/service-gateway-app) үшін байланыстырылғанға дейін болған деректер көздерін жойыңыз немесе қайта жасаңыз.
 

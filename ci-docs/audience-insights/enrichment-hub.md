@@ -1,7 +1,7 @@
 ---
 title: Тұтынушының бірыңғай профильдерін арттыру
 description: Тұтынушының деректерін арттыру үшін мүмкіндіктерді пайдаланыңыз.
-ms.date: 08/31/2021
+ms.date: 09/30/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 992c45e30e2dff00f5207290940b56b2fe1c08ad
-ms.sourcegitcommit: b9a81c2acd42d774669d2db3d0430c7d81de991c
+ms.openlocfilehash: 5d5e12ee44dfa40c470738eaee5c68fdf23d1b2d
+ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "7469997"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7617562"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -27,16 +27,26 @@ ms.locfileid: "7469997"
 
 Арттыруларды жасау немесе өңдеу үшін сізге үлескер немесе әкімші рұқсаттары қажет. Қосымша ақпаратты [Рұқсаттар](permissions.md) бөлімінен қараңыз.
 
-**Табу** қойыншасынан мына арттыруларды табасыз:
+**Анықтау** қойыншасында сіз барлық қолдау көрсетілетін арттыру опцияларын таба аласыз.
 
-- Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+# <a name="individual-customers-b2c"></a>[Жеке тұтынушылар (бизнес‑тұтынушы)](#tab/b2c)
+
 - Microsoft корпорациясы ұсынатын [брендтер](enrichment-microsoft.md)
 - Microsoft корпорациясы ұсынатын [қызығушылықтар](enrichment-microsoft.md)
-- Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md)
-- Leadspace қамтамасыз еткен [компания деректері](enrichment-leadspace.md)
+- Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
 - Experian компаниясы ұсынған [демографиялық деректер](enrichment-experian.md)
-- HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md)
-- Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md)
+- Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
+- Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+
+# <a name="business-accounts-b2b"></a>[Бизнес тіркелгілері (бизнес‑бизнес)](#tab/b2b)
+
+- Leadspace қамтамасыз еткен [компания деректері](enrichment-leadspace.md)
+- Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
+- HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md) 
+- Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
+- Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+
+---
 
 **Менің арттыруларым** қойыншасында сіз теңшеген арттыруларды көруге және сипаттарын өңдеуге болады.
 
@@ -58,7 +68,7 @@ ms.locfileid: "7469997"
 
 ## <a name="enrichments-and-connections"></a>Жақсартулар мен қосылымдар
 
-Үшінші тарап жақсартулары [қосылымдарды](connections.md) пайдалану арқылы конфигурацияланады, оны әкімші тіркелгі деректерімен орнатады және деректерді тасымалдауға келісім береді. Әкімшілер мен салымшылар қосылымды жақсартуларды конфигурациялау үшін пайдалана алады.  
+Үшінші тарап жақсартулары [қосылымдарды](connections.md) пайдалану арқылы конфигурацияланады, оны әкімші тіркелгі деректерімен орнатады және деректерді тасымалдауға келісім береді. Әкімшілер мен салымшылар қосылымдарды арттыруларды конфигурациялау үшін пайдалана алады.  
 
 ## <a name="multiple-enrichments-of-the-same-type"></a>Бір түрдегі бірнеше жақсарту
 
