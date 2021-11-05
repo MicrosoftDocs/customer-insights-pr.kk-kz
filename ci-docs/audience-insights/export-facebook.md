@@ -9,16 +9,18 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 4403c6f535f5dc60919be3717073d52640bbe61a
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: bb74e35799410b92b64e48e065b45efda82490ca
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7619218"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7672960"
 ---
 # <a name="export-segments-list-to-facebook-ads-manager-preview"></a>Сегменттер тізімін Facebook Ads Manager қызметіне экспорттау (алдын ала қарау нұсқасы)
 
 Facebook және Instagram желісінде науқандар жасау үшін Facebook жарнамалар менеджеріне біріккен тұтынушы профильдерінің сегменттерін экспорттаңыз.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO1aN]
 
 ## <a name="prerequisites-for-connection"></a>Қосылым алғышарттары
 

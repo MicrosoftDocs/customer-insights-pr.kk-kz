@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 5d5e12ee44dfa40c470738eaee5c68fdf23d1b2d
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: bc0128c222c032e8cfe35e6f3baa0ea722bce7cb
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7617562"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673006"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -29,7 +29,7 @@ ms.locfileid: "7617562"
 
 **Анықтау** қойыншасында сіз барлық қолдау көрсетілетін арттыру опцияларын таба аласыз.
 
-# <a name="individual-customers-b2c"></a>[Жеке тұтынушылар (бизнес‑тұтынушы)](#tab/b2c)
+# <a name="individual-consumers-b-to-c"></a>[Жеке тұтынушылар (бизнес тұтынушыға)](#tab/b2c)
 
 - Microsoft корпорациясы ұсынатын [брендтер](enrichment-microsoft.md)
 - Microsoft корпорациясы ұсынатын [қызығушылықтар](enrichment-microsoft.md)
@@ -38,7 +38,7 @@ ms.locfileid: "7617562"
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
 
-# <a name="business-accounts-b2b"></a>[Бизнес тіркелгілері (бизнес‑бизнес)](#tab/b2b)
+# <a name="business-accounts-b-to-b"></a>[Бизнес тіркелгілері (бизнес бизнеске)](#tab/b2b)
 
 - Leadspace қамтамасыз еткен [компания деректері](enrichment-leadspace.md)
 - Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 

@@ -9,12 +9,12 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: ce2fdd435a81bb04148057554c5958e3ab59f125
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
+ms.openlocfilehash: 2d977ef4eb585e26b36139681552db22d84759c9
+ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645133"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "7673740"
 ---
 # <a name="manage-environments"></a>Орталарды басқару
 
@@ -67,7 +67,8 @@ ms.locfileid: "7645133"
 
 - Тұтынушы профильдері.
 - Дереккөз деректемелері. Әрбір дереккөз деректемелерін қамтамасыз етесіз және дереккөздерді қолмен жаңартасыз.
-- Common Data Model қалтасындағы және Dataverse жүйесі арқылы басқарылатын Data Lake қызметіндегі деректер көздері. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
+
+- Common Data Model қалтасындағы деректер көздері және Dataverse басқаратын деректер көлі. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
 
 Ортаны көшірген кезде жаңа орта жасалған растау туралы хабарды көресіз. Дереккөздер тізімін көру үшін **Дереккөздерге өту** параметрін таңдаңыз.
 
