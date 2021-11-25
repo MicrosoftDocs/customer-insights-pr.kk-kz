@@ -1,7 +1,7 @@
 ---
 title: Көрсеткіштер құру және басқару
 description: Бизнесіңіздің өнімділігін талдау және көрсету үшін көрсеткіштерді анықтаңыз.
-ms.date: 09/30/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -9,12 +9,12 @@ author: m-hartmann
 ms.author: wameng
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: d77d1901fee4771537554c05d3963316d0fb37cb
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: f6be11bd97be71bc0c3a58eaee4d8ed45f535877
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673474"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732733"
 ---
 # <a name="define-and-manage-measures"></a>Көрсеткіштерді анықтау және басқару
 
@@ -238,8 +238,7 @@ ms.locfileid: "7673474"
 - Көрсеткішті **жойыңыз**.
 - **Белсендіру** немесе **Ажырату** түймешігін басыңыз. Белсенді емес көрсеткіштер [жоспарланған жаңарту](system.md#schedule-tab) барысында жаңартылмайды.
 
-> [!TIP]
-> Тапсырмалар/процестерге арналған [күйдің алты түрі](system.md#status-types) бар. Сонымен қатар көптеген процестер [басқа кезектегі процестерге тәуелді](system.md#refresh-policies). Бүкіл тапсырманың барысы туралы мәліметтерді көру үшін процестің күйін таңдай аласыз. Жұмыс тапсырмаларының бірі үшін **Мәліметтерді көру** түймешігін таңдағаннан кейін сіз қосымша ақпаратты таба аласыз: өңдеу уақыты, соңғы өңдеу күні және тапсырмаға байланысты барлық қателер мен ескертулер.
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="next-step"></a>Келесі қадам
 

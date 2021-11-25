@@ -1,7 +1,7 @@
 ---
 title: Тұтынушы профильдерін іздеу және сүзгілеу
 description: Бірыңғай тұтынушы профильдері туралы ақпаратты жылдам тауып, көрсетілген төлсипаттарды сүзгілеңіз.
-ms.date: 01/19/2021
+ms.date: 11/01/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,19 +9,20 @@ ms.topic: conceptual
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 9eaeb0c93481283324f21122c9528ff5896b9866
-ms.sourcegitcommit: b9a81c2acd42d774669d2db3d0430c7d81de991c
-ms.translationtype: HT
+ms.openlocfilehash: e17d745974958b73683f1f9406c5ae95f2cbcb3c
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "7469998"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732041"
 ---
 # <a name="customer-profiles-search--filter-index"></a>Тұтынушы профильдері: Іздеу және сүзгілеу индексі
 
 Тұтынушы деректерін біріктіру нәтижесі — жалпы тұтынушы негізіне бірыңғай көріністі қамтамасыз ететін Тұтынушы профилінің нысаны. [Белгілі бір тұтынушыны немесе тұтынушылар тобын](customer-profiles.md) жылдам табу үшін **Тұтынушылар** бетінде **Іздеу** және **Сүзгілеу** мүмкіндіктерін теңшей аласыз. Пайдаланушыларға іздеу және сүзгілеу үшін қолжетімді әкімшілердің **Іздеу және сүзгілеу индексі** бетінде төлсипаттарды өңдеу жолы туралы ақпаратты оқып шығыңыз.
 
-> [!div class="mx-imgBorder"]
-> ![Сүзгіні іздеу.](media/search-filter.png "Сүзгіні іздеу")
+   :::image type="content" source="media/search-filter.png" alt-text="Сүзгіні іздеу":::
+
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="add-fields-and-specify-attributes"></a>Өрістерді қосу және төлсипаттарды көрсету
 

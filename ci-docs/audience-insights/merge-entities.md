@@ -1,7 +1,7 @@
 ---
 title: Деректерді біріктіруде нысандарды біріктіру
 description: Тұтынушылардың бірыңғай профильдерін жасау үшін деректерді біріктіріңіз.
-ms.date: 10/10/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
@@ -11,12 +11,12 @@ ms.reviewer: mhart
 manager: shellyha
 searchScope:
 - ci-merge
-ms.openlocfilehash: 6b3002b21ea043315e50724ec103aef8a3ced98e
-ms.sourcegitcommit: 37182127b93b90846cc91fbeb26dd7a18cf5610a
-ms.translationtype: HT
+ms.openlocfilehash: c218f9c1a1b7711ee48419470bf6c352450ffc0c
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7648261"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732779"
 ---
 # <a name="merge-entities"></a>Нысандарды біріктіру
 
@@ -187,10 +187,9 @@ ms.locfileid: "7648261"
 
 Қосымша өзгертулер енгізу және қадамды қайта орындау үшін аяқталмаған біріктіруді болдырмауға болады. **Жаңартылуда ...** мәтінін таңдап, пайда болған бүйірлік тақтадағы **Тапсырмадан бас тарту** опциясын басыңыз.
 
-> [!TIP]
-> Біріктіру процесін іске қосқаннан кейін **Тапсырма мәліметтері** тақтасын ашу үшін процесс күйін таңдаңыз. Ол өңдеу уақыты, соңғы өңдеу күні және тапсырмаға байланысты барлық қателер мен ескертулер туралы шолу береді. Сәйкестендіру процесіне қандай нысандар қатысқанын, қайшылық шешімі табылғанын және жаңартулар сәтті жарияланғанын білу үшін **Толық мәліметтерді қарау** опциясын таңдаңыз.  
-> Тапсырмалар/процестерге арналған [күйдің алты түрі](system.md#status-types) бар. Сонымен қатар көптеген процестер [басқа кезектегі процестерге тәуелді](system.md#refresh-policies).  
-> :::image type="content" source="media/process-detail-path.png" alt-text="Тапсырма күйінің сілтемесінен толық мәліметтерді өңдеуге арналған зерттеу жолы.":::
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
+
+:::image type="content" source="media/process-detail-path.png" alt-text="Тапсырма күйінің сілтемесінен толық мәліметтерді өңдеуге арналған зерттеу жолы.":::
 
 ## <a name="next-step"></a>Келесі қадам
 

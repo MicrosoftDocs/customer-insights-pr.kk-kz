@@ -1,7 +1,7 @@
 ---
 title: Орталарды жасау және басқару
 description: Қызметке қалай тіркелуге болатынын және орталарды басқару әдісі туралы мәлімет алыңыз.
-ms.date: 10/14/2021
+ms.date: 11/12/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,12 +9,12 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 2d977ef4eb585e26b36139681552db22d84759c9
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: 65c6a68f550c2873ec30c6ac54f1752d880ce12c
+ms.sourcegitcommit: fb9f118b4e16b5aabb3e503463efca21718f5d72
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673740"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7799643"
 ---
 # <a name="manage-environments"></a>Орталарды басқару
 
@@ -39,6 +39,19 @@ ms.locfileid: "7673740"
 3. **Ортаны өңдеу** терезесінде орта параметрлерін жаңартуға болады.
 
 Орта параметрлері туралы қосымша ақпарат алу үшін [Жаңа орта жасау](create-environment.md) бөлімін қараңыз.
+
+## <a name="connect-to-microsoft-dataverse"></a>Microsoft Dataverse желісіне қосылыңыз
+   
+The **Microsoft Dataverse** қадам Customer Insights қолданбасын Dataverse ортасымен қосуға мүмкіндік береді.
+
+Қолдану [қораптан шыққан болжам үлгілері](predictions-overview.md#out-of-box-models), Dataverse көмегімен деректерді ортақ пайдалануды конфигурациялаңыз. Немесе ұйымыңыз басқаратын Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ете отырып, жергілікті деректер көздерінен деректерді қабылдауды қосуға болады. таңдаңыз **Деректерді ортақ пайдалануды қосыңыз** Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу.
+
+:::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse көмегімен деректерді ортақ пайдалануды қосу үшін конфигурация опциялары.":::
+
+> [!NOTE]
+> Customer Insights бағдарламасы келесі деректерді бөлісу сценарийлеріне қолдау көрсетпейді.
+> - Барлық деректерді өзіңіздің Azure Data Lake Storage файлыңызға сақтасаңыз, Dataverse басқаратын деректер көлімен деректерді ортақ пайдалануды қоса алмайсыз.
+> - Деректерді Dataverse арқылы бөлісуді қоссаңыз, мұны істей алмайсыз.[нысанда болжанған немесе жоқ мәндерді жасау](predictions.md).
 
 ## <a name="copy-the-environment-configuration"></a>Орта конфигурациясын көшіру
 
@@ -68,7 +81,7 @@ ms.locfileid: "7673740"
 - Тұтынушы профильдері.
 - Дереккөз деректемелері. Әрбір дереккөз деректемелерін қамтамасыз етесіз және дереккөздерді қолмен жаңартасыз.
 
-- Common Data Model қалтасындағы деректер көздері және Dataverse басқаратын деректер көлі. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
+- Common Data Model қалтасындағы деректер көздері және Dataverse басқарылатын деректер көлі. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
 
 Ортаны көшірген кезде жаңа орта жасалған растау туралы хабарды көресіз. Дереккөздер тізімін көру үшін **Дереккөздерге өту** параметрін таңдаңыз.
 

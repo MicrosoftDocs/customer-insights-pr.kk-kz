@@ -1,7 +1,7 @@
 ---
 title: Тұтынушы әрекеттері
 description: Тұтынушылардың әрекеттерін анықтаңыз және оларды тұтынушы профильдеріндегі уақыт кестесінде қараңыз.
-ms.date: 09/27/2021
+ms.date: 11/01/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.reviewer: mhart
@@ -9,16 +9,16 @@ ms.topic: conceptual
 author: CadeSanthaMSFT
 ms.author: cadesantha
 manager: shellyha
-ms.openlocfilehash: bcb8d42963719f5d225556c31b3fc06db8573e5b
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: c99ec2e7d5e4bf32a509bbe4c0c53999129b2305
+ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673145"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7732467"
 ---
 # <a name="customer-activities"></a>Тұтынушы әрекеттері
 
-Әрекеттерді хронологиялық түрде тізімдейтін уақыт шкаласын жасау үшін Dynamics 365 Customer Insights бағдарламасындағы [әртүрлі деректер көздеріндегі](data-sources.md) тұтынушы әрекеттерін біріктіріңіз. Dynamics 365 бағдарламаларындағы уақыт шкаласын [Тұтынушы картасының қондырмасы](customer-card-add-in.md) шешіміне немесе Power BI бақылау тақтасына қосыңыз.
+бастап тұтынушылардың әрекеттерін біріктіріңіз [әртүрлі деректер көздері](data-sources.md) әрекеттерді хронологиялық түрде тізімдейтін уақыт шкаласын жасау үшін Dynamics 365 Customer Insights ішінде. бар Dynamics 365 қолданбаларына уақыт шкаласын қосыңыз [Тұтынушы картасының қондырмасы](customer-card-add-in.md) шешім немесе Power BI бақылау тақтасында.
 
 ## <a name="define-an-activity"></a>Әрекетті анықтау
 
@@ -82,9 +82,7 @@ ms.locfileid: "7673145"
 
 1. **Әрекеттер** бетінде әрекетті өңдеу үшін **Іске қосу** түймешігін таңдаңыз. 
 
-> [!TIP]
-> Тапсырмалар/процестерге арналған [күйдің алты түрі](system.md#status-types) бар. Сонымен қатар, көптеген процестер [басқа кезектегі процестерге тәуелді](system.md#refresh-policies). Бүкіл тапсырманың барысы туралы мәліметтерді көру үшін процестің күйін таңдай аласыз. Бір жұмыс тапсырмаларының бірі үшін **Мәліметтерді көру** параметрін таңдағаннан кейін, қосымша ақпаратты көруге болады: өңдеу уақыты, соңғы өңделген күні және тапсырмаға қатысты барлық қателер мен ескертулер.
-
+[!INCLUDE [progress-details-include](../includes/progress-details-pane.md)]
 
 ## <a name="manage-existing-activities"></a>Бұрыннан бар әрекеттерді басқару
 

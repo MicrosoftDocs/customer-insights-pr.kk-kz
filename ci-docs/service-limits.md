@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Customer Insights жүйесіндегі қызмет шектері
+title: Dynamics 365 Customer Insights ішіндегі қызмет шектеулері
 description: Шектеулер мен шектерді түсіну.
 ms.date: 09/03/2021
 ms.service: customer-insights
@@ -9,12 +9,12 @@ author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eba7871faf304d5945191b5b9bc215243b4f8a05
-ms.sourcegitcommit: 5704002484cdf85ebbcf4e7e4fd12470fd8e259f
-ms.translationtype: HT
+ms.openlocfilehash: eb25e050b8aa768e6e1d8d4c5adce6095cccc346
+ms.sourcegitcommit: 31a9b531dacd3a6465b3030c704ff5c085b7e122
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483683"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7791988"
 ---
 # <a name="service-limits-in-customer-insights-capabilities"></a>Customer Insights мүмкіндіктеріндегі қызмет шектеулері
 
@@ -22,11 +22,11 @@ ms.locfileid: "7483683"
 
 ## <a name="audience-insights"></a>Аудитория туралы пайдалы мәліметтер
 
-### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights аудитория түсініктерінің мүмкіндігіндегі қызмет шектеулері
+### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights аудитория туралы түсініктер мүмкіндігіндегі қызмет шектеулері
 
 | Аумақ  | Шектеулер  | Ескертпелер |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| Сегменттер мен шаралар | 100 сегмент немесе шара. | Белсенді [сегменттер](audience-insights/segments.md) мен [шаралардың](audience-insights/measures.md) ортақ жалпы саны 100-ден аспауы керек.  |
+| Сегменттер, өлшемдер және болжамдар | 300  | Жалпы саны [сегменттер](audience-insights/segments.md),[шаралар](audience-insights/measures.md), және [болжамдар](audience-insights/predictions.md) біріктірілген 300-ден аспауы керек.  |
 | Қатынастар | Нысан жолдарындағы қатынастардың 20 тереңдік деңгейі. | Құрастырушы интерфейсін пайдаланып [сегменттер](audience-insights/segments.md) немесе [өлшеулер](audience-insights/measures.md) жасау кезінде нысан жолдарында бастапқы нысан мен мақсатты нысан арасында 20 қарым-қатынас секірісі болуы мүмкін.  |
 
 

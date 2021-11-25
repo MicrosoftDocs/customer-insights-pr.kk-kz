@@ -1,7 +1,7 @@
 ---
 title: Тұтынушының бірыңғай профильдерін арттыру
 description: Тұтынушының деректерін арттыру үшін мүмкіндіктерді пайдаланыңыз.
-ms.date: 09/30/2021
+ms.date: 11/05/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: bc0128c222c032e8cfe35e6f3baa0ea722bce7cb
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: de27da92118b83dafa0742b6a1e10ee315750c61
+ms.sourcegitcommit: 6efcba688d1db1a5d6343c229f292a26c48fc007
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673006"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7770131"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -34,7 +34,7 @@ ms.locfileid: "7673006"
 - Microsoft корпорациясы ұсынатын [брендтер](enrichment-microsoft.md)
 - Microsoft корпорациясы ұсынатын [қызығушылықтар](enrichment-microsoft.md)
 - Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
-- Experian компаниясы ұсынған [демографиялық деректер](enrichment-experian.md)
+- Experian қамтамасыз еткен [демография](enrichment-experian.md)
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
 
@@ -42,6 +42,7 @@ ms.locfileid: "7673006"
 
 - Leadspace қамтамасыз еткен [компания деректері](enrichment-leadspace.md)
 - Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
+- [Жетілдірілген компания деректері](enrichment-enhanced-company-data.md) Microsoft ұсынған
 - HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md) 
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
@@ -76,7 +77,7 @@ ms.locfileid: "7673006"
 
 ## <a name="see-the-progress-of-the-enrichment-process"></a>Жетілдіру процесінің барысын қараңыз
 
-Жаңарту кезінде немесе жаңарту аяқталғаннан кейін оның күйі мен ықтимал мәселелерді қосқанда, арттыруды өңдеу туралы мәліметтерді табуға болады. Арттыруды жаңарту үшін қандай процестер қамтылатынын және процестерді бастау үшін қанша уақыт қажет екенін түсініңіз. Арттыру күйіне Experian, Leadspace, HERE Technologies, SFTP Import және Azure Maps үшін қолдау көрсетіледі.
+Жаңарту кезінде немесе жаңарту аяқталғаннан кейін оның күйі мен ықтимал мәселелерді қосқанда, арттыруды өңдеу туралы мәліметтерді табуға болады. Арттыруды жаңарту үшін қандай процестер қамтылатынын және процестерді бастау үшін қанша уақыт қажет екенін түсініңіз. Байыту күйіне Experian, Leadspace, HERE Technologies, SFTP импорттау және Azure карталары үшін қолдау көрсетіледі.
 
 Арттыру күйін көру үшін
 
