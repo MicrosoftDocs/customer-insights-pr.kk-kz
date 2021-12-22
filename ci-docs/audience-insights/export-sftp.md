@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін SFTP хосттарына экспорттау
+title: Customer Insights деректерін SFTP хосттарына экспорттау (бейне)
 description: SFTP орны үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 03/03/2021
 ms.reviewer: mhart
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: a54025588945e4db6ab800dca034520b5f08d49b
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
+ms.openlocfilehash: 568e5826175417175bd09435d697031f0ab64223
+ms.sourcegitcommit: e141a6a34a985cca68f03082a700ed27f2f3c0c1
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673923"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927564"
 ---
 # <a name="export-segments-and-other-data-to-sftp-preview"></a>Сегменттерді және басқа деректерді SFTP қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,6 +28,7 @@ ms.locfileid: "7673923"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Брандмауэр артындағы SFTP тағайындауларына қазіргі уақытта қолдау көрсетілмейді. 
 - Экспорттаудың жұмыс уақыты жүйенің жұмысына байланысты. Сервердің минималды конфигурациясы ретінде екі CPU оперативті жады мен 1 Гб жадты ұсынамыз. 
 - 100 миллионға дейін тұтынушы профильдері бар нысандарды экспорттау процессордың екі оперативті жады мен 1 Гб жадының ұсынылған минималды конфигурациясын пайдалану кезінде 90 минутты алуы мүмкін. 
 

@@ -4,7 +4,7 @@
   href: overview.md
 - name: Тегін сынақ нұсқасы
   items:
-    - name: Тегін сынақ нұсқасына тіркелу
+    - name: ' Тегін сынақ нұсқасына жазылу '
       href: trial-signup.md
     - name: Сынақ нұсқа ЖҚС
       href: trial-FAQ.md
@@ -48,7 +48,7 @@
           href: audience-insights/connect-power-query.md
         - name: Common Data Model қалтасын деректер көзі ретінде қосу
           href: audience-insights/connect-common-data-model.md
-        - name: Dataverse басқарылатын деректер көлін қосыңыз
+        - name: Dataverse басқарылатын деректер көлін қосу
           href: audience-insights/connect-dataverse-managed-lake.md
         - name: Деректер көздерін кезеңдік жаңарту
           href: audience-insights/incremental-refresh-data-sources.md
@@ -84,7 +84,7 @@
           href: audience-insights/enrichment-microsoft.md
         - name: Жақсартылған мекенжайлар
           href: audience-insights/enrichment-enhanced-addresses.md
-        - name: Компания деректерін жақсарту
+        - name: Жақсартылған компания деректері
           href: audience-insights/enrichment-enhanced-company-data.md
         - name: Azure Maps жүйесімен жетілдіру
           href: audience-insights/enrichment-azure-maps.md
@@ -92,8 +92,10 @@
           href: audience-insights/enrichment-here.md
         - name: Leadspace көмегімен арттыру
           href: audience-insights/enrichment-leadspace.md
-        - name: Experian жүйесімен арттыру
+        - name: Experian қызметімен толықтыру
           href: audience-insights/enrichment-experian.md
+        - name: '-мен байытыңыз Office 365 деректер'
+          href: audience-insights/enrichment-office.md
         - name: SFTP реттемелі импорттау әдісі арқылы арттыру
           href: audience-insights/enrichment-SFTP-custom-import.md
     - name: Сегменттер
@@ -144,8 +146,6 @@
               href: audience-insights/sample-guide-predict-product-recommendation.md
             - name: Azure Machine learning қызметімен эксперименттер
               href: audience-insights/azure-machine-learning-experiments.md
-            - name: Azure Machine Learning студиосымен тәжірибелер
-              href: audience-insights/machine-learning-studio-experiments.md
         - name: Болжамдарды басқару
           href: audience-insights/manage-predictions.md
         - name: Болжамдар негізінде сегменттер жасау
@@ -166,11 +166,11 @@
               href: audience-insights/export-azure-blob-storage.md
             - name: Azure Data Lake Storage Gen2
               href: audience-insights/export-azure-data-lake-storage-gen2.md
-            - name: Azure Synapse Аналитика
+            - name: Azure Synapse Analytics
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
-            - name: Adobe Experience платформасы
+            - name: Adobe Experience Platform
               href: audience-insights/export-adobe-experience-platform.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
@@ -182,7 +182,7 @@
               href: audience-insights/export-dynamics365-marketing.md
             - name: Dynamics 365 Sales
               href: audience-insights/export-dynamics365-sales.md
-            - name: Facebook Жарнама менеджері
+            - name: Facebook жарнамалары жөніндегі менеджер
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
@@ -240,13 +240,15 @@
               href: audience-insights/use-azure-key-vault.md
             - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
               href: audience-insights/connect-service-principal.md
+            - name: Диагностикалық журналдарды экспорттау
+              href: audience-insights/diagnostics.md
     - name: Кеңейтімділік
       items:
         - name: Өзара әрекеттестік туралы мәліметтерден веб-деректерді біріктіру
           href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
           href: audience-insights/entity-schemas.md
-        - name: Dataverse ішіндегі Customer Insights деректері
+        - name: Dataverse жүйесіндегі Customer Insights деректері
           href: audience-insights/customer-insights-dataverse.md
         - name: API интерфейсімен жұмыс істеу
           href: audience-insights/apis.md

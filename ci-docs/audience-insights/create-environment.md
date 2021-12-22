@@ -1,7 +1,7 @@
 ---
 title: Customer Insights бағдарламасында орталар жасау
 description: Dynamics 365 Customer Insights бағдарламасы үшін лицензияланған жазылымы бар орта жасау қадамдары.
-ms.date: 10/14/2021
+ms.date: 12/06/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -10,12 +10,12 @@ author: MichelleDevaney
 ms.author: midevane
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 914af46d2d82f3556d149f2836680c902f826d50
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+ms.openlocfilehash: 4f26220f6ba7f5b5ae00c11216129f9ad814b77d
+ms.sourcegitcommit: 626d485dae1e001e63e4d4bf78f6770766822ba0
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673398"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892345"
 ---
 # <a name="create-an-environment-in-audience-insights"></a>Аудитория туралы түсініктерде орта жасау
 
@@ -77,6 +77,9 @@ Azure Data Lake Storage опциясы үшін ресурсқа негізде�
 **Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді.
 
 [Дайын болжам үлгілерін](predictions-overview.md#out-of-box-models) пайдалану үшін Dataverse жүйесімен деректер бөлісуді конфигурациялаңыз. Немесе сіздің ұйым басқаратын Microsoft Dataverse ортасының URL мекенжайын беру арқылы жергілікті деректер көздерінен деректер қабылдауды қосуға болады. Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу үшін **Деректер бөлісуді қосу** опциясын таңдаңыз.
+
+> [!IMPORTANT]
+> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалануды қосу үшін бір аймақта болуы керек.
 
 :::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse бағдарламасымен деректер бөлісуді қосуға арналған конфигурация опциялары.":::
 

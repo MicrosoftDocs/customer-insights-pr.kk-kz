@@ -1,7 +1,7 @@
 ---
 title: Power Query жүйесіне негізделген деректер көздерін қосымша жаңарту
 description: Power Query негізделген үлкен деректер көздеріне арналған жаңа және жаңартылған деректерді жаңартыңыз.
-ms.date: 09/28/2020
+ms.date: 12/06/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,14 +9,16 @@ ms.topic: how-to
 author: adkuppa
 ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: d204228f8d6881cbf0e7fac6609bf50dd5296610
-ms.sourcegitcommit: 42692a815695b9fdc93b9358eae09f2c3e97293c
-ms.translationtype: HT
+ms.openlocfilehash: f614d701aeb06720a60b14549a7fe666f8fe0617
+ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7377841"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900275"
 ---
 # <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Power Query негізіндегі деректер көздерін біртіндеп жаңарту
+
+Бұл мақалада Power Query негізіндегі деректер көздері үшін қосымша жаңартуды теңшеу жолы талқыланады.
 
 Деректер көздерін біртіндеп жаңарту келесі артықшылықтарға ие:
 
@@ -30,9 +32,9 @@ ms.locfileid: "7377841"
 
 1. [Power Query негізделген жаңа деректер көзін жасау](connect-power-query.md).
 
-1. Деректер көзіне ат беріңіз.
+1. А қамтамасыз етіңіз **Аты** деректер көзі үшін.
 
-1. Azure SQL дерекқоры сияқты кезеңдік жаңартуға қолдау көрсетілетін деректер көзін таңдаңыз.
+1. Қосымша жаңартуды қолдайтын деректер көзі таңдаңыз, мысалы, [Azure SQL дерекқоры](/power-query/connectors/azuresqldatabase).
 
 1. Қабылданатын нысандарды немесе кестелерді таңдаңыз.
 

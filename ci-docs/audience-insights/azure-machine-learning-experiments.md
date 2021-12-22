@@ -1,7 +1,7 @@
 ---
 title: Azure Machine Learning тәжірибелері
 description: Dynamics 365 Customer Insights бағдарламасындағы Azure Machine Learning негізіндегі үлгілерді пайдаланыңыз.
-ms.date: 11/30/2020
+ms.date: 12/02/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
@@ -9,16 +9,16 @@ author: naravill
 ms.author: naravill
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 4c04a1d08aba152ce91d452ae2300c1ce0fc79e5d6980ac506dc40d9914c9fca
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: e37eec503c9df83ef72497e22afa1266296e642c
+ms.sourcegitcommit: 58651d33e0a7d438a2587c9ceeaf7ff58ae3b648
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7033179"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881745"
 ---
 # <a name="use-azure-machine-learning-based-models"></a>Azure Machine Learning негізіндегі үлгілерді пайдаланыңыз
 
-Dynamics 365 Customer Insights бағдарламасындағы бірыңғай деректер қосымша бизнес түсініктерін қалыптастыра алатын компьютерлік оқыту модельдерін құрудың көзі болып табылады. Өз реттелетін үлгілеріңізі пайдалану үшін Customer Insights жүйесі Machine Learning Studio (классикалық) және Azure Machine Learning бағдарламаларымен бірігеді. Machine Learning Studio (классикалық) бағдарламасында құрылған тәжірибелер мысалдары үшін [Machine Learning Studio (классикалық) тәжірибелері](machine-learning-studio-experiments.md) бөлімін қараңыз. 
+Dynamics 365 Customer Insights бағдарламасындағы бірыңғай деректер қосымша бизнес түсініктерін қалыптастыра алатын компьютерлік оқыту модельдерін құрудың көзі болып табылады. Customer Insights теңшелмелі үлгілеріңізді пайдалану үшін Azure Machine Learning қызметімен бірігеді.
 
 ## <a name="prerequisites"></a>Алғышарттар
 
@@ -35,7 +35,7 @@ Dynamics 365 Customer Insights бағдарламасындағы бірыңға
 
 ## <a name="work-with-azure-machine-learning-designer"></a>Azure Machine Learning құрастырушысымен жұмыс істеңіз
 
-Azure Machine Learning құрастырушысы Machine Learning Studio (классикалық) жүйесіне ұқсас деректер жиынтығы мен модульдерін сүйреп апаратын көрнекі кенеп бағдарламасын ұсынады. Құрастырушыдан жасалған топтамалық үдерістер тізбегі егер олар сәйкесінше конфигурацияланған болса Customer Insights жүйесіне бірігуі мүмкін. 
+Azure компьютерлік оқыту дизайнері деректер жиындары мен модульдерді сүйреп апаруға болатын көрнекі кенепті ұсынады. Құрастырушыдан жасалған топтамалық үдерістер тізбегі егер олар сәйкесінше конфигурацияланған болса Customer Insights жүйесіне бірігуі мүмкін. 
    
 ## <a name="working-with-azure-machine-learning-sdk"></a>Azure Machine Learning SDK жүйесімен жұмыс істеу
 

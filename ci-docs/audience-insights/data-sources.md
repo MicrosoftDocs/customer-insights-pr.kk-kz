@@ -1,7 +1,7 @@
 ---
 title: Деректерді қабылдау үшін деректер көздерін пайдалану
 description: Деректерді әртүрлі көздерден импорттау әдісін үйреніңіз.
-ms.date: 11/01/2021
+ms.date: 12/06/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -10,36 +10,39 @@ ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: 27cbd0346b1219c7812f4b90327dd27b645c2b8e
-ms.sourcegitcommit: 834651b933b1e50e7557d44f926a3fb757c1f83a
+ms.openlocfilehash: 6846c73cb156aaa049e2656c8e327bcba1f73abc
+ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7732149"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900366"
 ---
 # <a name="data-sources-overview"></a>Деректер көздеріне шолу
 
 [!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Customer Insights ішіндегі аудиторияны түсіну мүмкіндігі кең көздерден алынған деректерге қосылады. Дерек көзіне қосылуды көбінесе *деректерді қабылдау* процесі деп атайды. Деректерді қабылдағаннан кейін, [біріктіру](data-unification.md) әрекетін жасауға және ол бойынша шаралар қабылдауға болады.
+Dynamics 365 Customer Insights бағдарламасындағы аудитория түсініктерінің мүмкіндігі дерек көздерінің кең жиынындағы деректерге байланысады. Дерек көзіне қосылуды көбінесе *деректерді қабылдау* процесі деп атайды. Деректерді қабылдағаннан кейін, [біріктіру](data-unification.md) әрекетін жасауға және ол бойынша шаралар қабылдауға болады.
 
 ## <a name="add-a-data-source"></a>Деректер көзін қосу
 
-Таңдаған опцияға байланысты деректер көзін қосу әдісі туралы егжей-тегжейлі мақалаларды қараңыз.
+Таңдалған опцияға байланысты деректер көзі қосу жолы туралы егжей-тегжейлі мақалаларды қараңыз.
 
-Деректер көзін үш негізгі жолмен қосуға болады:
+Келесі деректер көздерін қосуға болады:
 
-- [Ондаған Power Query қосқыштары арқылы](connect-power-query.md)
-- [Common Data Model қалтасынан](connect-common-data-model.md)
-- [Өзіңіздің Microsoft Dataverse көліңізден](connect-dataverse-managed-lake.md)
+- [Power Query қосқыштары](connect-power-query.md)
+- [Common Data Model](connect-common-data-model.md)
+- [Microsoft Dataverse көл](connect-dataverse-managed-lake.md)
+
+> [!NOTE]
+> Сынақ нұсқасын пайдаланып жатсаңыз, импорттау әдістері бөлімінде мыналар бар **Customer Insights деректер кітапханасы** опция. Әртүрлі салалар үшін қол жетімді үлгі деректер жиынын таңдау үшін осы опцияны таңдаңыз. Қосымша ақпаратты қараңыз [Dynamics 365 Customer Insights сот](../trial-signup.md).
 
 ## <a name="add-data-from-on-premises-data-sources"></a>Жергілікті деректер көздерінен деректерді қосу
 
-Аудитория туралы түсініктердегі жергілікті деректер көздерінен деректерді қабылдауға Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Деректер ағындарын Customer Insights арқылы қосуға болады [Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ету](create-environment.md) ортаны орнату кезінде.
+Жергілікті деректер көздеріндегі деректерді аудитория туралы түсініктеріне енгізуге Microsoft Power Platform деректер ағындары негізінде қолдау көрсетіледі. Customer Insights арқылы деректер ағындарын қосуға болады [қамтамасыз ету Microsoft Dataverse орта URL](create-environment.md) ортаны орнату кезінде.
 
-Dataverse ортасын Customer Insights бағдарламасымен байланыстырғаннан кейін жасалған деректер көздері пайдаланылады [Power Platform деректер ағындары](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) әдепкі бойынша. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. Dataverse ортасымен байланыстырылғанға дейін бар деректер көздерін жойыңыз және қайта жасаңыз [жергілікті деректер шлюздерін пайдаланыңыз](/data-integration/gateway/service-gateway-app).
+Байланыстырғаннан кейін жасалған деректер көздері a Dataverse Customer Insights пайдаланатын орта [Power Platform деректер ағындары](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) әдепкі бойынша. Деректер ағындары деректер шлюзін пайдалану арқылы жергілікті байланысқа қолдау көрсетеді. A дейін бар деректер көздерін жоюға және қайта жасауға болады Dataverse ортамен байланысты болды [жергілікті деректер шлюздерін пайдалану](/data-integration/gateway/service-gateway-app).
 
-Бар Power BI немесе Power Apps ортасының деректер шлюздері көрінеді және сіз Customer Insights бағдарламасында қайта пайдалана аласыз. Деректер көздері беті жергілікті деректер шлюздерін көруге және конфигурациялауға болатын Microsoft Power Platform ортасына өту сілтемелерін көрсетеді.
+Бұрыннан бар Power BI немесе Power Apps ортасындағы деректер шлюздері көрінеді және оларды Customer Insights бағдарламасында қайта пайдалануға болады. Деректер көздері бетінде Microsoft Power Platform ортасына өтетін сілтемелер көрсетіледі, онда сіз жергілікті деректер шлюздерін көріп және конфигурациялай аласыз.
 
 ## <a name="review-ingested-data"></a>Қабылданған деректерді қарап шығу
 

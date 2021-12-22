@@ -10,12 +10,12 @@ author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: de27da92118b83dafa0742b6a1e10ee315750c61
-ms.sourcegitcommit: 6efcba688d1db1a5d6343c229f292a26c48fc007
+ms.openlocfilehash: e44e973bf7713ed5c31dfb9849419decd4ad1c78
+ms.sourcegitcommit: 48d799535fad84e8b63c80aef48b5c5e87628f58
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7770131"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7884223"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -34,7 +34,7 @@ ms.locfileid: "7770131"
 - Microsoft корпорациясы ұсынатын [брендтер](enrichment-microsoft.md)
 - Microsoft корпорациясы ұсынатын [қызығушылықтар](enrichment-microsoft.md)
 - Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
-- Experian қамтамасыз еткен [демография](enrichment-experian.md)
+- Experian компаниясы ұсынған [демографиялық деректер](enrichment-experian.md)
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
 
@@ -46,6 +46,7 @@ ms.locfileid: "7770131"
 - HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md) 
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+- [Есептік жазбаны тарту деректері](enrichment-office.md) Microsoft ұсынған
 
 ---
 
@@ -77,7 +78,7 @@ ms.locfileid: "7770131"
 
 ## <a name="see-the-progress-of-the-enrichment-process"></a>Жетілдіру процесінің барысын қараңыз
 
-Жаңарту кезінде немесе жаңарту аяқталғаннан кейін оның күйі мен ықтимал мәселелерді қосқанда, арттыруды өңдеу туралы мәліметтерді табуға болады. Арттыруды жаңарту үшін қандай процестер қамтылатынын және процестерді бастау үшін қанша уақыт қажет екенін түсініңіз. Байыту күйіне Experian, Leadspace, HERE Technologies, SFTP импорттау және Azure карталары үшін қолдау көрсетіледі.
+Жаңарту кезінде немесе жаңарту аяқталғаннан кейін оның күйі мен ықтимал мәселелерді қосқанда, арттыруды өңдеу туралы мәліметтерді табуға болады. Арттыруды жаңарту үшін қандай процестер қамтылатынын және процестерді бастау үшін қанша уақыт қажет екенін түсініңіз. Арттыру күйіне Experian, Leadspace, HERE Technologies, SFTP Import және Azure Maps үшін қолдау көрсетіледі.
 
 Арттыру күйін көру үшін
 

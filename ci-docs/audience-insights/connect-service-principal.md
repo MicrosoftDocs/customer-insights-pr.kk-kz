@@ -1,7 +1,7 @@
 ---
 title: Қызмет негізін пайдалану арқылы Azure Data Lake Storage тіркелгісіне қосылу
 description: Жеке деректер көліне қосылу үшін Azure қызмет негізін пайдаланыңыз.
-ms.date: 09/08/2021
+ms.date: 12/06/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,26 +9,26 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: b901d799dbd73841a6ddbae754c4e4275f61146a
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+ms.openlocfilehash: faef3583337fd495e7baf40b0a208f1d9f10281a
+ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645179"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900265"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure қызмет негізін пайдалану арқылы Azure Data Lake Storage тіркелгісіне қосылу
 
-Azure қызметтерін пайдаланатын автоматтандырылған құралдарда әрдайым шектеулі рұқсаттар болуы тиіс. Бағдарламалардың толық артықшылықты пайдаланушы ретінде кіруінің орнына, Azure субъект-қызметтерін ұсынады. Сақтау орнының тіркелгі кілттерінің орнына Azure қызмет негізін пайдалану арқылы Dynamics 365 Customer Insights қызметін Azure Data Lake Storage тіркелгісімен байланыстыру жолы туралы мәлімет алу үшін оқыңыз. 
+Бұл мақалада қосылу жолы қарастырылады Dynamics 365 Customer Insights а Azure Data Lake Storage тіркелгіні сақтау тіркелгі кілттерінің орнына Azure қызмет көрсетушісін пайдалану арқылы. 
 
-Қызмет негізін [Common Data Model қалтасын деректер көзі ретінде қауіпсіз түрде қосу және өңдеу](connect-common-data-model.md) немесе [ортаны жасау және жаңарту](create-environment.md) үшін пайдалануға болады.
+Azure қызметтерін пайдаланатын автоматтандырылған құралдарда әрдайым шектеулі рұқсаттар болуы тиіс. Бағдарламалардың толық артықшылықты пайдаланушы ретінде кіруінің орнына, Azure субъект-қызметтерін ұсынады. Қауіпсіз болу үшін қызмет жетекшілерін пайдалануға болады [Жалпы деректер үлгісі қалтасын деректер көзі ретінде қосыңыз немесе өңдеңіз](connect-common-data-model.md) немесе [ортаны жасау немесе жаңарту](create-environment.md).
 
 > [!IMPORTANT]
 > - Қызмет негізін пайдаланатын Data Lake Storage тіркелгісіне қосылған [иерархиялық аттар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.
-> - Субъект-қызметін жасау үшін Azure жазылымына арналған әкімші рұқсаттары қажет.
+> - Қызмет басшысын жасау үшін сізге Azure жазылымына әкімші рұқсаттары қажет.
 
 ## <a name="create-an-azure-service-principal-for-customer-insights"></a>Customer Insights үшін Azure қызмет негізін жасау
 
-Аудитория туралы пайдалы мәліметтер немесе өзара әрекеттестік туралы пайдалы мәліметтер үшін жаңа қызмет негізін жасамас бұрын оның ұйымда бар екендігін тексеріңіз.
+Customer Insights үшін жаңа қызмет негізін жасамас бұрын, оның ұйымыңызда бұрыннан бар-жоғын тексеріңіз.
 
 ### <a name="look-for-an-existing-service-principal"></a>Бар субъект-қызметін іздеңіз
 

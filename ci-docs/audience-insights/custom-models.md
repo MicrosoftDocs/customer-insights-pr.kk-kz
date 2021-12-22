@@ -1,7 +1,7 @@
 ---
 title: Реттелетін компьютерлік оқыту үлгілері | Microsoft Docs
 description: Dynamics 365 Customer Insights бағдарламасында Azure Machine Learning қызметінен реттелетін үлгілермен жұмыс жасаңыз.
-ms.date: 03/22/2021
+ms.date: 12/01/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,14 +9,20 @@ ms.topic: tutorial
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 187995cdf4d92a0609f8abb4c792e698ad4342cdb1f578744136add1bfcf3a53
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: 47e2e5109ef8f21a782f6c8f87088009f8a40fdf
+ms.sourcegitcommit: 58651d33e0a7d438a2587c9ceeaf7ff58ae3b648
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7032949"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881791"
 ---
 # <a name="custom-machine-learning-models"></a>Реттелетін компьютерлік оқыту үлгілері
+
+> [!NOTE]
+> компьютерлік оқыту Studio (классикалық) қолдауы 2024 жылдың 31 тамызында аяқталады. өтуге кеңес береміз [Azure компьютерлік оқыту](/azure/machine-learning/overview-what-is-azure-machine-learning) сол күнге.
+>
+> 2021 жылдың 1 желтоқсанынан бастап жаңа компьютерлік оқыту Studio (классикалық) ресурстарын жасай алмайсыз. 2024 жылдың 31 тамызына дейін бар компьютерлік оқыту Studio (классикалық) ресурстарын пайдалануды жалғастыра аласыз. Қосымша ақпаратты қараңыз [Azure компьютерлік оқыту жүйесіне көшіріңіз](/azure/machine-learning/migrate-overview).
+
 
 **Сараптау** > **Реттелетін үлгілер** тармағы Azure Machine Learning үлгілеріне байланысты жұмыс ағындарын басқаруға мүмкіндік береді. Жұмыс ағындары сізге түсініктер құруға болатын деректерді таңдауға және нәтижелерді тұтынушының бірыңғай деректерімен салыстыруға көмектеседі. Реттелетін ML үлгілерін құру туралы қосымша ақпаратты [Azure Machine Learning бағдарламасына негізделген үлгілерді пайдалану](azure-machine-learning-experiments.md) бөлімінен қараңыз.
 
@@ -26,7 +32,7 @@ ms.locfileid: "7032949"
 
 ## <a name="prerequisites"></a>Алғышарттар
 
-- Қазіргі уақытта бұл функция [Machine Learning Studio (классикалық)](https://studio.azureml.net) және [ Azure Machine Learning топтамалық құбырлары ](/azure/machine-learning/concept-ml-pipelines) арқылы жарияланған веб-қызметтерді қолдайды.
+- Бұл мүмкіндік арқылы жарияланған веб-қызметтерді қолдайды [Azure компьютерлік оқыту пакеттік құбыржолдары](/azure/machine-learning/concept-ml-pipelines).
 
 - Бұл мүмкіндікті пайдалану үшін сізге Azure Studio данасымен байланысты Azure Data Lake Gen2 сақтау орны тіркелгісі қажет. Қосымша ақпарат алу үшін [Azure Data Lake Storage Gen2 сақтау орны тіркелгісін жасау](/azure/storage/blobs/data-lake-storage-quickstart-create-account) бөлімін қараңыз.
 
@@ -48,11 +54,10 @@ ms.locfileid: "7032949"
 
 1. Azure Machine Learning жазылымы Customer Insights бағдарламасынан өзге қатысушыда болса, таңдалған ұйымның деректемелерімен **Жүйеге кіру** параметрін таңдаңыз.
 
-1. Веб-қызметіңізбен байланысты **Жұмыс кеңістіктері** пәрменін таңдаңыз. Берілген екі бөлім бар, олардың бірі Azure Machine Learning v1 (Machine Learning Studio (классикалық)) және Azure Machine Learning v2 (Azure Machine Learning). Егер сіз Machine Learning Studio (классикалық) веб-қызметі үшін қай жұмыс кеңістігінің дұрыс екеніне сенімді болмасаңыз, **Кез келген** пәрменін таңдаңыз.
+1. Веб-қызметіңізбен байланысты **Жұмыс кеңістіктері** пәрменін таңдаңыз. 
 
-1. **Үлгіңізді қамтитын веб-қызмет** ашылмалы тізімінен Machine Learning Studio (классикалық) веб-қызметін немесе Azure Machine Learning үрдістер тізбегін таңдаңыз. Содан кейін **Келесі** түймешігін таңдаңыз.
-   - [Machine Learning Studio (классикалық) бағдарламасында веб-қызметті жариялау](/azure/machine-learning/studio/deploy-a-machine-learning-web-service#deploy-it-as-a-new-web-service) туралы қосымша ақпарат
-   - [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
+1. ішінде Azure компьютерлік оқыту құбырын таңдаңыз **Үлгіңізді қамтитын веб-қызмет** түсіп қалу. Содан кейін **Келесі** түймешігін таңдаңыз.    
+   [Azure Machine Learning бағдарламасындағы үрдістер тізбегін құрастырушы көмегімен жариялау](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-designer) немесе [SDK](/azure/machine-learning/concept-ml-pipelines#building-pipelines-with-the-python-sdk) туралы қосымша ақпарат. Үрдістер тізбегі [үрдістер тізбегінің соңғы нүктесі](/azure/machine-learning/how-to-run-batch-predictions-designer#submit-a-pipeline-run) астында жариялануы тиіс.
 
 1. Әр **Веб-қызмет кірісі** үшін аудитория түсініктерінен сәйкес **Нысан** опциясын таңдап, **Келесі** пәрменін басыңыз.
    > [!NOTE]
@@ -62,9 +67,6 @@ ms.locfileid: "7032949"
    > ![Жұмыс ағынын конфигурациялау.](media/intelligence-screen2-updated.png "Жұмыс ағынын конфигурациялау")
 
 1. **Үлгі шығысының параметрлері** қадамында келесі сипаттарды орнатыңыз:
-   - Machine Learning Studio (классикалық)
-      1. Веб-қызметтің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
-   - Azure Machine Learning
       1. Үрдістер тізбегінің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
       1. Ашылмалы тізімнен топтама үрдістер тізбегінің **Шығыс деректер қоймасы параметрінің атауы** пәрменін таңдаңыз.
       1. Ашылмалы тізімнен топтама үрдістер тізбегінің **Шығыс жолы параметрінің атауы** пәрменін таңдаңыз.
@@ -93,9 +95,6 @@ ms.locfileid: "7032949"
 1. Әр **Веб қызметтің кірісі** үшін аудитория түсініктерінен сәйкес **Нысан** опциясын жаңарта аласыз. Содан кейін **Келесі** түймешігін таңдаңыз.
 
 1. **Үлгі шығысының параметрлері** қадамында келесі сипаттарды орнатыңыз:
-   - Machine Learning Studio (классикалық)
-      1. Веб-қызметтің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
-   - Azure Machine Learning
       1. Үрдістер тізбегінің шығыс нәтижелері кіретін шығыс **Нысан атауын** енгізіңіз.
       1. Сынақ үрдістер тізбегі үшін **Шығыс деректер қоймасы параметрінің атауын** таңдаңыз.
       1. Сынақ үрдістер тізбегі үшін **Шығыс жолы параметрінің атауын** таңдаңыз.

@@ -1,7 +1,7 @@
 ---
 title: Орталарды жасау және басқару
 description: Қызметке қалай тіркелуге болатынын және орталарды басқару әдісі туралы мәлімет алыңыз.
-ms.date: 11/12/2021
+ms.date: 12/06/2021
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,12 +9,12 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 65c6a68f550c2873ec30c6ac54f1752d880ce12c
-ms.sourcegitcommit: fb9f118b4e16b5aabb3e503463efca21718f5d72
+ms.openlocfilehash: 309b2a900e50727ffa655fc6b5fe728ea55ba5bf
+ms.sourcegitcommit: 626d485dae1e001e63e4d4bf78f6770766822ba0
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7799643"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892391"
 ---
 # <a name="manage-environments"></a>Орталарды басқару
 
@@ -40,18 +40,21 @@ ms.locfileid: "7799643"
 
 Орта параметрлері туралы қосымша ақпарат алу үшін [Жаңа орта жасау](create-environment.md) бөлімін қараңыз.
 
-## <a name="connect-to-microsoft-dataverse"></a>Microsoft Dataverse желісіне қосылыңыз
+## <a name="connect-to-microsoft-dataverse"></a>Microsoft Dataverse қызметіне қосылу
    
-The **Microsoft Dataverse** қадам Customer Insights қолданбасын Dataverse ортасымен қосуға мүмкіндік береді.
+**Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді.
 
-Қолдану [қораптан шыққан болжам үлгілері](predictions-overview.md#out-of-box-models), Dataverse көмегімен деректерді ортақ пайдалануды конфигурациялаңыз. Немесе ұйымыңыз басқаратын Microsoft Dataverse ортасының URL мекенжайын қамтамасыз ете отырып, жергілікті деректер көздерінен деректерді қабылдауды қосуға болады. таңдаңыз **Деректерді ортақ пайдалануды қосыңыз** Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу.
+[Дайын болжам үлгілерін](predictions-overview.md#out-of-box-models) пайдалану үшін Dataverse жүйесімен деректер бөлісуді конфигурациялаңыз. Немесе сіздің ұйым басқаратын Microsoft Dataverse ортасының URL мекенжайын беру арқылы жергілікті деректер көздерінен деректер қабылдауды қосуға болады. Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу үшін **Деректер бөлісуді қосу** опциясын таңдаңыз.
 
-:::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse көмегімен деректерді ортақ пайдалануды қосу үшін конфигурация опциялары.":::
+> [!IMPORTANT]
+> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалануды қосу үшін бір аймақта болуы керек.
+
+:::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse бағдарламасымен деректер бөлісуді қосуға арналған конфигурация опциялары.":::
 
 > [!NOTE]
 > Customer Insights бағдарламасы келесі деректерді бөлісу сценарийлеріне қолдау көрсетпейді.
-> - Барлық деректерді өзіңіздің Azure Data Lake Storage файлыңызға сақтасаңыз, Dataverse басқаратын деректер көлімен деректерді ортақ пайдалануды қоса алмайсыз.
-> - Деректерді Dataverse арқылы бөлісуді қоссаңыз, мұны істей алмайсыз.[нысанда болжанған немесе жоқ мәндерді жасау](predictions.md).
+> - Егер барлық деректерді жеке Azure Data Lake Storage сақтау орнына сақтасаңыз, Dataverse басқаратын деректер көлімен деректер бөлісуді қосу мүмкін емес болады.
+> - Егер Dataverse жүйесімен деректер бөлісу опциясын қоссаңыз, [нысанда болжалды немесе жетіспейтін мәндерді жасау мүмкін емес болады](predictions.md).
 
 ## <a name="copy-the-environment-configuration"></a>Орта конфигурациясын көшіру
 
@@ -81,7 +84,7 @@ The **Microsoft Dataverse** қадам Customer Insights қолданбасын 
 - Тұтынушы профильдері.
 - Дереккөз деректемелері. Әрбір дереккөз деректемелерін қамтамасыз етесіз және дереккөздерді қолмен жаңартасыз.
 
-- Common Data Model қалтасындағы деректер көздері және Dataverse басқарылатын деректер көлі. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
+- Common Data Model қалтасындағы деректер көздері және Dataverse басқаратын деректер көлі. Осы дереккөздерді бастапқы ортадағымен бірдей атпен қолмен жасай аласыз.
 
 Ортаны көшірген кезде жаңа орта жасалған растау туралы хабарды көресіз. Дереккөздер тізімін көру үшін **Дереккөздерге өту** параметрін таңдаңыз.
 
