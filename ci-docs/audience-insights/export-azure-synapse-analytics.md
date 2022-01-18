@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Azure Synapse Analytics қызметіне экспорттау
 description: Azure Synapse Analytics қызметі үшін қосылымды конфигурациялау жолы туралы ақпарат.
-ms.date: 04/12/2021
+ms.date: 01/05/2022
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: f206043298bdbf8a84b0ef37b47a43290653beba7d3d0e8b807ec74513614aa8
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+ms.openlocfilehash: 6f630b8fb03bf615ada6d40fe27a91975d0c856e
+ms.sourcegitcommit: cb71e39de9b891c24bd5cd9c014eb3eeb537ac24
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7031940"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7951049"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді Azure Synapse Analytics (алдын ала қарау нұсқасы) қызметіне экспорттау
 
@@ -49,6 +49,8 @@ Azure қызметінде:
 
 ### <a name="configure-a-connection"></a>Қосылымды конфигурациялау
 
+Қосылымды жасау үшін, Customer Insights қызметіндегі негізгі және пайдаланушы тіркелгісі қажет **Оқырман** бойынша рұқсаттар *ресурстар тобы* Synapse Analytics жұмыс кеңістігі қайда орналасқан. Сонымен қатар, Synapse Analytics жұмыс кеңістігіндегі қызмет басшысы мен пайдаланушы қажет **Synapse әкімшісі** рұқсаттар. 
+
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
 1. **Қосылым қосу** түймешігін таңдаңыз және қосылымды конфигурациялау үшін **Azure Synapse Analytics** немесе **Орнату** опциясын **Azure Synapse Analytics** тақтасынан таңдаңыз.
@@ -63,7 +65,7 @@ Azure қызметінде:
 
 ### <a name="configure-an-export"></a>Экспорттауды конфигурациялау
 
-Егер сіз осы түрдегі қосылымға қатынаса алсаңыз, сіз бұл экспорттауды конфигурациялай аласыз. Қосымша ақпарат алу үшін [Экспорттауды конфигурациялау үшін қажет рұқсаттар](export-destinations.md#set-up-a-new-export) бөлімін қараңыз.
+Егер сіз осы түрдегі қосылымға қатынаса алсаңыз, сіз бұл экспорттауды конфигурациялай аласыз. Ортақ қосылыммен экспорттауды конфигурациялау үшін сізге кем дегенде қажет **Қатысушы** Customer Insights ішіндегі рұқсаттар. Қосымша ақпарат алу үшін [Экспорттауды конфигурациялау үшін қажет рұқсаттар](export-destinations.md#set-up-a-new-export) бөлімін қараңыз.
 
 1. **Деректер** > **Экспорттау** тармағына өтіңіз.
 
@@ -82,6 +84,8 @@ Azure қызметінде:
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
 Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады.
+
+Synapse Analytics қызметіне экспортталған деректерді сұрау үшін сізге қажет **Blob деректерін оқу құралы** экспорттың жұмыс кеңістігіндегі тағайындалған қоймаға қол жеткізу. 
 
 ### <a name="update-an-export"></a>Экспорттауды жаңарту
 

@@ -44,7 +44,7 @@
       items:
         - name: Деректер көздеріне шолу
           href: audience-insights/data-sources.md
-        - name: Power Query қосқыштары арқылы деректер көздерін қосу
+        - name: арқылы деректер көздерін қосыңыз Power Query қосқыштар
           href: audience-insights/connect-power-query.md
         - name: Common Data Model қалтасын деректер көзі ретінде қосу
           href: audience-insights/connect-common-data-model.md
@@ -80,7 +80,7 @@
       items:
         - name: Тұтынушы профильдерін арттыру
           href: audience-insights/enrichment-hub.md
-        - name: Бренд және қызығушылық ұқсастықтары
+        - name: Брендтер және қызығушылықтар
           href: audience-insights/enrichment-microsoft.md
         - name: Жақсартылған мекенжайлар
           href: audience-insights/enrichment-enhanced-addresses.md
@@ -130,6 +130,8 @@
               href: audience-insights/predict-subscription-churn.md
             - name: Транзакция жылыстауын болжау
               href: audience-insights/predict-transactional-churn.md
+            - name: Тұтынушының кері байланысындағы көңіл-күйді талдаңыз
+              href: audience-insights/sentiment-analysis.md
             - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
               href: audience-insights/custom-models.md
             - name: Толық емес деректерді толықтыру
