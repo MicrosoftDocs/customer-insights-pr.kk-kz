@@ -9,16 +9,11 @@ ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-ms.openlocfilehash: 309b2a900e50727ffa655fc6b5fe728ea55ba5bf
-ms.sourcegitcommit: 626d485dae1e001e63e4d4bf78f6770766822ba0
-ms.translationtype: MT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892391"
 ---
+
 # <a name="manage-environments"></a>Орталарды басқару
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## <a name="switch-environments"></a>Орталарды ауыстыру
 
@@ -47,7 +42,7 @@ ms.locfileid: "7892391"
 [Дайын болжам үлгілерін](predictions-overview.md#out-of-box-models) пайдалану үшін Dataverse жүйесімен деректер бөлісуді конфигурациялаңыз. Немесе сіздің ұйым басқаратын Microsoft Dataverse ортасының URL мекенжайын беру арқылы жергілікті деректер көздерінен деректер қабылдауды қосуға болады. Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу үшін **Деректер бөлісуді қосу** опциясын таңдаңыз.
 
 > [!IMPORTANT]
-> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалануды қосу үшін бір аймақта болуы керек.
+> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалану үшін бір аймақта болуы керек.
 
 :::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse бағдарламасымен деректер бөлісуді қосуға арналған конфигурация опциялары.":::
 

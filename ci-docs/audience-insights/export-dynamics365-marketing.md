@@ -9,16 +9,11 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 2c673c432f308efa289625a159de608d07f8d2b3
-ms.sourcegitcommit: f988114ac7a288ccadf2db35b02dbef5cacea4d9
-ms.translationtype: MT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7975131"
 ---
+
 # <a name="use-segments-in-dynamics-365-marketing-preview"></a>Dynamics 365 Marketing жүйесіндегі сегменттерді пайдалану (алдын ала қарау нұсқасы)
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [Сегменттерді](segments.md) науқандар құру және Dynamics 365 Marketing арқылы тұтынушылардың белгілі бір топтарымен байланысу үшін пайдаланыңыз. Қосымша ақпаратты [Dynamics 365 Marketing бар Dynamics 365 Customer Insights сегменттерін пайдалану](/dynamics365/marketing/customer-insights-segments) бөлімінен қараңыз.
 

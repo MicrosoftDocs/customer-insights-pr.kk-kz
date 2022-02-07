@@ -1,7 +1,7 @@
 ---
 title: Common Data Model деректерін Azure Data Lake тіркелгісіне қосыңыз
 description: Azure Data Lake Storage арқылы Common Data Model деректерімен жұмыс істеңіз.
-ms.date: 12/06/2021
+ms.date: 01/25/2022
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -9,13 +9,8 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 5f9010f78ea4c24094e0df4f8e153fb832e05cc8
-ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
-ms.translationtype: MT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900204"
 ---
+
 # <a name="connect-to-a-common-data-model-folder-using-an-azure-data-lake-account"></a>Common Data Model қалтасын Azure Data Lake тіркелгісі көмегімен қосу
 
 Бұл мақалада Azure Data Lake Storage Gen2 тіркелгісін пайдаланып Common Data Model қалтасынан деректерді қабылдау жолы туралы ақпарат беріледі.
@@ -25,6 +20,8 @@ ms.locfileid: "7900204"
 - Azure Data Lake ішіндегі деректер Common Data Model стандартына сәйкес келуі керек. Қазіргі уақытта басқа пішімдерге қолдау көрсетілмейді.
 
 - Деректерді қабылдау тек Azure Data Lake *Gen2* сақтау құралы тіркелгілеріне қолдау көрсетеді. Деректерді қабылдау үшін Azure Data Lake Gen1 сақтау тіркелгілерін пайдалану мүмкін емес.
+
+- Azure Data Lake сақтау тіркелгісі болуы керек [иерархиялық аттар кеңістігі қосылды](/azure/storage/blobs/data-lake-storage-namespace).
 
 - Azure субъек-қызметімен аутентификациялау үшін оның қатысушыда конфигурацияланғандығына көз жеткізіңіз. Қосымша ақпарат алу үшін [Аудитория мәліметтерін Azure субъект-қызметімен Azure Data Lake Storage Gen2 тіркелгісіне қосу](connect-service-principal.md) бөлімін қараңыз.
 

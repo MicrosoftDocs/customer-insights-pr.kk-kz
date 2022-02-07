@@ -9,16 +9,11 @@ author: adkuppa
 ms.author: adkuppa
 manager: shellyha
 ms.reviewer: mhart
-ms.openlocfilehash: fecf3e33b5bc1eec17006fc196004be902c03b40
-ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
-ms.translationtype: MT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900158"
 ---
+
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse басқарылатын деректер ағынында деректерге қосылу
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Бұл мақалада қалай болатыны туралы ақпарат берілген Dataverse пайдаланушылар а ішіндегі аналитикалық нысандарға жылдам қосыла алады Microsoft Dataverse басқарылатын көл. 
 

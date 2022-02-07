@@ -9,16 +9,11 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 66d846c3e9404ca7993cae742ea6e16833233fba
-ms.sourcegitcommit: 205f931ec671a0ab1850f2c1c94df3307ffb62c9
-ms.translationtype: HT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7380750"
 ---
+
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [Common Data Model](/common-data-model/) – бұл сипаттамалы ерекшелік, сондай-ақ бизнес пен өнімділікке арналған бағдарламалардағы жиі пайдаланылатын тұжырымдамалар мен іс-әрекеттерді көрсететін стандартты нысандар анықтамасы. Бұл үлгі бақылау мен аналитикалық деректерге де қолданылады. Common Data Model жүйесі тіркелгі, бөлімше, іс, контакт, ықтимал тұтынушы, мүмкіндік және өнім секілді нақты анықталған, модульдік және кеңейтілмелі бөлімшелерді, сондай-ақ іс-әрекеттер және қызмет көрсету деңгейі жөніндегі келісімдер секілді жеткізушілермен, жұмысшылармен және тұтынушылармен өзара іс-әрекеттерді қамтамасыз етеді. Бизнеске арналған қосымша идеяларды алу үшін Common Data Model анықтамаларын кез келген адам құрып, кеңейте алады.
 

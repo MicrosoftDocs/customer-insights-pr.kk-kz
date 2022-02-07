@@ -9,16 +9,11 @@ ms.topic: conceptual
 author: Nils-2m
 ms.author: nikeller
 manager: shellyha
-ms.openlocfilehash: 3927b5a13a5f9b4d2b39c7f0b389bc51cafeb213
-ms.sourcegitcommit: 3811dede65946c37aa7ed3cc364251f20ffd4d17
-ms.translationtype: MT
-ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "7945434"
 ---
+
 # <a name="customer-card-add-in-preview"></a>Тұтынушы картасының қондырмасы (алдын ала қарау)
 
-[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 бағдарламаларында тікелей тұтынушыларыңыздың 360 градустық көрінісін алыңыз. Қолдау көрсетілетін Dynamics 365 бағдарламасында орнатылған тұтынушы картасының қондырмасымен сіз тұтынушы профилінің өрістерін, түсініктерін және әрекет уақыт шкаласын көрсетуді таңдай аласыз. Қондырма қосылған Dynamics 365 бағдарламасындағы деректерге әсер етпей, Customer Insights бағдарламасынан деректерді алады.
 
