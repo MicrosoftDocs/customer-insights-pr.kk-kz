@@ -9,13 +9,23 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
+ms.openlocfilehash: d8a35424f4271b350b8d84e72a01deb6d69652a0
+ms.sourcegitcommit: 08a5dfcc4f9d293c8e7ac4fef604bc52985b1b78
+ms.translationtype: HT
+ms.contentlocale: kk-KZ
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090930"
 ---
-
 # <a name="use-segments-in-dynamics-365-sales-preview"></a>Dynamics 365 Sales жүйесіндегі сегменттерді пайдалану (алдын ала қарау нұсқасы)
 
 
 
 Тұтынушы деректерін Dynamics 365 Sales көмегімен маркетинг тізімдерін жасау, жұмыс ағындарын қадағалау және жарнамалар жіберу үшін пайдаланыңыз.
+
+## <a name="known-limitations"></a>Белгілі шектеулер
+
+- Dynamics 365 Sales бағдарламасына экспорттау әр сегмент үшін 100'000 мүшемен шектеледі.
+- Dynamics 365 Sales жүйесіне сегменттерді экспорттауды аяқтау үшін 3 сағатқа дейін кетуі мүмкін. 
 
 ## <a name="prerequisite-for-connection"></a>Қосылым алғышарты
 

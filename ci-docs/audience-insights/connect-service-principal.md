@@ -9,21 +9,21 @@ author: adkuppa
 ms.author: adkuppa
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: faef3583337fd495e7baf40b0a208f1d9f10281a
-ms.sourcegitcommit: 11b343f6622665251ab84ae39ebcd91fa1c928ca
-ms.translationtype: MT
+ms.openlocfilehash: 1af01e5579f85d7c8bc8976a003f53ef2dd280d1
+ms.sourcegitcommit: b7189b8621e66ee738e4164d4b3ce2af0def3f51
+ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900265"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8088154"
 ---
 # <a name="connect-to-an-azure-data-lake-storage-account-by-using-an-azure-service-principal"></a>Azure қызмет негізін пайдалану арқылы Azure Data Lake Storage тіркелгісіне қосылу
 
-Бұл мақалада қосылу жолы қарастырылады Dynamics 365 Customer Insights а Azure Data Lake Storage тіркелгіні сақтау тіркелгі кілттерінің орнына Azure қызмет көрсетушісін пайдалану арқылы. 
+Бұл мақалада қосылу әдісі қарастырылады Dynamics 365 Customer Insights а Azure Data Lake Storage тіркелгіні сақтау тіркелгі кілттерінің орнына Azure қызмет көрсетушісін пайдалану арқылы. 
 
 Azure қызметтерін пайдаланатын автоматтандырылған құралдарда әрдайым шектеулі рұқсаттар болуы тиіс. Бағдарламалардың толық артықшылықты пайдаланушы ретінде кіруінің орнына, Azure субъект-қызметтерін ұсынады. Қауіпсіз болу үшін қызмет жетекшілерін пайдалануға болады [Жалпы деректер үлгісі қалтасын деректер көзі ретінде қосыңыз немесе өңдеңіз](connect-common-data-model.md) немесе [ортаны жасау немесе жаңарту](create-environment.md).
 
 > [!IMPORTANT]
-> - Қызмет негізін пайдаланатын Data Lake Storage тіркелгісіне қосылған [иерархиялық аттар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) болуы тиіс.
+> - Негізгі қызметті пайдаланатын Data Lake Storage тіркелгісі Gen2 болуы және болуы керек [иерархиялық аттар кеңістігі қосылды](/azure/storage/blobs/data-lake-storage-namespace). Azure Data Lake Gen1 сақтау тіркелгілеріне қолдау көрсетілмейді.
 > - Қызмет басшысын жасау үшін сізге Azure жазылымына әкімші рұқсаттары қажет.
 
 ## <a name="create-an-azure-service-principal-for-customer-insights"></a>Customer Insights үшін Azure қызмет негізін жасау

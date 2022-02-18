@@ -2,6 +2,22 @@
   href: index.yml
 - name: Өнімге шолу
   href: overview.md
+- name: Оқыту каталогы
+  items:
+    - name: Бастау
+      href: /learn/modules/get-started-customer-data-platform/
+    - name: Деректерді қабылдау
+      href: /learn/modules/ingest-data-customer-insights/
+    - name: Тұтынушының бірыңғай профилін жасау
+      href: /learn/modules/unified-customer-profile/
+    - name: Аудитория түсініктерімен жұмыс жасаңыз
+      href: /learn/modules/working-with-customer-insights/
+    - name: 'Деректерді байытып, болжам жасаңыз'
+      href: /learn/modules/enrich-data/
+    - name: Сыртқы қосылымдарды басқару
+      href: /learn/modules/configure-third-party-connections/
+    - name: Customer Insights бағдарламасын басқару
+      href: /learn/modules/administer-customer-data-platform/
 - name: Тегін сынақ нұсқасы
   items:
     - name: ' Тегін сынақ нұсқасына жазылу '
@@ -30,16 +46,6 @@
           href: audience-insights/home.md
     - name: Бизнес тіркелгілермен жұмыс істеу
       href: audience-insights/work-with-business-accounts.md
-    - name: Модульдер туралы мәліметтер алу
-      items:
-        - name: Деректерді қабылдау
-          href: /learn/modules/ingest-data-customer-insights/
-        - name: Тұтынушының бірыңғай профилін жасау
-          href: /learn/modules/unified-customer-profile/
-        - name: Бағдарламамен жұмыс істеу
-          href: /learn/modules/working-with-customer-insights/
-        - name: Деректер мен болжамдарды арттыру
-          href: /learn/modules/enrich-data/
     - name: Дерек көздері
       items:
         - name: Деректер көздеріне шолу
@@ -372,3 +378,5 @@
   href: service-limits.md
 - name: DSR құқықтары мен сұраулары
   href: dsr-rights-requests.md
+- name: Қолдау алу
+  href: /power-platform/admin/get-help-support

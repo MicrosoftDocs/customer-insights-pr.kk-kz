@@ -8,12 +8,12 @@ author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: db38778c0da862e119f9b374e07c82ead0d3a4f2
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
+ms.openlocfilehash: 6aadd6b5018f63362f86c0e3e3ce085e94c47391
+ms.sourcegitcommit: 5dd32dc2b18027cf2aa954356dded4bc6aab9801
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645589"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8116021"
 ---
 # <a name="create-a-link-between-audience-insights-and-engagement-insights"></a>Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер арасындағы байланыс жасау
 
@@ -25,7 +25,7 @@ ms.locfileid: "7645589"
 
 ## <a name="prerequisites"></a>Алғышарттар
 
-- Аудитория мәліметтерінің профильдері сіз иелік ететін Azure Data Lake Storage тіркелгісінде немесе [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro.md)&ndash;басқарылатын деректер көлінде сақталуы тиіс. 
+- Аудитория мәліметтерінің профильдері сіз иелік ететін Azure Data Lake Storage тіркелгісінде немесе [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro)&ndash;басқарылатын деректер көлінде сақталуы тиіс. 
 - Сондай-ақ аудитория мәліметтерінің ортасында байланысты Dataverse ортасы болуы қажет. Егер сол орта деректерді сақтау үшін Dataverse қызметін пайдаланатын болса, аудитория мәліметтерінде **Деректерді ортақ пайдалануды қосу** опциясына құсбелгі қойыңыз. Қосымша ақпарат алу үшін [Аудитория туралы түсініктерде орта жасау және конфигурациялау](../audience-insights/create-environment.md) бөлімін қараңыз.
 - Сізге өзара әрекеттестік мәліметтері мен аудитория мәліметтері орталарына арналған әкімші рұқсаттары қажет.
 - Байланысты орталар бір географиялық аймақта болуы керек.
