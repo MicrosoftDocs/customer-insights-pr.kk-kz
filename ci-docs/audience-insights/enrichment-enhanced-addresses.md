@@ -9,8 +9,13 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
+ms.openlocfilehash: ba43d24ac5ae8846da87f0d41234d8616c2f8070
+ms.sourcegitcommit: 4c9db6c124d7244e7e8bb2f8bfdc697523781c31
+ms.translationtype: HT
+ms.contentlocale: kk-KZ
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8010911"
 ---
-
 # <a name="enrichment-of-customer-profiles-with-enhanced-addresses"></a>Тұтынушы профильдерін нақтыланған мекенжайлармен толықтыру
 
 Деректеріңіздегі мекенжайлар құрылымсыз, толық емес немесе қате болуы мүмкін. Дәлдік пен түсініктер үшін мекенжайларды қалыпқа келтіру және [Common Data Model пішімінде](/common-data-model/schema/core/applicationcommon/address) толықтыру үшін Microsoft модельдерін пайдаланыңыз.

@@ -9,8 +9,13 @@ ms.topic: conceptual
 author: wmelewong
 ms.author: wameng
 manager: shellyha
+ms.openlocfilehash: 8a4473c1c395bbcf8efa2bfa24cddb82e1784279
+ms.sourcegitcommit: 15ec8c5f54242feda9489e7665726ec5e0983dc9
+ms.translationtype: HT
+ms.contentlocale: kk-KZ
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8008772"
 ---
-
 # <a name="analyze-sentiment-in-customer-feedback-preview"></a>Тұтынушының пікіріндегі көңіл-күйді талдау (Алдын ала қарау)
 
 Тұтынушылар осы күндері жоғары сапалы өнімдерді, қызметтерді және тәжірибелерді күтеді. Әсіресе өз пікірлерімен бөлісетін тұтынушылар. Ұйымдар үшін дәлдікті төмендетпей және жоғары еңбек құнынсыз ұлғайған деректер көлемін талдау өте қиын. Dynamics 365 Customer Insights ұйымдарға өз деректерін дәлірек және төмен бағамен талдауға мүмкіндік беретін тұтынушылардың кері байланысы үшін көңіл-күйді талдау үлгісін ұсынады.
