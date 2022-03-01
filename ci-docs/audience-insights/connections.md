@@ -5,16 +5,16 @@ ms.date: 04/09/2021
 ms.reviewer: nikeller
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: overview
+ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: e78e18b75ee9797b5fc76486615992e301e4c650
-ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
+ms.openlocfilehash: 17e04b243e9b3d4375c86f5a890a18be35956835
+ms.sourcegitcommit: d84d664e67f263bfeb741154d309088c5101b9c3
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7977744"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304979"
 ---
 # <a name="connections-preview-overview"></a>Қосылымдарға (алдын ала қарау нұсқасы) шолу
 
@@ -47,7 +47,6 @@ ms.locfileid: "7977744"
 1. **Қосылымды орнату** тақтасында қажетті мәліметтерді көрсетіңіз. 
    1. **Көрсетілетін атау** және қосылым түрі қосылымды сипаттайды. Осы қосылымның мақсатын түсіндіретін атауды таңдауды ұсынамыз.
    1. Нақты өрістер сіз қандай қызметке қосылатындығыңызға байланысты. Белгілі бір қосылым түрі туралы мәліметтерді мақсатты қызмет туралы мақаладан білуге болады.
-   1. Егер құпияларды сақтау үшін [жеке Key Vault қызметін пайдалансаңыз](use-azure-key-vault.md), **Key Vault қызметін пайдалану** функциясын белсендіріңіз және тізімнен құпияны таңдаңыз.
 
 1. Қосылым жасау үшін **Сақтау** түймешігін таңдаңыз.
 
@@ -94,6 +93,3 @@ ms.locfileid: "7977744"
 
 1. Жоюды растау үшін **Жою** түймешігін таңдаңыз.
 
-## <a name="set-up-connections-with-secrets-managed-by-your-own-key-vault"></a>Жеке Key Vault қызметі арқылы басқарылатын құпиялармен байланыс орнату
-
-Кейбір қосылымдарға API кілттері немесе құпия сөздер сияқты құпиялар қажет. Кейбір қосылымдар жеке Key Vault қызметінде сақталған құпияларға қолдау көрсетеді. Қолдау көрсетілетін қосылымдар және оны [аудитория түсініктері үшін жеке Key Vault қызметін](use-azure-key-vault.md) орнату туралы ақпарат.

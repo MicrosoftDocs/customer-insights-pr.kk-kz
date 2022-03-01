@@ -1,7 +1,7 @@
 ---
-title: Microsoft Dataverse ішіндегі Customer Insights деректері
-description: Customer Insights нысандарын Microsoft Dataverse ішіндегі кестелер ретінде пайдаланыңыз.
-ms.date: 11/25/2021
+title: Microsoft Dataverse жүйесіндегі Customer Insights деректері
+description: Customer Insights нысандарын Microsoft Dataverse жүйесінде кесте ретінде пайдаланыңыз.
+ms.date: 10/14/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,35 +9,35 @@ ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 6f74559b34a95ed976a4e353c2dbabe59e1a8839
-ms.sourcegitcommit: 9558ff772ee6c944fcb8db4bfc8cda13b38a1bff
+ms.openlocfilehash: 9855ff6908001dd18bc19a286fc56620d0a127e5
+ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7866941"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645225"
 ---
-# <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse ішіндегі Customer Insights деректерімен жұмыс жасаңыз
+# <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse жүйесіндегі Customer Insights деректерімен жұмыс істеу
 
-Customer Insights шығыс нысандарын қол жетімді ету опциясын ұсынады [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro.md). Бұл біріктіру деректерді оңай бөлісуді және төмен кодты/кодсыз тәсіл арқылы реттелетін әзірлеуді қамтамасыз етеді. Шығарылатын нысандар Dataverse ішіндегі кестелер ретінде қолжетімді болады. Бұл кестелер сияқты сценарийлерді қосады [Power Automate арқылы автоматтандырылған жұмыс процестері](/power-automate/getting-started),[үлгіге негізделген қолданбалар](/powerapps/maker/model-driven-apps/) және [кенеп қолданбалары](/powerapps/maker/canvas-apps/) Power Apps арқылы. Деректерді Dataverse кестелеріне негізделген кез келген басқа қолданба үшін пайдалануға болады. Ағымдағы енгізу, негізінен, тұтынушы идентификаторы үшін қолжетімді аудитория туралы пайдалы мәліметтер нысандарын алуға болатын іздеуге қолдау көрсетеді.
+Customer Insights шығыс нысандарын [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro.md) жүйесінде қолжетімді ету мүмкіндігін ұсынады. Бұл біріктіру деректерді оңай бөлісуді және төмен кодты/кодсыз тәсіл арқылы реттелетін әзірлеуді қамтамасыз етеді. Шығыс нысандар Dataverse жүйесінде кесте түрінде қолжетімді болады. Бұл кестелер [Power Automate](/power-automate/getting-started), [модельге негізделген бағдарламалар](/powerapps/maker/model-driven-apps/) және [кенеп бағдарламалары](/powerapps/maker/canvas-apps/) арқылы Power Apps бағдарламасы арқылы автоматтандырылған жұмыс ағындары сияқты сценарийлерді қосады. Dataverse кестелеріне негізделген кез келген басқа бағдарлама деректерін пайдалануға болады. Ағымдағы енгізу, негізінен, тұтынушы идентификаторы үшін қолжетімді аудитория туралы пайдалы мәліметтер нысандарын алуға болатын іздеуге қолдау көрсетеді.
 
-## <a name="attach-a-dataverse-environment-to-customer-insights"></a>Customer Insights қызметіне Dataverse ортасын тіркеңіз
+## <a name="attach-a-dataverse-environment-to-customer-insights"></a>Dataverse жүйесін Customer Insights бағдарламасына тіркеу
 
-**Dataverse орталары бар ұйымдар**
+**Бұрыннан бар Dataverse орталары бар ұйымдар**
 
-Dataverse пайдаланатын ұйымдар мүмкін [олардың бар Dataverse орталарының бірін пайдаланыңыз](create-environment.md) әкімші аудитория түсініктерін орнатқанда. URL мекенжайын Dataverse ортасына беру арқылы ол олардың жаңа аудитория түсініктері ортасына қосылады. Ең жақсы өнімділікті қамтамасыз ету үшін Customer Insights және Dataverse орталары бір аймақта орналастырылуы керек.
+Dataverse жүйесін бұрыннан пайдаланатын ұйымдар әкімші аудитория туралы пайдалы мәліметтерді орнатқан кезде [өздерінің бұрыннан бар Dataverse орталарын пайдалана](create-environment.md) алады. Dataverse ортасының URL мекенжайын ұсыну арқылы бұл олардың жаңа аудитория туралы пайдалы мәліметтер ортасына тіркеледі. Үздік ықтимал өнімділікті қамтамасыз ету үшін, Customer Insights және Dataverse орталары бір аймаққа орналастырылуы керек.
 
 **Жаңа ұйым**
 
-Customer Insights орнату кезінде жаңа ұйым жасасаңыз, автоматты түрде жаңа Dataverse ортасын аласыз.
+Егер Customer Insights бағдарламасын орнатқан кезде жаңа ұйым жасасаңыз, сіз автоматты түрде жаңа Dataverse ортасын аласыз.
 
 > [!NOTE]
-> Егер сіздің ұйымдарыңыз жалға алушысында Dataverse қолданса, мынаны есте сақтау маңызды.[Dataverse ортасын жасауды әкімші басқарады](/power-platform/admin/control-environment-creation.md) . Мысалы, ұйымдық тіркелгіңізбен жаңа аудиториялық түсініктер ортасын орнатып жатсаңыз және әкімші әкімшілерден басқа барлығы үшін Dataverse сынақ орталарын жасауды өшірген болса, жаңа сынақ ортасын жасай алмайсыз.
+> Егер сіздің ұйымдарыңыз қатысушыда бұрыннан Dataverse ортасын пайдаланатын болса, [Dataverse ортасын жасауды әкімші басқаратынын](/power-platform/admin/control-environment-creation.md) есте ұстаған жөн. Мысалы, егер сіз ұйым тіркелгісімен жаңа аудитория туралы пайдалы мәліметтер ортасын орнатсаңыз және әкімші әкімшілерден басқалары үшін Dataverse сынақ орталарын жасауды өшірсе, сіз жаңа сынақ ортасын жасай алмайсыз.
 > 
-> Customer Insights жүйесінде жасалған Dataverse сынақ орталарында 3 ГБ жады бар, ол жалға алушыға құқығы бар жалпы сыйымдылыққа есептелмейді. Ақылы жазылымдар дерекқор үшін 15 ГБ және файлдарды сақтау үшін 20 ГБ Dataverse құқығын алады.
+> Customer Insights бағдарламасында жасалған Dataverse сынақ орталарында 3 ГБ жады бар, бұл қатысушыға ұсынылған жалпы сыйымдылықта есептелмейді. Ақылы жазылымдар Dataverse құқығын дерекқор үшін 15 ГБ және файлдарды сақтау үшін 20 ГБ сыйымдылық алады.
 
 ## <a name="output-entities"></a>Шығыс нысандар
 
-Аудитория түсініктерінен кейбір шығыс нысандары Dataverse ішіндегі кестелер ретінде қолжетімді. Төмендегі бөлімдер осы кестелердің күтілетін схемасын сипаттайды.
+Аудитория туралы пайдалы мәліметтердегі кейбір шығыс нысандары Dataverse жүйесінде кестелер ретінде қолжетімді. Төмендегі бөлімдер осы кестелердің күтілетін схемасын сипаттайды.
 
 - [Тұтынушы профилі](#customerprofile)
 - [AlternateKey](#alternatekey)
@@ -45,7 +45,6 @@ Customer Insights орнату кезінде жаңа ұйым жасасаңы
 - [CustomerMeasure](#customermeasure)
 - [Арттыру](#enrichment)
 - [Болжам](#prediction)
-- [Сегмент мүшелігі](#segment-membership)
 
 
 ### <a name="customerprofile"></a>Тұтынушы профилі
@@ -61,7 +60,7 @@ AlternateKey кестесінде біріктіру процесіне қаты
 |DataSourceName    |String         | Деректер көзінің атауы. Мысалы: `datasource5`        |
 |EntityName        | String        | Аудитория туралы пайдалы мәліметтер нысанының атауы. Мысалы: `contact1`        |
 |AlternateValue    |String         |Тұтынушы идентификаторымен салыстырылатын балама идентификатор. Мысал: `cntid_1078`         |
-|KeyRing           | Көп жолды мәтін        | JSON мәні  </br> Үлгі: [{"dataSourceName":" datasource5 ",</br>"entityName":" contact1",</br>"preferredKey":" cntid_1078",</br>"кілттер":[" cntid_1078"]}]       |
+|KeyRing           | Көп жолды мәтін        | JSON мәні  </br> Үлгі: [{"dataSourceName":" datasource5 ",</br>"entityName":" contact1",</br>"preferredKey":" cntid_1078",</br>"keys":[" cntid_1078"]}]       |
 |CustomerId         | String        | Тұтынушының бірыңғай профилінің идентификаторы.         |
 |AlternateKeyId     | GUID         |  Msdynci_identifier негізіндегі AlternateKey анықтамалық GUID идентификаторы       |
 |msdynci_identifier |   String      |   `DataSourceName|EntityName|AlternateValue`  </br> Үлгі: `testdatasource|contact1|cntid_1078`    |
@@ -122,16 +121,3 @@ AlternateKey кестесінде біріктіру процесіне қаты
 | Мәндер               | JSON жолы | Үлгіде жасалатын төлсипаттар тізімі |
 | msdynci_predictionid | GUID        | Msdynci_identifier-ден жасалған анықтамалық GUID идентификаторы | 
 | msdynci_identifier   | String      |  `Model|ModelProvider|CustomerId`                      |
-
-### <a name="segment-membership"></a>Сегмент мүшелігі
-
-Бұл кесте тұтынушы профильдерінің сегмент мүшелігі туралы ақпаратты қамтиды.
-
-| Column        | Түр | Сипаттама                        |
-|--------------------|--------------|-----------------------------|
-| CustomerId        | String       | Тұтынушы профилінің идентификаторы        |
-| SegmentProvider      | String       | Сегменттерді жариялайтын қолданба. Әдепкі: аудитория туралы түсініктер         |
-| SegmentMembershipType | String       | Осы сегменттің мүшелік жазбасының тұтынушы түрі. Тұтынушы, Контакт немесе Тіркелгі сияқты бірнеше түрді қолдайды. Әдепкі: Тұтынушы  |
-| Сегменттер       | JSON жолы  | Тұтынушы профилі мүшесі болып табылатын бірегей сегменттер тізімі      |
-| msdynci_identifier  | String   | Сегмент мүшелігі жазбасының бірегей идентификаторы. `CustomerId|SegmentProvider|SegmentMembershipType|Name`  |
-| msdynci_segmentmembershipid | GUID      | Детерминистік GUID жасалған`msdynci_identifier`          |

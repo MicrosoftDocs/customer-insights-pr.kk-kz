@@ -1,20 +1,20 @@
 ---
 title: Power BI коннекторы
 description: Power BI ішінде Dynamics 365 Customer Insights коннекторын пайдалану жолы туралы ақпарат.
-ms.date: 07/23/2021
-ms.reviewer: mhart
+ms.date: 09/21/2020
+ms.reviewer: sthe
 ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: how-to
-author: stefanie-msft
-ms.author: sthe
+ms.topic: conceptual
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: a0ca431dbea839fe271cf3a512cd3a5dde6d920d396056e91b33bcf7ed84272a
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: d497ca779a337c512a7254524f597cff226bcb45
+ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035514"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4406211"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI арналған қосқыш (алдын ала қарау)
 
@@ -23,7 +23,7 @@ Power BI Desktop көмегімен деректерге арналған көр
 ## <a name="prerequisites"></a>Алғышарттар
 
 - Сізде тұтынушының бірыңғай профилі бар.
-- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) параметрінің соңғы нұсқасы компьютеріңізде орнатылған. [Power BI Desktop туралы қосымша мәлімет](/power-bi/desktop-what-is-desktop).
+- Компьютерде [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) бағдарламасының соңғы нұсқасы орнатылған. [Power BI Desktop туралы қосымша мәлімет](https://docs.microsoft.com/power-bi/desktop-what-is-desktop).
 
 ## <a name="configure-the-connector-for-power-bi"></a>Power BI арналған қосқышты конфигурациялау
 
@@ -31,7 +31,7 @@ Power BI Desktop көмегімен деректерге арналған көр
 
 1. **Қосымша ақпарат** опциясын таңдап, **Dynamics 365 Customer Insights** бағдарламасын іздеңіз
 
-1. **Қосылу** опциясын таңдаңыз.
+1. Нәтижені таңдап, **Қосу** опциясын басыңыз.
 
 1. Customer Insights бағдарламасы үшін пайдаланатын ұйым тіркелгісімен **кіріңіз** және **Қосу** опциясын басыңыз.
    > [!NOTE]
@@ -39,7 +39,7 @@ Power BI Desktop көмегімен деректерге арналған көр
 
 1. **Navigator** диалогтық терезесінде. қолжетімді барлық орталарды тізімде көресіз. Ортаны кеңейтіп, қалталардың кез келгенін ашыңыз (нысандар, өлшемдер, сегменттер, арттырулар). Мысалы, импорттауға болатын барлық нысандарды көру үшін **Субъектілер** қалтасын ашыңыз.
 
-   ![Power BI қосқыш навигаторы.](media/power-bi-navigator.png "Power BI қосқыш навигаторы")
+   ![Power BI қосқыш навигаторы](media/power-bi-navigator.png "Power BI қосқыш навигаторы")
 
 1. Қосылатын нысандардың жанына құсбелгі қойып, **Жүктеу** опциясын басыңыз. Бірнеше ортадан бірнеше нысанды таңдай аласыз.
 
@@ -47,32 +47,8 @@ Power BI Desktop көмегімен деректерге арналған көр
 
 ## <a name="large-data-sets"></a>Үлкен деректер жиынтықтары
 
-Power BI үшін Customer Insights коннекторы 1 миллионға дейін тұтынушы профильдерін қамтитын деректер жиынтықтары үшін жұмыс істеуге арналған. Үлкенірек деректер жиынтықтарын импорттау нәтиже беруі мүмкін, бірақ бұл көп уақытты алады. Бұған қоса, Power BI шектеулеріне байланысты бұл процесті күту уақыты бітуі мүмкін. Қосымша ақпаратты [Power BI: үлкен деректер жиынтықтары туралы ұсыныстар](/power-bi/admin/service-premium-what-is#large-datasets) бөлімінен қараңыз. 
+Power BI үшін Customer Insights коннекторы 1 миллионға дейін тұтынушы профильдерін қамтитын деректер жиынтықтары үшін жұмыс істеуге арналған. Үлкенірек деректер жиынтықтарын импорттау нәтиже беруі мүмкін, бірақ бұл көп уақытты алады. Бұған қоса, Power BI шектеулеріне байланысты бұл процесті күту уақыты бітуі мүмкін. Қосымша ақпаратты [Power BI: үлкен деректер жиынтықтары туралы ұсыныстар](https://docs.microsoft.com/power-bi/admin/service-premium-what-is#large-datasets) бөлімінен қараңыз. 
 
 ### <a name="work-with-a-subset-of-data"></a>Деректер жиынымен жұмыс
 
 Деректердің ішкі жиынымен жұмыс жасауды қарастырыңыз. Мысалы, барлық тұтынушы жазбаларын Power BI бағдарламасына экспорттаудың орнына [сегменттер](segments.md) жасауға болады.
-
-## <a name="troubleshooting"></a>Ақауларын жою
-
-### <a name="customer-insights-environment-doesnt-show-in-power-bi"></a>Customer Insights ортасы Power BI ішінде көрсетілмейді
-
-Аудитория туралы түсініктердегі екі бірдей нысан аралығында анықталған бірнеше [қатынасы](relationships.md) бар орталар Power BI қосқышында қолжетімді болмайды.
-
-Қайталанатын қатынастарды анықтауға және жоюға болады.
-
-1. Аудитория туралы түсініктерде Power BI қызметінде жоқ ортада **Деректер** > **Қатынастар** тармағына өтіңіз.
-2. Қайталанатын қатынастарды анықтаңыз:
-   - Бірдей екі нысан арасында анықталған бірнеше қатынастың бар-жоғын тексеріңіз.
-   - Біріктіру процесіне қосылатын екі нысан арасында байланыс бар-жоғын тексеріңіз. Біріктіру процесіне кіретін барлық нысандар арасында айқын емес қатынас бар.
-3. Анықталған қайталанатын қатынастарды жойыңыз.
-
-Қайталанатын қатынастарды жойғаннан кейін, Power BI қосқышын қайта конфигурациялап көріңіз. Орта қазір қолжетімді болуы керек.
-
-### <a name="errors-on-date-fields-when-loading-entities-in-power-bi-desktop"></a>Power BI Desktop бағдарламасында нысандарды жүктеу кезінде күн өрістеріндегі қателер
-
-АА/КК/ЖЖЖЖ секілді күн пішімі бар өрістерді қамтитын нысандарды жүктегенде, тіл пішімдерінің сәйкес келмеуіне байланысты қателерге тап болуыңыз мүмкін. Бұл сәйкессіздік Power BI Desktop файлы үшін ағылшын тілінен (АҚШ) басқа тіл орнатылған кезде пайда болады, өйткені аудитория туралы пайдалы мәліметтердегі күн өрістері АҚШ пішімінде сақталады.
-
-Power BI Desktop файлында деректерді алу кезінде қолданылатын бір тілдік параметр бар. Бұл күн өрістерін дұрыс түсіндіру үшін .BPI файлының тілін ағылшын тіліне (Америка Құрама Штаттары) орнатыңыз. [Power BI жұмыс үстелі файлының тілін өзгерту туралы мәлімет алыңыз](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

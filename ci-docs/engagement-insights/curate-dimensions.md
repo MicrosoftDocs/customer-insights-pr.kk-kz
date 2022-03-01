@@ -8,12 +8,12 @@ author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 8a3d7f9276330a6daacbe9428d84a371b81bbefe
-ms.sourcegitcommit: 971716c761871cee390519cacef617dac21ecd60
+ms.openlocfilehash: 50bb800c9e097d03cc6f26f79819c741ab5e8baf
+ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466355"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "7461110"
 ---
 # <a name="use-demographic-dimensions-for-splitting-behavioral-data"></a>Мінез-құлық деректерін бөлу үшін демографиялық өлшемдерді пайдалану
 
@@ -29,7 +29,7 @@ ms.locfileid: "7466355"
 - Тұтынушы профиьдері жасалатын аудитория туралы пайдалы мәліметтер ортасына байланыстырылған тұтынушы профилінің деректері бар өзара әрекеттестік туралы пайдалы мәліметтер ортасы. Қосымша ақпарат: [Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер арасындағы байланыс жасау](integrate-audience-insights-engagement-insights.md)
 
 > [!NOTE]
-> Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер орталары арасында байланыс орнатқаннан кейін, тұтынушы профилінің сипаттарына қатысты деректерді ғана қажет ете аласыз, олар өзара әрекеттестік туралы пайдалы мәліметтерде өлшемдер ретінде пайдалы болуы мүмкін. Қосымша ақпарат алу үшін [Аудитория туралы пайда мәліметтердің бірыңғай профильдерінің төлсипаттары мен сегменттерін қосу](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) бөліміне өтіңіз.
+> Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер орталары арасында байланыс орнатқаннан кейін, тұтынушы профилінің сипаттарына қатысты деректерді ғана қажет ете аласыз, олар өзара әрекеттестік туралы пайдалы мәліметтерде өлшемдер ретінде пайдалы болуы мүмкін. Қосымша ақпарат алу үшін [Аудитория туралы пайда мәліметтердің бірыңғай профильдерінің төлсипаттары мен сегменттерін қосу](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) бөліміне өтіңіз.<!--note from editor: Suggested. -->
 
 ## <a name="create-a-new-custom-report"></a>Жаңа реттелетін есеп жасау
 

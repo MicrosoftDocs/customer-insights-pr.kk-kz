@@ -1,7 +1,7 @@
 ---
 title: Customer Insights деректерін Klaviyo қызметіне экспорттау
 description: Klaviyo қызметіне қосылымды және экспорттауды конфигурациялау жолы туралы ақпарат.
-ms.date: 10/08/2021
+ms.date: 08/13/2021
 ms.reviewer: mhart
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 5f7c91afed8eeb1f767f1efc58dceb7782c37bb4
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: 7c1297fd5381c00c07d6501186c51fe4798773d1
+ms.sourcegitcommit: 205f931ec671a0ab1850f2c1c94df3307ffb62c9
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7619080"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7385795"
 ---
 # <a name="export-segment-lists-to-klaviyo-preview"></a>Сегмент тізімдерін Klaviyo қызметіне экспорттау (алдын ала қарау)
 
@@ -28,10 +28,10 @@ ms.locfileid: "7619080"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Klaviyo қызметіне бір экспорттағанда 100000 тұтынушы профилін экспорттауға болады.
+- Klaviyo экспорты үшін 100000 профильге дейін экспорттауға болады.
 - Klaviyo қызметіне экспорттау сегменттермен шектеледі.
-- Klaviyo қызметіне 1 миллион тұтынушы профилін экспорттау 20 минутқа дейін созылуы мүмкін. 
-- Klaviyo қызметіне экспорттауға болатын тұтынушы профильдерінің саны Klaviyo қызметімен жасалған келісім-шартқа байланысты және шектеулі.
+- Klaviyo платформасына 1 миллион профиль экспорттау 20 минутқа дейін созылуы мүмкін. 
+- Klaviyo қызметіне экспорттауға болатын профильдер саны Klaviyo қызметімен келісімшартқа байланысты және сонымен шектеулі.
 
 ## <a name="set-up-connection-to-klaviyo"></a>Klaviyo қызметіне қосылым орнату
 
@@ -67,7 +67,7 @@ ms.locfileid: "7619080"
 
 1. [**Klaviyo тізім идентификаторын**](https://help.klaviyo.com/hc/articles/115005078647-How-to-Find-a-List-ID) енгізіңіз.     
 
-3. **Деректерді сәйкестендіру** бөлімінде **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін өрісті таңдаңыз. Сегменттерді Klaviyo қызметіне экспорттау қажет.
+3. **Деректерді салыстыру** бөліміндегі **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. Сегменттерді Klaviyo қызметіне экспорттау қажет.
 
 1. **Сақтау** опциясын таңдаңыз.
 

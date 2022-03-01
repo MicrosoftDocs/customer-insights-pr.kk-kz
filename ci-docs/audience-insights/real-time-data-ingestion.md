@@ -2,19 +2,19 @@
 title: Нақты уақыттағы деректерді қабылдау және шектеулер
 description: Аудитория түсініктеріндегі нақты уақыттағы мүмкіндіктер туралы жалпы ақпарат.
 ms.date: 10/27/2020
-ms.reviewer: mhart
+ms.reviewer: nikeller
 ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: Nils-2m
-ms.author: nikeller
+author: m-hartmann
+ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: 897c876306a39cd9d5842487b96cb2f0a8df7e656de0fb7f10fe8c7f53e2db6b
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.openlocfilehash: b00a72e6a67e33c8e70ccc6139c5e62020f9d3e1
+ms.sourcegitcommit: b50c754481d0af6d0cf4b550775d7b31d95846ef
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7035284"
+ms.lasthandoff: 12/06/2020
+ms.locfileid: "4689182"
 ---
 # <a name="real-time-data-ingestion-preview"></a>Нақты уақыттағы деректерді қабылдау (алдын-ала қарау)
 
@@ -54,7 +54,7 @@ ms.locfileid: "7035284"
 
 Нақты уақыттағы API интерфейсіне қосылудың екі әдісі бар:
 
-- [жанама түрде](#connect-via-the-dynamics-365-customer-insights-connector) [Dynamics 365 Customer Insights қосқышы](/connectors/customerinsights/) арқылы
+- [жанама түрде](#connect-via-the-dynamics-365-customer-insights-connector) [Dynamics 365 Customer Insights қосқышы](https://docs.microsoft.com/connectors/customerinsights/) арқылы
 - [тікелей](#connect-directly-to-the-real-time-api), кодпен
 
 Екі әдіс те келесі алғышарттарға ие:
@@ -66,13 +66,13 @@ ms.locfileid: "7035284"
 
 ## <a name="connect-via-the-dynamics-365-customer-insights-connector"></a>Dynamics 365 Customer Insights қосқышы арқылы қосылыңыз
 
-Нақты уақыттағы API деректерді берілген Power Platform қосқышынан, [Dynamics 365 Customer Insights қосқышы](/connectors/customerinsights/), қандай да бір кодты жазудың және орналастырудың қажетінсіз қабылдай алады.    
-Қосқыш API сияқты нақты уақыттағы әрекеттерді орындай алады. Сізге премиум қосқыштар үшін жарамды лицензия қажет. Қосымша ақпарат алу үшін, [Power Apps және Power Automate лицензиялауға қатысты жиі қойылатын сұрақтар](/power-platform/admin/powerapps-flow-licensing-faq) бөлімін қараңыз.
+Нақты уақыттағы API деректерді берілген Power Platform қосқышынан, [Dynamics 365 Customer Insights қосқышы](https://docs.microsoft.com/connectors/customerinsights/), қандай да бір кодты жазудың және орналастырудың қажетінсіз қабылдай алады.    
+Қосқыш API сияқты нақты уақыттағы әрекеттерді орындай алады. Сізге премиум қосқыштар үшін жарамды лицензия қажет. Қосымша ақпарат алу үшін, [Power Apps және Power Automate лицензиялауға қатысты жиі қойылатын сұрақтар](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq) бөлімін қараңыз.
 
-- Power Platform [Power Apps және/немесе Power Automate](/connectors/)
-- Azure [Логика бағдарламалары](/azure/connectors/apis-list)
+- Power Platform [Power Apps және/немесе Power Automate](https://docs.microsoft.com/connectors/)
+- Azure [Логика бағдарламалары](https://docs.microsoft.com/azure/connectors/apis-list)
 
-Ағындарды жасау туралы толық мәліметтерді мына жерден қараңыз [Power Automate құжаттамасы](/power-automate/).
+Ағындарды жасау туралы толық мәліметтерді мына жерден қараңыз [Power Automate құжаттамасы](https://docs.microsoft.com/power-automate/).
 
 ## <a name="connect-directly-to-the-real-time-api"></a>Нақты уақыттағы API интерфейсіне тікелей қосылыңыз
 
@@ -83,7 +83,6 @@ ms.locfileid: "7035284"
 
 ## <a name="understand-your-real-time-usage-with-telemetry"></a>Телеметриямен нақты уақыт қолданысын түсіну
 
-Нақты уақыттағы API сұрауларының көлеміне шолу жасаңыз және жүйе кездестіруі мүмкін мәселелер туралы ақпарат алыңыз. [Нақты уақыттағы телеметрияға қол жеткізуге](system.md#api-usage-tab) болады. 
+Нақты уақыттағы API сұрауларының көлеміне шолу жасаңыз және жүйе кездестіруі мүмкін мәселелер туралы ақпарат алыңыз. **Әкімші** > **Жүйе** > **API пайдалану** тармағына өту арқылы [нақты уақыттағы телеметрияға қатынаса аласыз](system.md#api-usage-tab). **Операциялар** кестесінде нақты уақыттағы әдістерді пайдаланатын API операцияларына арналған жолдарда нақты уақыттағы API қолданысын қарау түймесі бар. Түймешік бинокулярлық белгімен бейнеленеді. Ағымдағы ортада нақты уақыттағы API қолданысы үшін пайдалану туралы мәліметтерді қамтитын бүйірлік тақтаны ашу үшін түймешікті таңдаңыз.
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Соңғы 24 сағаттан соңғы 30 күнге дейінгі ауқымдағы уақыт шкаласында нақты уақыттағы өзара әрекеттестіктерді жақсы көрсету жолын таңдау үшін **Топтастыру реті** таңдау құралын пайдаланыңыз. Деректерді API әдісі, нысанның нақтыланған атауы (қабылданған нысан), жасаушы (оқиға көзі), нәтиже (сәтті немесе ақаулы) немесе қате туралы кодтар бойынша топтастыра аласыз. Деректер тарих сызбасы және кесте ретінде қолжетімді.

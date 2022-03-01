@@ -9,12 +9,12 @@ ms.service: customer-insights
 ms.subservice: engagement-insights
 ms.topic: conceptual
 ms.manager: shellyha
-ms.openlocfilehash: 95caaa1f67a7740328b67face00acaea65452eb0
-ms.sourcegitcommit: fecdee73e26816c42d39d160d4d5cfb6c8a91596
+ms.openlocfilehash: eebe51d343f6afbed52a66c52ab6a60eb5cd410367fb2e4409eb8679f357c91e
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7494464"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7033914"
 ---
 # <a name="first-run-experience"></a>Бірінші іске қосу тәжірибесі
 
@@ -26,7 +26,7 @@ ms.locfileid: "7494464"
 
 Сізде белсенді Microsoft Azure Active Directory пайдаланушы тіркелгісі болуы қажет. 
 
-1. [Өзара әрекеттестік туралы түсініктер](https://home.ci.ai.dynamics.com/app/engagement-insights) веб-сайтын ашыңыз. 
+1. [Өзара әрекеттестік туралы түсініктер](https://pi.dynamics.com/) веб-сайтын ашыңыз. 
 
 1. Мектеп немесе жұмыс тіркелгісімен кіріңіз.
 

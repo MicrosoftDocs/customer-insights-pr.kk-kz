@@ -9,12 +9,12 @@ ms.topic: tutorial
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 8ca30193ae4f4ef3ed9c60f2d694cd11fad46c76
-ms.sourcegitcommit: 15b1521041149716f8031cfa6d0dc61a56a5e2ff
+ms.openlocfilehash: 47e2e5109ef8f21a782f6c8f87088009f8a40fdf
+ms.sourcegitcommit: 58651d33e0a7d438a2587c9ceeaf7ff58ae3b648
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967662"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881791"
 ---
 # <a name="custom-machine-learning-models"></a>Реттелетін компьютерлік оқыту үлгілері
 
@@ -40,8 +40,6 @@ ms.locfileid: "7967662"
 
    > [!NOTE]
    > Деректер сіздің Customer Insights даналарыңыз және таңдалған Azure веб-қызметтері немесе жұмыс ағынындағы сату үрдістері арасында тасымалданады. Деректерді Azure қызметіне тасымалдағанда, қызмет ұйымыңызға деректерге қатысты қойылатын кез келген заңдық немесе нормативтік талаптарға сай болуы үшін қажетті түрде және орында деректерді өңдеуге конфигурацияланғанына көз жеткізіңіз.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElk]
 
 ## <a name="add-a-new-workflow"></a>Жаңа жұмыс ағынын қосу
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: cbeac7e25d83df152c38d1c59cc6734a3d1fee97
-ms.sourcegitcommit: 23c8973a726b15050e368cc6e0aab78b266a89f6
+ms.openlocfilehash: 63f241c27ec86f357c83a301d6797f9ff87c2241
+ms.sourcegitcommit: 2acda3c5adf40bc3f5bbb4b2b4b6c22f84371da7
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "7618574"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466769"
 ---
 # <a name="enrichment-of-customer-profiles-with-azure-maps-preview"></a>Azure Maps көмегімен тұтынушы профилін арттыру (алдын ала қарау нұсқасы)
 
@@ -86,7 +86,7 @@ Azure Maps деректерді арттыру мүмкіндігін конфи
 
 ## <a name="next-steps"></a>Келесі қадамдар
 
-[!INCLUDE [next-steps-enrichment](../includes/next-steps-enrichment.md)]
+Толықтырылған тұтынушы деректерінің негізінде жасаңыз. Тұтынушыларға жекелендірілген тәжірибелерді жеткізу үшін [сегменттер](segments.md), [шаралар](measures.md) жасаңыз және [деректерді экспорттаңыз](export-destinations.md).
 
 ## <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 

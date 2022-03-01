@@ -4,17 +4,17 @@ metadata:
   author: m-hartmann
   description: Анықтама мазмұны көмегімен бастау үшін тиісті мақалаларды табыңыз.
   ms.author: mhart
-  ms.date: 03/02/2022
+  ms.date: 10/29/2020
   ms.service: customer-insights
   ms.topic: landing-page
-  ms.openlocfilehash: e154b37f57bb2765f48a9f6b38f86dffcb05f403
-  ms.sourcegitcommit: a371fc1e75b2321e45d3f972a3ac84c725f8cc38
+  ms.openlocfilehash: f175ea858213022afc87fce77213893c7d050d30
+  ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
   ms.translationtype: HT
   ms.contentlocale: kk-KZ
-  ms.lasthandoff: 02/10/2022
-  ms.locfileid: "8107206"
+  ms.lasthandoff: 11/03/2020
+  ms.locfileid: "4406259"
 title: Dynamics 365 Customer Insights құжаттамасы
-summary: Жұмысты бастау үшін пайдалы ресурстарды табыңыз және Customer Insights функциялары мен мүмкіндіктері туралы мәлімет алыңыз.
+summary: Жұмысты бастау және Customer Insights функциялары мен мүмкіндіктері туралы қосымша ақпарат алу үшін пайдалы ресурстарды табыңыз.
 landingContent:
 - title: Customer Insights бағдарламасымен танысу
   linkLists:
@@ -23,61 +23,39 @@ landingContent:
     - text: Customer Insights бағдарламасына шолу
       url: overview.md
     - text: Жоспарларды шығару
-      url: /dynamics365/release-plans/
-    - text: CDP платформасын анықтау
-      url: https://dynamics.microsoft.com/ai/customer-insights/
-  - linkListType: learn
-    links:
-    - text: Customer Insights оқу жолы
-      url: /learn/paths/build-customer-insights/
-- title: Customer Insights бағдарламасын пайдалануға дайындық
+      url: https://docs.microsoft.com/dynamics365-release-plan/2020wave2/customer-data-platform/dynamics365-customer-insights/planned-features
+    - text: Ортаға кіріңіз
+      url: https://home.ci.ai.dynamics.com/
+- title: Аудитория мәліметтерімен жұмысты бастаңыз
   linkLists:
   - linkListType: get-started
     links:
     - text: Тегін сынаққа тіркелу
       url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
-    - text: Аудитория туралы мәліметтердегі жаңалықтар
+    - text: Жаңалықтар
       url: audience-insights/whats-new-audience-insights.md
-    - text: Жылдам іске қосу нұсқаулығы
-      url: audience-insights/get-started.md
-  - linkListType: learn
-    links:
-    - text: Бастау
-      url: /learn/modules/get-started-customer-data-platform/
-- title: Аудитория мәліметтерін басқару
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: Жүйені конфигурациялаңыз
-      url: audience-insights/system.md
-    - text: Пайдаланушы рұқсаттарын анықтау
-      url: audience-insights/permissions.md
-    - text: Бірнеше ортаны басқару
-      url: audience-insights/manage-environments.md
-  - linkListType: learn
-    links:
-    - text: Customer Insights бағдарламасын басқару
-      url: /learn/modules/administer-customer-data-platform/
+    - text: Аудитория мәліметтерінің құжаттамасы
+      url: audience-insights/index.yml
 - title: Байланысу
   linkLists:
   - linkListType: overview
     links:
     - text: Dynamics 365 қауымдастығына қосылу
       url: https://go.microsoft.com/fwlink/?linkid=2073991
-    - text: Идеяларыңызбен бөлісу
+    - text: Ойларыңызбен бөлісу
       url: https://go.microsoft.com/fwlink/?linkid=2074172
-    - text: Мәселе туралы хабарлау
+    - text: Проблема туралы хабарлау
       url: https://go.microsoft.com/fwlink/?linkid=2079641
-- title: Деректерді мүмкіндіктер арасында бөлісу
+- title: Audience insights оқулықтары
   linkLists:
-  - linkListType: how-to-guide
+  - linkListType: tutorial
     links:
-    - text: Мүмкіндіктер арасында байланыс жасау
-      url: engagement-insights/integrate-audience-insights-engagement-insights.md
-    - text: Есептерде пайдалану үшін сегменттер жасау
-      url: engagement-insights/integrate-audience-insights-segments.md
-    - text: Интерактивті талдау үшін профиль сипаттарын пайдалану
-      url: engagement-insights/curate-dimensions.md
+    - text: Жаңа орта жасау
+      url: audience-insights/home.md
+    - text: Тұтынушының бірыңғай профилін жасау
+      url: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+    - text: Бағдарламамен жұмыс істеу
+      url: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
 - title: Аудитория мәліметтерінің деректерін экспорттау
   linkLists:
   - linkListType: how-to-guide
@@ -88,6 +66,16 @@ landingContent:
       url: audience-insights/customer-card-add-in.md
     - text: Power BI коннекторы
       url: audience-insights/export-power-bi.md
+- title: Аудитория мәліметтерін басқару
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Жүйені конфигурациялаңыз
+      url: audience-insights/system.md
+    - text: Пайдаланушы рұқсаттарын анықтау
+      url: audience-insights/permissions.md
+    - text: Бірнеше ортаны басқару
+      url: audience-insights/manage-environments.md
 - title: Engagements insights бағдарламасы туралы ақпарат (алдын ала қарау)
   linkLists:
   - linkListType: overview
