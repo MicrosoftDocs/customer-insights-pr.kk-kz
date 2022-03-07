@@ -1,19 +1,20 @@
 ---
 title: Power BI коннекторы
 description: Power BI ішінде Dynamics 365 Customer Insights коннекторын пайдалану жолы туралы ақпарат.
-ms.date: 07/23/2021
+ms.date: 09/21/2020
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: dccc069a355725bae09c1fece9292b9aee374e6d
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: e43e2f9dbc84ebfbf2154990a752740f973296cb
+ms.sourcegitcommit: bae40184312ab27b95c140a044875c2daea37951
+ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8225522"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "5596046"
 ---
 # <a name="connector-for-power-bi-preview"></a>Power BI арналған қосқыш (алдын ала қарау)
 
@@ -38,7 +39,7 @@ Power BI Desktop көмегімен деректерге арналған көр
 
 1. **Navigator** диалогтық терезесінде. қолжетімді барлық орталарды тізімде көресіз. Ортаны кеңейтіп, қалталардың кез келгенін ашыңыз (нысандар, өлшемдер, сегменттер, арттырулар). Мысалы, импорттауға болатын барлық нысандарды көру үшін **Субъектілер** қалтасын ашыңыз.
 
-   ![Power BI қосқыш навигаторы.](media/power-bi-navigator.png "Power BI қосқыш навигаторы")
+   ![Power BI қосқыш навигаторы](media/power-bi-navigator.png "Power BI қосқыш навигаторы")
 
 1. Қосылатын нысандардың жанына құсбелгі қойып, **Жүктеу** опциясын басыңыз. Бірнеше ортадан бірнеше нысанды таңдай аласыз.
 
@@ -67,11 +68,5 @@ Power BI үшін Customer Insights коннекторы 1 миллионға д
 3. Анықталған қайталанатын қатынастарды жойыңыз.
 
 Қайталанатын қатынастарды жойғаннан кейін, Power BI қосқышын қайта конфигурациялап көріңіз. Орта қазір қолжетімді болуы керек.
-
-### <a name="errors-on-date-fields-when-loading-entities-in-power-bi-desktop"></a>Power BI Desktop бағдарламасында нысандарды жүктеу кезінде күн өрістеріндегі қателер
-
-АА/КК/ЖЖЖЖ секілді күн пішімі бар өрістерді қамтитын нысандарды жүктегенде, тіл пішімдерінің сәйкес келмеуіне байланысты қателерге тап болуыңыз мүмкін. Бұл сәйкессіздік Power BI Desktop файлы үшін ағылшын тілінен (АҚШ) басқа тіл орнатылған кезде пайда болады, өйткені аудитория туралы пайдалы мәліметтердегі күн өрістері АҚШ пішімінде сақталады.
-
-Power BI Desktop файлында деректерді алу кезінде қолданылатын бір тілдік параметр бар. Бұл күн өрістерін дұрыс түсіндіру үшін .BPI файлының тілін ағылшын тіліне (Америка Құрама Штаттары) орнатыңыз. [Power BI жұмыс үстелі файлының тілін өзгерту туралы мәлімет алыңыз](/power-bi/fundamentals/supported-languages-countries-regions.md#choose-the-locale-for-importing-data-into-power-bi-desktop).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,24 @@
 ---
-title: Customer Insights деректерін SFTP хосттарына экспорттау (бейне бар)
+title: Customer Insights деректерін SFTP хосттарына экспорттау
 description: SFTP орны үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 03/03/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 7b09da093d6332c5081da1beadc1df59f63c31d2
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: 3663a48955f0b1db8a96e25403e5f8947bc6a220
+ms.sourcegitcommit: e8e03309ba2515374a70c132d0758f3e1e1851d0
+ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8231161"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5976900"
 ---
-# <a name="export-segments-and-other-data-to-sftp-preview"></a>Сегменттерді және басқа деректерді SFTP қызметіне экспорттау (алдын ала қарау нұсқасы)
+# <a name="export-segment-lists-and-other-data-to-sftp-preview"></a>Сегмент тізімдерін және басқа деректерді SFTP қызметіне экспорттау (алдын ала қарау нұсқасы)
 
 Тұтынушы деректерін үшінші тарап бағдарламаларында оларды файлдарды қауіпсіз тасымалдау протоколының (SFTP) орнына экспорттау арқылы пайдаланыңыз.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO94X]
 
 ## <a name="prerequisites-for-connection"></a>Қосылым алғышарттары
 
@@ -27,7 +26,6 @@ ms.locfileid: "8231161"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Брандмауэрлердің артындағы SFTP тағайындауларына қазіргі уақытта қолдау көрсетілмейді. 
 - Экспорттаудың жұмыс уақыты жүйенің жұмысына байланысты. Сервердің минималды конфигурациясы ретінде екі CPU оперативті жады мен 1 Гб жадты ұсынамыз. 
 - 100 миллионға дейін тұтынушы профильдері бар нысандарды экспорттау процессордың екі оперативті жады мен 1 Гб жадының ұсынылған минималды конфигурациясын пайдалану кезінде 90 минутты алуы мүмкін. 
 

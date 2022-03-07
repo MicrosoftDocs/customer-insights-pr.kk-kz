@@ -3,20 +3,18 @@ title: API интерфейсімен жұмыс істеу
 description: API пайдаланып, шектеулерді түсініңіз.
 ms.date: 05/10/2021
 ms.reviewer: wimohabb
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-searchScope:
-- ci-system-api-usage
-- customerInsights
-ms.openlocfilehash: b1e022f8afb8b7dbb707636009b6a25ee242a4e0
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: MT
+ms.openlocfilehash: f98af8fb1c1d1ae050a5273286d35cf276d9fb17
+ms.sourcegitcommit: dab2cbf818fafc9436e685376df94c5e44e4b144
+ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8354792"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6554488"
 ---
 # <a name="work-with-customer-insights-apis"></a>Customer Insights API жүйесімен жұмыс істеу
 
@@ -37,7 +35,7 @@ Dynamics 365 Customer Insights бағдарламасы Customer Insights іші
  
    API элементін қосу API сұрауларында пайдаланылатын данаға арналған негізгі және қосымша жазылым кілтін жасайды. **Әкімші** > **Рұқсаттар** > **API интерфейстері** тармағында **Негізгісін қайта құру** немесе **Қосымшасын қайта құру** опцияларын таңдау арқылы кілттерді қайта құруға болады.
 
-<!--  :::image type="content" source="media/enable-apis.gif" alt-text="Enable Customer Insights APIs."::: -->
+   :::image type="content" source="media/enable-apis.gif" alt-text="Customer Insights API интерфейстерін қосу.":::
 
 1. [API интерфейстерін сынап көру](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) үшін **Біздің API интерфейсімізді зерттеу** опциясын таңдаңыз.
 
@@ -51,7 +49,7 @@ Dynamics 365 Customer Insights бағдарламасы Customer Insights іші
 
 HTTP жауабы жақын арада төменде пайда болады.
 
-<!--   :::image type="content" source="media/try-apis.gif" alt-text="How to test the APIs."::: -->
+   :::image type="content" source="media/try-apis.gif" alt-text="API интерфейстерін тексеру жолы.":::
 
 ## <a name="create-a-new-app-registration-in-the-azure-portal"></a>Azure порталында жаңа бағдарлама тіркелімін жасаңыз
 
@@ -67,7 +65,7 @@ HTTP жауабы жақын арада төменде пайда болады.
 
 1. Жаңа бағдарлама тіркелімінде **API рұқсаттары** бөліміне өтіңіз.
 
-<!--   :::image type="content" source="media/app-registration-1.gif" alt-text="How to set API permissions in App registration."::: -->
+   :::image type="content" source="media/app-registration-1.gif" alt-text="Бағдарламаны тіркеуде API рұқсаттарын орнату жолы.":::
 
 1. **Рұқсат қосу** опциясын таңдап, бүйірлік тақтада **Customer Insights** опциясын таңдаңыз.
 
@@ -79,7 +77,7 @@ HTTP жауабы жақын арада төменде пайда болады.
 
 Бағдарлама/клиент идентификаторын Microsoft аутентификация кітапханасында (MSAL) тіркеу үшін API интерфейсіне сұранысыңызбен жіберу мақсатында тасушы таңбалауышын алу үшін пайдалануға болады.
 
-<!-- :::image type="content" source="media/grant-admin-consent.gif" alt-text="How to grant admin consent."::: -->
+:::image type="content" source="media/grant-admin-consent.gif" alt-text="Әкімші келісімін беру жолы.":::
 
 MSAL туралы қосымша ақпарат алу үшін [Microsoft аутентификация кітапханасына (MSAL) шолу](/azure/active-directory/develop/msal-overview) тақырыбына қараңыз.
 
@@ -105,7 +103,7 @@ MSAL туралы қосымша ақпарат алу үшін [Microsoft ау�
 
 1. Бағдарламаны тіркеуді аяқтау үшін **Әкімші келісімін келесілерге беру...** опциясын таңдаңыз.
 
- <!--  :::image type="content" source="media/grant-admin-consent.gif" alt-text="How to grant admin consent."::: -->
+   :::image type="content" source="media/grant-admin-consent.gif" alt-text="Әкімші келісімін беру жолы.":::
 
 1. Қорытындылай келе, Customer Insights бағдарламасында пайдаланушы ретінде бағдарламаны тіркеу атауын қосу керек.  
    
@@ -131,19 +129,19 @@ NuGet.org. сайтынан C# клиенттік кітапханаларын �
  
    Сонымен қатар **NuGet жиынтық менеджері консолі** жүйесінде мына пәрменді орындаңыз: `Install-Package -Id Microsoft.Dynamics.CustomerInsights.Api -Source nuget.org -ProjectName <project name> [-Version <version>]`
 
- <!--  :::image type="content" source="media/visual-studio-nuget-package.gif" alt-text="Add NuGet package to Visual Studio project."::: -->
+   :::image type="content" source="media/visual-studio-nuget-package.gif" alt-text="Visual Studio жобасына NuGet жиынтығын қосу.":::
 
 #### <a name="use-the-c-client-library"></a>C# клиенттік кітапханасын пайдаланыңыз
 
 1. Бұрыннан бар [Azure бағдарламасын тіркеу](#create-a-new-app-registration-in-the-azure-portal) жүйесін пайдаланып `AccessToken` алу үшін [Microsoft аутентификация кітапханасы (MSAL)](/azure/active-directory/develop/msal-overview) пайдаланыңыз.
 
-1. Сәтті аутентификация және таңбалауыш алғаннан кейін жаңасын жасаңыз немесе барын пайдаланыңыз`HttpClient` қосымшасымен **DefaultRequestHeaders "Авторизация"** деп орнатыңыз **Тасымалдаушы «қолжетімділік белгісі»** және **Ocp-Apim-жазылым кілті** мәніне орнатыңыз [**жазылым кілті** Customer Insights ортаңыздан](#get-started-trying-the-customer-insights-apis).   
+1. Таңбалауышты сәтті аутентификациялап, алғаннан кейін, жаңасын құрастырыңыз немесе **Тасушы <access token>** және **Ocp-Apim-Subscription-Key**, [Customer Insights ортасынан  **жазылым кілті**](#get-started-trying-the-customer-insights-apis) күйлеріне орнатылған қосымша **DefaultRequestHeaders** авторизациясымен бұрыннан бар `HttpClient` пайдаланыңыз.   
  
    Қажет болған жағдайда **Авторизация** тақырыбын қалпына келтіріңіз. Мысалы, таңбалауыш мерзімі аяқталған кезде.
 
 1. Осы `HttpClient` парамтерін `CustomerInsights` клиенті құрылымына өткізіңіз.
 
-<!--   :::image type="content" source="media/httpclient-sample.png" alt-text="Sample of httpclient."::: -->
+   :::image type="content" source="media/httpclient-sample.png" alt-text="Httpclient үлгісі.":::
 
 1. Клиентпен "кеңейту әдістеріне" қоңырау шалыңыз,—мысалы, `GetAllInstancesAsync`. Егер негізгі `Microsoft.Rest.HttpOperationResponse` қатынасу керек болса, "http хабар әдістерін" пайдаланыңыз,—мысалы, `GetAllInstancesWithHttpMessagesAsync`.
 

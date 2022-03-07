@@ -1,19 +1,20 @@
 ---
 title: Customer Insights деректерін LinkedIn Ads қызметіне экспорттау
 description: LinkedIn Ads қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 10/08/2021
+ms.date: 05/12/2021
 ms.reviewer: mhart
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 7a6bb466652b8703a4784329a5e675965f557e82
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: MT
+ms.openlocfilehash: 2cfaa37fd0ac697f29665792bab27a925d8ea1eede0519d424524a7e5accbfeb
+ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
+ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8231110"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "7034230"
 ---
 # <a name="export-segments-to-linkedin-ads-preview"></a>Сегменттерді LinkedIn Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -27,10 +28,9 @@ ms.locfileid: "8231110"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Customer Insights ішіндегі сегментіңізде кемінде 300 бірегей профиль болуы керек. 
-- LinkedIn Ads қызметіне бір экспорттағанда 100000 тұтынушы профилін экспорттауға болады.
+- LinkedIn Ads қызметіне бір экспорттаған кезде 100000 профильді экспорттауға болады.
 - LinkedIn Ads қызметіне экспорттау сегменттермен шектеледі.
-- LinkedIn Ads қызметіне 100000 тұтынушы профилін экспорттау 10 минутқа дейін созылуы мүмкін. 
+- LinkedIn Ads қызметіне 100000 дейінгі профильді экспорттауды аяқтау 10 минутқа созылуы мүмкін. 
 
 ## <a name="set-up-the-connection-to-linkedin-ads"></a>LinkedIn Ads қызметіне қосылым орнату
 
@@ -66,7 +66,7 @@ ms.locfileid: "8231110"
 
 1. LinkedIn қызметінде деректерді [контактіні мақсаттау](https://business.linkedin.com/marketing-solutions/ad-targeting/contact-targeting) немесе [компания мақсаттау](https://business.linkedin.com/marketing-solutions/ad-targeting/account-targeting) үшін экспорттау керектігін таңдаңыз. 
 
-1. **Деректерді сәйкестендіру** бөлімінде контактілерге бағыттау үшін тұтынушының электрондық пошта мекенжайын, Apple Ad идентификаторын, Google Ad идентификаторын, Google пайдаланушы идентификаторын немесе аты және тегін көрсететін кем дегенде бір өріс таңдаңыз. Егер сіз компанияның мақсатты болуын таңдасаңыз, компания атауын, электрондық пошта доменін, LinkedIn бетінің URL мекенжайын, Stock белгісін немесе веб-сайтты көрсететін кем дегенде бір өрісті таңдаңыз. Экспортты одан әрі анықтау үшін қосымша өрістерді таңдауға болады. 
+1. **Деректерді сәйкестендіру** бөлімінде тұтынушының электрондық пошта мекенжайын көрсететін бірыңғай тұтынушы профиліндегі өрісті таңдаңыз. Бұл LinkedIn Ads қызметіне сегменттерді экспорттау үшін қажет.
 
 1. Экспорттау керек сегменттерді таңдаңыз. LinkedIn Campaign Manager қызметіндегі сәйкес аудитория экспорттау үшін таңдаған сегменттердің атымен автоматты түрде жасалады. Әрбір сегмент бөлек сәйкес аудиторияға әкеледі. 
 

@@ -2,25 +2,23 @@
 title: Орталарды жасау және басқару
 description: Қызметке қалай тіркелуге болатынын және орталарды басқару әдісі туралы мәлімет алыңыз.
 ms.date: 12/06/2021
+ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 ms.reviewer: mhart
 author: NimrodMagen
 ms.author: nimagen
 manager: shellyha
-searchScope:
-- ci-system-about
-- customerInsights
-ms.openlocfilehash: d9e0ee726dbbfcf330022c4d95747551d3114e7e
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.openlocfilehash: 309b2a900e50727ffa655fc6b5fe728ea55ba5bf
+ms.sourcegitcommit: 626d485dae1e001e63e4d4bf78f6770766822ba0
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8354286"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892391"
 ---
 # <a name="manage-environments"></a>Орталарды басқару
 
-
+[!INCLUDE [cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 ## <a name="switch-environments"></a>Орталарды ауыстыру
 
@@ -46,12 +44,12 @@ ms.locfileid: "8354286"
    
 **Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді.
 
-[Дайын болжам үлгілерін](predictions-overview.md#out-of-box-models) пайдалану үшін Dataverse жүйесімен деректер бөлісуді конфигурациялаңыз. Немесе сіздің ұйым басқаратын Microsoft Dataverse ортасының URL мекенжайын беру арқылы жергілікті деректер көздерінен деректер қабылдауды қосуға болады.
+[Дайын болжам үлгілерін](predictions-overview.md#out-of-box-models) пайдалану үшін Dataverse жүйесімен деректер бөлісуді конфигурациялаңыз. Немесе сіздің ұйым басқаратын Microsoft Dataverse ортасының URL мекенжайын беру арқылы жергілікті деректер көздерінен деректер қабылдауды қосуға болады. Customer Insights шығыс деректерін Dataverse басқаратын деректер көлімен бөлісу үшін **Деректер бөлісуді қосу** опциясын таңдаңыз.
 
 > [!IMPORTANT]
-> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалану үшін бір аймақта болуы керек.
+> Тұтынушы түсініктері және Dataverse деректерді ортақ пайдалануды қосу үшін бір аймақта болуы керек.
 
-:::image type="content" source="media/dataverse-provisioning.png" alt-text="Microsoft Dataverse бағдарламасымен деректер бөлісуді қосуға арналған конфигурация опциялары.":::
+:::image type="content" source="media/dataverse-data-sharing.png" alt-text="Microsoft Dataverse бағдарламасымен деректер бөлісуді қосуға арналған конфигурация опциялары.":::
 
 > [!NOTE]
 > Customer Insights бағдарламасы келесі деректерді бөлісу сценарийлеріне қолдау көрсетпейді.
