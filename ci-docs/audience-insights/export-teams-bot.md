@@ -1,27 +1,26 @@
 ---
 title: Microsoft Teams жұмыс кеңістігіне арналған бот
 description: Microsoft Teams жұмыс кеңістігінде боттың көмегімен тұтынушының бірыңғай профильдерін іздеңіз.
-ms.date: 04/21/2020
+ms.date: 10/08/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
-ms.topic: conceptual
+ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 45ea23fbefe5f1d44c3961183b76d2cc5c45355e
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
-ms.translationtype: HT
+ms.openlocfilehash: d6b016c1ec35e26ce6449333234edfd218bc9354
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406239"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8232109"
 ---
 # <a name="teams-bot-for-dynamics-365-customer-insights-preview"></a>Dynamics 365 Customer Insights үшін Teams боты (алдын ала қарау)
 
 Ботқа Teams арналарынан тұтынушының бірыңғай профилін іздеуге мүмкіндік беру үшін Microsoft Teams жұмыс кеңістігімен қосылыңыз.
 
 > [!div class="mx-imgBorder"]
-> ![Teams боты тұтынушы жазбасын көрсетеді](media/teams-bot.png "Teams боты тұтынушы жазбасын көрсетеді")
+> ![Teams боты тұтынушы жазбасын көрсетеді.](media/teams-bot.png "Teams боты тұтынушы жазбасын көрсетеді")
 
 ## <a name="prerequisites"></a>Алғышарттар
 
@@ -31,7 +30,10 @@ ms.locfileid: "4406239"
 - [Бірыңғайландыру процесі](data-unification.md) аяқталған.
 - Өрістер [іздеу және сүзгілеу индексіне](search-filter-index.md) қосылған.
 - Customer Insights және Teams жүйелері бір ұйымда.
+- Сіздің ортаңызда жеке тұтынушыларға арналған негізгі мақсатты аудитория бар. Бизнес тіркелгілерге қолдау көрсетілмейді.
 
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElj]
 ## <a name="configure-the-bot"></a>Ботты конфигурациялау
 
 1. Аудитория мәліметтерінде **Әкімші** > **Экспорттау мақсаттары** тармағына өтіңіз.
@@ -52,3 +54,6 @@ ms.locfileid: "4406239"
 - Егер сіздің ұйымыңыз бір ұйымда бірнеше Customer Insights орталарын сақтаса, ботты қосқыңыз келетін ортаны таңдау үшін **дананы ауыстыру** ішіне кіре аласыз.
 
 - Бот үшін қолжетімді пәрмендер тізімін көру үшін **анықтаманы** енгізіңіз,  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

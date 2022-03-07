@@ -1,20 +1,19 @@
 ---
-title: Dynamics 365 Customer Insights ішіндегі қызмет шектеулері
+title: Dynamics 365 Customer Insights жүйесіндегі қызмет шектері
 description: Шектеулер мен шектерді түсіну.
 ms.date: 09/03/2021
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: eb25e050b8aa768e6e1d8d4c5adce6095cccc346
-ms.sourcegitcommit: 31a9b531dacd3a6465b3030c704ff5c085b7e122
-ms.translationtype: HT
+ms.openlocfilehash: 9bf8f03b785fb3035e3fc979a3304d4e98fd8d28
+ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7791988"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8350414"
 ---
 # <a name="service-limits-in-customer-insights-capabilities"></a>Customer Insights мүмкіндіктеріндегі қызмет шектеулері
 
@@ -22,27 +21,25 @@ ms.locfileid: "7791988"
 
 ## <a name="audience-insights"></a>Аудитория туралы пайдалы мәліметтер
 
-### <a name="service-limits-in-dynamics-365-customer-insights-audience-insights-capability"></a>Dynamics 365 Customer Insights аудитория туралы түсініктер мүмкіндігіндегі қызмет шектеулері
-
 | Аумақ  | Шектеулер  | Ескертпелер |
 |-------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
 | Сегменттер, өлшемдер және болжамдар | 300  | Жалпы саны [сегменттер](audience-insights/segments.md),[шаралар](audience-insights/measures.md), және [болжамдар](audience-insights/predictions.md) біріктірілген 300-ден аспауы керек.  |
 | Қатынастар | Нысан жолдарындағы қатынастардың 20 тереңдік деңгейі. | Құрастырушы интерфейсін пайдаланып [сегменттер](audience-insights/segments.md) немесе [өлшеулер](audience-insights/measures.md) жасау кезінде нысан жолдарында бастапқы нысан мен мақсатты нысан арасында 20 қарым-қатынас секірісі болуы мүмкін.  |
 
+<!--
+## Engagement insights
 
-## <a name="engagement-insights"></a>Өзара әрекеттестік туралы мәліметтер
+### Workspace and event quotas
 
-### <a name="workspace-and-event-quotas"></a>Жұмыс кеңістігі мен оқиғаларға квоталар
+Engagement insights is a highly scalable application that can support millions of events per second. During public preview, events have a volume threshold. There's also a limit to the number of workspaces in an organization.
 
-Өзара әрекеттестік туралы түсінік – бұл секундына миллион оқиғаны қолдай алатын өте ауқымды бағдарлама. Жалпыға қолжетімді алдын ала қарау нұсқасы барысында оқиғаларда көлемдік шек болады. Сондай-ақ ұйымдағы жұмыс кеңістіктерінің санына шектеу бар.
+### Engagement insights limits
 
-### <a name="engagement-insights-limits"></a>Өзара әрекеттестік туралы түсініктер шектеулері
+- Maximum event volume per workspace  = 100 events per second
 
-- Бір жұмыс кеңістігіндегі оқиғалардың максималды көлемі = секундына 100 оқиға
+- Maximum number of workspaces per organization = 100
 
-- Бір ұйымға арналған жұмыс кеңістіктерінің максималды саны = 100
-
-Оқиғалар шектен асып кетсе, бұл сол оқиғаларға негізделген есептердегі деректердің жоғалуына әкелуі мүмкін. Шектен аспас бұрын көлемді арттыруға сұрау жіберу үшін [қолдау көрсету қызметімен байланысуға](https://go.microsoft.com/fwlink/?linkid=2145734) болады. Біз сізбен көлем деңгейін жоғарылату қажеттілігін анықтау үшін бірге жұмыс жасап, сұранысыңызды қолдаймыз.
-
+When events exceed the threshold, it can lead to loss of data in reports based on those events. You can [contact support](https://go.microsoft.com/fwlink/?linkid=2145734) to request a volume increase before you exceed limits. We'll work with you to determine your need for a volume increase and support your request.
+-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

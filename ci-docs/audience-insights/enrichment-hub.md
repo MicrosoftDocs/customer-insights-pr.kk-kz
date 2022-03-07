@@ -1,21 +1,25 @@
 ---
 title: Тұтынушының бірыңғай профильдерін арттыру
 description: Тұтынушының деректерін арттыру үшін мүмкіндіктерді пайдаланыңыз.
-ms.date: 09/30/2021
+ms.date: 02/18/2022
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
 ms.custom: intro-internal
-ms.openlocfilehash: bc0128c222c032e8cfe35e6f3baa0ea722bce7cb
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
-ms.translationtype: HT
+searchScope:
+- ci-enrichments
+- ci-enrichment-details
+- ci-enrichment-wizard
+- customerInsights
+ms.openlocfilehash: b44f5a4b74c63629811837b853b4e069dea63504
+ms.sourcegitcommit: bb1f9e96023490ab340c114f54200ab4dd48da78
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673006"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372726"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -37,14 +41,18 @@ ms.locfileid: "7673006"
 - Experian компаниясы ұсынған [демографиялық деректер](enrichment-experian.md)
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+- HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md) 
+- [Жеке басын куәландыратын](enrichment-liveramp.md) LiveRamp AbiliTec ұсынған
 
 # <a name="business-accounts-b-to-b"></a>[Бизнес тіркелгілері (бизнес бизнеске)](#tab/b2b)
 
 - Leadspace қамтамасыз еткен [компания деректері](enrichment-leadspace.md)
 - Microsoft ұсынған [нақтыланған мекенжайлар](enrichment-enhanced-addresses.md) 
+- [Жетілдірілген компания деректері](enrichment-enhanced-company-data.md) Microsoft ұсынған
 - HERE Technologies қамтамасыз еткен [орын деректері](enrichment-here.md) 
 - Қауіпсіз файл тасымалдау протоколы (SFTP) арқылы алынған [реттелетін деректер](enrichment-SFTP-custom-import.md) 
 - Microsoft арқылы қамтамасыз етілген [Azure Maps](enrichment-azure-maps.md)
+- [Есептік жазбаны тарту деректері](enrichment-office.md) Microsoft ұсынған
 
 ---
 
@@ -73,6 +81,10 @@ ms.locfileid: "7673006"
 ## <a name="multiple-enrichments-of-the-same-type"></a>Бір түрдегі бірнеше жақсарту
 
 Жақсартылатын нысан жақсарту конфигурациясы кезінде көрсетіледі, бұл сіздің профильдеріңіздің тек ішкі жиынтығын жақсартуға мүмкіндік береді. Мысалы, белгілі бір сегмент үшін ғана деректерді толықтыру. Бір түрдегі бірнеше жақсартуды конфигурациялауға және бір қосылымды қайта пайдалануға болады. Кейбір жақсартуларда жасалуы мүмкін бірдей түрдегі жақсарту санының шегі болады. Шектеулер мен ағымдағы пайдалануды **Жақсарту** бетінде көруге болады.
+
+## <a name="enrich-data-sources-before-unification"></a>Біріктірмес бұрын деректер көздерін байытыңыз
+
+Деректер сәйкестігінің сапасын арттыруға көмектесу үшін деректерді біріктіру алдында тұтынушы деректерін байыта аласыз. Қосымша ақпаратты қараңыз [деректер көзі байыту](data-sources-enrichment.md).
 
 ## <a name="see-the-progress-of-the-enrichment-process"></a>Жетілдіру процесінің барысын қараңыз
 

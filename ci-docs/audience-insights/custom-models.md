@@ -3,25 +3,27 @@ title: Реттелетін компьютерлік оқыту үлгілері
 description: Dynamics 365 Customer Insights бағдарламасында Azure Machine Learning қызметінен реттелетін үлгілермен жұмыс жасаңыз.
 ms.date: 12/01/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: tutorial
 author: zacookmsft
 ms.author: zacook
 manager: shellyha
-ms.openlocfilehash: 47e2e5109ef8f21a782f6c8f87088009f8a40fdf
-ms.sourcegitcommit: 58651d33e0a7d438a2587c9ceeaf7ff58ae3b648
-ms.translationtype: HT
+searchScope:
+- ci-custom-models
+- customerInsights
+ms.openlocfilehash: 460b68e1e65b3033af0a03d1bcc27e718c79d7aa
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "7881791"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355082"
 ---
 # <a name="custom-machine-learning-models"></a>Реттелетін компьютерлік оқыту үлгілері
 
 > [!NOTE]
-> компьютерлік оқыту Studio (классикалық) қолдауы 2024 жылдың 31 тамызында аяқталады. өтуге кеңес береміз [Azure компьютерлік оқыту](/azure/machine-learning/overview-what-is-azure-machine-learning) сол күнге.
+> компьютерлік оқыту Studio (классикалық) қолдауы 2024 жылдың 31 тамызында аяқталады. өтуге кеңес береміз [Көк түсті компьютерлік оқыту](/azure/machine-learning/overview-what-is-azure-machine-learning) сол күнге.
 >
-> 2021 жылдың 1 желтоқсанынан бастап жаңа компьютерлік оқыту Studio (классикалық) ресурстарын жасай алмайсыз. 2024 жылдың 31 тамызына дейін бар компьютерлік оқыту Studio (классикалық) ресурстарын пайдалануды жалғастыра аласыз. Қосымша ақпаратты қараңыз [Azure компьютерлік оқыту жүйесіне көшіріңіз](/azure/machine-learning/migrate-overview).
+> 2021 жылдың 1 желтоқсанынан бастап жаңа компьютерлік оқыту Studio (классикалық) ресурстарын жасай алмайсыз. 2024 жылдың 31 тамызына дейін бар компьютерлік оқыту Studio (классикалық) ресурстарын пайдалануды жалғастыра аласыз. Қосымша ақпаратты қараңыз [Azure компьютерлік оқыту қызметіне көшіріңіз](/azure/machine-learning/migrate-overview).
 
 
 **Сараптау** > **Реттелетін үлгілер** тармағы Azure Machine Learning үлгілеріне байланысты жұмыс ағындарын басқаруға мүмкіндік береді. Жұмыс ағындары сізге түсініктер құруға болатын деректерді таңдауға және нәтижелерді тұтынушының бірыңғай деректерімен салыстыруға көмектеседі. Реттелетін ML үлгілерін құру туралы қосымша ақпаратты [Azure Machine Learning бағдарламасына негізделген үлгілерді пайдалану](azure-machine-learning-experiments.md) бөлімінен қараңыз.
@@ -32,7 +34,7 @@ ms.locfileid: "7881791"
 
 ## <a name="prerequisites"></a>Алғышарттар
 
-- Бұл мүмкіндік арқылы жарияланған веб-қызметтерді қолдайды [Azure компьютерлік оқыту пакеттік құбыржолдары](/azure/machine-learning/concept-ml-pipelines).
+- Бұл мүмкіндік арқылы жарияланған веб-қызметтерді қолдайды [Azure компьютерлік оқыту пакеттік құбыр желілері](/azure/machine-learning/concept-ml-pipelines).
 
 - Бұл мүмкіндікті пайдалану үшін сізге Azure Studio данасымен байланысты Azure Data Lake Gen2 сақтау орны тіркелгісі қажет. Қосымша ақпарат алу үшін [Azure Data Lake Storage Gen2 сақтау орны тіркелгісін жасау](/azure/storage/blobs/data-lake-storage-quickstart-create-account) бөлімін қараңыз.
 
@@ -40,6 +42,8 @@ ms.locfileid: "7881791"
 
    > [!NOTE]
    > Деректер сіздің Customer Insights даналарыңыз және таңдалған Azure веб-қызметтері немесе жұмыс ағынындағы сату үрдістері арасында тасымалданады. Деректерді Azure қызметіне тасымалдағанда, қызмет ұйымыңызға деректерге қатысты қойылатын кез келген заңдық немесе нормативтік талаптарға сай болуы үшін қажетті түрде және орында деректерді өңдеуге конфигурацияланғанына көз жеткізіңіз.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWRElk]
 
 ## <a name="add-a-new-workflow"></a>Жаңа жұмыс ағынын қосу
 

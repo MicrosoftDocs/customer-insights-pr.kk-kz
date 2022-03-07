@@ -1,22 +1,31 @@
 ---
 title: Customer Insights деректерін Azure Data Lake Storage Gen2 жүйесіне экспорттау
 description: Azure Data Lake Storage Gen2 қосылымын конфигурациялау жолы туралы ақпарат.
-ms.date: 03/03/2021
+ms.date: 10/06/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: f431b707e1d65ffe47f8b3aa1c52abaa964e871a
-ms.sourcegitcommit: 1b671c6100991fea1cace04b5d4fcedcd88aa94f
-ms.translationtype: HT
+ms.openlocfilehash: cc0b3aac11a33facc366e9c57071d1fb8be4ecc4
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5760058"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8231681"
 ---
-# <a name="set-up-the-connection-to-azure-data-lake-storage-gen2-preview"></a>Azure Data Lake Storage Gen2 (алдын ала қарау нұсқасы) бағдарламасына қосылым орнату
+# <a name="export-segment-list-and-other-data-to-azure-data-lake-storage-gen2-preview"></a>Сегмент тізімін және басқа деректерді Azure Data Lake Storage Gen2 (алдын ала қарау нұсқасы) қызметіне экспорттау
+
+Customer Insights деректерін Azure Data Lake Storage Gen2 тіркелгісіне сақтаңыз немесе оны деректерді басқа бағдарламаларға тасымалдау үшін пайдаланыңыз.
+
+## <a name="known-limitations"></a>Белгілі шектеулер
+
+1. Azure Data Lake Storage Gen2 тіркелгісі үшін [Стандартты өнімділік және премиум өнімділік деңгейін](/azure/storage/blobs/create-data-lake-storage-account) деректер көлі үшін сақтау тіркелгісін жасаған кезде таңдауға болады. Егер сіз премиум өнімділік деңгейін таңдасаңыз, тіркелгі түрі ретінде премиум блок екілік нысандарын таңдаңыз. 
+
+
+## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage Gen2 тіркелгісіне қосылым орнату 
+
 
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 

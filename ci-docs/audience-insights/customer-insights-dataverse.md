@@ -1,20 +1,22 @@
 ---
 title: Microsoft Dataverse жүйесіндегі Customer Insights деректері
 description: Customer Insights нысандарын Microsoft Dataverse жүйесінде кесте ретінде пайдаланыңыз.
-ms.date: 10/14/2021
+ms.date: 11/25/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: m-hartmann
 ms.author: wimohabb
 manager: shellyha
-ms.openlocfilehash: 9855ff6908001dd18bc19a286fc56620d0a127e5
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+searchScope:
+- ci-system-diagnostic
+- customerInsights
+ms.openlocfilehash: 9f730f5856221592cddf34b714beeaca24c52130
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645225"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355436"
 ---
 # <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse жүйесіндегі Customer Insights деректерімен жұмыс істеу
 
@@ -45,6 +47,7 @@ Dataverse жүйесін бұрыннан пайдаланатын ұйымда�
 - [CustomerMeasure](#customermeasure)
 - [Арттыру](#enrichment)
 - [Болжам](#prediction)
+- [Сегмент мүшелігі](#segment-membership)
 
 
 ### <a name="customerprofile"></a>Тұтынушы профилі
@@ -121,3 +124,16 @@ AlternateKey кестесінде біріктіру процесіне қаты
 | Мәндер               | JSON жолы | Үлгіде жасалатын төлсипаттар тізімі |
 | msdynci_predictionid | GUID        | Msdynci_identifier-ден жасалған анықтамалық GUID идентификаторы | 
 | msdynci_identifier   | String      |  `Model|ModelProvider|CustomerId`                      |
+
+### <a name="segment-membership"></a>Сегмент мүшелігі
+
+Бұл кесте тұтынушы профильдерінің сегмент мүшелігі туралы ақпаратты қамтиды.
+
+| Column        | Түр | Сипаттама                        |
+|--------------------|--------------|-----------------------------|
+| CustomerId        | String       | Тұтынушы профилінің идентификаторы        |
+| SegmentProvider      | String       | Сегменттерді жариялайтын қолданба. Әдепкі: аудитория туралы түсініктер         |
+| SegmentMembershipType | String       | Осы сегменттің мүшелік жазбасының тұтынушы түрі. Тұтынушы, Контакт немесе Тіркелгі сияқты бірнеше түрді қолдайды. Әдепкі: Тұтынушы  |
+| Сегменттер       | JSON жолы  | Тұтынушы профилі мүшесі болып табылатын бірегей сегменттер тізімі      |
+| msdynci_identifier  | String   | Сегмент мүшелігі жазбасының бірегей идентификаторы. `CustomerId|SegmentProvider|SegmentMembershipType|Name`  |
+| msdynci_segmentmembershipid | GUID      | Детерминистік GUID жасалған`msdynci_identifier`          |

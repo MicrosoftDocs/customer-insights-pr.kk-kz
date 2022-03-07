@@ -5,16 +5,15 @@ author: m-hartmann
 ms.author: mhart
 ms.date: 09/30/2021
 ms.topic: get-started
-ms.service: customer-insights
 ms.custom: template-trial-setup
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: dc1ea94ad55886c605d27caea031e00964f6f7c8
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+ms.openlocfilehash: 1b50da077cb0584ca9f277b276d0e9ebb46b2c5d
+ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645498"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8350230"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-customer-insights-trial"></a>Тегін Dynamics 365 Customer Insights сынақ нұсқасына тіркелу
 
@@ -32,23 +31,12 @@ Customer Insights бағдарламасы тегін 30 күндік сынақ
 
 Сынақ ортасы ақылы нұсқа сияқты мүмкіндіктерді қамтиды. Төмендегі сілтемелер арқылы кейбір негізгі мүмкіндіктерге өтуге болады.
 
-### <a name="audience-insights"></a>Аудитория туралы пайдалы мәліметтер
-
 - [Аудитория түсініктері туралы қысқаша нұсқаулық.](audience-insights/get-started.md)
 - [Қосымша пайдаланушыларды қосу және рұқсаттарды тағайындау.](audience-insights/permissions.md)
 - [Деректер көздерін енгізіңіз](audience-insights/data-sources.md) және оларды арқылы өткізіңіз[ мәліметтерді біріздендіру процесі](audience-insights/data-unification.md) алу[ тұтынушылардың бірыңғай профильдері](audience-insights/customer-profiles.md).
 - [Тұтынушылардың бірыңғай профильдерін арттыру](audience-insights/enrichment-hub.md) немесе [болжамды модельдерді іске қосу](audience-insights/predictions-overview.md).
 - Тұтынушыларды топтастыру үшін [сегменттер](audience-insights/measures.md) және KPI көрсеткіштерін қарап шығу үшін [өлшемдер](audience-insights/segments.md) жасаңыз.
 - Деректеріңіздің қосалқы жиындарын басқа бағдарламаларда өңдеу үшін [байланыстар](audience-insights/connections.md) мен [экспорттауларды](audience-insights/export-destinations.md) орнату.
-
-### <a name="engagement-insights"></a>Өзара әрекеттестік туралы мәліметтер
-
-- [Өзара әрекеттесу түсініктері туралы қысқаша нұсқаулық.](engagement-insights/get-started.md)
-- [Жұмыс кеңістігін жасап](engagement-insights/create-workspace.md), мүшелерді қосыңыз.
-- [Кодты веб-сайтқа](engagement-insights/instrument-website.md) немесе [мобильді бағдарламаға](engagement-insights/developer-resources.md#capture-events-from-mobile-apps) қосыңыз.
-- [Нақты уақыттағы есепті](engagement-insights/view-reports.md) көріңіз немесе [реттелетін есептер](engagement-insights/custom-reports.md) жасаңыз.
-- Экспорттау үшін [нақтыланған оқиғалар](engagement-insights/refined-events.md) жасаңыз.
-- [Деректерді](engagement-insights/export-events.md) Azure Data Lake Storage қызметіне экспорттаңыз.
 
 ## <a name="additional-resources"></a>Қосымша ресурстар
 

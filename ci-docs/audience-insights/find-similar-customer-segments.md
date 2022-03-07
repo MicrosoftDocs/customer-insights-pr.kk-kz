@@ -1,24 +1,29 @@
 ---
-title: Ұқсас тұтынушыларды AI көмегімен табу
+title: AI бар ұқсас тұтынушыларды табыңыз (бейне бар)
 description: Ұқсас тұтынушы сегменттерін жасанды интеллектпен табыңыз.
 ms.date: 06/25/2020
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: ee4d24ae0ae39c689956f70efe46c4226876484e6da6282dc874cec37bd287e2
-ms.sourcegitcommit: aa0cfbf6240a9f560e3131bdec63e051a8786dd4
-ms.translationtype: HT
+searchScope:
+- ci-segment-builder
+- ci-segment-insights
+- customerInsights
+ms.openlocfilehash: 5626b980ad8802aae9657052e3ca51a70c49baf9
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "7034550"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8355252"
 ---
 # <a name="similar-customers-preview"></a>Ұқсас тұтынушылар (алдын ала қарау)
 
 Бұл мүмкіндік жасанды интеллектіні пайдаланып тұтынушы негізінен ұқсас тұтынушыларды табуға мүмкіндік береді. Осы мүмкіндікті пайдалану үшін жасалған кемінде бір сегмент болуы керек. Бұрыннан бар сегмент шарттарын кеңейту сегментке ұқсас тұтынушыларды табуға көмектеседі.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOFou]
 
 > [!NOTE]
 > *Ұқсас тұтынушыларды табу* мүмкіндігінде деректерді бағалау мен деректерге байланысты болжамдар жасау әрекеттері пайдаланылады, сол себепті Деректерді қорғау бойынша жалпы регламент ("GDPR") бойынша анықталған шарт ретінде профильдеу әдісі ретінде пайдаланылатын мүмкіндік бар. Тұтынушының деректерді өңдеу үшін осы мүмкіндікті пайдалануына GDPR, басқа заңдар немесе ережелер қатысты болуы мүмкін. Болжамдарға қоса Dynamics 365 Customer Insights бағдарламасын пайдаланудың барлық қолданбалы заңдар мен ережелердің жеке өмірге, жеке деректерге, биометриялық деректерге, деректерді қорғауға және байланыстар құпиялылығына қатысты заңдарға сәйкес келуіне жауаптысыз.

@@ -5,16 +5,15 @@ author: jusali
 ms.reviewer: mhart
 ms.author: jusali
 ms.date: 10/01/2021
-ms.service: customer-insights
 ms.subservice: engagement-insights
 ms.topic: how-to
 ms.manager: shellyha
-ms.openlocfilehash: 816f948331a06794c15000eb779f93cc7fdda202
-ms.sourcegitcommit: 53b133a716c73cb71e8bcbedc6273cec70ceba6c
-ms.translationtype: HT
+ms.openlocfilehash: 76b3466afd84aa439ea55afe90ae037825884f2d
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645317"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8229084"
 ---
 # <a name="create-a-new-workspace-and-add-members"></a>Жаңа жұмыс кеңістігін жасау және мүшелер қосу
 
@@ -26,17 +25,17 @@ ms.locfileid: "7645317"
 
 ## <a name="create-a-new-workspace"></a>Жаңа жұмыс кеңістігін жасау
 
-Жұмыс кеңістігін құру процесі жұмыс кеңістігін ұйымдастыру үшін *ортаны* орнатуды қамтиды. Орта дегеніміз – бір немесе бірнеше жұмыс кеңістігін қамтуы мүмкін кеңістік. Өзіңіздің жұмыс кеңістігіңізді және Customer Insights аудитория туралы түсініктер мүмкіндігімен байланыстарды басқару үшін ортаны пайдалануға болады.
+Жұмыс кеңістігін құру процесі жұмыс кеңістігін ұйымдастыру үшін *ортаны* орнатуды қамтиды. Орта дегеніміз – бір немесе бірнеше жұмыс кеңістігін қамтуы мүмкін кеңістік. Жұмыс кеңістігіңізді және аудитория түсініктері мүмкіндігіне қосылымдарды басқару үшін ортаны пайдалана аласыз.
 
-1. Жұмыс кеңістігін ауыстыру құралынан **Жаңа** опциясын таңдаңыз.
+1. таңдаңыз **+Жаңа** жұмыс кеңістігінің ауыстырғышынан.
 
-   :::image type="content" source="media/new-workspace.png" alt-text="Навигация тақтасында шығарылған түсініктемесі және сипаттамасы бар Customer Insights беті.":::
+   :::image type="content" source="media/new-workspace.png" alt-text="Шарлау тақтасында және сипаттамасында ескертуі бар Customer Insights беті.":::
 
 1. **Жұмыс кеңістігі** тақтасында **Жұмыс кеңістігінің атауын** енгізіңіз.
 
    :::image type="content" source="media/workspace-name.png" alt-text="Жұмыс кеңістігінің атауын теру.":::
 
-1. Өлшеу керек платформа түрін (веб немесе мобильді) таңдаңыз.
+1. Өлшегіңіз келетін платформа түрін (веб немесе ұялы) таңдаңыз.
 
 1. Осы қосымша параметрлерді қосу немесе өшіру үшін **Кеңейтілген параметрлерді көрсету** опциясын таңдаңыз:
 

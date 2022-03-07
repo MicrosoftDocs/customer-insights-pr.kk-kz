@@ -1,20 +1,19 @@
 ---
 title: Power Automate қосқышы | Microsoft Docs
-description: Dynamics 365 Customer Insights жүйесінен Microsoft Power Automate ішінде ағындар жасаңыз.
-ms.date: 08/03/2020
-ms.service: customer-insights
+description: Microsoft Power Automate бағдарламасында Dynamics 365 Customer Insights бағдарламасынан ағындар жасау.
+ms.date: 06/24/2021
+ms.reviewer: mhart
 ms.subservice: audience-insights
-ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
-ms.reviewer: philk
+ms.topic: how-to
+author: pkieffer
+ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ffe92414365b0b777691a4a2d585100e4fbea591
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
-ms.translationtype: HT
+ms.openlocfilehash: dc9bbe22b7f10cf92f06cae18fbece9808b87dce
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406206"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8226721"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate коннекторы (алдын ала қарау)
 
@@ -22,28 +21,35 @@ ms.locfileid: "4406206"
 
 ## <a name="power-automate-triggers"></a>Power Automate триггерлері
 
-Хабарландырулар немесе қосымша кеңейтілген әрекеттер сияқты қайталанатын тапсырмаларды автоматтандыру үшін ағындарды жасауға мүмкіндік беретін әртүрлі триггерлерді пайдалана аласыз. 
+Бұлтты ағындарды құру және хабарландырулар немесе жетілдірілген әрекеттер секілді қайталанатын тапсырмаларды автоматтандыру үшін триггерлерді пайдаланыңыз. 
 
 - Дереккөзді жаңарту сәтсіз болған кезде іске қосыңыз. 
 - Дереккөзді жаңарту сәтті болған кезде іске қосыңыз.
 - Сегментте шектен асқан кезде іске қосыңыз. Триггер шектен асырмауға шектелген.
-- Іскери шарада шектен асқан кезде іске қосыңыз. Триггер шектен асырмау күйіне шектелген.
-- Толық жаңарту (деректер көздері, сегменттер, шаралар,...) аяқталған кезде іске қосыңыз.
+- Іскери шарада шектен асқан кезде іске қосыңыз. Тек өлшемсіз бизнес көрсеткіштеріне қолдау көрсетіледі. Триггер шектен асырмауға шектелген.
+- Толық жаңарту (деректер көздері, сегменттер, шаралар, ...) аяқталған кезде іске қосыңыз.
 - Бірегейлендіру процесін жаңарту (карта, сәйкестік, біріктіру) аяқталған кезде іске қосу.
 
-[Power Automate жүйесінде триггерлеріңізді теңшеңіз](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/).
+[Power Automate бағдарламасындағы триггерлерді конфигурациялаңыз.](https://flow.microsoft.com/connectors/shared_customerinsights/dynamics-365-customer-insights-connector/)
 
 ## <a name="power-automate-actions"></a>Power Automate әрекеттері
-Power Automate коннекторы қолжетімді триггерлерден бөлек басқа әрекеттерді қамтамасыз етеді. Толық ақпарат алу үшін [Dynamics 365 Customer Insights Connector](https://docs.microsoft.com/connectors/customerinsights/) қараңыз.
 
-## <a name="create-a-power-automate-flow-in-audience-insights"></a>Аудитория түсініктерінде Power Automate ағынын жасау
+Power Automate коннекторы қолжетімді триггерлерден бөлек басқа әрекеттерді қамтамасыз етеді. Толық ақпарат алу үшін [Dynamics 365 Customer Insights Connector](/connectors/customerinsights/) қараңыз.
 
-1. Аудитория түсініктерінде **Әкімші** > **Жүйе** тармағына өтіңіз.
+## <a name="create-a-power-automate-flow"></a>Power Automate ағынын жасау
 
-1. **Жүйе** бетінен **Күй** қойыншасын таңдаңыз.
+1. Аудитория мәліметтерінде **Әкімші** > **Экспорттау мақсаттары** тармағына өтіңіз.
 
-1. **Деректер көздері** бөлімінде **Ағындар** параметріне және ашылмалы тізімнен **Ағын жасау** опциясын таңдаңыз.
-   > [!div class="mx-imgBorder"]
-   > ![Power Automate коннекторы Ағынды жасау әрекетін көрсетеді](media/power-automate-connector-create-flow.png "Power Automate коннекторы Ағынды жасау әрекетін көрсетеді")
+1. **Power Automate** тақтасында **Реттеу** түймешігін таңдаңыз.
 
-1. Power Automate бағдарламасында қажетті ағынды жасау үшін қолжетімді триггерлердің біреуін таңдаңыз. Алғашқы ағынды жасап жатсаңыз, алдымен Power Automate коннекторы көмегімен түпнұсқалығын растауыңыз керек болады.
+1. Power Automate жүйесінде Customer Insights қосқышы (алдын ала қарау) ашылады. Power Automate жүйесіне **кіріңіз**.
+
+1. Қолжетімді триггерлердің бірін таңдап, жаңа ағынға қосымша қадамдар қосыңыз. Қосымша ақпарат алу үшін [Power Automate бағдарламасында бұлттық ағынды жасау](/power-automate/get-started-logic-flow) бөлімін қараңыз.
+
+Ағындарды пайдалану мысалдары: 
+- Деректер көзін жаңарту орындалмаса, Microsoft Teams арнасына хабар жіберіңіз. 
+- Сегменттегі шек қиылыспағанда, деректер иеленушілеріне электрондық хабар жіберіңіз.
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

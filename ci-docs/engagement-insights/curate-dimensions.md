@@ -2,18 +2,17 @@
 title: Мінез-құлық деректерін бөлу үшін демографиялық өлшемдерді пайдалану (басқарылатын өлшемдер)
 description: Аудитория туралы пайдалы мәліметтердің тұтынушы профилі сипаттарын қосу үшін бірыңғай профильдің басқарылатын өлшемдерін пайдаланыңыз.
 ms.date: 07/27/2021
-ms.service: customer-insights
 ms.topic: conceptual
 author: mkisel
 ms.author: mkisel
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 50bb800c9e097d03cc6f26f79819c741ab5e8baf
-ms.sourcegitcommit: 1c396394470df8e68c2fafe3106567536ff87194
-ms.translationtype: HT
+ms.openlocfilehash: 95395e09bc0ba5ba93138957c62105f31c709e91
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "7461110"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8233054"
 ---
 # <a name="use-demographic-dimensions-for-splitting-behavioral-data"></a>Мінез-құлық деректерін бөлу үшін демографиялық өлшемдерді пайдалану
 
@@ -29,7 +28,7 @@ ms.locfileid: "7461110"
 - Тұтынушы профиьдері жасалатын аудитория туралы пайдалы мәліметтер ортасына байланыстырылған тұтынушы профилінің деректері бар өзара әрекеттестік туралы пайдалы мәліметтер ортасы. Қосымша ақпарат: [Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер арасындағы байланыс жасау](integrate-audience-insights-engagement-insights.md)
 
 > [!NOTE]
-> Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер орталары арасында байланыс орнатқаннан кейін, тұтынушы профилінің сипаттарына қатысты деректерді ғана қажет ете аласыз, олар өзара әрекеттестік туралы пайдалы мәліметтерде өлшемдер ретінде пайдалы болуы мүмкін. Қосымша ақпарат алу үшін [Аудитория туралы пайда мәліметтердің бірыңғай профильдерінің төлсипаттары мен сегменттерін қосу](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) бөліміне өтіңіз.<!--note from editor: Suggested. -->
+> Аудитория туралы пайдалы мәліметтер мен өзара әрекеттестік туралы пайдалы мәліметтер орталары арасында байланыс орнатқаннан кейін, тұтынушы профилінің сипаттарына қатысты деректерді ғана қажет ете аласыз, олар өзара әрекеттестік туралы пайдалы мәліметтерде өлшемдер ретінде пайдалы болуы мүмкін. Қосымша ақпарат алу үшін [Аудитория туралы пайда мәліметтердің бірыңғай профильдерінің төлсипаттары мен сегменттерін қосу](integrate-audience-insights-engagement-insights.md#enable-audience-insights-unified-profiles-attributes-and-segments) бөліміне өтіңіз.
 
 ## <a name="create-a-new-custom-report"></a>Жаңа реттелетін есеп жасау
 
