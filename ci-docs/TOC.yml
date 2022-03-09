@@ -2,8 +2,30 @@
   href: index.yml
 - name: Өнімге шолу
   href: overview.md
-- name: Сынақ нұсқасын жасау
-  href: audience-insights/get-started-trial.md
+- name: Оқыту каталогы
+  items:
+    - name: Бастау
+      href: /learn/modules/get-started-customer-data-platform/
+    - name: Деректерді қабылдау
+      href: /learn/modules/ingest-data-customer-insights/
+    - name: Тұтынушының бірыңғай профилін жасау
+      href: /learn/modules/unified-customer-profile/
+    - name: Аудитория түсініктерімен жұмыс жасаңыз
+      href: /learn/modules/working-with-customer-insights/
+    - name: 'Деректерді байытып, болжам жасаңыз'
+      href: /learn/modules/enrich-data/
+    - name: Сыртқы қосылымдарды басқару
+      href: /learn/modules/configure-third-party-connections/
+    - name: Customer Insights бағдарламасын басқару
+      href: /learn/modules/administer-customer-data-platform/
+- name: Тегін сынақ нұсқасы
+  items:
+    - name: ' Тегін сынақ нұсқасына жазылу '
+      href: trial-signup.md
+    - name: Сынақ нұсқа ЖҚС
+      href: trial-FAQ.md
+- name: Ақылы лицензиямен бастау
+  href: paid-license.md
 - name: Ортаға кіріңіз
   href: 'https://home.ci.ai.dynamics.com/'
 - name: Аудитория туралы пайдалы мәліметтер
@@ -14,28 +36,30 @@
       href: audience-insights/overview.md
     - name: Жаңа және жаңартылған мүмкіндіктер
       href: audience-insights/whats-new-audience-insights.md
-    - name: Жаңа орта жасау
-      href: audience-insights/get-started-paid.md
-    - name: Модульдер туралы мәліметтер алу
+    - name: Бастау
       items:
-        - name: Деректерді қабылдау
-          href: /learn/modules/ingest-data-customer-insights/
-        - name: Тұтынушының бірыңғай профилін жасау
-          href: /learn/modules/unified-customer-profile/
-        - name: Бағдарламамен жұмыс істеу
-          href: /learn/modules/working-with-customer-insights/
-        - name: Деректер мен болжамдарды арттыру
-          href: /learn/modules/enrich-data/
+        - name: Жылдам іске қосу нұсқаулығы
+          href: audience-insights/get-started.md
+        - name: Жаңа орта жасау
+          href: audience-insights/create-environment.md
+        - name: Аудитория туралы пайдалы мәліметтерді зерттеу
+          href: audience-insights/home.md
+    - name: Бизнес тіркелгілермен жұмыс істеу
+      href: audience-insights/work-with-business-accounts.md
     - name: Дерек көздері
       items:
         - name: Деректер көздеріне шолу
           href: audience-insights/data-sources.md
-        - name: Power Query қосқыштары арқылы деректер көздерін қосу
+        - name: арқылы деректер көздерін қосыңыз Power Query қосқыштар
           href: audience-insights/connect-power-query.md
         - name: Common Data Model қалтасын деректер көзі ретінде қосу
           href: audience-insights/connect-common-data-model.md
         - name: Dataverse басқарылатын деректер көлін қосу
           href: audience-insights/connect-dataverse-managed-lake.md
+        - name: Azure Synapse Analytics қосу
+          href: audience-insights/connect-synapse.md
+        - name: Деректер көздері үшін байыту
+          href: audience-insights/data-sources-enrichment.md
         - name: Деректер көздерін кезеңдік жаңарту
           href: audience-insights/incremental-refresh-data-sources.md
         - name: Нақты уақыттағы деректерді қабылдау
@@ -46,7 +70,7 @@
       items:
         - name: Деректерді біріктіруге шолу
           href: audience-insights/data-unification.md
-        - name: Нысандар мен атрибуттарды салыстыру
+        - name: Нысандар мен төлсипаттарды салыстыру
           href: audience-insights/map-entities.md
         - name: Нысандарды сәйкестендіру
           href: audience-insights/match-entities.md
@@ -60,20 +84,30 @@
           href: audience-insights/relationships.md
         - name: Тұтынушы әрекеттерінің тізімі
           href: audience-insights/activities.md
+        - name: Семантикалық салыстыруларды анықтау
+          href: audience-insights/semantic-mappings.md
     - name: Деректерді арттыру
       items:
         - name: Тұтынушы профильдерін арттыру
           href: audience-insights/enrichment-hub.md
-        - name: Бренд және қызығушылық ұқсастықтары
+        - name: Брендтер және қызығушылықтар
           href: audience-insights/enrichment-microsoft.md
         - name: Жақсартылған мекенжайлар
           href: audience-insights/enrichment-enhanced-addresses.md
+        - name: Жақсартылған компания деректері
+          href: audience-insights/enrichment-enhanced-company-data.md
+        - name: Azure Maps жүйесімен жетілдіру
+          href: audience-insights/enrichment-azure-maps.md
         - name: Деректерді HERE Technologies арқылы арттыру
           href: audience-insights/enrichment-here.md
         - name: Leadspace көмегімен арттыру
           href: audience-insights/enrichment-leadspace.md
+        - name: LiveRamp көмегімен байытыңыз
+          href: audience-insights/enrichment-liveramp.md
         - name: Experian қызметімен толықтыру
           href: audience-insights/enrichment-experian.md
+        - name: '-мен байытыңыз Office 365 деректер'
+          href: audience-insights/enrichment-office.md
         - name: SFTP реттемелі импорттау әдісі арқылы арттыру
           href: audience-insights/enrichment-SFTP-custom-import.md
     - name: Сегменттер
@@ -90,10 +124,14 @@
           href: audience-insights/segment-insights.md
         - name: Ұқсас тұтынушыларды табу
           href: audience-insights/find-similar-customer-segments.md
-    - name: Көрсеткіштер
+    - name: Өлшемдер
       items:
-        - name: Өлшемдер мен KPI көрсеткіштерін анықтаңыз
+        - name: Шараларға шолу
           href: audience-insights/measures.md
+        - name: Жаңа өлшем жасаңыз
+          href: audience-insights/measure-builder.md
+        - name: Өлшем үлгісін пайдаланыңыз
+          href: audience-insights/measure-templates.md
     - name: Болжамдар
       items:
         - name: АІ көмегімен деректерді болжау
@@ -106,8 +144,10 @@
               href: audience-insights/predict-product-recommendation.md
             - name: Жазылымның бітуін болжау
               href: audience-insights/predict-subscription-churn.md
-            - name: Транзакциялық кетуді болжау
+            - name: Транзакция жылыстауын болжау
               href: audience-insights/predict-transactional-churn.md
+            - name: Тұтынушының кері байланысындағы көңіл-күйді талдаңыз
+              href: audience-insights/sentiment-analysis.md
             - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
               href: audience-insights/custom-models.md
             - name: Толық емес деректерді толықтыру
@@ -118,14 +158,12 @@
               href: audience-insights/sample-guide-predict-clv.md
             - name: Жазылым бойынша тұтынушылардың кетуі болжамына арналған үлгі нұсқаулығы
               href: audience-insights/sample-guide-predict-subscription-churn.md
-            - name: Транзакциялық кету болжамына арналған үлгі нұсқаулығы
+            - name: Транзакция жылыстауы болжамының үлгі нұсқаулығы
               href: audience-insights/sample-guide-predict-transactional-churn.md
             - name: Өнім ұсынысының болжамы бойынша нұсқаулық үлгісі
               href: audience-insights/sample-guide-predict-product-recommendation.md
             - name: Azure Machine learning қызметімен эксперименттер
               href: audience-insights/azure-machine-learning-experiments.md
-            - name: Azure Machine Learning студиосымен тәжірибелер
-              href: audience-insights/machine-learning-studio-experiments.md
         - name: Болжамдарды басқару
           href: audience-insights/manage-predictions.md
         - name: Болжамдар негізінде сегменттер жасау
@@ -150,7 +188,7 @@
               href: audience-insights/export-azure-synapse-analytics.md
             - name: Adobe Campaign Standard
               href: audience-insights/export-adobe-campaign-standard.md
-            - name: Adobe Experience платформасы
+            - name: Adobe Experience Platform
               href: audience-insights/export-adobe-experience-platform.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
@@ -166,6 +204,8 @@
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
+            - name: Klaviyo
+              href: audience-insights/export-klaviyo.md
             - name: LinkedIn Ads
               href: audience-insights/export-linkedin-ads.md
             - name: LiveRamp
@@ -212,14 +252,16 @@
           href: audience-insights/connections.md
         - name: Бірнеше ортаны басқару
           href: audience-insights/manage-environments.md
-        - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
-          href: audience-insights/connect-service-principal.md
-        - name: Қолдау көрсетілетін тілдер
-          href: audience-insights/supported-languages.md
+        - name: Қауіпсіздік
+          items:
+            - name: Жеке Key Vault қызметін пайдалану
+              href: audience-insights/use-azure-key-vault.md
+            - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
+              href: audience-insights/connect-service-principal.md
+            - name: Диагностикалық журналдарды экспорттау
+              href: audience-insights/diagnostics.md
     - name: Кеңейтімділік
       items:
-        - name: Өзара әрекеттестік туралы мәліметтерден веб-деректерді біріктіру
-          href: audience-insights/integrate-engagement-insights.md
         - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
           href: audience-insights/entity-schemas.md
         - name: Dataverse жүйесіндегі Customer Insights деректері
@@ -228,87 +270,45 @@
           href: audience-insights/apis.md
         - name: API сілтемелері
           href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
-    - name: Қызмет шектеулері
-      href: audience-insights/service-limits.md
-    - name: GDPR бойынша DSR сұраулары
-      href: audience-insights/gdpr.md
-- name: Жұмыс мәліметтері (алдын ала қарау нұсқасы)
+- name: Келісімді басқару (алдын ала қарау)
   items:
     - name: Анықтама орталығы
-      href: engagement-insights/index.yml
+      href: consent-management/index.yml
     - name: Мүмкіндіктерге шолу
-      href: engagement-insights/overview.md
-    - name: Тегін сынақ нұсқасы
-      href: 'https://pi.dynamics.com/'
+      href: consent-management/overview.md
     - name: Бастау
       items:
         - name: Бастау
-          href: engagement-insights/get-started.md
-        - name: Жұмыс кеңістігін жасау
-          href: engagement-insights/create-workspace.md
-        - name: Веб‑сайттар мен мобильді бағдарламалардағы оқиғаларды түсіру
-          href: engagement-insights/developer-resources.md
+          href: consent-management/get-started.md
         - name: Тұжырымдамалар мен терминология
-          href: engagement-insights/glossary.md
-    - name: Оқиғалар
+          href: consent-management/glossary.md
+    - name: Келісім деректерін импорттау
       items:
-        - name: Оқиғаларды жасау және өзгерту
-          href: engagement-insights/refined-events.md
-        - name: Бұрын аутентификацияланған кірушілерден веб-оқиғаларды анықтау
-          href: engagement-insights/unknown-to-known.md
-        - name: Оқиғаларды экспорттау
-          href: engagement-insights/export-events.md
-    - name: Есептер
+        - name: Келісім деректерін импорттау
+          href: consent-management/import-consent-data.md
+        - name: Келісім деректерін орнатыңыз және келісім таңдауларын қолданыңыз
+          href: consent-management/set-consent-rules.md
+    - name: Келісім деректерін басқару
       items:
-        - name: Есептерді көру
-          href: engagement-insights/view-reports.md
-        - name: Реттелетін есептерді жасау
-          href: engagement-insights/custom-reports.md
-        - name: Бірыңғай профиль есептерін жасау
-          href: engagement-insights/profile-reports.md
-        - name: Өлшемдерді көру және жасау
-          href: engagement-insights/dimensions.md
-        - name: Көрсеткіштерді көру және жасау
-          href: engagement-insights/metrics.md
-        - name: Сегменттерді көру және жасау
-          href: engagement-insights/segments.md
-    - name: Жол талдауы
+        - name: Аудитория статистикасында келісім ережелерін қосыңыз
+          href: audience-insights/activate-consent.md
+        - name: Аудитория статистикасының сегменттеріндегі әдепкі келісім ережелерін басқарыңыз
+          href: audience-insights/change-default-consent-rules.md
+    - name: Параметрлер мен пайдаланушыларды басқару
       items:
-        - name: Шұңғыма тәрізді кесте есептеріне жасау және басқару
-          href: engagement-insights/funnel-reports.md
-    - name: Әзірлеуші ресурстары
+        - name: Жүйе параметрлерін конфигурациялаңыз
+          href: consent-management/system-settings.md
+        - name: Пайдаланушылар мен рұқсаттарды басқарыңыз
+          href: consent-management/manage-users.md
+    - name: Келісім деректерін пайдаланыңыз
       items:
-        - name: Әзірлеуші ресурстарына шолу
-          href: engagement-insights/developer-resources.md
-        - name: Web SDK оқулығы
-          href: engagement-insights/advanced-SDK-implementation.md
-        - name: Веб SDK үлгісі
-          href: engagement-insights/websdk-sample.md
-        - name: Android SDK оқулығы
-          href: engagement-insights/get-started-android.md
-        - name: Android SDK үлгісі
-          href: engagement-insights/androidsdk-sample.md
-        - name: iOS SDK оқулығы
-          href: engagement-insights/get-started-ios.md
-        - name: iOS SDK үлгісі
-          href: engagement-insights/iossdk-sample.md
-    - name: Әкімшілік
-      items:
-        - name: Рөлдер және рұқсаттар
-          href: engagement-insights/user-roles.md
-        - name: Орталар мен жұмыс кеңістіктерін басқару
-          href: engagement-insights/manage-environments-workspaces.md
-        - name: Қосылымдарды конфигурациялау
-          href: engagement-insights/configure-connections.md
-        - name: Cookies файлдарын және пайдаланушы келісімін басқару
-          href: engagement-insights/user-consent-storage.md
-    - name: GDPR
-      items:
-        - name: Жеке деректерді жою және экспорттау
-          href: engagement-insights/delete-export-personal-data.md
-    - name: Аймақтық қолжетімділік
-      href: engagement-insights/regional-availability.md
-    - name: Қызмет шектеулері
-      href: engagement-insights/quotas.md
-- name: Қолдау көрсету қызметіне хабарласыңыз
-  href: 'https://admin.powerplatform.microsoft.com/support'
+        - name: Келісім деректерімен болжам жасаңыз
+          href: consent-management/predictions-consent-data.md
+- name: Өзара әрекеттестік туралы пайдалы мәліметтер (алдын ала қарау нұсқасы)
+  href: engagement-insights/overview.md
+- name: Қызмет шектеулері
+  href: service-limits.md
+- name: DSR құқықтары мен сұраулары
+  href: dsr-rights-requests.md
+- name: Қолдау алу
+  href: /power-platform/admin/get-help-support

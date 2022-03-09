@@ -1,22 +1,26 @@
 ---
-title: Power Query жүйесіне негізделген деректер көздерін қосымша жаңарту
-description: Power Query негізделген үлкен деректер көздеріне арналған жаңа және жаңартылған деректерді жаңартыңыз.
-ms.date: 09/28/2020
-ms.reviewer: adkuppa
-ms.service: customer-insights
+title: үшін қосымша жаңарту Power Query - деректер көздеріне негізделген
+description: негізіндегі үлкен деректер көздері үшін жаңа және жаңартылған деректерді жаңарту Power Query.
+ms.date: 12/06/2021
+ms.reviewer: mhart
 ms.subservice: audience-insights
-ms.topic: conceptual
-author: m-hartmann
-ms.author: mhart
+ms.topic: how-to
+author: adkuppa
+ms.author: adkuppa
 manager: shellyha
-ms.openlocfilehash: b7e834f5f2fd1328563139675d7f850008348734
-ms.sourcegitcommit: cf9b78559ca189d4c2086a66c879098d56c0377a
-ms.translationtype: HT
+searchScope:
+- ci-system-schedule
+- customerInsights
+ms.openlocfilehash: 62632efda3c0c7e53fcdd8864b053ba93e2918bc
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4406241"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8353689"
 ---
-# <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Power Query негізіндегі деректер көздерін біртіндеп жаңарту
+# <a name="incremental-refresh-for-data-sources-based-on-power-query"></a>Деректер көздеріне арналған қосымша жаңарту Power Query
+
+Бұл мақала негізінде деректер көздері үшін қосымша жаңартуды теңшеу жолы талқыланады Power Query.
 
 Деректер көздерін біртіндеп жаңарту келесі артықшылықтарға ие:
 
@@ -26,13 +30,13 @@ ms.locfileid: "4406241"
 
 ## <a name="configure-incremental-refresh"></a>Біртіндеп жаңартуды конфигурациялау
 
-Аудитория мәліметтері қосымша қабылдауды қолдайтын Power Query арқылы импортталған деректер көздерін қосымша жаңартуға мүмкіндік береді. Мысалы, күн мен уақыт өрістері Azure SQL дерекқорларында деректер жазбаларының соңғы жаңартылған уақыты көрсетілген.
+Аудитория түсініктері арқылы импортталған деректер көздері үшін қосымша жаңартуға мүмкіндік береді Power Query бұл қосымша қабылдауды қолдайды. Мысалы, күн мен уақыт өрістері Azure SQL дерекқорларында деректер жазбаларының соңғы жаңартылған уақыты көрсетілген.
 
-1. [Power Query негізделген жаңа деректер көзін жасау](connect-power-query.md).
+1. [негізінде жаңа деректер көзі жасаңыз Power Query](connect-power-query.md).
 
-1. Деректер көзіне ат беріңіз.
+1. А қамтамасыз етіңіз **Аты** деректер көзі үшін.
 
-1. Azure SQL дерекқоры сияқты кезеңдік жаңартуға қолдау көрсетілетін деректер көзін таңдаңыз.
+1. Қосымша жаңартуды қолдайтын деректер көзі таңдаңыз, мысалы, [Azure SQL дерекқоры](/power-query/connectors/azuresqldatabase).
 
 1. Қабылданатын нысандарды немесе кестелерді таңдаңыз.
 
@@ -44,8 +48,7 @@ ms.locfileid: "4406241"
 
 1. **Кезеңдік жаңарту параметрлерінде** деректер көзін жаңарту кезінде таңдалған барлық нысандарды кезеңдік жаңартуды теңшей аласыз.
 
-   > [!div class="mx-imgBorder"]
-   > ![Кезеңдік жаңартылатын деректер көзіндегі нысандарды теңшеу](media/incremental-refresh-settings.png "Кезеңдік жаңартылатын деректер көзіндегі нысандарды теңшеу")
+   :::image type="content" source="media/incremental-refresh-settings.png" alt-text="Қосымша жаңартуға арналған деректер көзіндегі нысандарды конфигурациялау.":::
 
 1. Нысанды таңдап, мына мәліметтерді қамтамасыз етіңіз:
 
@@ -54,3 +57,6 @@ ms.locfileid: "4406241"
    - **Әрбір жаңартуды тексеру**: қажетті кезеңдік жаңарту уақыт аралығын көрсетіңіз.
 
 1. Деректер көзін жасауды аяқтау үшін **Сақтау** параметрін таңдаңыз. Бастапқы деректер жаңартуы толық жаңарту болады. Одан кейін деректерді кезеңдік жаңарту алдыңғы қадамда теңшелгендей орындалады.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

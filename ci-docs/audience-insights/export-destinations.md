@@ -3,18 +3,21 @@ title: Customer Insights бағдарламасынан деректерді э�
 description: Деректерді бөлісу үшін экспорттауы басқарыңыз.
 ms.date: 11/01/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: overview
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 05485fc7def3d699d5179bcaa005ceb57024f840
-ms.sourcegitcommit: bb1ca84bc38e81fb2ff2961c457384b7beb5b5fa
-ms.translationtype: HT
+searchScope:
+- ci-export
+- ci-connections
+- customerInsights
+ms.openlocfilehash: 33f59c62565560517c480be63e581465605c5f7b
+ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7977974"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8354332"
 ---
 # <a name="exports-preview-overview"></a>Экспорттауларға (алдын ала қарау нұсқасы) шолу
 

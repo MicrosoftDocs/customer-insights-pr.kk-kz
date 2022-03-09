@@ -3,18 +3,17 @@ title: Үшінші тарап Leadspace арттыру платформасы �
 description: Leadspace үшінші тарап арттыруы туралы жалпы ақпарат.
 ms.date: 09/30/2021
 ms.reviewer: mhart
-ms.service: customer-insights
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 685b1683b0c90eab04b130552d2cb23a8ab7a235
-ms.sourcegitcommit: 31985755c7c973fb1eb540c52fd1451731d2bed2
+ms.openlocfilehash: f89ef6842c21cf6b78154586f818beffbcdcffb9
+ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
 ms.translationtype: HT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "7673239"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8230641"
 ---
 # <a name="enrichment-of-company-profiles-with-leadspace-preview"></a>Leadspace (алдын ала қарау) көмегімен компания профильдерін толықтыру
 
