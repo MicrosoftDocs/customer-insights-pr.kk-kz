@@ -1,7 +1,7 @@
 ---
 title: Пайдаланушы рұқсаттарын басқару
 description: Рұқсаттар және пайдаланушы рөлдері туралы қосымша ақпарат.
-ms.date: 03/25/2021
+ms.date: 02/09/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -12,12 +12,12 @@ searchScope:
 - ci-permissions
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: a3d21d55d86950953611967bb66712312eb42b4b
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 85e1f4f93ac0e99ce6634dfc8fceab0c9a14885e
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355944"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376745"
 ---
 # <a name="user-permissions"></a>Пайдаланушы рұқсаттары
 
@@ -48,7 +48,7 @@ ms.locfileid: "8355944"
 - **Арттыру** бетінен конфигурацияны басқарып, тұтынушы профильдерін толықтырыңыз (тек бірінші тарап толықтыруларына арналған).
 - Экспорттауды салымшылармен ортақ қосылымдар негізінде басқарыңыз және жасаңыз. [Әкімшілердің салымшыларға экспорттау үшін қосылымды пайдалануға рұқсат беруі туралы қосымша ақпарат](connections.md#allow-contributors-to-use-a-connection-for-exports).
 
-## <a name="administrator"></a>Әкімші
+## <a name="admin"></a>Әкімші
 
 - Салымшыға барлық рұқсаттар қолжетімді.
 - Жұмыс тіліне қоса **Жүйе** бетіндегі параметрлерді өзгертіп, жүйе процестерінің кестелерін жаңартыңыз.
@@ -60,6 +60,12 @@ ms.locfileid: "8355944"
 - **Тұтынушы картасының қондырмасын** орнатыңыз және пайдаланыңыз.
 - **Power Apps коннекторын** қосып, пайдаланыңыз.
 - [Customer Insights API интерфейстерін пайдалануды қосыңыз](apis.md).
+- [Қоршаған ортаға меншік құқығын тағайындаңыз](manage-environments.md#change-the-owner-of-an-environment) басқа админге.
+
+## <a name="admin-owner"></a>Әкімші (иесі)
+
+- Барлық рұқсаттар әкімшіге қолжетімді.
+- [Қалпына келтіру және жою](manage-environments.md#reset-an-existing-environment) қоршаған орта.
 
 ## <a name="assign-roles-and-permissions"></a>Рөлдер мен рұқсаттарды тағайындау
 

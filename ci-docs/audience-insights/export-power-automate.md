@@ -8,16 +8,20 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: dc9bbe22b7f10cf92f06cae18fbece9808b87dce
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: dd90ef4576246b49d4a9c74005196ee9813a6744
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8226721"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455914"
 ---
 # <a name="power-automate-connector-preview"></a>Power Automate коннекторы (алдын ала қарау)
 
 Деректер өзгерген жағдайда, автоматты түрде орын алатын белгілі бір оқиғаларды іске қосыңыз және күрделірек ағындарды [Power Automate](https://flow.microsoft.com/) бағдарламасында тікелей басқарыңыз.
+
+## <a name="known-limitations"></a>Белгілі шектеулер
+
+- Сіз 60 секундта ең көбі 100 қоңырау шала аласыз. $skip параметрін пайдалану арқылы API соңғы нүктесіне бірнеше рет қоңырау шалуға болады. [$skip параметрі туралы көбірек біліңіз](/connectors/customerinsights/#get-items-from-an-entity).
 
 ## <a name="power-automate-triggers"></a>Power Automate триггерлері
 

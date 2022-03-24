@@ -8,12 +8,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: ad1023135516ca9c49818d19aa84df68d16b2e3c
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: efa26fa82a950063e074a4ab930ed95383c55334
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8229971"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376699"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Тұтынушы профильдерін Experian (алдын ала қарау нұсқасы) демографиялық деректермен толықтырыңыз
 
@@ -25,7 +25,7 @@ Experian қызметін конфигурациялау үшін, келесі 
 
 - Сізде белсенді Experian жазылымы бар. Жазылымды алу үшін, [Experian](https://www.experian.com/marketing-services/contact) компаниясына тікелей хабарласыңыз. [Experian деректерді толықтыру қызметі туралы қосымша ақпарат](https://www.experian.com/marketing-services/microsoft?cmpid=ems_web_mci_cdppage).
 
-- Experian қосылымын әкімші конфигурациялап қойған *немесе* сізде [әкімші](permissions.md#administrator) рұқсаттары бар. Сонымен қатар Experian сіз үшін жасаған SSH қосулы қауіпсіз тасымалдау (ST) тіркелгісі үшін пайдаланушы идентификаторы, тарап идентификаторы және үлгі нөмірі қажет.
+- Experian қосылымын әкімші конфигурациялап қойған *немесе* сізде [әкімші](permissions.md#admin) рұқсаттары бар. Сонымен қатар Experian сіз үшін жасаған SSH қосулы қауіпсіз тасымалдау (ST) тіркелгісі үшін пайдаланушы идентификаторы, тарап идентификаторы және үлгі нөмірі қажет.
 
 ## <a name="supported-countriesregions"></a>Қолдау көрсетілетін елдер/аймақтар
 

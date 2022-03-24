@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: cb1c0778a398ef6d338ce6cf9e199eae0c344a5c
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 2cc44f7b453d2aca328c397b14787c8a02c5e490
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8226456"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376653"
 ---
 # <a name="enrichment-of-customer-profiles-with-azure-maps-preview"></a>Azure Maps көмегімен тұтынушы профилін арттыру (алдын ала қарау нұсқасы)
 
@@ -25,7 +25,7 @@ Azure Maps деректерді арттыру мүмкіндігін конфи
 
 - Сізде белсенді Azure Maps жазылымы бар. Жазылым алу үшін [тіркелуге немесе ақысыз сынақ нұсқасын алуға](https://azure.microsoft.com/services/azure-maps/) болады.
 
-- Azure Maps [байланысы](connections.md) қолжетімді, *немесе* [әкімші](permissions.md#administrator) рұқсаттары мен белсенді Azure Maps API кілті бар.
+- Azure Maps [байланысы](connections.md) қолжетімді, *немесе* [әкімші](permissions.md#admin) рұқсаттары мен белсенді Azure Maps API кілті бар.
 
 ## <a name="configure-the-enrichment"></a>Жақсартуды конфигурациялау
 

@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-export
 - customerInsights
-ms.openlocfilehash: cf680c21c55c71d99728be79fe68111dc89a79ec
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 4c1b5eaa3568b5c73013024d2da7e65276142f72
+ms.sourcegitcommit: d168a738a08adb8b4b2e410bdaa3716d7b63cc9b
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355024"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "8455862"
 ---
 # <a name="use-segments-in-dynamics-365-sales-preview"></a>Dynamics 365 Sales жүйесіндегі сегменттерді пайдалану (алдын ала қарау нұсқасы)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8355024"
 
 ## <a name="prerequisite-for-connection"></a>Қосылым алғышарты
 
-1. Сегментті Customer Insights қызметінен сатылымға экспорттау алдында Dynamics 365 Sales жүйесінде контакт жазбалары болуы тиіс. [Dynamics 365 Sales жүйесінде Microsoft Dataverse](connect-power-query.md) арқылы контактілерді қабылдау жолдары туралы толығырақ оқыңыз.
+1. Сегментті Customer Insights қызметінен сатылымға экспорттау алдында Dynamics 365 Sales жүйесінде контакт жазбалары болуы тиіс. Контактілерді қабылдау жолы туралы толығырақ оқыңыз [Dynamics 365 Sales пайдалану арқылы Microsoft Dataverse](connect-dataverse-managed-lake.md).
 
    > [!NOTE]
    > Сегменттерді аудитория туралы түсініктерден сатылымға экспорттау сатылым даналарында жаңа контакт жазбаларын жасамайды. Сатылымдағы контакт жазбалары аудитория туралы түсінікке қабылданып, деректер көзі ретінде пайдаланылуы тиіс. Сондай-ақ оларды сегменттер экспортталмас бұрын тұтынушы идентификаторларын контакт идентификаторларымен салыстыру үшін бірыңғай тұтынушы нысанына қосу қажет.

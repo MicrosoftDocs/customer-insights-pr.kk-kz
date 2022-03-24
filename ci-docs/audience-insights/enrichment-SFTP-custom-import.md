@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: e4b9a65eb50f75e0243fabfc10b501cf7acf4490
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 042558af801a1d1fc365939d9aa42c09b98b2679
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8229645"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376561"
 ---
 # <a name="enrich-customer-profiles-with-custom-data-preview"></a>Тұтынушы профилдерін реттелетін деректермен арттыру (алдын ала қарау)
 
@@ -25,7 +25,7 @@ SFTP реттелетін импортын конфигурациялау үші
 
 - Сізде SFTP хостына импортталатын файл атауы және файлдың орны (жолы) бар.
 - Импортталатын деректер үшін [Common Data Model схемасын](/common-data-model/) анықтайтын *model.json* файлы бар. Бұл файл импортталатын файл сияқты бірдей каталогта болуы тиіс.
-- SFTP қосылымын әкімші конфигурациялап қойған *немесе* сізде [әкімші](permissions.md#administrator) рұқсаттары бар. Сізге деректерді импорттайтын SFTP орны үшін пайдаланушының тіркелгі деректері, URL мекенжайы және порт нөмірі қажет болады.
+- SFTP қосылымын әкімші конфигурациялап қойған *немесе* сізде [әкімші](permissions.md#admin) рұқсаттары бар. Сізге деректерді импорттайтын SFTP орны үшін пайдаланушының тіркелгі деректері, URL мекенжайы және порт нөмірі қажет болады.
 
 
 ## <a name="configure-the-import"></a>Импорттауды конфигурациялау

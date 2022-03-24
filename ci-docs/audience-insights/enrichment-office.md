@@ -8,12 +8,12 @@ ms.topic: how-to
 author: jodahl
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 938a9de83fd8f5ff0c9ae815d626cdfa35228aba
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
-ms.translationtype: HT
+ms.openlocfilehash: 47239bd7f0c89742cf9c673bb2ebe4c41d853233
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8228481"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376837"
 ---
 # <a name="enrich-customer-profiles-with-engagement-data-preview"></a>Клиент профильдерін келісім деректерімен байыту (алдын ала қарау)
 
@@ -28,7 +28,7 @@ ms.locfileid: "8228481"
 - Сізде белсенді Office 365 бұлттық лицензия.
 - Сенде бар [бірыңғай тұтынушы профильдері](customer-profiles.md) негізделген [бизнес шоттары](work-with-business-accounts.md).
 - Customer Insights ортаңызда болуы керек [Microsoft Dataverse ұйым тіркелген](create-environment.md#step-3-connect-to-microsoft-dataverse).
-- Сенде бар [әкімші](permissions.md#administrator) рұқсаттар.
+- Сенде бар [әкімші](permissions.md#admin) рұқсаттар.
 - Сіздің келісіміңіз бар немесе алуға болады Office 365 пайдалану үшін жалға алушы әкімшісі Office 365 қамтамасыз ету үшін деректер **Ұйым үшін түсініктер** Dynamics 365 қолданбаларында.
 
 ## <a name="configure-the-enrichment"></a>Жақсартуды конфигурациялау
@@ -109,7 +109,7 @@ Office деректерінің өлшеміне байланысты байыт
 
 ## <a name="create-segments-and-measures-based-on-the-enriched-data"></a>Байытылған деректер негізінде сегменттер мен өлшемдерді жасаңыз
 
-Байытылған деректерді төменде егжей-тегжейлі көрсетілгендей сегменттер мен өлшемдерді жасау үшін пайдалануға болады. Мысалы, мәні 60-тан асатын барлық тұтынушыларды қамтитын сегмент *соңғы электрондық поштадан кейінгі күн* және *соңғы кездесуден кейінгі күндер*. Бұл сегментте қайта белсендіруге болатын ескі тіркелгілер бар. 
+Байытылған деректерді төменде егжей-тегжейлі көрсетілгендей сегменттер мен өлшемдерді жасау үшін пайдалануға болады. Мысалы, мәні 60-тан асатын барлық тұтынушыларды қамтитын сегмент *соңғы электрондық поштадан бері күн* және *соңғы кездесуден кейінгі күндер*. Бұл сегментте қайта белсендіруге болатын ескі тіркелгілер бар. 
 
 ## <a name="next-steps"></a>Келесі қадамдар
 

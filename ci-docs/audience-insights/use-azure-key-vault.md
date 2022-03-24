@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: 5b22c1464b3f089551f485f98d6d93840ff77136
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
-ms.translationtype: HT
+ms.openlocfilehash: 418575f724090628da8bd01e2569a4cb9e646337
+ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8355898"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376515"
 ---
 # <a name="bring-your-own-azure-key-vault-preview"></a>Жеке Azure Key Vault қызметін пайдалану (алдын ала қарау нұсқасы)
 
@@ -31,7 +31,7 @@ ms.locfileid: "8355898"
 
 - Сізде белсенді Azure жазылымы болуы қажет.
 
-- Сізде аудитория туралы түсініктерде [Әкімші](permissions.md#administrator) рөлі бар. [Аудитория түсініктеріндегі пайдаланушы рұқсаттары](permissions.md#assign-roles-and-permissions) туралы қосымша ақпарат.
+- Сізде аудитория туралы түсініктерде [Әкімші](permissions.md#admin) рөлі бар. [Аудитория түсініктеріндегі пайдаланушы рұқсаттары](permissions.md#assign-roles-and-permissions) туралы қосымша ақпарат.
 
 - Сізде кілт қоймасында немесе кілт қоймасы тиесілі ресурстар тобын [Салымшы](/azure/role-based-access-control/built-in-roles#contributor) және [Пайдаланушы қатынасуы әкімшісі](/azure/role-based-access-control/built-in-roles#user-access-administrator) рөлдері бар. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлін тағайындауды қосу немесе жою](/azure/role-based-access-control/role-assignments-portal) бөліміне өтіңіз. Егер сізде кілттер қоймасында пайдаланушы қатынасуының әкімшісі рөлі болмаса, Dynamics 365 Customer Insights бағдарламасына арналған Azure субъект-қызметі үшін рөлге негізделген қатынасуды басқару рұқсаттарын орнату қажет. Байланыстырылуы керек кілт қоймасына арналған [Azure субъект-қызметін](connect-service-principal.md) пайдалану үшін қадамдарды орындаңыз.
 
