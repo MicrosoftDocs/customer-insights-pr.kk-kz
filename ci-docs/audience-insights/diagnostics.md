@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-diagnostic
 - customerInsights
-ms.openlocfilehash: d84ae8301bdf384c2484cdb1e7dd8eb75d406769
-ms.sourcegitcommit: 50d32a4cab01421a5c3689af789e20857ab009c4
+ms.openlocfilehash: 18fc072d129be6b4fc5470b1057f592dc2638216
+ms.sourcegitcommit: 5bd07f3a1288f003704acd576741cf6aedc1ac33
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376423"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523676"
 ---
 # <a name="log-forwarding-in-dynamics-365-customer-insights-with-azure-monitor-preview"></a>Жүйеге қайта бағыттау Dynamics 365 Customer Insights Azure мониторымен (алдын ала қарау)
 
@@ -118,7 +118,7 @@ Customer Insights қызметінің директоры алады **Log Analy
 
 ## <a name="event-schemas"></a>Оқиға схемалары
 
-API оқиғалары мен жұмыс үрдісінің оқиғалары ортақ құрылымға және олар ерекшеленетін мәліметтерге ие, қараңыз [API оқиға схемасы](#api-event-schema) немесе [жұмыс процесі оқиғасының схемасы](#workflow-event-schema).
+API оқиғалары мен жұмыс процесі оқиғаларының ортақ құрылымы мен мәліметтері бар, олар ерекшеленеді, қараңыз [API оқиға схемасы](#api-event-schema) немесе [жұмыс процесі оқиғасының схемасы](#workflow-event-schema).
 
 ### <a name="api-event-schema"></a>API оқиға схемасы
 
@@ -160,7 +160,7 @@ The`identity` JSON нысанында келесі құрылым бар
 | Өріс                         | Сипаттама                                                                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | `Authorization.UserRole`      | Пайдаланушы немесе қолданба үшін тағайындалған рөл. Қосымша ақпаратты қараңыз [пайдаланушы рұқсаттары](permissions.md).                                     |
-| `Authorization.RequiredRoles` | Операцияны орындау үшін қажетті рөлдер. `Admin` рөл барлық операцияларды жасауға рұқсат етіледі.                                                    |
+| `Authorization.RequiredRoles` | Операцияны орындау үшін қажетті рөлдер. `Admin` рөлге барлық операцияларды жасауға рұқсат етіледі.                                                    |
 | `Claims`                      | Пайдаланушының немесе қолданбаның JSON веб-токенінің (JWT) шағымдары. Шағым сипаттары ұйым мен ұйымға байланысты өзгереді Azure Active Directory конфигурация. |
 
 #### <a name="api-properties-schema"></a>API сипаттарының схемасы
@@ -182,7 +182,7 @@ The`identity` JSON нысанында келесі құрылым бар
 
 ### <a name="workflow-event-schema"></a>Жұмыс процесі оқиғасының схемасы
 
-Жұмыс процесі бірнеше қадамдарды қамтиды. [Деректер көздерін қабылдау](data-sources.md),[біріктіру](data-unification.md),[байыту](enrichment-hub.md), және [экспорт](export-destinations.md) деректер. Барлық осы қадамдар жеке немесе келесі процестермен ұйымдастырылуы мүмкін. 
+Жұмыс процесі бірнеше қадамдарды қамтиды. [Деректер көздерін қабылдау](data-sources.md),[біріктіру](data-unification.md),[байыту](enrichment-hub.md), және [экспорттау](export-destinations.md) деректер. Барлық осы қадамдар жеке немесе келесі процестермен ұйымдастырылуы мүмкін. 
 
 #### <a name="operation-types"></a>Операция түрлері
 
@@ -230,7 +230,7 @@ The`identity` JSON нысанында келесі құрылым бар
 | ------------------------------- | -------- | ---- | ----------- |
 | `properties.eventType`                       | Иә      | Иә  | Әрқашан`WorkflowEvent`, оқиғаны жұмыс процесі оқиғасы ретінде белгілеу.                                                                                                                                                                                                |
 | `properties.workflowJobId`                   | Иә      | Иә  | Жұмыс үрдісінің идентификаторы. Жұмыс процесін орындаудағы барлық жұмыс процесі мен тапсырма оқиғалары бірдей `workflowJobId`.                                                                                                                                   |
-| `properties.operationType`                   | Иә      | Иә  | Операцияның идентификаторы, қараңыз[ Операция түрлері].(#operation-types)                                                                                                                                                                                       |
+| `properties.operationType`                   | Иә      | Иә  | Операцияның идентификаторы, қараңыз [Операция түрлері](#operation-types).                                                                                                                                                                               |
 | `properties.tasksCount`                      | Иә      | No   | Тек жұмыс процесі. Жұмыс процесі іске қосатын тапсырмалар саны.                                                                                                                                                                                                       |
 | `properties.submittedBy`                     | Иә      | No   | Қосымша. Тек жұмыс процесі оқиғалары. The Azure Active Directory [пайдаланушының объектінің идентификаторы](/azure/marketplace/find-tenant-object-id#find-user-object-id) жұмыс процесін кім іске қосты, сонымен қатар қараңыз `properties.workflowSubmissionKind`.                                   |
 | `properties.workflowType`                    | Иә      | No   | `full` немесе`incremental` жаңарту.                                                                                                                                                                                                                            |

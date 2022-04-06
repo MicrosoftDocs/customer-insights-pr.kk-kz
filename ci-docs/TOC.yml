@@ -24,8 +24,6 @@
       href: trial-signup.md
     - name: Сынақ нұсқа ЖҚС
       href: trial-FAQ.md
-- name: Ақылы лицензиямен бастау
-  href: paid-license.md
 - name: Ортаға кіріңіз
   href: 'https://home.ci.ai.dynamics.com/'
 - name: Аудитория туралы пайдалы мәліметтер
@@ -40,12 +38,14 @@
       items:
         - name: Жылдам іске қосу нұсқаулығы
           href: audience-insights/get-started.md
+        - name: Ақылы лицензиямен бастау
+          href: paid-license.md
         - name: Жаңа орта жасау
           href: audience-insights/create-environment.md
         - name: Аудитория туралы пайдалы мәліметтерді зерттеу
           href: audience-insights/home.md
-    - name: Бизнес тіркелгілермен жұмыс істеу
-      href: audience-insights/work-with-business-accounts.md
+        - name: Бизнес тіркелгілермен жұмыс істеу
+          href: audience-insights/work-with-business-accounts.md
     - name: Дерек көздері
       items:
         - name: Деректер көздеріне шолу
@@ -64,8 +64,6 @@
           href: audience-insights/incremental-refresh-data-sources.md
         - name: Нақты уақыттағы деректерді қабылдау
           href: audience-insights/real-time-data-ingestion.md
-        - name: Нысандар мен деректер жиынын түсіну
-          href: audience-insights/entities.md
     - name: Деректерді бірыңғайландыру
       items:
         - name: Деректерді біріктіруге шолу
@@ -76,16 +74,6 @@
           href: audience-insights/match-entities.md
         - name: Нысандарды біріктіру
           href: audience-insights/merge-entities.md
-        - name: Тұтынушының біріктірілген профильдерін қарап шығу
-          href: audience-insights/customer-profiles.md
-        - name: Тұтынушының біріктірілген профильдерін сүзгілеу
-          href: audience-insights/search-filter-index.md
-        - name: Қатынастар мен қосылған нысандарды құру
-          href: audience-insights/relationships.md
-        - name: Тұтынушы әрекеттерінің тізімі
-          href: audience-insights/activities.md
-        - name: Семантикалық салыстыруларды анықтау
-          href: audience-insights/semantic-mappings.md
     - name: Деректерді арттыру
       items:
         - name: Тұтынушы профильдерін арттыру
@@ -110,6 +98,14 @@
           href: audience-insights/enrichment-office.md
         - name: SFTP реттемелі импорттау әдісі арқылы арттыру
           href: audience-insights/enrichment-SFTP-custom-import.md
+    - name: Бірыңғай профильдер
+      items:
+        - name: Тұтынушының біріктірілген профильдерін қарап шығу
+          href: audience-insights/customer-profiles.md
+        - name: Тұтынушының біріктірілген профильдерін сүзгілеу
+          href: audience-insights/search-filter-index.md
+        - name: Тұтынушы әрекеттерін анықтаңыз
+          href: audience-insights/activities.md
     - name: Сегменттер
       items:
         - name: Сегменттерге шолу
@@ -190,6 +186,8 @@
               href: audience-insights/export-adobe-campaign-standard.md
             - name: Adobe Experience Platform
               href: audience-insights/export-adobe-experience-platform.md
+            - name: Braze
+              href: audience-insights/export-braze.md
             - name: Campaign Monitor
               href: audience-insights/export-campaign-monitor.md
             - name: Constant Contact
@@ -204,6 +202,8 @@
               href: audience-insights/export-facebook.md
             - name: Google Ads
               href: audience-insights/export-google-ads.md
+            - name: Қайталанатын
+              href: audience-insights/export-iterable.md
             - name: Klaviyo
               href: audience-insights/export-klaviyo.md
             - name: LinkedIn Ads
@@ -242,6 +242,18 @@
               href: audience-insights/export-power-automate.md
             - name: Power BI
               href: audience-insights/export-power-bi.md
+    - name: Нысандар
+      items:
+        - name: Нысандарды түсіну
+          href: audience-insights/entities.md
+        - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
+          href: audience-insights/entity-schemas.md
+        - name: Dataverse жүйесіндегі Customer Insights деректері
+          href: audience-insights/customer-insights-dataverse.md
+        - name: Қатынастар мен қосылған нысандарды құру
+          href: audience-insights/relationships.md
+        - name: Семантикалық салыстыруларды анықтау
+          href: audience-insights/semantic-mappings.md
     - name: Әкімшілік
       items:
         - name: Жүйе теңшелімін орнату
@@ -252,15 +264,17 @@
           href: audience-insights/connections.md
         - name: Бірнеше ортаны басқару
           href: audience-insights/manage-environments.md
-        - name: Қауіпсіздік
-          items:
-            - name: Жеке Key Vault қызметін пайдалану
-              href: audience-insights/use-azure-key-vault.md
-            - name: Субъект-қызмет көмегімен ADLS сақтау орны тіркелгісіне қосылу
-              href: audience-insights/connect-service-principal.md
-            - name: Диагностикалық журналдарды экспорттау
-              href: audience-insights/diagnostics.md
-    - name: Кеңейтімділік
+        - name: Жеке Key Vault қызметін пайдалану
+          href: audience-insights/use-azure-key-vault.md
+        - name: Негізгі қызмет көрсету арқылы сақтау тіркелгісіне қосылыңыз
+          href: audience-insights/connect-service-principal.md
+        - name: Диагностикалық журналдарды экспорттау
+          href: audience-insights/diagnostics.md
+        - name: Қызмет шектеулері
+          href: service-limits.md
+        - name: DSR құқықтары мен сұраулары
+          href: dsr-rights-requests.md
+    - name: API көрсеткіштері
       items:
         - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
           href: audience-insights/entity-schemas.md
@@ -306,9 +320,5 @@
           href: consent-management/predictions-consent-data.md
 - name: Өзара әрекеттестік туралы пайдалы мәліметтер (алдын ала қарау нұсқасы)
   href: engagement-insights/overview.md
-- name: Қызмет шектеулері
-  href: service-limits.md
-- name: DSR құқықтары мен сұраулары
-  href: dsr-rights-requests.md
 - name: Қолдау алу
   href: /power-platform/admin/get-help-support

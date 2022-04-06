@@ -1,7 +1,7 @@
 ---
 title: Microsoft Dataverse ішінде кестелерге қосылу
 description: Деректерді Microsoft Dataverse басқарылатын деректер көлінен импорттау.
-ms.date: 12/06/2021
+ms.date: 03/18/2022
 ms.subservice: audience-insights
 ms.topic: how-to
 author: adkuppa
@@ -11,16 +11,14 @@ ms.reviewer: mhart
 searchScope:
 - ci-dataverse
 - customerInsights
-ms.openlocfilehash: 8e11b60295fa5c187b1ac4877fb347e2d9bb41a1
-ms.sourcegitcommit: 73cb021760516729e696c9a90731304d92e0e1ef
+ms.openlocfilehash: 81412ea8259e690eb839676d82ab31847854a97e
+ms.sourcegitcommit: a8e99cf8b23ccc00d76c1dee22afd808a160a5c8
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8354148"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464073"
 ---
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse басқарылатын деректер ағынында деректерге қосылу
-
-
 
 Бұл мақалада қалай болатыны туралы ақпарат берілген Dataverse пайдаланушылар а ішіндегі аналитикалық нысандарға жылдам қосыла алады Microsoft Dataverse басқарылатын көл. 
 
@@ -29,7 +27,8 @@ ms.locfileid: "8354148"
 
 ## <a name="important-considerations"></a>Маңызды жайттар
 
-Azure Data Lake Storage сияқты онлайн қызметтерде сақталған деректер Dynamics 365 Customer Insights бағдарламасында деректер өңделетін немесе сақталатын жерден басқа жерде сақталуы мүмкін.Онлайн қызметтерде сақталған деректерді импорттау немесе оларға қосылу арқылы сіз деректерді тасымалдауға және сақтауға болатынына келісесіз Dynamics 365 Customer Insights . [Толығырақ Microsoft сенім орталығында біліңіз](https://www.microsoft.com/trust-center).
+1. Azure Data Lake Storage сияқты онлайн қызметтерде сақталған деректер Dynamics 365 Customer Insights бағдарламасында деректер өңделетін немесе сақталатын жерден басқа жерде сақталуы мүмкін.Онлайн қызметтерде сақталған деректерді импорттау немесе оларға қосылу арқылы сіз деректерді тасымалдауға және сақтауға болатынына келісесіз Dynamics 365 Customer Insights . [Толығырақ Microsoft сенім орталығында біліңіз](https://www.microsoft.com/trust-center).
+2. Тек Dataverse бар субъектілер [бақылауды өзгерту](/power-platform/admin/enable-change-tracking-control-data-synchronization) қосылғандар көрінеді. Бұл нысандарды экспорттауға болады Dataverse -басқарылатын деректер көлі және Customer Insights жүйесінде пайдаланылады. Қораптан тыс Dataverse кестелерде әдепкі бойынша өзгерістерді бақылау қосылған. Теңшелетін кестелер үшін өзгерістерді бақылауды қосу керек. Тексеру үшін а Dataverse кесте өзгерістерді бақылау үшін қосылған, өтіңіз [Power Apps](https://make.powerapps.com) > **Деректер** > **Кестелер**. Өзіңізді қызықтыратын кестені тауып, оны таңдаңыз. Бару **Параметрлер** > **Қосымша опциялар** және қарап шығыңыз **Өзгерістерді бақылаңыз** орнату.
 
 ## <a name="connect-to-a-dataverse-managed-lake"></a>Dataverse басқарылатын ағынына қосылу
 
