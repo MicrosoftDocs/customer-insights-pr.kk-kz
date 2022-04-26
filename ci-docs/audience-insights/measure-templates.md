@@ -1,28 +1,28 @@
 ---
 title: Үлгілерден өлшемдер жасаңыз
 description: Жалпы пайдалану жағдайлары үшін үлгілерді пайдаланып өлшемдерді анықтаңыз.
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
-author: m-hartmann
+author: v-wendysmith
 ms.author: wameng
-ms.reviewer: mhart
+ms.reviewer: v-wendysmith
 manager: shellyha
 searchScope:
 - ci-measure-template
 - customerInsights
-ms.openlocfilehash: 0fe846691825b93732cbbe6d1c942a79e4a3934f
-ms.sourcegitcommit: cf6a0ed44915908a44c70889a2dd199a9d0d4798
-ms.translationtype: HT
+ms.openlocfilehash: eeabd889f7b694f8d809894169a3cdc068acc340
+ms.sourcegitcommit: 9ef2cf99b847e7bd8f890f83d84b3a4045aaf8cc
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/28/2022
-ms.locfileid: "8359964"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8529408"
 ---
 # <a name="use-a-template-to-build-a-measure"></a>Өлшемді жасау үшін үлгіні пайдалану
 
 Сіз жиі қолданылатын алдын ала анықталған үлгілерді пайдалана аласыз [шаралар](measures.md) оларды құру. Үлгілердің толық сипаттамасы және қадамдық тәжірибе сізге тиімді өлшем жасауға көмектеседі. *Бірыңғай әрекет* нысанындағы салыстырылған деректерде жасалған үлгілер. Үлгіден өлшем жасамас бұрын, [тұтынушы әрекеттерін](activities.md) конфигурациялағаныңызға көз жеткізіңіз.
 
-Пайдаланушы өлшемдерін жасау үшін қараңыз [Нөлден бастап өлшемдер жасау үшін өлшем құрастырушысын пайдаланыңыз](measure-builder.md).
+Пайдаланушы өлшемдерін жасау үшін қараңыз [Басынан өлшемдер жасау үшін өлшем құрастырушысын пайдаланыңыз](measure-builder.md).
 
 # <a name="individual-consumers-b-to-c"></a>[Жеке тұтынушылар (бизнес тұтынушыға)](#tab/b2c)
 
@@ -51,7 +51,9 @@ ms.locfileid: "8359964"
 
 1. Қажетті деректерді қарап шығыңыз және барлық деректер орнында болса **Жұмысты бастау** түймешігін таңдаңыз.
 
-1. **Атын өңдеу** панелінде өлшеміңіздің атын және шығыс нысанын орнатыңыз. 
+1. таңдаңыз **Мәліметтерді өңдеу** Өлшем атауының жанында. Өлшемге атау беріңіз. Қажет болса, қосыңыз [тегтер](work-with-tags-columns.md#manage-tags) өлшемге.
+
+   :::image type="content" source="media/measures_edit_details.png" alt-text="Мәліметтерді өңдеу диалогтық терезесі.":::
 
 1. **Дайын** опциясын таңдаңыз.
 

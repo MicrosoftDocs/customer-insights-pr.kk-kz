@@ -6,12 +6,12 @@ ms.author: mhart
 ms.date: 07/30/2021
 ms.topic: overview
 ms.manager: shellyha
-ms.openlocfilehash: 82b335388002158885fa55b61562db6c8370dc9d
-ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.openlocfilehash: ff3d23d00a565bf9e5693e7cd5db644ddfe4887e
+ms.sourcegitcommit: 9f6733b2f2c273748c1e7b77f871e9b4e5a8666e
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8350184"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "8560440"
 ---
 # <a name="product-overview-for-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights өніміне шолу
 
@@ -19,7 +19,7 @@ ms.locfileid: "8350184"
 
 [Аудитория түсініктері](audience-insights/overview.md) бөлімшеңізді тұтынушыға бағытталған ұйымға айналдыруға көмектеседі. Маркетинг, сатылым және қызмет көрсету саласындағы мамандар тәжірибені жекелендіру үшін қажетті түсініктерге ие. Тұтынушының 360 градустық көрінісін құру үшін транзакциялық, әрекеттік және бақылау көздерінен деректерді қосыңыз. Әрекет етуге болатын мәліметті жіберу үшін жасалған CDP көмегімен нәтижелерді тезірек көріңіз. 
 
-[Қатысу туралы түсініктер](engagement-insights/overview.md) бұл қосымша түсініктер үшін веб және мобильді оқиғаларды жинауға бағытталған Customer Insights жүйесіндегі алдын ала қарау мүмкіндігі болды. Алдын ала қарау 2022 жылдың 15 ақпанында аяқталды.
+[Қатысу туралы түсініктер](engagement-insights/overview.md) қосымша түсініктер үшін веб және мобильді оқиғаларды жинауға бағытталған Customer Insights жүйесіндегі алдын ала қарау мүмкіндігі болды. Алдын ала қарау 2022 жылдың 15 ақпанында аяқталды.
  
 ## <a name="choose-a-capability"></a>Мүмкіндікті таңдау
 

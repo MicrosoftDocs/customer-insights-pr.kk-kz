@@ -1,19 +1,19 @@
 ---
 title: Customer Insights деректерін Azure Synapse Analytics қызметіне экспорттау
 description: Қосылымды конфигурациялау жолын үйреніңіз Azure Synapse Analytics.
-ms.date: 01/05/2022
+ms.date: 04/11/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 289c8d545f057b3f70679b485cf4350545c0587b
-ms.sourcegitcommit: e7cdf36a78a2b1dd2850183224d39c8dde46b26f
+ms.openlocfilehash: 8ace9fbee4fbd8822629a39d5902e176f8511cb5
+ms.sourcegitcommit: 9f6733b2f2c273748c1e7b77f871e9b4e5a8666e
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8231319"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "8560394"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді келесіге экспорттау Azure Synapse Analytics (Алдын ала қарау)
 
@@ -28,21 +28,21 @@ Customer Insights қосылымын Azure Synapse қызметінде конф
 
 ## <a name="prerequisites-in-customer-insights"></a>Customer Insights қызметіндегі алғышарттар
 
-* Сізде аудитория туралы түсініктерде **Әкімші** рөлі бар. [Аудитория туралы түсініктерде пайдалану рұқсаттарын орнату](permissions.md#assign-roles-and-permissions) туралы қосымша ақпарат
+* Сіздің Azure Active Directory (AD) пайдаланушы тіркелгісі бар **Әкімші** Customer Insights жүйесіндегі рөл. [Аудитория туралы түсініктерде пайдалану рұқсаттарын орнату](permissions.md#assign-roles-and-permissions) туралы қосымша ақпарат
 
 Azure қызметінде: 
 
 - Белсенді Azure жазылымы.
 
-- Егер жаңа Azure Data Lake Storage Gen2 тіркелгісін пайдалансаңыз, the *аудитория туралы түсініктерге арналған қызмет негізі* **Сақтау екілік нысанының деректер салымшысы** рұқсаттарын қажет етеді. [Azure Data Lake Storage Gen2 тіркелгісін аудитория туралы түсініктерге арналған Azure қызмет негізімен қосу](connect-service-principal.md) туралы қосымша ақпарат. Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
+- Жаңасын пайдалансаңыз Azure Data Lake Storage Gen2 тіркелгісі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** рұқсаттар. [Azure Data Lake Storage Gen2 тіркелгісін аудитория туралы түсініктерге арналған Azure қызмет негізімен қосу](connect-service-principal.md) туралы қосымша ақпарат. Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
 
-- Ресурс тобында Azure Synapse жұмыс кеңістігі орналасқан, *қызмет негізі* және *аудитория туралы түсініктерге арналған пайдаланушыға* кем дегенде **Оқушы** рұқсаттары тағайындалуы керек. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлдерін тағайындау](/azure/role-based-access-control/role-assignments-portal) бөлімін қараңыз.
+- Ресурстар тобында Azure Synapse жұмыс кеңістігі орналасқан, *қызмет көрсетуші* және *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* кем дегенде тағайындау керек **Оқырман** рұқсаттар. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлдерін тағайындау](/azure/role-based-access-control/role-assignments-portal) бөлімін қараңыз.
 
-- *Пайдаланушы* деректер орналасқан және Azure Synapse жұмыс кеңістігімен байланыстырылған Azure Data Lake Storage Gen2 тіркелгісінде **Сақтау екілік нысанының деректер салымшысы** рұқсаттарын қажет етеді. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат.
+- The *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** бойынша рұқсаттар Azure Data Lake Storage Деректер орналасқан және оған байланысты Gen2 тіркелгісі Azure Synapse жұмыс кеңістігі. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат.
 
 - *[Azure Synapse жұмыс кеңістігінің басқарылатын идентификациясы](/azure/synapse-analytics/security/synapse-workspace-managed-identity)* деректер орналасқан және Azure Synapse жұмыс кеңістігімен байланыстырылған Azure Data Lake Storage Gen2 тіркелгісінде **Сақтау екілік нысанының деректер салымшысы** рұқсаттарын қажет етеді. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат алыңыз.
 
-- Azure Synapse жұмыс кеңістігінде *аудитория туралы түсініктерге арналған қызмет негізі* **Synapse әкімшісі** рөлінің тағайындалуын қажет етеді. Қосымша ақпарат алу үшін [Synapse жұмыс кеңістігі үшін қатынасуды басқару элементін орнату жолы](/azure/synapse-analytics/security/how-to-set-up-access-control) бөлімін қараңыз.
+- Үстінде Azure Synapse жұмыс кеңістігі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Synapse әкімшісі** рөл тағайындалды. Қосымша ақпарат алу үшін [Synapse жұмыс кеңістігі үшін қатынасуды басқару элементін орнату жолы](/azure/synapse-analytics/security/how-to-set-up-access-control) бөлімін қараңыз.
 
 ## <a name="set-up-the-connection-and-export-to-azure-synapse"></a>Қосылым орнату және Azure Synapse қызметіне экспорттау
 
