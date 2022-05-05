@@ -3,17 +3,17 @@ title: Тегін сынақ нұсқасына тіркелу - Dynamics 365 Cu
 description: Тегін Customer Insights сынақ нұсқасына жылдам тіркелу және жұмысты бастау жолы туралы ақпарат. Бағдарламаны зерттеңіз және қосымша оқу ресурстарын табыңыз.
 author: m-hartmann
 ms.author: mhart
-ms.date: 09/30/2021
+ms.date: 04/12/2022
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: 1b50da077cb0584ca9f277b276d0e9ebb46b2c5d
-ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+ms.openlocfilehash: 2f27dd4fd9df679696d72f2eccde262de3e4afc4
+ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8350230"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8641723"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-customer-insights-trial"></a>Тегін Dynamics 365 Customer Insights сынақ нұсқасына тіркелу
 
@@ -21,7 +21,7 @@ Customer Insights бағдарламасы тегін 30 күндік сынақ
 
 **Сынақ нұсқасына тіркелу үшін**:
 
-1. [Сынақ нұсқасына шолу бетіне](https://dynamics.microsoft.com/get-started/?appname=customerinsights) өтіңіз және **Қазір тіркелу** түймешігін таңдаңыз.
+1. -ге өтіңіз [сынақ нұсқасына шолу беті](https://dynamics.microsoft.com/ai/customer-insights/) және таңдаңыз **Customer Insights қолданбасын тегін пайдаланып көріңіз**.
 1. [Microsoft тіркелгісімен және контакт ақпаратымен байланысты электрондық поштаны](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) енгізу үшін экрандағы нұсқаулықты орындаңыз.
 1. Таңдаулар жасаңыз және таңдалған мүмкіндіктің бастапқы бетіне жеткенше назар аудару мүмкіндігін таңдаңыз.
 
@@ -31,12 +31,12 @@ Customer Insights бағдарламасы тегін 30 күндік сынақ
 
 Сынақ ортасы ақылы нұсқа сияқты мүмкіндіктерді қамтиды. Төмендегі сілтемелер арқылы кейбір негізгі мүмкіндіктерге өтуге болады.
 
-- [Аудитория түсініктері туралы қысқаша нұсқаулық.](audience-insights/get-started.md)
-- [Қосымша пайдаланушыларды қосу және рұқсаттарды тағайындау.](audience-insights/permissions.md)
-- [Деректер көздерін енгізіңіз](audience-insights/data-sources.md) және оларды арқылы өткізіңіз[ мәліметтерді біріздендіру процесі](audience-insights/data-unification.md) алу[ тұтынушылардың бірыңғай профильдері](audience-insights/customer-profiles.md).
-- [Тұтынушылардың бірыңғай профильдерін арттыру](audience-insights/enrichment-hub.md) немесе [болжамды модельдерді іске қосу](audience-insights/predictions-overview.md).
-- Тұтынушыларды топтастыру үшін [сегменттер](audience-insights/measures.md) және KPI көрсеткіштерін қарап шығу үшін [өлшемдер](audience-insights/segments.md) жасаңыз.
-- Деректеріңіздің қосалқы жиындарын басқа бағдарламаларда өңдеу үшін [байланыстар](audience-insights/connections.md) мен [экспорттауларды](audience-insights/export-destinations.md) орнату.
+- [Customer Insights қолданбасын пайдалануды бастаңыз.](get-started.md)
+- [Қосымша пайдаланушыларды қосу және рұқсаттарды тағайындау.](permissions.md)
+- [Деректер көздерін енгізіңіз](data-sources.md) және оларды арқылы өткізіңіз[ мәліметтерді біріздендіру процесі](data-unification.md) алу[ тұтынушылардың бірыңғай профильдері](customer-profiles.md).
+- [Тұтынушылардың бірыңғай профильдерін арттыру](enrichment-hub.md) немесе [болжамды модельдерді іске қосу](predictions-overview.md).
+- Тұтынушыларды топтастыру үшін [сегменттер](measures.md) және KPI көрсеткіштерін қарап шығу үшін [өлшемдер](segments.md) жасаңыз.
+- Деректеріңіздің қосалқы жиындарын басқа бағдарламаларда өңдеу үшін [байланыстар](connections.md) мен [экспорттауларды](export-destinations.md) орнату.
 
 ## <a name="additional-resources"></a>Қосымша ресурстар
 

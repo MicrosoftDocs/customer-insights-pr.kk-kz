@@ -6,12 +6,12 @@ metadata:
   ms.author: mhart
   ms.date: 03/02/2022
   ms.topic: landing-page
-  ms.openlocfilehash: 5efa266dfe8d70812f4c668b04cee2f93f206f7b
-  ms.sourcegitcommit: 1946d7af0bd2ca216885bec3c5c95009996d9a28
+  ms.openlocfilehash: e3a9f6d5f4d23ca3e85fa3f69272a0162ca7bd2d
+  ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
   ms.translationtype: MT
   ms.contentlocale: kk-KZ
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "8350476"
+  ms.lasthandoff: 04/27/2022
+  ms.locfileid: "8641663"
 title: Dynamics 365 Customer Insights құжаттамасы
 summary: Жұмысты бастау үшін пайдалы ресурстарды табыңыз және Customer Insights функциялары мен мүмкіндіктері туралы мәлімет алыңыз.
 landingContent:
@@ -23,8 +23,8 @@ landingContent:
       url: overview.md
     - text: Жоспарларды шығару
       url: /dynamics365/release-plans/
-    - text: CDP платформасын анықтау
-      url: https://dynamics.microsoft.com/ai/customer-insights/
+    - text: Жаңа және жаңартылған мүмкіндіктер
+      url: whats-new-customer-insights.md
   - linkListType: learn
     links:
     - text: Customer Insights оқу жолы
@@ -35,24 +35,94 @@ landingContent:
     links:
     - text: Тегін сынаққа тіркелу
       url: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
-    - text: Аудитория туралы мәліметтердегі жаңалықтар
-      url: audience-insights/whats-new-audience-insights.md
-    - text: Жылдам іске қосу нұсқаулығы
-      url: audience-insights/get-started.md
+    - text: Сынақтан бастаңыз
+      url: trial-signup.md
+    - text: Customer Insights бағдарламасын пайдалануға дайындық
+      url: get-started.md
   - linkListType: learn
     links:
     - text: Бастау
       url: /learn/modules/get-started-customer-data-platform/
+- title: Деректерді біріктіру
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Деректер көздеріне шолу
+      url: data-sources.md
+    - text: Бірыңғайландыруды шолу
+      url: data-unification.md
+    - text: Нысандарды түсіну
+      url: entities.md
+  - linkListType: learn
+    links:
+    - text: Бірыңғай профиль жасаңыз
+      url: /learn/modules/unified-customer-profile/
+- title: Түсініктерді алу
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Тұтынушы профильдерін арттыру
+      url: enrichment-hub.md
+    - text: Қарым-қатынастарды теңшеу
+      url: relationships.md
+    - text: Деректерді болжамдармен толықтыру
+      url: predictions.md
+  - linkListType: learn
+    links:
+    - text: Деректерді байыту және болжау
+      url: /learn/modules/enrich-data/
+- title: Деректеріңізге сүйеніңіз
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Сегменттер жасау
+      url: segments.md
+    - text: Өлшемдер жасау
+      url: measures.md
+    - text: Тұтынушы әрекеттерін анықтаңыз
+      url: activities.md
+  - linkListType: learn
+    links:
+    - text: Бағдарламамен жұмыс істеу
+      url: /learn/modules/working-with-customer-insights/
+- title: Деректерді экспорттау
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Экспорттаудың межелі орындарын орнату
+      url: export-destinations.md
+    - text: Dynamics 365 бағдарламаларындағы тұтынушы карталары
+      url: customer-card-add-in.md
+    - text: Power BI коннекторы
+      url: export-power-bi.md
+  - linkListType: learn
+    links:
+    - text: Сыртқы қосылымдарды басқару
+      url: /learn/modules/configure-third-party-connections/
+- title: Қолданбаны басқару
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Жүйені конфигурациялаңыз
+      url: system.md
+    - text: Пайдаланушы рұқсаттарын анықтау
+      url: permissions.md
+    - text: Бірнеше ортаны басқару
+      url: manage-environments.md
+  - linkListType: learn
+    links:
+    - text: Customer Insights бағдарламасын басқару
+      url: /learn/modules/administer-customer-data-platform/
 - title: Customer Insights бағдарламасын басқару
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Жүйені конфигурациялаңыз
-      url: audience-insights/system.md
+      url: system.md
     - text: Пайдаланушы рұқсаттарын анықтау
-      url: audience-insights/permissions.md
+      url: permissions.md
     - text: Бірнеше ортаны басқару
-      url: audience-insights/manage-environments.md
+      url: manage-environments.md
   - linkListType: learn
     links:
     - text: Customer Insights бағдарламасын басқару
