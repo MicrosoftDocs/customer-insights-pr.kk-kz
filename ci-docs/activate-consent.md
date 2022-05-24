@@ -1,23 +1,22 @@
 ---
 title: Сегменттерге келісім беру ережелерін іске қосыңыз
 description: Келісім деректерін байланыстыру және келісім тексерулерін іске қосу үшін мына қадамдарды орындаңыз Dynamics 365 Customer Insights. Әкімші келісімді тексеруді де өшіре алады.
-ms.date: 11/12/2021
-ms.subservice: audience-insights
+ms.date: 04/27/2022
 ms.topic: how-to
-author: smithy7
-ms.author: smithc
+author: anubhav-t
+ms.author: antando
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: bfa03f4b7b56b300a74ebd04721cd64b893879f1
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: f82e3a4031fee8bcaa88575cbd68b37385a7fffb
+ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643114"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8755177"
 ---
 # <a name="activate-consent-rules"></a>Келісім ережелерін іске қосыңыз
 
-The [Келісім орталығы (алдын ала қарау)](consent-management/overview.md) әртүрлі көздерден алынған келісім деректерін үйлестіруге көмектеседі. Біріктірілгенді пайдаланыңыз *Келісім* ұйым әдепкі келісім тексерулерін қолдана алады. Келісім деректерін Келісім орталығына импорттағаннан және деректер ережелерін конфигурациялаудан кейін *Келісім* нысан автоматты түрде синхрондалады Dynamics 365 Customer Insights.
+The [Келісім орталығы (алдын ала қарау)](consent-management/overview.md) әртүрлі көздерден алынған келісім деректерін үйлестіруге көмектеседі. Біріктірілгенді пайдаланыңыз *Келісім* ұйым әдепкі келісім тексерулерін қолдана алады. Рұқсат деректерін импорттап, карта ережелерін конфигурациялағаннан кейін *Келісім* нысан автоматты түрде синхрондалады Dynamics 365 Customer Insights.
 
 ## <a name="enable-consent-checks"></a>Келісім тексерулерін қосу
 

@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-diagnostic
 - customerInsights
-ms.openlocfilehash: 85995cbd7f797810bfb6ecdc8a24d56542f0b5a9
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 1e629cd218b104b115f74f59a53a14e9d60fcc8a
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643077"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741372"
 ---
 # <a name="work-with-customer-insights-data-in-microsoft-dataverse"></a>Microsoft Dataverse жүйесіндегі Customer Insights деректерімен жұмыс істеу
 
@@ -28,7 +28,7 @@ Customer Insights шығыс нысандарын [Microsoft Dataverse](/powerap
 
 Әкімшілер Customer Insights параметрін конфигурациялай алады [бар пайдаланыңыз Dataverse қоршаған орта](create-environment.md) олар Customer Insights ортасын жасағанда. URL мекенжайын беру арқылы Dataverse орта, ол олардың жаңа Customer Insights ортасына қосылады. Тұтынушы түсініктері және Dataverse орталар бір аймақта орналастырылуы керек. 
 
-Барын пайдаланғыңыз келмесе Dataverse ортада жүйе клиенттегі Customer Insights деректері үшін жаңа орта жасайды. 
+Барын пайдаланғыңыз келмесе Dataverse ортада жүйе клиентіңіздегі Customer Insights деректері үшін жаңа орта жасайды. 
 
 > [!NOTE]
 > Егер сіздің ұйымдарыңыз бұрыннан қолданса Dataverse олардың жалға алушысында мұны есте сақтау маңызды [Dataverse ортаны құруды әкімші басқарады](/power-platform/admin/control-environment-creation) . Мысалы, ұйым тіркелгісімен жаңа Customer Insights ортасын орнатып жатсаңыз және әкімші оны жасауды өшірген болса.Dataverse әкімшілерден басқа барлығына арналған сынақ орталары, сіз жаңа сынақ ортасын жасай алмайсыз.
@@ -54,7 +54,7 @@ Customer Insights кейбір шығыс нысандары кестелер т
 
 ### <a name="customerprofile"></a>Тұтынушы профилі
 
-Бұл кестеде Customer Insights бағдарламасындағы тұтынушының бірыңғай профилі бар. Тұтынушының бірыңғай профилінің схемасы біріктіру процесінде қолданылатын нысандар мен төлсипаттарға байланысты. Тұтынушы профилінің схемасы әдетте [Тұтынушы профилінің Common Data Model анықтамасы](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/customerprofile) ішіндегі төлсипаттардың ішкі жинағын қамтиды.
+Бұл кестеде Customer Insights бағдарламасындағы тұтынушының бірыңғай профилі бар. Бірыңғай тұтынушы профилінің схемасы деректерді біріктіру процесінде пайдаланылатын нысандар мен атрибуттарға байланысты. Тұтынушы профилінің схемасы әдетте [Тұтынушы профилінің Common Data Model анықтамасы](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/customerprofile) ішіндегі төлсипаттардың ішкі жинағын қамтиды.
 
 ### <a name="alternatekey"></a>AlternateKey
 

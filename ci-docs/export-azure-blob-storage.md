@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 42095f369c47553e5ddf5fada54e559202c943a9
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 3d573a6c83b7f0b0c33e656eb383e20a96856b0b
+ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643437"
+ms.lasthandoff: 05/15/2022
+ms.locfileid: "8757393"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Сегменттер тізімін және басқа деректерді Azure Blob сақтау орнына экспорттау (алдын ала қарау нұсқасы)
 
@@ -44,7 +44,7 @@ Customer Insights деректерін Azure Blob сақтау орнында с
 Егер сіз осы түрдегі қосылымға қатынаса алсаңыз, сіз бұл экспорттауды конфигурациялай аласыз. Қосымша ақпарат алу үшін [Экспорттауды конфигурациялау үшін қажет рұқсаттар](export-destinations.md#set-up-a-new-export) бөлімін қараңыз.
 
 > [!IMPORTANT]
-> Егер сіз Azure Blob сақтау орны тіркелгісі үшін жұмсақ жою параметрін қоссаңыз, экспорттау сәтсіз аяқталады. Деректерді BLOB нысандарына экспорттау үшін жұмсақ жоюды өшіріңіз. Қосымша ақпарат алу үшін [Blob жұмсақ жою мүмкіндігін қосу](/azure/storage/blobs/soft-delete-blob-enable.md) тақырыбын қараңыз
+> Егер сіз Azure Blob сақтау орны тіркелгісі үшін жұмсақ жою параметрін қоссаңыз, экспорттау сәтсіз аяқталады. Деректерді BLOB нысандарына экспорттау үшін жұмсақ жоюды өшіріңіз. Қосымша ақпарат алу үшін [Blob жұмсақ жою мүмкіндігін қосу](/azure/storage/blobs/soft-delete-blob-enable) тақырыбын қараңыз
 
 1. **Деректер** > **Экспорттау** тармағына өтіңіз.
 

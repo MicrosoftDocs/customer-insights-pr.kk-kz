@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: e155f75ffbc2c1bb228bece1b3e34846df794543
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 33a0562854e97b9ac5218e060f965996305627fd
+ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643366"
+ms.lasthandoff: 05/15/2022
+ms.locfileid: "8757439"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
 
@@ -23,7 +23,7 @@ ms.locfileid: "8643366"
 
 Бұл ортақ деректер үлгісі бағдарламалар мен деректерді біріктірушілерге деректердің бірыңғай анықтамасын беру арқылы өзара әрекеттесуді жеңілдетуге мүмкіндік береді. Common Data Model жүйесі стандартты нысандар, қарым-қатынастар, иерархиялар, белгілер және тағы басқалары бар пішімделген метадеректер жүйесін қамтиды. Ол Dynamics 365 бағдарламаларынан құрылған және 260-тан астам стандартты нысандардан тұратын GitHub жүйесінде ашық болып табылады. Ішкі және сыртқы серіктестердің ірі жүйесі Common Data Model қызметіне салалық тұжырымдамалар енгізеді.
 
-Қазіргі уақытта Power BI деректер ағыны мен Azure Data Services жүйелерімен қоса Common Data Model жүйесі бірнеше жүйелер мен платформаларда жүзеге асырылады. Оған Microsoft Dataverse, Dynamics 365, Power Apps, Power BI және алдағы Azure деректер қызметтерінде қолдау көрсетіледі, ол [Open Data Initiative](https://www.microsoft.com/open-data-initiative) қызметінің құндылығын тікелей арттырады.
+Қазіргі уақытта Power BI деректер ағыны мен Azure Data Services жүйелерімен қоса Common Data Model жүйесі бірнеше жүйелер мен платформаларда жүзеге асырылады. Оған Microsoft Dataverse, Dynamics 365, Power Apps, Power BI және алдағы Azure деректер қызметтерінде қолдау көрсетіледі, ол [Open Data Initiative](https://dynamics.microsoft.com/en-us/open-data-initiative/) қызметінің құндылығын тікелей арттырады.
 
 ## <a name="customer-insights-entity-schemas"></a>Customer Insights нысаны схемалары
 

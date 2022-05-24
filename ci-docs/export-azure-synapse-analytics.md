@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: e77227e1e353c02cfb13e26a8ecbe0768ba6c0fa
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 772fe0978362ccd829077a8133e2a3e74043f3f8
+ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643167"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741510"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді келесіге экспорттау Azure Synapse Analytics (Алдын ала қарау)
 
@@ -34,7 +34,7 @@ Azure қызметінде:
 
 - Белсенді Azure жазылымы.
 
-- Жаңасын пайдалансаңыз Azure Data Lake Storage Gen2 тіркелгісі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** рұқсаттар. [Azure Data Lake Storage Gen2 тіркелгісін аудитория туралы түсініктерге арналған Azure қызмет негізімен қосу](connect-service-principal.md) туралы қосымша ақпарат. Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
+- Жаңасын пайдалансаңыз Azure Data Lake Storage Gen2 тіркелгісі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** рұқсаттар. Қосымша ақпарат алыңыз [-ге қосылу Azure Data Lake Storage Gen2 тіркелгісі Customer Insights үшін Azure қызмет көрсетушісімен](connect-service-principal.md). Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
 
 - Ресурстар тобында Azure Synapse жұмыс кеңістігі орналасқан, *қызмет көрсетуші* және *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* кем дегенде тағайындау керек **Оқырман** рұқсаттар. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлдерін тағайындау](/azure/role-based-access-control/role-assignments-portal) бөлімін қараңыз.
 

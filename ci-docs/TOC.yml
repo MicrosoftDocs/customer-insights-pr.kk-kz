@@ -66,12 +66,18 @@
   items:
     - name: Деректерді біріктіруге шолу
       href: data-unification.md
-    - name: Нысандар мен төлсипаттарды салыстыру
+    - name: Бастапқы өрістерді таңдаңыз
       href: map-entities.md
-    - name: Нысандарды сәйкестендіру
+    - name: Қайталанатын жазбаларды жою
+      href: remove-duplicates.md
+    - name: Сәйкестік шарттары
       href: match-entities.md
-    - name: Нысандарды біріктіру
+    - name: Тұтынушы өрістерін біріктіру
       href: merge-entities.md
+    - name: Деректерді біріктіруді қарастырыңыз
+      href: review-unification.md
+    - name: Біріктіру параметрлерін жаңартыңыз
+      href: data-unification-update.md
 - name: Деректерді арттыру
   items:
     - name: Тұтынушы профильдерін арттыру
@@ -282,6 +288,8 @@
       href: apis.md
     - name: API сілтемелері
       href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
+    - name: OData үлгі сұраулары
+      href: odata-examples.md
 - name: Келісімді басқару (алдын ала қарау)
   items:
     - name: Анықтама орталығы
