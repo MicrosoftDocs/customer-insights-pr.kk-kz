@@ -6,13 +6,15 @@
   href: whats-new-customer-insights.md
 - name: Оқыту каталогы
   items:
-    - name: Бастау
+    - name: Microsoft тұтынушылық деректер платформасының маманы ретінде сертификаттаңыз
+      href: /learn/certifications/exams/mb-260?tab=tab-instructor-led
+    - name: Customer Insights бағдарламасын пайдалануға дайындық
       href: /learn/modules/get-started-customer-data-platform/
     - name: Деректерді қабылдау
       href: /learn/modules/ingest-data-customer-insights/
     - name: Тұтынушының бірыңғай профилін жасау
       href: /learn/modules/unified-customer-profile/
-    - name: Customer Insights көмегімен жұмыс істеу
+    - name: Customer Insights-пен жұмыс істеу
       href: /learn/modules/working-with-customer-insights/
     - name: 'Деректерді байытып, болжам жасаңыз'
       href: /learn/modules/enrich-data/
@@ -34,8 +36,6 @@
       href: get-started.md
     - name: Ақылы лицензиямен бастау
       href: paid-license.md
-    - name: Жаңа орта жасау
-      href: create-environment.md
     - name: Customer Insights мәліметтерін зерттеңіз
       href: home.md
     - name: Тегтермен және бағандармен жұмыс
@@ -198,6 +198,8 @@
           href: export-campaign-monitor.md
         - name: Constant Contact
           href: export-constant-contact.md
+        - name: Критео
+          href: export-criteo.md
         - name: DotDigital
           href: export-dotdigital.md
         - name: Dynamics 365 Marketing
@@ -254,12 +256,22 @@
       href: entities.md
     - name: Common Data Model ішіндегі нысан схемаларын қарап шығу
       href: entity-schemas.md
-    - name: Dataverse жүйесіндегі Customer Insights деректері
-      href: customer-insights-dataverse.md
     - name: Қатынастар мен қосылған нысандарды құру
       href: relationships.md
     - name: Семантикалық салыстыруларды анықтау
       href: semantic-mappings.md
+- name: Орталар
+  items:
+    - name: Жаңа орта жасау
+      href: create-environment.md
+    - name: Microsoft Dataverse қызметіне қосылу
+      href: customer-insights-dataverse.md
+    - name: Өзіңізді пайдаланыңыз Azure Data Lake Storage
+      href: own-data-lake-storage.md
+    - name: Орта параметрлерін басқару
+      href: manage-environments.md
+    - name: Негізгі қызмет көрсету арқылы сақтау тіркелгісіне қосылыңыз
+      href: connect-service-principal.md
 - name: Әкімшілік
   items:
     - name: Жүйе теңшелімін орнату
@@ -268,20 +280,12 @@
       href: security-overview.md
     - name: Пайдаланушы рұқсаттарын тағайындау
       href: permissions.md
-    - name: Байланыстарға шолу
-      href: connections.md
-    - name: Бірнеше ортаны басқару
-      href: manage-environments.md
     - name: Жеке Key Vault қызметін пайдалану
       href: use-azure-key-vault.md
-    - name: Негізгі қызмет көрсету арқылы сақтау тіркелгісіне қосылыңыз
-      href: connect-service-principal.md
     - name: Диагностикалық журналдарды экспорттау
       href: diagnostics.md
-    - name: Қызмет шектеулері
-      href: service-limits.md
-    - name: DSR құқықтары мен сұраулары
-      href: dsr-rights-requests.md
+    - name: Байланыстарға шолу
+      href: connections.md
 - name: API көрсеткіштері
   items:
     - name: API интерфейсімен жұмыс істеу
@@ -324,5 +328,9 @@
       items:
         - name: Келісім деректерімен болжам жасаңыз
           href: consent-management/predictions-consent-data.md
+- name: Қызмет шектеулері
+  href: service-limits.md
+- name: DSR құқықтары мен сұраулары
+  href: dsr-rights-requests.md
 - name: Қолдау алу
   href: /power-platform/admin/get-help-support

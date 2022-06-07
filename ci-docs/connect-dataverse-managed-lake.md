@@ -11,12 +11,12 @@ ms.reviewer: mhart
 searchScope:
 - ci-dataverse
 - customerInsights
-ms.openlocfilehash: e8a294a4bad1581539b5905160cddcd625699d90
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 7140e9254108bc6f0d518b3ccf4b10fc33cde115
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643113"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800180"
 ---
 # <a name="connect-to-data-in-a-microsoft-dataverse-managed-data-lake"></a>Microsoft Dataverse басқарылатын деректер ағынында деректерге қосылу
 
@@ -28,7 +28,7 @@ ms.locfileid: "8643113"
 ## <a name="important-considerations"></a>Маңызды жайттар
 
 1. Azure Data Lake Storage сияқты онлайн қызметтерде сақталған деректер Dynamics 365 Customer Insights бағдарламасында деректер өңделетін немесе сақталатын жерден басқа жерде сақталуы мүмкін.Онлайн қызметтерде сақталған деректерді импорттау немесе оларға қосылу арқылы сіз деректерді тасымалдауға және сақтауға болатынына келісесіз Dynamics 365 Customer Insights . [Толығырақ Microsoft сенім орталығында біліңіз](https://www.microsoft.com/trust-center).
-2. Тек Dataverse бар субъектілер [бақылауды өзгерту](/power-platform/admin/enable-change-tracking-control-data-synchronization) қосылғандар көрінеді. Бұл нысандарды экспорттауға болады Dataverse -басқарылатын деректер көлі және Customer Insights жүйесінде пайдаланылады. Қораптан тыс Dataverse кестелерде әдепкі бойынша өзгерістерді қадағалау қосылған. Теңшелетін кестелер үшін өзгерістерді бақылауды қосу керек. Тексеру үшін а Dataverse кесте өзгерістерді бақылау үшін қосылған, өтіңіз [Power Apps](https://make.powerapps.com) > **Деректер** > **Кестелер**. Өзіңізді қызықтыратын кестені тауып, оны таңдаңыз. Бару **Параметрлер** > **Қосымша опциялар** және қарап шығыңыз **Өзгерістерді бақылаңыз** орнату.
+2. Тек Dataverse бар субъектілер [бақылауды өзгерту](/power-platform/admin/enable-change-tracking-control-data-synchronization) қосылғандар көрінеді. Бұл нысандарды экспорттауға болады Dataverse -басқарылатын деректер көлі және Customer Insights жүйесінде пайдаланылады. Қораптан тыс Dataverse кестелерде әдепкі бойынша өзгерістерді бақылау қосылған. Теңшелетін кестелер үшін өзгерістерді бақылауды қосу керек. Тексеру үшін а Dataverse кесте өзгерістерді бақылау үшін қосылған, өтіңіз [Power Apps](https://make.powerapps.com) > **Деректер** > **Кестелер**. Өзіңізді қызықтыратын кестені тауып, оны таңдаңыз. Бару **Параметрлер** > **Қосымша опциялар** және қарап шығыңыз **Өзгерістерді бақылаңыз** орнату.
 
 ## <a name="connect-to-a-dataverse-managed-lake"></a>Dataverse басқарылатын ағынына қосылу
 
@@ -62,7 +62,7 @@ ms.locfileid: "8643113"
 
 1. **Деректер** > **Дерек көздері** тармағы бойынша өтіңіз.
 
-2. Жаңарту керек деректер көзінің жанындағы көп нүктені таңдаңыз.
+2. Жаңартқыңыз келетін деректер көзі жанындағы тік эллипсті (&vellip;).
 
 3. Тізімнен **Өңдеу** параметрін таңдаңыз.
 

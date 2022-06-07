@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-security
 - customerInsights
-ms.openlocfilehash: 9eb06a1190fe4e8012ecd3d6742b8b3f5f4d6349
-ms.sourcegitcommit: cf74b8c20d88eb96e1ac86e18cd44fe27aad5ab9
+ms.openlocfilehash: d4f2d5ebc828053c40e22065f4915c4d0f84153f
+ms.sourcegitcommit: 6ec4626a185892dfb781d3c7af4384f9c13f3723
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "8653484"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "8763586"
 ---
 # <a name="bring-your-own-azure-key-vault-preview"></a>Жеке Azure Key Vault қызметін пайдалану (алдын ала қарау нұсқасы)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8653484"
 
 ### <a name="prerequisites"></a>Алғышарттар
 
-Customer Insights ішіндегі кілт қоймасын конфигурациялау үшін келесі алғышарттар орындалуы керек:
+Customer Insights жүйесінде кілт қоймасын конфигурациялау үшін келесі алғышарттар орындалуы керек:
 
 - Сізде белсенді Azure жазылымы болуы қажет.
 
@@ -89,9 +89,9 @@ Customer Insights ішіндегі кілт қоймасын конфигура�
 
 | Түр        | Рұқсаттар          |
 | ----------- | -------------------- |
-| Перне         | [Кілттерді алу](/rest/api/keyvault/get-keys), [Кілтті алу](/rest/api/keyvault/get-key)                                 |
-| Құпия      | [Құпияларды алу](/rest/api/keyvault/get-secrets), [Құпияны алу](/rest/api/keyvault/get-secret)                     |
-| Куәлік | [Сертификаттарды алу](/rest/api/keyvault/get-certificates), [Сертификат алу](/rest/api/keyvault/get-certificate) |
+| Перне         | [Кілттерді алу](/rest/api/keyvault/keys/get-keys/get-keys), [Кілтті алу](/rest/api/keyvault/keys/get-key/get-key)                                 |
+| Құпия      | [Құпияларды алу](/rest/api/keyvault/secrets/get-secrets/get-secrets), [Құпияны алу](/rest/api/keyvault/secrets/get-secret/get-secret)                     |
+| Куәлік | [Сертификаттарды алу](/rest/api/keyvault/certificates/get-certificates/get-certificates), [Сертификат алу](/rest/api/keyvault/certificates/get-certificate/get-certificate) |
 
 Алдыңғы мәндер орындау кезінде тізімдеу және оқу үшін минимум болып табылады.
 

@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-connections
 - customerInsights
-ms.openlocfilehash: d85de28a12565e1a2e36278d0e8b74f6de286b20
-ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
+ms.openlocfilehash: 2a3175737ac95e10d75fad4a69db303b0564c6cc
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755316"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800379"
 ---
 # <a name="connections-preview-overview"></a>Қосылымдарға (алдын ала қарау нұсқасы) шолу
 
@@ -69,7 +69,7 @@ ms.locfileid: "8755316"
 
 1. **Қосылымдар** қойыншасына өтіңіз.
 
-1. Өңдеу керек қосылым үшін тік көп нүктені таңдаңыз.
+1. Тік эллипсті таңдаңыз (&vellip;) өңдегіңіз келетін қосылым үшін.
 
 1. **Өңдеу** пәрменін таңдаңыз.
 
@@ -85,7 +85,7 @@ ms.locfileid: "8755316"
 
 1. **Қосылымдар** қойыншасына өтіңіз.
 
-1. Жою керек қосылым үшін тік көп нүктені таңдаңыз.
+1. Тік эллипсті таңдаңыз (&vellip;) өшіргіңіз келетін қосылым үшін.
 
 1. Ашылмалы тізімнен **Алып тастау** опциясын таңдаңыз. Растау диалогтік терезесі пайда болады.
 

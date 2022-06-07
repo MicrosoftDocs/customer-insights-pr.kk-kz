@@ -4,14 +4,14 @@ metadata:
   author: m-hartmann
   description: Анықтама мазмұны көмегімен бастау үшін тиісті мақалаларды табыңыз.
   ms.author: mhart
-  ms.date: 03/02/2022
+  ms.date: 05/18/2022
   ms.topic: landing-page
-  ms.openlocfilehash: e3a9f6d5f4d23ca3e85fa3f69272a0162ca7bd2d
-  ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+  ms.openlocfilehash: e8134fa66ce47cdf8aeab144b8405104fb257f6c
+  ms.sourcegitcommit: 6108152b3d28a2ec140eae32a61dbf4317baa37b
   ms.translationtype: MT
   ms.contentlocale: kk-KZ
-  ms.lasthandoff: 04/27/2022
-  ms.locfileid: "8641663"
+  ms.lasthandoff: 05/19/2022
+  ms.locfileid: "8781371"
 title: Dynamics 365 Customer Insights құжаттамасы
 summary: Жұмысты бастау үшін пайдалы ресурстарды табыңыз және Customer Insights функциялары мен мүмкіндіктері туралы мәлімет алыңыз.
 landingContent:
@@ -43,16 +43,30 @@ landingContent:
     links:
     - text: Бастау
       url: /learn/modules/get-started-customer-data-platform/
-- title: Деректерді біріктіру
+- title: Деректерді қабылдау
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Деректер көздеріне шолу
       url: data-sources.md
+    - text: пайдаланып қосылыңыз Power Query
+      url: connect-power-query.md
+    - text: Microsoft Dataverse қызметіне қосылу
+      url: connect-dataverse-managed-lake.md
+  - linkListType: learn
+    links:
+    - text: Деректерді Customer Insights ішіне енгізу
+      url: /learn/modules/ingest-data-customer-insights/
+- title: Деректерді біріктіру
+  linkLists:
+  - linkListType: how-to-guide
+    links:
     - text: Бірыңғайландыруды шолу
       url: data-unification.md
     - text: Нысандарды түсіну
       url: entities.md
+    - text: Бірыңғай профильдерді қарап шығыңыз
+      url: customer-profiles.md
   - linkListType: learn
     links:
     - text: Бірыңғай профиль жасаңыз
@@ -99,20 +113,6 @@ landingContent:
     links:
     - text: Сыртқы қосылымдарды басқару
       url: /learn/modules/configure-third-party-connections/
-- title: Қолданбаны басқару
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: Жүйені конфигурациялаңыз
-      url: system.md
-    - text: Пайдаланушы рұқсаттарын анықтау
-      url: permissions.md
-    - text: Бірнеше ортаны басқару
-      url: manage-environments.md
-  - linkListType: learn
-    links:
-    - text: Customer Insights бағдарламасын басқару
-      url: /learn/modules/administer-customer-data-platform/
 - title: Customer Insights бағдарламасын басқару
   linkLists:
   - linkListType: how-to-guide

@@ -12,12 +12,12 @@ searchScope:
 - ci-data-sources
 - ci-create-data-source
 - customerInsights
-ms.openlocfilehash: 50258365c3134c588aa79ec72c66d0de329e0ff1
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 4db97ec02eb96662d30a8536ea42372f81f318d2
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643365"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800159"
 ---
 # <a name="connect-to-a-power-query-data-source"></a>a Power Query деректер көзі
 
@@ -76,7 +76,7 @@ Power Query деректерді қабылдау үшін қосқыштард�
 
 1. **Деректер** > **Дерек көздері** тармағы бойынша өтіңіз.
 
-2. Өзгерту керек деректер көзі жанындағы тік көп нүктені таңдаңыз және ашылмалы мәзірден **Өңдеу** түймешігін таңдаңыз.
+2. Тік эллипсті таңдаңыз (&vellip;) өзгерткіңіз келетін деректер көзі жанындағы және таңдаңыз **Өңдеу** ашылмалы мәзірден.
 
    > [!div class="mx-imgBorder"]
    > ![Өңдеу параметрі.](media/edit-option-data-sources.png "Өңдеу параметрі")

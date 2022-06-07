@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-diagnostic
 - customerInsights
-ms.openlocfilehash: 03169f0218dfad55cf20ecaf1c1596c652e5f601
-ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
+ms.openlocfilehash: 15ae772617efa4c64cf79d0bac10a0c3cb28ca30
+ms.sourcegitcommit: a92bf5985263240fd07bad98d8e119b88cf2c9d9
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755269"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8807588"
 ---
 # <a name="log-forwarding-in-dynamics-365-customer-insights-with-azure-monitor-preview"></a>Жүйеге қайта бағыттау Dynamics 365 Customer Insights Azure мониторымен (алдын ала қарау)
 
@@ -38,7 +38,7 @@ Customer Insights жүйесінде диагностиканы конфигур
 
 - Сізде белсенді [Azure жазылымы](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/).
 - Сенде бар [Әкімші](permissions.md#admin) Customer Insights ішіндегі рұқсаттар.
-- Сізде бар **Қатысушы** және **Пайдаланушыға кіру әкімшісі** Azure жүйесіндегі тағайындалған ресурстағы рөл. Ресурс Azure Storage тіркелгісі, Azure Event Hub немесе Azure Log Analytics жұмыс кеңістігі болуы мүмкін. Қосымша ақпаратты қараңыз [Azure порталы арқылы Azure рөл тағайындауларын қосыңыз немесе жойыңыз](/azure/role-based-access-control/role-assignments-portal).
+- Сізде бар **Қатысушы** және **Пайдаланушыға кіру әкімшісі** Azure жүйесіндегі тағайындалған ресурстағы рөл. Ресурс болуы мүмкін Azure Data Lake Storage тіркелгісі, Azure Event Hub немесе Azure Log Analytics жұмыс кеңістігі. Қосымша ақпаратты қараңыз [Azure порталы арқылы Azure рөл тағайындауларын қосыңыз немесе жойыңыз](/azure/role-based-access-control/role-assignments-portal). Бұл рұқсат Customer Insights жүйесінде диагностикалық параметрлерді конфигурациялау кезінде қажет, оны сәтті орнатудан кейін өзгертуге болады.
 - [Тағайындалған жерге қойылатын талаптар](/azure/azure-monitor/platform/diagnostic-settings#destination-requirements) Azure Storage, Azure Event Hub немесе Azure Log Analytics үшін кездесті.
 - Сізде кем дегенде бар **Оқырман** ресурс тиесілі ресурс тобының рөлі.
 
@@ -109,12 +109,12 @@ Customer Insights қызметінің директоры алады **Azure Eve
 
 ### <a name="log-analytics"></a>Log Analytics
 
-Customer Insights қызметінің директоры алады **Log Analytics Contributor** ресурсқа рұқсат. Журналдар астында қолжетімді болады **Журналдар** > **Кестелер** > **Журналды басқару** таңдалған Log Analytics жұмыс кеңістігінде. кеңейтіңіз **Журналды басқару** шешімін тауып, орнын табыңыз`CIEventsAudit` және`CIEventsOperational` кестелер.
+Customer Insights қызметінің директоры алады **Log Analytics Contributor** ресурсқа рұқсат. Журналдар астында қол жетімді болады **Журналдар** > **Кестелер** > **Журналды басқару** таңдалған Log Analytics жұмыс кеңістігінде. кеңейтіңіз **Журналды басқару** шешімін тауып, орнын табыңыз`CIEventsAudit` және`CIEventsOperational` кестелер.
 
 - `CIEventsAudit` қамтитын **аудиторлық оқиғалар**
 - `CIEventsOperational` қамтитын **операциялық оқиғалар**
 
-Астында **Сұраулар** терезені кеңейтіңіз **Аудит** шешімін тауып, іздеу арқылы берілген мысал сұрауларды табыңыз `CIEvents`.
+Астында **Сұраулар** терезені кеңейтіңіз **Аудит** шешімін тауып, іздеу арқылы берілген мысал сұрауларын табыңыз `CIEvents`.
 
 ## <a name="event-schemas"></a>Оқиға схемалары
 
@@ -130,7 +130,7 @@ API оқиғалары мен жұмыс процесі оқиғаларының
 | `category`        | String    | Талап етіледі          | Оқиғаның журнал санаты. Немесе`Operational` немесе `Audit`. Барлық POST/PUT/PATCH/DELETE HTTP сұрауларымен тегтелген`Audit`, қалғанының бәрі бар`Operational` | `2020-09-08T09:48:14.8050869Z`                                                                                                                                           |
 | `resultType`      | String    | Талап етіледі          | Оқиға жағдайы. `Success`,`ClientError`,`Failure`                                                                                                        |                                                                                                                                                                          |
 | `resultSignature` | String    | Таңдаулы          | Оқиғаның нәтиже күйі. Егер операция REST API қоңырауына сәйкес келсе, бұл HTTP күй коды.        | `200`             |
-| `durationMs`      | Ұзын      | Таңдаулы          | Операцияның ұзақтығы миллисекундпен.     | `133`     |
+| `durationMs`      | Ұзын      | Таңдаулы          | Операция ұзақтығы миллисекундпен.     | `133`     |
 | `callerIpAddress` | String    | Таңдаулы          | Қоңырау шалушының IP мекенжайы, егер операция жалпыға қолжетімді IP мекенжайынан келетін API қоңырауына сәйкес келсе.                                                 | `144.318.99.233`         |
 | `identity`        | String    | Таңдаулы          | Пайдаланушының немесе операцияны орындаған қолданбаның идентификациясын сипаттайтын JSON нысаны.       | Қараңыз [Жеке басын куәландыратын](#identity-schema) бөлім.     |  
 | `properties`      | String    | Таңдаулы          | Оқиғалардың нақты санатына көбірек сипаттары бар JSON нысаны.      | Қараңыз [Қасиеттер](#api-properties-schema) бөлім.    |
@@ -182,7 +182,7 @@ The`identity` JSON нысанында келесі құрылым бар
 
 ### <a name="workflow-event-schema"></a>Жұмыс процесі оқиғасының схемасы
 
-Жұмыс процесі бірнеше қадамдарды қамтиды. [Деректер көздерін қабылдау](data-sources.md),[біріктіру](data-unification.md),[байыту](enrichment-hub.md), және [экспорттау](export-destinations.md) деректер. Барлық осы қадамдар жеке немесе келесі процестермен ұйымдастырылуы мүмкін.
+Жұмыс процесі бірнеше қадамдарды қамтиды. [Деректер көздерін қабылдау](data-sources.md),[біріктіру](data-unification.md),[байыту](enrichment-hub.md), және [экспорттау](export-destinations.md) деректер. Барлық осы қадамдар жеке орындалады немесе келесі процестермен реттеледі.
 
 #### <a name="operation-types"></a>Операция түрлері
 
@@ -217,7 +217,7 @@ The`identity` JSON нысанында келесі құрылым бар
 | `operationName` | String    | Талап етіледі          | Осы оқиға арқылы көрсетілген операцияның атауы. `{OperationType}.[WorkFlow|Task][Started|Completed]`. Қараңыз [Операция түрлері](#operation-types) анықтама үшін. | `Segmentation.WorkflowStarted`,<br> `Segmentation.TaskStarted`, <br> `Segmentation.TaskCompleted`, <br> `Segmentation.WorkflowCompleted`                                 |
 | `category`      | String    | Талап етіледі          | Оқиғаның журнал санаты. Әрқашан`Operational` Жұмыс процесі оқиғалары үшін                                                                                           | `Operational`                                                                                                                                                            |
 | `resultType`    | String    | Талап етіледі          | Оқиға жағдайы. `Running`,`Skipped`,`Successful`,`Failure`                                                                                            |                                                                                                                                                                          |
-| `durationMs`    | Ұзын      | Таңдаулы          | Операцияның ұзақтығы миллисекундпен.                                                                                                                    | `133`                                                                                                                                                                    |
+| `durationMs`    | Ұзын      | Таңдаулы          | Операция ұзақтығы миллисекундпен.                                                                                                                    | `133`                                                                                                                                                                    |
 | `properties`    | String    | Таңдаулы          | Оқиғалардың нақты санатына көбірек сипаттары бар JSON нысаны.                                                                                        | Ішкі бөлімді қараңыз [Жұмыс үрдісінің сипаттары](#workflow-properties-schema)                                                                                                       |
 | `level`         | String    | Талап етіледі          | Оқиғаның ауырлық деңгейі.                                                                                                                                  | `Informational`, `Warning` немесе `Error`                                                                                                                                   |
 |                 |
@@ -229,7 +229,7 @@ The`identity` JSON нысанында келесі құрылым бар
 | Өріс              | Workflow | Тапсырма | Сипаттама            |
 | ------------------------------- | -------- | ---- | ----------- |
 | `properties.eventType`                       | Иә      | Иә  | Әрқашан`WorkflowEvent`, оқиғаны жұмыс процесі оқиғасы ретінде белгілеу.                                                                                                                                                                                                |
-| `properties.workflowJobId`                   | Иә      | Иә  | Жұмыс үрдісінің идентификаторы. Жұмыс процесін орындаудағы барлық жұмыс процесі мен тапсырма оқиғалары бірдей `workflowJobId`.                                                                                                                                   |
+| `properties.workflowJobId`                   | Иә      | Иә  | Жұмыс үрдісінің идентификаторы. Жұмыс процесін орындаудағы барлық жұмыс процесі мен тапсырма оқиғалары бірдей болады `workflowJobId`.                                                                                                                                   |
 | `properties.operationType`                   | Иә      | Иә  | Операцияның идентификаторы, қараңыз [Операция түрлері](#operation-types).                                                                                                                                                                               |
 | `properties.tasksCount`                      | Иә      | No   | Тек жұмыс процесі. Жұмыс процесі іске қосатын тапсырмалар саны.                                                                                                                                                                                                       |
 | `properties.submittedBy`                     | Иә      | No   | Қосымша. Тек жұмыс процесі оқиғалары. The Azure Active Directory [пайдаланушының объектінің идентификаторы](/azure/marketplace/find-tenant-object-id#find-user-object-id) жұмыс процесін кім іске қосты, сонымен қатар қараңыз `properties.workflowSubmissionKind`.                                   |

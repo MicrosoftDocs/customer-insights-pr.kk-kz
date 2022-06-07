@@ -14,12 +14,12 @@ searchScope:
 - ci-enrichment-details
 - ci-enrichment-wizard
 - customerInsights
-ms.openlocfilehash: 5c14e6c96d2f907ba161331b6f92277191cbdbef
-ms.sourcegitcommit: cf74b8c20d88eb96e1ac86e18cd44fe27aad5ab9
+ms.openlocfilehash: abc1b6af80e8854ee3bc930453634ef67376c4af
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "8653530"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800612"
 ---
 # <a name="enrichment-for-customer-profiles-preview"></a>Тұтынушы профильдерін арттыру (алдын ала қарау)
 
@@ -63,7 +63,7 @@ ms.locfileid: "8653530"
 
 Барлық конфигурацияланған толықтыруларды көру үшін **Менің толықтыруларым** қойыншасына өтіңіз. Әрбір арттыру сол арттыру туралы қосымша ақпаратты қамтитын жол түрінде көрсетіледі.
 
-Қолжетімді опцияларды көру үшін арттыруды таңдаңыз. Опцияларды көру үшін тізім элементінен көп нүктені (...) таңдауға болады. Егер сіз бірнеше арттыруды конфигурациялаған болсаңыз, оны жылдам табу үшін іздеу жолағын пайдалануға болады.
+Қолжетімді опцияларды көру үшін арттыруды таңдаңыз. Сондай-ақ тік эллипсті таңдауға болады (&vellip;) опцияларды көру үшін тізім элементінде. Егер сіз бірнеше арттыруды конфигурациялаған болсаңыз, оны жылдам табу үшін іздеу жолағын пайдалануға болады.
 
 :::image type="content" source="media/enrichment-hub-options-run.png" alt-text="Арттырулар тізіміндегі арттыруды басқару параметрлері.":::
 

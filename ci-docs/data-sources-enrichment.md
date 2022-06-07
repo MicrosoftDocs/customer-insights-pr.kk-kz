@@ -1,19 +1,19 @@
 ---
 title: деректер көзі байыту
 description: Деректерді біріктіру үрдісінен өтпес бұрын деректер көздерін байытыңыз.
-ms.date: 03/02/2022
+ms.date: 05/20/2022
 ms.subservice: audience-insights
 ms.topic: how-to
 author: NimrodMagen
 ms.author: nimagen
 ms.reviewer: v-wendysmith
 manager: shellyha
-ms.openlocfilehash: d1e14d2d4e718d71ccbd2afd259a350ad5c9e69a
-ms.sourcegitcommit: 4ae316c856b8de0f08a4605f73e75a8c2cf51c4e
-ms.translationtype: HT
+ms.openlocfilehash: 1225482c4bf432ed747537b2c9bec9ab0e692a51
+ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755693"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8800288"
 ---
 # <a name="enrichment-for-data-sources-preview"></a>Деректер көздері үшін байыту (алдын ала қарау)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8755693"
 
 1. **Деректер** > **Дерек көздері** тармағы бойынша өтіңіз.
 
-1. Байытқыңыз келетін деректер көзі жанындағы тік эллипсті таңдап, таңдаңыз **Байыту**.
+1. Тік эллипсті таңдаңыз (&vellip;) байытқыңыз келетін және таңдағыңыз келетін деректер көзі жанындағы **Байыту**.
 
    :::image type="content" source="media/data_sources_enrich_discover.png" alt-text="Деректер көздерін байыту беті.":::
 
@@ -41,11 +41,12 @@ ms.locfileid: "8755693"
 
 - [Жақсартылған мекенжайлар](enrichment-enhanced-addresses.md)
 - [Жақсартылған компания деректері](enrichment-enhanced-company-data.md)
+- [LiveRamp деректері](enrichment-liveramp.md)
 
 ## <a name="manage-existing-data-source-enrichments"></a>Бар деректер көзі байытуларын басқарыңыз
 
 Барлық конфигурацияланған толықтыруларды көру үшін **Менің толықтыруларым** қойыншасына өтіңіз.
 
-Қолжетімді опцияларды көру үшін арттыруды таңдаңыз. Опцияларды көру үшін тізім элементінен көп нүктені (...) таңдауға болады. Егер сіз бірнеше арттыруды конфигурациялаған болсаңыз, оны жылдам табу үшін іздеу жолағын пайдалануға болады.
+Қолжетімді опцияларды көру үшін арттыруды таңдаңыз. Сондай-ақ тік эллипсті таңдауға болады (&vellip;) опцияларды көру үшін тізім элементінде. Егер сіз бірнеше арттыруды конфигурациялаған болсаңыз, оны жылдам табу үшін іздеу жолағын пайдалануға болады.
 
 деректер көзі байытуды көруге, өңдеуге, іске қосуға немесе жоюға болады. Қосымша ақпаратты қараңыз [Бар байытуларды басқарыңыз](enrichment-hub.md).
