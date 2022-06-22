@@ -12,12 +12,12 @@ ms.custom: intro-internal
 searchScope:
 - ci-home
 - customerInsights
-ms.openlocfilehash: 68c26eb0ad0da787a9f594b4aebe679588b0d6bf
-ms.sourcegitcommit: f5af5613afd9c3f2f0695e2d62d225f0b504f033
+ms.openlocfilehash: 1c925110f40319df77940d1c32f24a99504d6ec6
+ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "8833582"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9011986"
 ---
 # <a name="get-started-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights қызметімен жұмысты бастау
 
@@ -39,7 +39,7 @@ Customer Insights жүйесіне бірінші рет кірген кезде
 
 Бірыңғай профильдер - бұл түсініктер алуға және деректер бойынша әрекет етуге негіз. Біркелкі профильдерді біріктіру үшін әртүрлі көздерден деректерді алыңыз және деректерді біріктіру процесін іске қосыңыз. Жұтылған нысандар арасындағы қарым-қатынастарды көрсетіңіз және профильдерге ақпаратты қосу үшін байыту мүмкіндіктерін пайдаланыңыз.
 
-1. Бірнеше опциядан деректер көздерін жасау арқылы деректерді енгізіңіз. арасында таңдаңыз [Power Query қосқыштар](connect-power-query.md), а [Жалпы деректер үлгісі қалтасы](connect-common-data-model.md), немесе [Microsoft Dataverse](connect-dataverse-managed-lake.md).
+1. Бірнеше опциядан деректер көздерін жасау арқылы деректерді енгізіңіз. арасында таңдаңыз [Azure Data Lake Storage, соның ішінде Common Data Model](connect-common-data-model.md),[Azure Synapse Analytics](connect-synapse.md),[Microsoft Dataverse](connect-dataverse-managed-lake.md), немесе [Power Query қосқыштар](connect-power-query.md).
 
 1. іске қосыңыз [деректерді унификациялау процесі](data-unification.md) анықтау арқылы [бастапқы өрістер](map-entities.md), жою [көшірмелер](remove-duplicates.md),[сәйкес шарттар](match-entities.md), және [біріктіруші өрістер](merge-entities.md).
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 8b14992f8312d333d8a12501e8a28496c8434779
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 22eee11666752459a1750d728c4e254ab0c59e58
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643257"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947237"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-data-lake-storage-gen2-preview"></a>Сегмент тізімін және басқа деректерді Azure Data Lake Storage Gen2 (алдын ала қарау нұсқасы) қызметіне экспорттау
 
@@ -21,11 +21,9 @@ Customer Insights деректерін Azure Data Lake Storage Gen2 тіркел
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-1. Azure Data Lake Storage Gen2 тіркелгісі үшін [Стандартты өнімділік және премиум өнімділік деңгейін](/azure/storage/blobs/create-data-lake-storage-account) деректер көлі үшін сақтау тіркелгісін жасаған кезде таңдауға болады. Егер сіз премиум өнімділік деңгейін таңдасаңыз, тіркелгі түрі ретінде премиум блок екілік нысандарын таңдаңыз. 
+1. Azure Data Lake Storage Gen2 тіркелгісі үшін [Стандартты өнімділік және премиум өнімділік деңгейін](/azure/storage/blobs/create-data-lake-storage-account) деректер көлі үшін сақтау тіркелгісін жасаған кезде таңдауға болады. Егер сіз премиум өнімділік деңгейін таңдасаңыз, тіркелгі түрі ретінде премиум блок екілік нысандарын таңдаңыз.
 
-
-## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage Gen2 тіркелгісіне қосылым орнату 
-
+## <a name="set-up-the-connection-to-azure-data-lake-storage-gen2"></a>Azure Data Lake Storage Gen2 тіркелгісіне қосылым орнату
 
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
@@ -39,7 +37,7 @@ Customer Insights деректерін Azure Data Lake Storage Gen2 тіркел
     - Azure Data Lake Storage Gen2 жүйесімен пайдалану үшін сақтау орны тіркелгісін жасау жолы туралы мәлімет алу үшін [Сақтау орны тіркелгісін жасау](/azure/storage/blobs/create-data-lake-storage-account) бөлімін қараңыз. 
     - Azure Data Lake Gen2 сақтау орнының тіркелгі атауын және тіркелгі кілтін табу жолы туралы қосымша ақпарат алу үшін [Azure порталындағы сақтау орны тіркелгісінің параметрлерін басқару](/azure/storage/common/storage-account-manage) бөлімін қараңыз.
 
-1. Қосылымды аяқтау үшін **Сақтау** түймешігін таңдаңыз. 
+1. Қосылымды аяқтау үшін **Сақтау** түймешігін таңдаңыз.
 
 ## <a name="configure-an-export"></a>Экспорттауды конфигурациялау
 
@@ -57,8 +55,12 @@ Customer Insights деректерін Azure Data Lake Storage Gen2 тіркел
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
-Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады. Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. 
+Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады.
+Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады.
 
-Экспортталған деректер конфигурациялаған Azure Data Lake Gen 2 сақтау орны контейнерінде сақталады. 
+Экспортталған деректер конфигурациялаған Azure Data Lake Gen 2 сақтау орны контейнерінде сақталады.
+
+> [!TIP]
+> Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептеріне байланысты орын алады.
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

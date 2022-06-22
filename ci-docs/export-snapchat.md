@@ -1,19 +1,19 @@
 ---
 title: Customer Insights деректерін Snapchat қызметіне экспорттау
 description: Snapchat қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 10/08/2021
+ms.date: 06/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 171b8bf0f4a034c78e872b671602ae7653271da7
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: d64b482c322af8632e29ec41d6e34c390c5e646c
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643630"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947283"
 ---
 # <a name="export-segments-to-snapchat-preview"></a>Сегменттерді Snapchat қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -21,7 +21,8 @@ ms.locfileid: "8643630"
 
 ## <a name="prerequisites-for-a-connection"></a>Қосылым алғышарттары
 
--   Сізде [Snapchat бизнес тіркелгісі](https://business.snapchat.com/), [Snapchat жарнама тіркелгісі](https://ads.snapchat.com/) және тиісті әкімші тіркелгі деректері бар.
+-   Сізде [Snapchat бизнес тіркелгісі](https://business.snapchat.com/), [Snapchat жарнама тіркелгісі](https://ads.snapchat.com/) және тиісті әкімші тіркелгі деректері бар. Сіз кем дегенде ұйым тіркелгісінің мүшесі және белгілі бір жарнама тіркелгісінің деректер менеджері болуыңыз керек. 
+-   Snapchat аудитория менеджерінде SAM (Snap Audience Match) түріндегі кем дегенде бір аудиторияңыз бар. 
 -   Сенде бар [конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
 -   Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын көрсететін өрістен тұрады.
 
@@ -60,7 +61,7 @@ ms.locfileid: "8643630"
 
 1. **Экспорттауға арналған қосылым** өрісінде Snapchat бөлімінен қосылым таңдаңыз. Егер сіз осы бөлімнің атын көрмесеңіз, сізге қолжетімді осы түрдегі қосылым жоқ.
 
-1. [**Snapchat аудитория идентификаторын**](https://businesshelp.snapchat.com/s/article/custom-audiences) енгізіңіз.
+1. енгізіңіз [**Snapchat сегменті/аудитория идентификаторы**](https://businesshelp.snapchat.com/s/article/custom-audiences). Аудиторияның идентификаторын Snapchat аудитория менеджерінде аудиторияны таңдағаннан кейін URL мекенжайынан табуға болады. 
 
 1. **Деректерді сәйкестендіру** бөлімінде **Электрондық пошта** өрісінде тұтынушының электрондық пошта мекенжайын көрсететін өрісті таңдаңыз. Бұл Snapchat қызметіне сегменттерді экспорттау үшін қажет.
 

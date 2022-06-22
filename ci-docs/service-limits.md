@@ -1,23 +1,23 @@
 ---
-title: Dynamics 365 Customer Insights жүйесіндегі қызмет шектері
-description: Шектеулер мен шектерді түсіну.
-ms.date: 09/03/2021
+title: Customer Insights қызметіндегі шектеулер
+description: Customer Insights SaaS қызметіндегі шектеулер мен шектеулерді түсініңіз.
+ms.date: 05/28/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: JimsonChalissery
 ms.author: jimsonc
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: e2e7fc3033c25646693831d4c4c800d84ae6d6da
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 6d1b761a5c9f67bfdc7c5b152132c618db3ea36a
+ms.sourcegitcommit: 78ef22cd39a1ebd7525f96829cd79d95f34438b9
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8641769"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8940675"
 ---
 # <a name="service-limits-in-customer-insights"></a>Customer Insights қызметіндегі шектеулер
 
-Бұл мақалада қызметтің сенімділігі мен тұрақтылығын қамтамасыз етуге арналған Customer Insights қызметіне ендірілген шектеулер сипатталады. Өзгерістер туралы кез келген сұрауды мына мекенжай бойынша жасауға болады: [Идеялар форумы](https://go.microsoft.com/fwlink/?linkid=2074172). 
+Бұл мақалада қызметтің сенімділігі мен тұрақтылығын қамтамасыз етуге арналған Customer Insights қызметіне ендірілген шектеулер сипатталады. Өзгерістер туралы кез келген сұрауды мына мекенжай бойынша жасауға болады: [Идеялар форумы](https://go.microsoft.com/fwlink/?linkid=2074172).
 
 ## <a name="customer-insights"></a>Customer Insights
 
@@ -26,5 +26,8 @@ ms.locfileid: "8641769"
 | Сегменттер, өлшемдер және болжамдар | 300  | Жалпы саны [сегменттер](segments.md),[шаралар](measures.md), және [болжамдар](predictions.md) біріктірілген 300-ден аспауы керек.  |
 | Қатынастар | Нысан жолдарындағы қатынастардың 20 тереңдік деңгейі. | Құрастырушы интерфейсін пайдаланып [сегменттер](segments.md) немесе [өлшеулер](measures.md) жасау кезінде нысан жолдарында бастапқы нысан мен мақсатты нысан арасында 20 қарым-қатынас секірісі болуы мүмкін.  |
 
+## <a name="fair-scheduling-of-jobs"></a>Жұмыстарды әділ жоспарлау
+
+Customer Insights — ортақ Azure ресурстарын пайдаланатын SaaS қызметі. Тұтынушылар әдетте өзгермелі қарқындылықтағы және әртүрлі кестелердегі жұмыс жүктемелеріне ие болады. Негізгі ресурстарға әділ қолжетімділікті қамтамасыз ету үшін біз жүйелік процестердің әділ тәртіпте орындалуын қамтамасыз етеміз. Жүйе процестерінің мысалдары деректерді біріктіруге, сегментті жаңартуға немесе өлшемді есептеуге қатысты тапсырмалар болып табылады. Жәрмеңке кестесі сұралған жұмыс орындарының өсуі болса, ресурстарға кезекке тұрудан қорғайды. Сонымен қатар, Customer Insights сіз кезекте тұрған барлық тапсырмалардың параллель өңделуіне кепілдік бермейді.
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

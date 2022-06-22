@@ -1,19 +1,19 @@
 ---
 title: Customer Insights деректерін Azure Blob сақтау орнына экспорттау
 description: Blob сақтау орны үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 10/06/2021
+ms.date: 06/09/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
-author: pkieffer
-ms.author: philk
+author: stefanie-msft
+ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 3d573a6c83b7f0b0c33e656eb383e20a96856b0b
-ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
+ms.openlocfilehash: 623926bf520b19ee4156b7a05e953241cd819e9e
+ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/15/2022
-ms.locfileid: "8757393"
+ms.lasthandoff: 06/10/2022
+ms.locfileid: "8947145"
 ---
 # <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Сегменттер тізімін және басқа деректерді Azure Blob сақтау орнына экспорттау (алдын ала қарау нұсқасы)
 
@@ -58,16 +58,19 @@ Customer Insights деректерін Azure Blob сақтау орнында с
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 
-Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады.     
+Экспорттау әр [жоспарланған жаңартумен](system.md#schedule-tab) іске қосылады.
 
-Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. 
+Сондай-ақ [деректерді сұрау бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады.
 
 Экспортталған деректер конфигурациялаған Blob сақтау орны контейнерінде сақталады. Контейнерде келесі қалта жолдары автоматты түрде жасалады:
 
 - Бастапқы нысандар және жүйе арқылы жасалған нысандар үшін:   
   `%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv`  
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
- 
+  
+  > [!TIP]
+  > Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептеріне байланысты орын алады.
+
 - Экспортталатын нысандарға арналған model.json файлы %ExportDestinationName% деңгейінде болады.  
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`
 

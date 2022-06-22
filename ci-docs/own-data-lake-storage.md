@@ -3,17 +3,17 @@ title: Өзіңізді пайдаланыңыз Azure Data Lake Storage Gen2 т
 author: mukeshpo
 description: Өзіңізді пайдалану талаптары туралы біліңіз Azure Data Lake Storage Customer Insights деректерін сақтауға арналған тіркелгі.
 ms.author: mukeshpo
-ms.date: 05/30/2022
+ms.date: 06/08/2022
 ms.topic: conceptual
 ms.manager: shellyha
 ms.custom: intro-internal
 ms.reviewer: mhart
-ms.openlocfilehash: 9fcd7645e34bf310ac3a1b98a0dd9a60598b19dc
-ms.sourcegitcommit: f5af5613afd9c3f2f0695e2d62d225f0b504f033
+ms.openlocfilehash: 5acb58906c1a9db54337f3b4dc2ab7891db7954e
+ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "8833948"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9011940"
 ---
 # <a name="use-your-own-azure-data-lake-storage-gen2-account"></a>Өзіңізді пайдаланыңыз Azure Data Lake Storage Gen2 тіркелгісі
 
@@ -31,12 +31,13 @@ Customer Insights жүйесіндегі әкімшілер мүмкін [орт
 
 ## <a name="connect-customer-insights-with-your-storage-account"></a>Customer Insights қолданбасын сақтау тіркелгісімен қосыңыз
 
-Жаңа ортаны жасағанда, Data Lake Storage тіркелгісі бар екенін және барлық алғышарттардың орындалғанын тексеріңіз.
+Жаңа ортаны жасаған кезде, Data Lake Storage тіркелгісі бар екенін және барлық алғышарттардың орындалғанын тексеріңіз.
 
 1. Ішінде **Деректерді сақтау** ортаны құру кезіндегі қадам, орнату **Шығару деректерін сақтаңыз** дейін **Azure Data Lake Storage Gen2**.
 1. Қалай жасау керектігін таңдаңыз **Жадты қосыңыз**. Аутентификация үшін ресурсқа негізделген опция мен жазылымға негізделген опцияны таңдауға болады. Қосымша ақпаратты қараңыз [қосылыңыз Azure Data Lake Storage тіркелгісін Azure қызмет көрсетушісі арқылы пайдаланыңыз](connect-service-principal.md).
    - Үшін **Azure жазылымы**, таңдаңыз **Жазылым**, **тобы**, және **Сақтау тіркелгісі** құрамында`customerinsights` контейнер.
    - Үшін **Есептік жазба кілті**, қамтамасыз етіңіз **Төлем алушы** және **Есептік жазба кілті** Data Lake Storage тіркелгісі үшін. Бұл аутентификация әдісін пайдалану ұйымыңыз кілттерді айналдыратыны туралы хабардар екеніңізді білдіреді. Сен міндеттісің [орта конфигурациясын жаңартыңыз](manage-environments.md#edit-an-existing-environment) бұрылған кезде жаңа кілтпен.
+1. Сақтау тіркелгісіне қосылу үшін Azure Private Link қолданбасын пайдаланғыңыз келе ме, жоқ па таңдаңыз [Жеке сілтемеге қосылым жасаңыз](security-overview.md#private-links-tab) екі сатылы процесспен.
 
 Деректерді қабылдау сияқты жүйе процестері аяқталғанда, жүйе сақтау тіркелгісінде сәйкес қалталарды жасайды. Деректер файлдары мен *model.json* файлдары жасалады және процесс атауының негізінде қалталарға қосылады.
 

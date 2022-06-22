@@ -48,14 +48,14 @@
   items:
     - name: Деректер көздеріне шолу
       href: data-sources.md
+    - name: Azure Data Lake Storage ішінде деректерге қосылу
+      href: connect-common-data-model.md
+    - name: Azure Synapse Analytics қызметіне қосылу
+      href: connect-synapse.md
+    - name: Microsoft Dataverse басқарылатын деректер ағынында деректерге қосылу
+      href: connect-dataverse-managed-lake.md
     - name: арқылы деректер көздерін қосыңыз Power Query қосқыштар
       href: connect-power-query.md
-    - name: Common Data Model қалтасын деректер көзі ретінде қосу
-      href: connect-common-data-model.md
-    - name: Dataverse басқарылатын деректер көлін қосу
-      href: connect-dataverse-managed-lake.md
-    - name: Azure Synapse Analytics қосу
-      href: connect-synapse.md
     - name: Деректер көздері үшін байыту
       href: data-sources-enrichment.md
     - name: Деректер көздерін кезеңдік жаңарту
@@ -82,27 +82,27 @@
   items:
     - name: Тұтынушы профильдерін арттыру
       href: enrichment-hub.md
+    - name: Есептік жазбалар Office 365 деректер
+      href: enrichment-office.md
     - name: Брендтер және қызығушылықтар
       href: enrichment-microsoft.md
+    - name: Dun & Bradstreet компаниясының деректері
+      href: enrichment-dnb.md
+    - name: Leadspace қамтамасыз ететін компания деректері
+      href: enrichment-leadspace.md
+    - name: Демографиясы бар Experian
+      href: enrichment-experian.md
     - name: Жақсартылған мекенжайлар
       href: enrichment-enhanced-addresses.md
     - name: Жақсартылған компания деректері
       href: enrichment-enhanced-company-data.md
-    - name: Azure Maps жүйесімен жетілдіру
-      href: enrichment-azure-maps.md
-    - name: Dun & Bradstreet арқылы байытыңыз
-      href: enrichment-dnb.md
-    - name: Деректерді HERE Technologies арқылы арттыру
-      href: enrichment-here.md
-    - name: Leadspace көмегімен арттыру
-      href: enrichment-leadspace.md
-    - name: LiveRamp көмегімен байытыңыз
+    - name: LiveRamp көмегімен сәйкестендіру
       href: enrichment-liveramp.md
-    - name: Experian қызметімен толықтыру
-      href: enrichment-experian.md
-    - name: '-мен байытыңыз Office 365 деректер'
-      href: enrichment-office.md
-    - name: SFTP реттемелі импорттау әдісі арқылы арттыру
+    - name: Azure карталарынан орын
+      href: enrichment-azure-maps.md
+    - name: HERE Technologies қамтамасыз ететін орын
+      href: enrichment-here.md
+    - name: SFTP реттелетін импорты
       href: enrichment-SFTP-custom-import.md
 - name: Бірыңғай профильдер
   items:
@@ -112,6 +112,8 @@
       href: search-filter-index.md
     - name: Тұтынушы әрекеттерін анықтаңыз
       href: activities.md
+    - name: Customer Insights үшін келісімді басқару
+      href: consent-management.md
 - name: Сегменттер
   items:
     - name: Сегменттерге шолу
@@ -294,40 +296,6 @@
       href: 'https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights'
     - name: OData үлгі сұраулары
       href: odata-examples.md
-- name: Келісімді басқару (алдын ала қарау)
-  items:
-    - name: Анықтама орталығы
-      href: consent-management/index.yml
-    - name: Мүмкіндіктерге шолу
-      href: consent-management/overview.md
-    - name: Бастау
-      items:
-        - name: Бастау
-          href: consent-management/get-started.md
-        - name: Тұжырымдамалар мен терминология
-          href: consent-management/glossary.md
-    - name: Келісім деректерін импорттау
-      items:
-        - name: Келісім деректерін импорттау
-          href: consent-management/import-consent-data.md
-        - name: Келісім деректерін орнатыңыз және келісім таңдауларын қолданыңыз
-          href: consent-management/set-consent-rules.md
-    - name: Келісім деректерін басқару
-      items:
-        - name: Customer Insights жүйесінде келісім ережелерін қосыңыз
-          href: activate-consent.md
-        - name: Customer Insights сегменттеріндегі әдепкі келісім ережелерін басқарыңыз
-          href: change-default-consent-rules.md
-    - name: Параметрлер мен пайдаланушыларды басқару
-      items:
-        - name: Жүйе параметрлерін конфигурациялаңыз
-          href: consent-management/system-settings.md
-        - name: Пайдаланушылар мен рұқсаттарды басқарыңыз
-          href: consent-management/manage-users.md
-    - name: Келісім деректерін пайдаланыңыз
-      items:
-        - name: Келісім деректерімен болжам жасаңыз
-          href: consent-management/predictions-consent-data.md
 - name: Қызмет шектеулері
   href: service-limits.md
 - name: DSR құқықтары мен сұраулары

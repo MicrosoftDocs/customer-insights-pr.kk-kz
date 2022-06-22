@@ -8,12 +8,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: c0db75afdde91bbd60fbece77eb2660a38b84860
-ms.sourcegitcommit: f5af5613afd9c3f2f0695e2d62d225f0b504f033
+ms.openlocfilehash: 46a67e58f79029246029e2d06789525c2131f100
+ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "8833775"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9011894"
 ---
 # <a name="dynamics-365-customer-insights-trial-faq"></a>Dynamics 365 Customer Insights сынақ нұсқасы туралы жиі қойылатын сұрақтар
 
@@ -62,13 +62,13 @@ ms.locfileid: "8833775"
 
 Тұтастай алғанда, Customer Insights ақылы нұсқасына жаңарту кезінде өз деректеріңізбен жаңадан бастауды ұсынамыз. 
 
-Қосымша, егер сіз тек Customer Insights қолданбасын пайдалансаңыз, Customer Insights сатып алсаңыз, деректеріңізді сынақ ортасынан көшіре аласыз. Сіз Customer Insights сынақ нұсқасының әкімшісі және сіздің ғаламдық әкімшісі болуыңыз керек Microsoft 365 пайдаланушыны немесе ұйымыңыздағы Dynamics 365 әкімшісін пайдаланып параметрлерді сынақ ортасынан ақылы ортаға көшіріңіз.
+Қосымша, егер сіз тек Customer Insights қолданбасын пайдалансаңыз, Customer Insights сатып алсаңыз, деректеріңізді сынақ ортасынан көшіре аласыз. Сіз Customer Insights сынақ нұсқасының әкімшісі және сіздің ғаламдық әкімшісі болуыңыз керек Microsoft 365 Параметрлерді сынақ ортасынан ақылы ортаға тасымалдау үшін қатысушы немесе ұйымыңыздағы Dynamics 365 әкімшісі.
 
 Customer Insights ақылы данасына бірінші рет кіргеннен кейін, сізден жаңа орта жасау сұралады. Бұл процесте конфигурацияны бұрыннан бар ортадан көшіруді және параметрлердің көп бөлігін тасымалдауды таңдауға болады. Егер сізде жоғарыда аталған рұқсаттар болса, сынақ ортасы осы тізімде көрсетіледі. Қосымша ақпарат алу үшін [Орта конфигурациясын көшіру](create-environment.md#copy-the-environment-configuration) бөлімін қараңыз.
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Сынақ нұсқасының шектеулері мен квоталары қандай?
 
-- Customer Insights қолданбасының сынақ нұсқасы кезінде шығыс деректерін сақтау үшін жеке Azure Data Lake сақтау тіркелгісін пайдалана алмайсыз. Дегенмен, Data Lake сақтау тіркелгісінен деректерді қабылдай аласыз.
+- Сіз өзіңізді пайдалана алмайсыз Azure Data Lake Storage Customer Insights қолданбасының сынақ нұсқасы кезінде шығыс деректерін сақтауға арналған тіркелгі. Дегенмен, Data Lake Storage тіркелгісінен деректерді қабылдауға болады.
 - Customer Insights сынақ нұсқасын бастаған кезде, автоматты түрде қамтамасыз етілетін Dataverse ортасында 3 ГБ дейінгі деректерді сақтауға болады.
 
 ## <a name="customer-insights-specific-questions"></a>Customer Insights бағдарламасына қатысты сұрақтар
@@ -83,7 +83,7 @@ Customer Insights мүмкіндіктерінің көптеген функци
 
 Келесі мүмкіндіктер **жоқ**:
 
-- Жеке Azure Data Lake Storage тіркелгісін пайдаланатын жаңа орталар жасау мүмкін емес.
+- Өзіңіздің ортаңызды пайдаланатын жаңа орталарды жасай алмайсыз Azure Data Lake Storage тіркелгі.
 - Сынақ ортасын жоя алмайсыз.
 
 ### <a name="how-long-does-the-trial-last"></a>Сынақ нұсқасының мерзімі қанша?
