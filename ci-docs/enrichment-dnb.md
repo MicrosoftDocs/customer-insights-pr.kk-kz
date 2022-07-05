@@ -1,5 +1,5 @@
 ---
-title: Dun & Bradstreet көмегімен компания профилін байыту
+title: Dun & Bradstreet көмегімен компания профилін байыту (алдын ала қарау)
 description: Dun & Bradstreet үшінші тараптың байытылуы туралы жалпы ақпарат.
 ms.date: 06/10/2022
 ms.reviewer: mhart
@@ -9,14 +9,14 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: b1038970b6aee3bbdd7f79cc457f79aaf1c38222
-ms.sourcegitcommit: 27c5473eecd851263e60b2b6c96f6c0a99d68acb
+ms.openlocfilehash: 51f2e4e46aa25d10502d0feb5ea42eb7d2d637b9
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8953898"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082556"
 ---
-# <a name="enrichment-of-company-profiles-with-dun--bradstreet-preview"></a>Dun & Bradstreet көмегімен компания профилін байыту (Алдын ала қарау)
+# <a name="enrich-company-profiles-with-dun--bradstreet-preview"></a>Dun & Bradstreet көмегімен компания профилін байыту (алдын ала қарау)
 
 Dun & Bradstreet коммерциялық деректер, аналитика және бизнеске арналған түсініктерді ұсынады. Ол компанияларға арналған бірыңғай тұтынушы профильдері бар тұтынушыларға деректерін толықтыруына мүмкіндік береді. Байытуларға DUNS нөмірі, компания өлшемі, орналасқан жері, сала және т.б. сияқты атрибуттар кіреді.
 
@@ -33,7 +33,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. кіру [Dun & Bradstreet Connect](https://connect.dnb.com?lead_source=microsoft_audienceinsights). Тіркелгі деректерін алу үшін, [құпия сөзіңізді қалпына келтіріңіз](https://sso.dnb.com/signin/forgot-password?lead_source=microsoft_audienceinsights).
 
-1. Жүктеп алу [csv үлгі файлымыз](https://c360devenrichment.blob.core.windows.net/mapping/DnBCIdatamapping.csv) ол Customer Insights өрістерін сәйкес Dun және Bradstreet өрістеріне салыстыру үшін пайдаланылады.
+1. Жүктеп алу [біздің csv үлгі файлымыз](https://c360devenrichment.blob.core.windows.net/mapping/DnBCIdatamapping.csv) ол Customer Insights өрістерін сәйкес Dun және Bradstreet өрістеріне салыстыру үшін пайдаланылады.
 
 1. файлды жүктеп салыңыз **Деректерді жүктеп салу** Dun & Bradstreet жобасын жасау тәжірибесінің қадамы.
 
@@ -63,7 +63,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 ### <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
 
-Сіз қосқан кезде Dynamics 365 Customer Insights Dun & Bradstreet-ке деректерді жіберу үшін деректерді сәйкестік шекарасынан тыс тасымалдауға рұқсат бересіз.Dynamics 365 Customer Insights, соның ішінде жеке деректер сияқты ықтимал құпия деректер. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ сіз Dun & Bradstreet компаниясының сізде болуы мүмкін кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сай болуын қамтамасыз етуге жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
+Сіз қосқан кезде Dynamics 365 Customer Insights Dun & Bradstreet-ке деректерді жіберу үшін деректерді сәйкестік шекарасынан тыс тасымалдауға рұқсат бересіз.Dynamics 365 Customer Insights, соның ішінде жеке деректер сияқты ықтимал құпия деректер. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ Dun & Bradstreet сізде болуы мүмкін кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сәйкес келетініне сіз жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
 Бұл функцияны тоқтату үшін Dynamics 365 Customer Insights әкімшісі бұл толықтыруды кез келген уақытта жоя алады.
 
 ## <a name="supported-countries-or-regions"></a>Қолдау көрсетілетін елдер немесе аймақтар
@@ -80,7 +80,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. Шолуды қарап шығыңыз, содан кейін таңдаңыз **Келесі**.
 
-1. Қосылымды таңдап, растаңыз. Әкімші жоқ болса, оған хабарласыңыз.
+1. Қосылымды таңдап, растаңыз. Қолжетімсіз болса, әкімшіге хабарласыңыз.
 
 1. **Келесі** пәрменін таңдаңыз.
 
@@ -92,7 +92,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. Өрістерді Dun & Bradstreet компаниясының деректерімен салыстырыңыз. Немесе **DUNS нөмірі** немесе **Компанияның атауы** және **Ел** өрістер қажет.
 
-      :::image type="content" source="media/enrichment-dnb-mapping.png" alt-text="Dun & Bradstreet өрісін салыстыру тақтасы.":::
+      :::image type="content" source="media/enrichment-dnb-mapping.png" alt-text="Dun & Bradstreet өрісті салыстыру тақтасы.":::
 
 1. Өрістерді салыстыруды аяқтау үшін **Келесі** түймешігін таңдаңыз.
 
@@ -100,9 +100,9 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. Таңдауларды қарап шыққаннан кейін **Жақсартуды сақтау** түймешігін таңдаңыз.
 
-1. таңдаңыз **Жүгіру** байыту процесін бастау немесе қайта оралу үшін жақын **Байытулар** бет.
+1. таңдаңыз **Жүгіру** байыту процесін бастау үшін немесе қайта оралу үшін жақын **Байытулар** бет.
 
-## <a name="enrichment-results"></a>Толықтыру нәтижелері
+## <a name="view-enrichment-results"></a>Байыту нәтижелерін көру
 
 [!INCLUDE [enrichment-results](includes/enrichment-results.md)]
 

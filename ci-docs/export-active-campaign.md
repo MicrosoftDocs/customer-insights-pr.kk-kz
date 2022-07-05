@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін ActiveCampaign қызметіне экспорттау
+title: Сегменттерді ActiveCampaign қызметіне экспорттау
 description: ActiveCampaign қызметіне қосылымды және экспорттауды конфигурациялау жолы туралы ақпарат.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 5d15b9bf7383d06070ac92d7a729fc6e6e00c9d7
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: eb6f2bb69bb30c319e17390562b3f33512f33ff1
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643419"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054715"
 ---
 # <a name="export-segments-to-activecampaign-preview"></a>Сегменттерді ActiveCampaign қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -21,9 +21,9 @@ ms.locfileid: "8643419"
 
 ## <a name="prerequisites"></a>Алғышарттар
 
--   Сізде [ActiveCampaign тіркелгісі](https://www.activecampaign.com/) және тиісті әкімші тіркелгі деректері бар.
--   Сенде бар [конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
--   Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайы бар өрісті қамтиды.
+- Сізде [ActiveCampaign тіркелгісі](https://www.activecampaign.com/) және тиісті әкімші тіркелгі деректері бар.
+- Сенде бар [конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
+- Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайы бар өрісті қамтиды.
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 

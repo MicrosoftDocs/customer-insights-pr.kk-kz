@@ -1,6 +1,6 @@
 ---
-title: үшін OData мысалдары Dynamics 365 Customer Insights API интерфейстері
-description: Деректерді қарап шығу үшін Customer Insights API интерфейсін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
+title: Customer Insights API үшін OData сұрау мысалдары
+description: Деректерді қарап шығу үшін Customer Insights API интерфейстерін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
 ms.date: 05/25/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -8,26 +8,26 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: cdadd72bfe4272d8d83d923baaa6fd40d008473b
-ms.sourcegitcommit: bf65bc0a54cdab71680e658e1617bee7b2c2bb68
+ms.openlocfilehash: 54ba9f4e9baeb4b7021bb8c20a706bbb6eb1529f
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808468"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9083165"
 ---
-# <a name="odata-query-examples"></a>OData сұрау мысалдары
+# <a name="odata-query-examples-for-customer-insights-apis"></a>Customer Insights API үшін OData сұрау мысалдары
 
 Open Data Protocol (OData) — HTTP сияқты негізгі протоколдарға негізделген деректерге қол жеткізу протоколы. Ол REST for web сияқты жалпы қабылданған әдістемелерді пайдаланады. OData қызметтерін тұтыну үшін пайдалануға болатын әртүрлі кітапханалар мен құралдар бар.
 
 Бұл мақалада кейбір жиі сұралатын мысал сұрауларының тізімі берілген [Customer Insights API интерфейстері](apis.md).
 
-Мақсатты орталарда жұмыс істеу үшін сұрау үлгілерін өзгерту керек: 
+Мақсатты орталарда жұмыс істеуі үшін сұрау үлгілерін өзгерту керек: 
 
 - {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}` қайда{instanceId} сұрағыңыз келетін Customer Insights ортасының GUID болып табылады. The [ListAllInstances әрекеті](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) табуға мүмкіндік береді{InstanceId} қол жеткізе аласыз.
 - {CID}: Бірыңғай тұтынушы жазбасының GUID. Мысал:`ce759201f786d590bf2134bff576c369`.
 - {AlternateKey}: деректер көзі ішіндегі тұтынушы жазбасының бастапқы кілтінің идентификаторы. Мысалы: `CNTID_1002`
 - {DSname}: Customer Insights жүйесіне енетін деректер көзі нысан атауы бар жол. Мысал:`Website_contacts`.
-- {SegmentName}: Customer Insights ішіндегі сегменттің шығыс нысанының атауы бар жол. Мысал:`Male_under_40`.
+- {SegmentName}: Customer Insights ішіндегі сегменттің шығыс нысан атауы бар жол. Мысал:`Male_under_40`.
 
 ## <a name="customer"></a>Тұтынушы
 
@@ -35,8 +35,8 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 
 |Сұрау түрі |Мысал  | Ескертпе  |
 |---------|---------|---------|
-|Жалғыз тұтынушы идентификаторы     | `{serviceRoot}/Customer?$filter=CustomerId eq '{CID}'`          |  |
-|баламалы кілт    | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} eq '{AlternateKey}'`         |  Балама кілттер бірыңғай тұтынушы нысанында сақталады       |
+|Бірыңғай тұтынушы идентификаторы     | `{serviceRoot}/Customer?$filter=CustomerId eq '{CID}'`          |  |
+|баламалы кілт    | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} eq '{AlternateKey}'`         |  Баламалы кілттер бірыңғай тұтынушы нысанында сақталады       |
 |Select   | `{serviceRoot}/Customer?$select=CustomerId,FullName&$filter=customerid eq '1'`        |         |
 |Ішінде    | `{serviceRoot}/Customer?$filter=CustomerId in ('{CID1}',’{CID2}’)`        |         |
 |баламалы кілт + In   | `Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} in ('{AlternateKey}','{AlternateKey}')`         |         |
@@ -75,4 +75,4 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 - `$expand` а`$search` сұрау. Мысалы: `Customer?$expand=UnifiedActivity$top=10&$skip=0&$search="corey"`
 - `$expand` бастап`$select` атрибуттардың ішкі жиыны ғана таңдалған болса. Мысалы: `Customer?$select=CustomerId,FullName&$expand=UnifiedActivity&$filter=CustomerId eq '{CID}'`
 - `$expand` белгілі бір тұтынушы үшін байытылған бренд немесе қызығушылық ұқсастықтары. Мысалы: `Customer?$expand=BrandShareOfVoiceFromMicrosoft&$filter=CustomerId eq '518291faaa12f6d853c417835d40eb10'`
-- баламалы кілт арқылы болжам үлгісінің шығыс нысандарын сұрау. Мысалы: `OOBModelOutputEntity?$filter=HotelCustomerID eq '{AK}'`
+- баламалы кілт арқылы болжам үлгісінің шығу нысандарын сұрау. Мысалы: `OOBModelOutputEntity?$filter=HotelCustomerID eq '{AK}'`

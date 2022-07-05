@@ -1,5 +1,5 @@
 ---
-title: Common Data Model бағдарламасындағы Customer Insights нысаны схемалары
+title: Common Data Model қызметіндегі нысан схемалары
 description: Common Data Model ішіндегі нысандармен жұмыс істеу.
 ms.date: 08/13/2021
 ms.reviewer: mhart
@@ -8,16 +8,14 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 33a0562854e97b9ac5218e060f965996305627fd
-ms.sourcegitcommit: d45c00a5f6cb106714366af81e8070e7f53654b3
+ms.openlocfilehash: 92d37fc0950fefcb5c2a5d26214a469d3693980d
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/15/2022
-ms.locfileid: "8757439"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9054761"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
-
-
 
 [Common Data Model](/common-data-model/) – бұл сипаттамалы ерекшелік, сондай-ақ бизнес пен өнімділікке арналған бағдарламалардағы жиі пайдаланылатын тұжырымдамалар мен іс-әрекеттерді көрсететін стандартты нысандар анықтамасы. Бұл үлгі бақылау мен аналитикалық деректерге де қолданылады. Common Data Model жүйесі тіркелгі, бөлімше, іс, контакт, ықтимал тұтынушы, мүмкіндік және өнім секілді нақты анықталған, модульдік және кеңейтілмелі бөлімшелерді, сондай-ақ іс-әрекеттер және қызмет көрсету деңгейі жөніндегі келісімдер секілді жеткізушілермен, жұмысшылармен және тұтынушылармен өзара іс-әрекеттерді қамтамасыз етеді. Бизнеске арналған қосымша идеяларды алу үшін Common Data Model анықтамаларын кез келген адам құрып, кеңейте алады.
 

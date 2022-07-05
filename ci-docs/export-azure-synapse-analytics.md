@@ -1,21 +1,21 @@
 ---
-title: Customer Insights деректерін Azure Synapse Analytics қызметіне экспорттау
-description: Қосылымды конфигурациялау жолын үйреніңіз Azure Synapse Analytics.
-ms.date: 04/11/2022
+title: Деректерді экспорттау Azure Synapse Analytics (алдын ала қарау)
+description: Қосылымды конфигурациялауды үйреніңіз Azure Synapse Analytics.
+ms.date: 06/29/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 772fe0978362ccd829077a8133e2a3e74043f3f8
-ms.sourcegitcommit: 6a5f4312a2bb808c40830863f26620daf65b921d
+ms.openlocfilehash: 60bacb313e0426564310f3c1339bf3b732e17489
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741510"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082871"
 ---
-# <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді келесіге экспорттау Azure Synapse Analytics (Алдын ала қарау)
+# <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді экспорттау Azure Synapse Analytics (алдын ала қарау)
 
 Azure Synapse — бұл деректер қоймалары мен үлкен деректер жүйелері бойынша талдау уақытын жеделдететін аналитикалық қызмет. Customer Insights деректерін [Azure Synapse](/azure/synapse-analytics/overview-what-is) қызметінен алуға және пайдалануға болады.
 
@@ -34,11 +34,11 @@ Azure қызметінде:
 
 - Белсенді Azure жазылымы.
 
-- Жаңасын пайдалансаңыз Azure Data Lake Storage Gen2 тіркелгісі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** рұқсаттар. Қосымша ақпарат алыңыз [-ге қосылу Azure Data Lake Storage Gen2 тіркелгісі Customer Insights үшін Azure қызмет көрсетушісімен](connect-service-principal.md). Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
+- Жаңасын пайдалансаңыз Azure Data Lake Storage Gen2 тіркелгісі, *Customer Insights үшін қызмет көрсетуші* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** рұқсаттар. Қосымша ақпарат алыңыз [-ге қосылу Azure Data Lake Storage Customer Insights жүйесіне арналған Azure қызмет көрсетушісімен Gen2 тіркелгісі](connect-service-principal.md). Data Lake Storage Gen2 **қызметінде** [иерархиялық атаулар кеңістігі](/azure/storage/blobs/data-lake-storage-namespace) қосулы болуы керек.
 
 - Ресурстар тобында Azure Synapse жұмыс кеңістігі орналасқан, *қызмет көрсетуші* және *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* кем дегенде тағайындау керек **Оқырман** рұқсаттар. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлдерін тағайындау](/azure/role-based-access-control/role-assignments-portal) бөлімін қараңыз.
 
-- The *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** бойынша рұқсаттар Azure Data Lake Storage Деректер орналасқан және оған байланысты Gen2 тіркелгісі Azure Synapse жұмыс кеңістігі. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат.
+- The *Azure AD Customer Insights жүйесінде әкімші рұқсаттары бар пайдаланушы* қажеттіліктер **Сақтау Blob деректерінің қатысушысы** бойынша рұқсаттар Azure Data Lake Storage Деректер орналасқан және осыған байланысты Gen2 тіркелгісі Azure Synapse жұмыс кеңістігі. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат.
 
 - *[Azure Synapse жұмыс кеңістігінің басқарылатын идентификациясы](/azure/synapse-analytics/security/synapse-workspace-managed-identity)* деректер орналасқан және Azure Synapse жұмыс кеңістігімен байланыстырылған Azure Data Lake Storage Gen2 тіркелгісінде **Сақтау екілік нысанының деректер салымшысы** рұқсаттарын қажет етеді. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат алыңыз.
 
@@ -48,7 +48,7 @@ Azure қызметінде:
 
 ### <a name="configure-a-connection"></a>Қосылымды конфигурациялау
 
-Қосылымды жасау үшін, Customer Insights қызметіндегі негізгі және пайдаланушы тіркелгісі қажет **Оқырман** бойынша рұқсаттар *ресурстар тобы* Synapse Analytics жұмыс кеңістігі қайда орналасқан. Сонымен қатар, Synapse Analytics жұмыс кеңістігіндегі қызмет басшысы мен пайдаланушы қажет **Synapse әкімшісі** рұқсаттар. 
+Қосылымды жасау үшін қызмет басшысы және Customer Insights ішіндегі пайдаланушы тіркелгісі қажет **Оқырман** бойынша рұқсаттар *ресурстар тобы* Synapse Analytics жұмыс кеңістігі қайда орналасқан. Сонымен қатар, Synapse Analytics жұмыс кеңістігіндегі қызмет басшысы мен пайдаланушы қажет **Synapse әкімшісі** рұқсаттар. 
 
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
@@ -72,13 +72,13 @@ Azure қызметінде:
 
 1. Ішінде **Экспортқа арналған қосылым** өрісінен қосылымды таңдаңыз **Azure Synapse Analytics** бөлім. Егер сіз осы бөлімнің атауын көрмесеңіз, сізге қолжетімді осы түрдегі [қосылымдар](connections.md) жоқ.
 
-1. Экспорттау және **Дерекқор атауы** үшін танылатын **Көрсетілетін атау** беріңіз.
+1. Экспорттау және **Дерекқор атауы** үшін танылатын **Көрсетілетін атау** беріңіз. Экспорт жаңасын жасайды [Azure Synapse көл деректер базасы](/azure/synapse-analytics/database-designer/concepts-lake-database) қосылымда анықталған жұмыс кеңістігінде.
 
 1. Қай нысандарға экспорттағыңыз келетінін таңдаңыз Azure Synapse Analytics.
    > [!NOTE]
    > [Common Data Model қалтасына](connect-common-data-model.md) негізделген деректер көздеріне қолдау көрсетілмейді.
 
-2. **Сақтау** опциясын таңдаңыз.
+1. **Сақтау** опциясын таңдаңыз.
 
 Экспорттауды сақтау экспорттауды бірден іске қоспайды.
 

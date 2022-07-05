@@ -1,5 +1,5 @@
 ---
-title: Болжамдарды пайдалана отырып, жартылай нәтижелерді толтыру
+title: Ішінара деректерді болжамдармен толтыру
 description: Тұтынушының толық емес деректерін толтыру үшін болжамдарды қолданыңыз.
 ms.date: 11/01/2021
 ms.subservice: audience-insights
@@ -12,12 +12,12 @@ searchScope:
 - ci-predictions
 - ci-custom-models
 - customerInsights
-ms.openlocfilehash: 57ef46416db0a11cde9f9d7650a0b502a01bf0ab
-ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.openlocfilehash: 7e93670007db27d13b84d7516f56830988da083e
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8800657"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082514"
 ---
 # <a name="complete-your-partial-data-with-predictions-deprecated"></a>Жартылай деректеріңізді болжаммен толтырыңыз (ескірген)
 
@@ -116,7 +116,7 @@ ms.locfileid: "8800657"
 
 ## <a name="edit-a-prediction"></a>Болжамды өңдеу
 
-болжам жасағаннан кейін үлгіні келесіде теңшеуге болады AI Builder үлгіңіздің тиімділігін арттыру үшін.  
+болжам жасағаннан кейін, үлгіні келесіде теңшеуге болады AI Builder үлгіңіздің тиімділігін арттыру үшін.  
 
 1. Бару **Ақыл** > **Болжамдар** > **Менің болжамдарым**.
 

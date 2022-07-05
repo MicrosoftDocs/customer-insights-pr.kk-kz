@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Google Ads платформасына экспорттау
+title: Сегменттерді Google Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 description: Google Ads қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 03/31/2022
 ms.subservice: audience-insights
@@ -8,12 +8,12 @@ author: pkieffer
 ms.author: philk
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 3e0eb91be97d69a999e90708d29c572f0055527e
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: b7f08936d7d90322cb4e62396a2961fe06273b76
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643401"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082997"
 ---
 # <a name="export-segments-to-google-ads-preview"></a>Сегменттерді Google Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -26,7 +26,7 @@ ms.locfileid: "8643401"
 -   Сіз [тұтынушы сәйкестігі саясатының](https://support.google.com/adspolicy/answer/6299717) талаптарына сәйкес келесіз.
 -   Сіз [ремаркетинг тізімі өлшемдерінің](https://support.google.com/google-ads/answer/7558048) талаптарына сәйкес келесіз.
 -   Сізде [конфигурацияланған сегменттер](segments.md) бар.
--   Экспортталған сегменттердегі бірыңғай тұтынушы профильдері электрондық пошта мекенжайын, телефонды, мобильді жарнама беруші идентификаторын, үшінші тарап пайдаланушы идентификаторын немесе мекенжайды көрсететін өрістерді қамтиды.
+-   Экспортталған сегменттердегі бірыңғай тұтынушы профильдері электрондық пошта мекенжайын, телефонды, мобильді жарнама берушінің идентификаторын, үшінші тарап пайдаланушы идентификаторын немесе мекенжайды көрсететін өрістерді қамтиды.
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
@@ -64,7 +64,7 @@ ms.locfileid: "8643401"
 
 1. **Экспорттауға арналған қосылым** өрісінде Google Ads бөлімінен қосылым таңдаңыз. Егер сіз бұл бөлімнің атауын көрмесеңіз, онда сіз үшін осы түрдегі қосылымдар қолжетімді емес.
 
-1. Жаңа аудитория жасағыңыз келсе, Google Audience ID өрісін бос қалдырыңыз. Google Ads тіркелгіңізде автоматты түрде жаңа аудитория жасаймыз және экспортталған сегменттің атын пайдаланамыз. Бұрыннан бар Google Ads аудиториясын жаңартқыңыз келсе, өзіңізді енгізіңіз [Google Ads аудитория идентификаторы](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)
+1. Жаңа аудитория жасағыңыз келсе, Google Audience ID өрісін бос қалдырыңыз. Google Ads есептік жазбаңызда автоматты түрде жаңа аудитория жасаймыз және экспортталған сегменттің атын пайдаланамыз. Бұрыннан бар Google Ads аудиториясын жаңартқыңыз келсе, өзіңізді енгізіңіз [Google Ads аудитория идентификаторы](https://support.google.com/google-ads/answer/7558048?hl=en#:~:text=Audience%20lists%20is%20a%20section,Display%20Network%20through%20remarketing%20campaigns.)
 
 1. Ішінде **Деректерді сәйкестендіру** бөлімінде экспорттау үшін бір немесе бірнеше деректер өрістерін таңдаңыз және Customer Insights ішіндегі сәйкес деректер өрістерін көрсететін өрісті таңдаңыз.
 

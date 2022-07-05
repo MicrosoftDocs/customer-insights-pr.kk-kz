@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Dynamics 365 Sales бағдарламасына экспорттау
+title: Сегменттерді Dynamics 365 Sales бағдарламасына экспорттау (алдын ала қарау)
 description: Dynamics 365 Sales жүйесі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 03/03/2021
 ms.reviewer: mhart
@@ -11,22 +11,20 @@ manager: shellyha
 searchScope:
 - ci-export
 - customerInsights
-ms.openlocfilehash: 987690283090ec83ca75f50bf8f3cd8da9295887
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: b8e756313ca037dca41cb25587229808f0c584c9
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643312"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082388"
 ---
-# <a name="use-segments-in-dynamics-365-sales-preview"></a>Dynamics 365 Sales жүйесіндегі сегменттерді пайдалану (алдын ала қарау нұсқасы)
-
-
+# <a name="export-segments-to-dynamics-365-sales-preview"></a>Сегменттерді Dynamics 365 Sales бағдарламасына экспорттау (алдын ала қарау)
 
 Тұтынушы деректерін Dynamics 365 Sales көмегімен маркетинг тізімдерін жасау, жұмыс ағындарын қадағалау және жарнамалар жіберу үшін пайдаланыңыз.
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Dynamics 365 Sales бағдарламасына экспорттау әр сегмент үшін 100'000 мүшемен шектеледі.
+- Dynamics 365 Sales бағдарламасына экспорттау әр сегмент үшін 100'000 мүшемен шектелген.
 - Dynamics 365 Sales жүйесіне сегменттерді экспорттауды аяқтау үшін 3 сағатқа дейін кетуі мүмкін. 
 
 ## <a name="prerequisite-for-connection"></a>Қосылым алғышарты
@@ -34,7 +32,7 @@ ms.locfileid: "8643312"
 1. Сегментті Customer Insights қызметінен сатылымға экспорттау алдында Dynamics 365 Sales жүйесінде контакт жазбалары болуы тиіс. Контактілерді қабылдау жолы туралы толығырақ оқыңыз [Dynamics 365 Sales пайдалану арқылы Microsoft Dataverse](connect-dataverse-managed-lake.md).
 
    > [!NOTE]
-   > Customer Insights ішінен сегменттерді сатуға экспорттау Сатылым даналарында жаңа контакт жазбаларын жасамайды. Сатылымдағы контакт жазбалары Customer Insights ішіне енгізіліп, деректер көзі ретінде пайдаланылуы керек. Сондай-ақ оларды сегменттер экспортталмас бұрын тұтынушы идентификаторларын контакт идентификаторларымен салыстыру үшін бірыңғай тұтынушы нысанына қосу қажет.
+   > Customer Insights жүйесінен сатуға сегменттерді экспорттау Сатылым даналарында жаңа контакт жазбаларын жасамайды. Сатылымдағы контакт жазбалары Customer Insights ішіне енгізіліп, деректер көзі ретінде пайдаланылуы керек. Сондай-ақ оларды сегменттер экспортталмас бұрын тұтынушы идентификаторларын контакт идентификаторларымен салыстыру үшін бірыңғай тұтынушы нысанына қосу қажет.
 
 ## <a name="set-up-the-connection-to-sales"></a>Sales қызметіне қосылым орнату
 

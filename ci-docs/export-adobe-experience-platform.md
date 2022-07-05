@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Adobe Experience Platform қызметіне экспорттау
+title: Сегменттерді келесіге экспорттау Adobe Experience Platform (алдын ала қарау)
 description: ішінде Customer Insights сегменттерін пайдалану жолын үйреніңіз Adobe Experience Platform.
 ms.date: 03/29/2021
 ms.reviewer: mhart
@@ -8,16 +8,16 @@ ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: 42a4e0c6bce67a63b449a541299620ef2f4a3259
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: c29b8264019669ffd954a298ce3a633c852477fa
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643731"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052518"
 ---
-# <a name="use-customer-insights-segments-in-adobe-experience-platform-preview"></a>Adobe Experience Platform бағдарламасында Customer Insights сегменттерін пайдалану (алдын ала қарау)
+# <a name="export-segments-to-adobe-experience-platform-preview"></a>Сегменттерді келесіге экспорттау Adobe Experience Platform (алдын ала қарау)
 
-пайдаланушысы ретінде Dynamics 365 Customer Insights, сәйкес аудиторияларды бағыттау арқылы маркетингтік науқандарыңызды тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Customer Insights сегментін пайдалану үшін Adobe Experience Platform және сияқты қолданбалар Adobe Науқан стандарты, сіз осы мақалада сипатталған бірнеше қадамдарды орындауыңыз керек.
+пайдаланушысы ретінде Dynamics 365 Customer Insights, сәйкес аудиторияны бағыттау арқылы маркетингтік науқандарыңызды тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Customer Insights сегментін пайдалану үшін Adobe Experience Platform және сияқты қолданбалар Adobe Науқан стандарты, сіз осы мақалада сипатталған бірнеше қадамдарды орындауыңыз керек.
 
 :::image type="content" source="media/AEP-flow.png" alt-text="Осы мақалада көрсетілген қадамдардың процестік диаграммасы.":::
 

@@ -1,5 +1,5 @@
 ---
-title: Сынақ нұсқасы туралы жиі қойылатын сұрақтар - Dynamics 365 Customer Insights
+title: Dynamics 365 Customer Insights сынақ нұсқасы туралы жиі қойылатын сұрақтар
 description: Customer Insights сынақ нұсқасын орнату және басқаруға қатысты жалпы сұрақтарға шешімдер. Платформа мен бағдарламаға тән мәселелерді шешу жолы туралы ақпарат.
 author: m-hartmann
 ms.author: mhart
@@ -8,12 +8,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: jeffhar
 manager: shellyha
-ms.openlocfilehash: 46a67e58f79029246029e2d06789525c2131f100
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: 41f112466d54c9923d0daf7c55d343f9b5c81d98
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011894"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9051506"
 ---
 # <a name="dynamics-365-customer-insights-trial-faq"></a>Dynamics 365 Customer Insights сынақ нұсқасы туралы жиі қойылатын сұрақтар
 
@@ -42,7 +42,7 @@ ms.locfileid: "9011894"
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Сынақ нұсқасына қосымша пайдаланушыларды қалай қосуға болады?
 
-Пайдаланушыларды қосу үшін [Microsoft 365 басқару орталығына](https://admin.microsoft.com) сынақ нұсқасы әкімшісінің тіркелгісінің көмегімен өтіңіз. Пайдаланушыларды сынақ лицензиясының шегіне дейін қосу үшін [басқару орталығының нұсқаулығын](/microsoft-365/admin/add-users/add-users) орындаңыз. Егер сіз қосып жатқан пайдаланушы бұрыннан бар болса Microsoft 365 тіркелгісін орнатыңыз, оларға сынақ ұйымында сәйкес қауіпсіздік рөлі тағайындаңыз. Қосымша ақпаратты қараңыз [Пайдаланушыға қауіпсіздік рөлі тағайындаңыз](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+Пайдаланушыларды қосу үшін [Microsoft 365 басқару орталығына](https://admin.microsoft.com) сынақ нұсқасы әкімшісінің тіркелгісінің көмегімен өтіңіз. Пайдаланушыларды сынақ лицензиясының шегіне дейін қосу үшін [басқару орталығының нұсқаулығын](/microsoft-365/admin/add-users/add-users) орындаңыз. Егер сіз қосып жатқан пайдаланушы бұрыннан бар болса Microsoft 365 тіркелгісін орнатыңыз, оларға сынақ ұйымында сәйкес қауіпсіздік рөлі тағайындаңыз. Қосымша ақпарат алу үшін қараңыз [Пайдаланушыға қауіпсіздік рөлі тағайындаңыз](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Сынақ ортасына қанша пайдаланушыны қосуға болады?
 
@@ -83,7 +83,7 @@ Customer Insights мүмкіндіктерінің көптеген функци
 
 Келесі мүмкіндіктер **жоқ**:
 
-- Өзіңіздің ортаңызды пайдаланатын жаңа орталарды жасай алмайсыз Azure Data Lake Storage тіркелгі.
+- Өзіңізді пайдаланатын жаңа орталарды жасай алмайсыз Azure Data Lake Storage есептік жазба.
 - Сынақ ортасын жоя алмайсыз.
 
 ### <a name="how-long-does-the-trial-last"></a>Сынақ нұсқасының мерзімі қанша?

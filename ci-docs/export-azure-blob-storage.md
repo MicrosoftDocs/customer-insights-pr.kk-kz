@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Azure Blob сақтау орнына экспорттау
+title: Деректерді Azure Blob қоймасына экспорттау (алдын ала қарау)
 description: Blob сақтау орны үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 06/09/2022
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 623926bf520b19ee4156b7a05e953241cd819e9e
-ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
+ms.openlocfilehash: 059c8364ca0f3740bc0e4ffeeeba94246c9e5696
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/10/2022
-ms.locfileid: "8947145"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9055497"
 ---
-# <a name="export-segment-list-and-other-data-to-azure-blob-storage-preview"></a>Сегменттер тізімін және басқа деректерді Azure Blob сақтау орнына экспорттау (алдын ала қарау нұсқасы)
+# <a name="export-data-to-an-azure-blob-storage-preview"></a>Деректерді Azure Blob қоймасына экспорттау (алдын ала қарау)
 
 Customer Insights деректерін Azure Blob сақтау орнында сақтаңыз немесе оны деректерді басқа бағдарламаларға тасымалдау үшін пайдаланыңыз.
 
@@ -69,7 +69,7 @@ Customer Insights деректерін Azure Blob сақтау орнында с
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/HighValueSegment/2020/08/24/1433/HighValueSegment_1.csv`
   
   > [!TIP]
-  > Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептеріне байланысты орын алады.
+  > Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептері бойынша орын алады.
 
 - Экспортталатын нысандарға арналған model.json файлы %ExportDestinationName% деңгейінде болады.  
   - Мысал: `Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/model.json`

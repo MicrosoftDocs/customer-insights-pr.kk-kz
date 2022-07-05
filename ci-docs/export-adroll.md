@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін AdRoll платформасына экспорттау
+title: Сегменттерді AdRoll қызметіне экспорттау (алдын ала қарау нұсқасы)
 description: AdRoll қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ec7d2d4d137f2f0e3e1ff2ec0d09bff8ac4f28ea
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: 13c7dd3b8556ad807fba6c537525b463480e860b
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643185"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082829"
 ---
 # <a name="export-segments-to-adroll-preview"></a>Сегменттерді AdRoll қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -21,9 +21,9 @@ ms.locfileid: "8643185"
 
 ## <a name="prerequisites-for-a-connection"></a>Қосылым алғышарттары
 
--   Сізде [AdRoll тіркелгісі](https://www.adroll.com/) және тиісті әкімшінің тіркелгі деректері бар.
--   Сенде бар [конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
--   Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын көрсететін өрістен тұрады.
+- Сізде [AdRoll тіркелгісі](https://www.adroll.com/) және тиісті әкімшінің тіркелгі деректері бар.
+- Сенде бар [конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
+- Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын көрсететін өрістен тұрады.
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 

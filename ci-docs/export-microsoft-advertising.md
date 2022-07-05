@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Microsoft Advertising қызметіне экспорттау
+title: Сегменттерді Microsoft Advertising (алдын ала қарау нұсқасы) қызметіне экспорттау
 description: Microsoft Advertising қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 14479e915dd6ae76e018b59bee5980a600bb222d
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: ca37159ec6473ad5c331a0ce1aa8424d277529ff
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643911"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082808"
 ---
 # <a name="export-segments-to-microsoft-advertising-preview"></a>Сегменттерді Microsoft Advertising (алдын ала қарау нұсқасы) қызметіне экспорттау
 

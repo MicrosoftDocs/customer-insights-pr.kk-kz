@@ -1,5 +1,5 @@
 ---
-title: Болжам сценарийлеріне арналған ортақ тапсырмалар
+title: Болжамдарды басқару
 description: Болжамдарды басқару, ақаулықтарды жою және нақтылау жолы туралы ақпарат.
 ms.date: 11/01/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: c4d269e1b542e84ade8c6e63c1dadace51ddde32
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: a180f6462452d9830d0daa150a35a9d0acad925a
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643870"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082850"
 ---
 # <a name="manage-predictions"></a>Болжамдарды басқару
 
@@ -50,7 +50,7 @@ ms.locfileid: "8643870"
 :::image type="content" source="media/input-data-usability-report.png" alt-text="Қателері, ескертулері мен ұсыныстары бар кестені көрсететін кіріс деректерді пайдалану туралы есептің мысалы.":::
 
 - **Аты:** Қатенің, ескертудің немесе ұсыныстың сипаттама атауы.
-- **Қадам:** Модель фазасы, пойыз немесе балл, ақпарат сілтеме жасайды.
+- **Қадам:** Үлгі фазасы, пойыз немесе балл, ақпарат сілтеме жасайды.
 - **Мемлекет:** Ақпараттың маңыздылығы (қате, ескерту, ұсыныс).
 - **Баған атауы:** Үлгі өнімділігін жақсарту үшін өзгерту қажет нысандағы баған.
 - **Нысан атауы:** Үлгі өнімділігін жақсарту үшін өзгерту қажет нысан атауы.

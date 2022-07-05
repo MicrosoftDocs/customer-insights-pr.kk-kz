@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін Azure Data Lake Storage Gen2 жүйесіне экспорттау
+title: Деректерді экспорттау Azure Data Lake Storage Gen2 (алдын ала қарау)
 description: Azure Data Lake Storage Gen2 қосылымын конфигурациялау жолы туралы ақпарат.
 ms.date: 10/06/2021
 ms.reviewer: mhart
@@ -8,14 +8,14 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: 22eee11666752459a1750d728c4e254ab0c59e58
-ms.sourcegitcommit: 8e9f0a9693fd8d91ad0227735ff03688fef5406f
+ms.openlocfilehash: c2446fba425203d2910b82134b73543a73c7ecf8
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/10/2022
-ms.locfileid: "8947237"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082661"
 ---
-# <a name="export-segment-list-and-other-data-to-azure-data-lake-storage-gen2-preview"></a>Сегмент тізімін және басқа деректерді Azure Data Lake Storage Gen2 (алдын ала қарау нұсқасы) қызметіне экспорттау
+# <a name="export-data-to-azure-data-lake-storage-gen2-preview"></a>Деректерді экспорттау Azure Data Lake Storage Gen2 (алдын ала қарау)
 
 Customer Insights деректерін Azure Data Lake Storage Gen2 тіркелгісіне сақтаңыз немесе оны деректерді басқа бағдарламаларға тасымалдау үшін пайдаланыңыз.
 
@@ -61,6 +61,6 @@ Customer Insights деректерін Azure Data Lake Storage Gen2 тіркел
 Экспортталған деректер конфигурациялаған Azure Data Lake Gen 2 сақтау орны контейнерінде сақталады.
 
 > [!TIP]
-> Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептеріне байланысты орын алады.
+> Деректердің үлкен көлемін қамтитын нысандарды экспорттау әр экспорт үшін бір қалтадағы бірнеше CSV файлдарына әкелуі мүмкін. Экспортты бөлу экспортты аяқтауға кететін уақытты азайту үшін өнімділік себептері бойынша орын алады.
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

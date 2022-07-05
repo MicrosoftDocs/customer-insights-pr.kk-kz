@@ -1,5 +1,5 @@
 ---
-title: Customer Insights деректерін LinkedIn Ads қызметіне экспорттау
+title: Сегменттерді LinkedIn Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 description: LinkedIn Ads қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
 ms.date: 10/08/2021
 ms.reviewer: mhart
@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: bf1d12ffbd7a4cfd7d268fea8a1f90cc37589e00
-ms.sourcegitcommit: b7dbcd5627c2ebfbcfe65589991c159ba290d377
+ms.openlocfilehash: e6ad3901f7b8dc1ae8edc54c0b09a99b01be34cd
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8643930"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9050863"
 ---
 # <a name="export-segments-to-linkedin-ads-preview"></a>Сегменттерді LinkedIn Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8643930"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Customer Insights жүйесіндегі сегментіңізде кемінде 300 бірегей профиль болуы керек. 
+- Customer Insights ішіндегі сегментіңізде кемінде 300 бірегей профиль болуы керек. 
 - LinkedIn Ads қызметіне бір экспорттағанда 100000 тұтынушы профилін экспорттауға болады.
 - LinkedIn Ads қызметіне экспорттау сегменттермен шектеледі.
 - LinkedIn Ads қызметіне 100000 тұтынушы профилін экспорттау 10 минутқа дейін созылуы мүмкін. 

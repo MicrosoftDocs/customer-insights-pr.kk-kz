@@ -1,6 +1,6 @@
 ---
-title: Customer Insights бағдарламасындағы басқа қызметтерге қосылымдар.
-description: Деректерді басқа қызметтермен бөлісіңіз.
+title: Қосылымдарға (алдын ала қарау нұсқасы) шолу
+description: Customer Insights бағдарламасындағы басқа қызметтерге қосылымдар.
 ms.date: 04/09/2021
 ms.reviewer: nikeller
 ms.subservice: audience-insights
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-connections
 - customerInsights
-ms.openlocfilehash: 2a3175737ac95e10d75fad4a69db303b0564c6cc
-ms.sourcegitcommit: b515120bebd2638f2639004422cee3cff42fbdf7
+ms.openlocfilehash: a8b4b8a9bdcf7cf43c47a67d547405dd20dad60d
+ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8800379"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9082094"
 ---
 # <a name="connections-preview-overview"></a>Қосылымдарға (алдын ала қарау нұсқасы) шолу
 
@@ -98,4 +98,4 @@ ms.locfileid: "8800379"
 
 ## <a name="set-up-connections-with-secrets-managed-by-your-own-key-vault"></a>Жеке Key Vault қызметі арқылы басқарылатын құпиялармен байланыс орнату
 
-Кейбір қосылымдарға API кілттері немесе құпия сөздер сияқты құпиялар қажет. Кейбір қосылымдар жеке Key Vault қызметінде сақталған құпияларға қолдау көрсетеді. Қолдау көрсетілетін қосылымдар және орнату жолы туралы көбірек біліңіз [Customer Insights үшін жеке Key Vault](use-azure-key-vault.md).
+Кейбір қосылымдарға API кілттері немесе құпия сөздер сияқты құпиялар қажет. Кейбір қосылымдар жеке Key Vault қызметінде сақталған құпияларға қолдау көрсетеді. Қолдау көрсетілетін қосылымдар және орнату жолы туралы қосымша ақпарат алыңыз [Customer Insights үшін жеке Key Vault](use-azure-key-vault.md).

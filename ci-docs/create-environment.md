@@ -1,6 +1,6 @@
 ---
-title: Қалай істеу керек - Жаңа орта құру
-description: үшін орталарды жасау қадамдары Dynamics 365 Customer Insights.
+title: 'Әдіс: Жаңа орта құру'
+description: ішінде орталарды жасау қадамдары Dynamics 365 Customer Insights.
 ms.date: 05/31/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
@@ -12,18 +12,18 @@ ms.custom: intro-internal
 searchScope:
 - ci-home
 - customerInsights
-ms.openlocfilehash: 6dfaa09cd80498e9a4e4dea6a07ce6e9d29105e2
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: 62969527ceed906ff06fb9be90b972496323ce0a
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011618"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052752"
 ---
-# <a name="how-to-create-a-new-environment"></a>Әдіс: Жаңа орта жасау
+# <a name="how-to-create-a-new-environment"></a>Әдіс: Жаңа орта құру
 
 Кейін [үшін жазылу лицензиясын сатып алу Dynamics 365 Customer Insights](paid-license.md), жаһандық әкімшісі Microsoft 365 жалға алушы оларды ортаны жасауға шақыратын электрондық хат алады. Жұмысты бастау үшін [https://home.ci.ai.dynamics.com/start](https://home.ci.ai.dynamics.com/start) веб-сайтына өтіңіз. Бұл сценарийде тікелей өтуге болады [1-қадам: Негізгі ақпаратты беріңіз](#step-1-provide-basic-information).
 
-Бірінші орта жасалғаннан кейін жаһандық әкімші Microsoft 365 жалға алушы алады [пайдаланушыларды өз ұйымына әкімші ретінде қосыңыз](permissions.md). Алға қарай бұл әкімшілер пайдаланушылар мен орталарды басқара алады. Ұйымыңыз Customer Insights үшін бірнеше лицензия сатып алса, [қолдау көрсету тобына хабарласыңыз](https://go.microsoft.com/fwlink/?linkid=2079641) қолжетімді орталардың санын көбейту. Сыйымдылық және қосымша сыйымдылық туралы қосымша ақпаратты қараңыз [Dynamics 365 лицензиялау нұсқаулығы](https://go.microsoft.com/fwlink/?LinkId=866544).
+Бірінші орта жасалғаннан кейін жаһандық әкімші Microsoft 365 жалға алушы алады [пайдаланушыларды өз ұйымына әкімші ретінде қосыңыз](permissions.md). Алға қарай бұл әкімшілер пайдаланушылар мен орталарды басқара алады. Ұйымыңыз Customer Insights үшін бірнеше лицензия сатып алса, [қолдау көрсету тобына хабарласыңыз](https://go.microsoft.com/fwlink/?linkid=2079641) қолжетімді орталардың санын көбейту. Сыйымдылық және қосымша сыйымдылық туралы қосымша ақпарат алу үшін мынаны қараңыз [Dynamics 365 лицензиялау нұсқаулығы](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!TIP]
 > Егер сіз қызметті пайдаланып көргіңіз келсе, [Сынақ ортасын орнату](trial-signup.md) бөлімін қараңыз.
@@ -51,27 +51,27 @@ ms.locfileid: "9011618"
 - **Атауы**: осы ортаның атауы. Бар ортадан көшірсеңіз, бірақ оны өзгерте алмасаңыз, осы өріс толтырулы болады.
 - **Өз бизнесіңізді таңдау**: жаңа орта үшін негізгі аудиторияны таңдаңыз. Жеке тұтынушылармен (бизнес-тұтынушы) немесе [бизнес тіркелгілерімен](work-with-business-accounts.md) (бизнес-бизнес) жұмыс істей аласыз. Егер сіздің ұйымыңыз негізінен бөлшек сатушы немесе кофехана сияқты жеке тұлғалармен бизнес жасаса, жеке тұтынушыларды таңдаңыз. Егер сіздің негізгі аудиторияңыз автомобиль өндірушісі немесе қағаз компаниясы сияқты басқа компаниялар болса, бизнес тіркелгілерін таңдаңыз.
 - **Түрі**: жұмыс немесе сынақ данасы ортасын жасау керектігін таңдаңыз. Сынақ данасы орталары жоспарланған деректерді жаңартуға мүмкіндік бермейді және алдын ала ендіру мен сынақтан өткізуге арналған. Сынақ дана орталары қазіргі таңда таңдалған өндірістік орта ретінде сол негізгі аудиторияны пайдаланады.
-- **Аймақ**: қызмет орналастырылған аймақ. Кімге [өзіңізді пайдаланыңыз Azure Data Lake Storage тіркелгі](own-data-lake-storage.md) немесе [барға қосылу Microsoft Dataverse ұйымдастыру](customer-insights-dataverse.md), Customer Insights ортасы бір аймақта болуы керек.
+- **Аймақ**: қызмет орналастырылған аймақ. Кімге [өзіңізді пайдаланыңыз Azure Data Lake Storage есептік жазба](own-data-lake-storage.md) немесе [барға қосылу Microsoft Dataverse ұйымдастыру](customer-insights-dataverse.md), Customer Insights ортасы бір аймақта болуы керек.
 
 ## <a name="step-2-configure-data-storage"></a>2-қадам: деректерді сақтауды конфигурациялау
 
-Ішінде **Деректерді сақтау** қадамда Customer Insights деректерін сақтау орнын таңдаңыз.
+Ішінде **Деректерді сақтау** қадамында Customer Insights деректерін сақтау орнын таңдаңыз.
 
 Сіз таңдай алатын екі нұсқа бар:
 
 - **Customer Insights қоймасы** : Деректерді сақтауды Customer Insights тобы басқарады. Бұл әдепкі опция және деректерді жеке сақтау тіркелгісінде сақтауға арнайы талаптар болмаса, осы опцияны пайдалануды ұсынамыз.
-- **Azure Data Lake Storage**: Өзіңізді көрсетіңіз Azure Data Lake Storage деректердің қай жерде сақталатынын толық басқара алатындай етіп деректерді сақтауға арналған тіркелгі. Қосымша ақпаратты қараңыз [Өзіңізді пайдаланыңыз Azure Data Lake Storage тіркелгі](own-data-lake-storage.md).
+- **Azure Data Lake Storage**: Өзіңізді көрсетіңіз Azure Data Lake Storage деректердің қай жерде сақталатынын толық бақылауыңыз үшін деректерді сақтау үшін тіркелгіні пайдаланыңыз. Қосымша ақпарат алу үшін қараңыз [Өзіңізді пайдаланыңыз Azure Data Lake Storage есептік жазба](own-data-lake-storage.md).
 
 :::image type="content" source="media/data-storage-environment.png" alt-text="Деректерді сақтау үшін қолайлы опцияны таңдаңыз.":::
 
 ## <a name="step-3-connect-to-microsoft-dataverse"></a>3‑қадам: Microsoft Dataverse жүйесіне қосылу
 
-**Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді. Деректермен бөлісіңіз Dataverse негізінде іскери қолданбалармен бірге пайдалану Dataverse, Dynamics 365 Marketing немесе үлгіге негізделген қолданбалар сияқты Power Apps.
+**Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді. Деректермен бөлісіңіз Dataverse негізінде іскери қолданбалармен пайдалану Dataverse, Dynamics 365 Marketing немесе үлгіге негізделген қолданбалар сияқты Power Apps.
 
 
-Өзіңіздің өрісіңіз болмаса, бұл өрісті бос қалдырыңыз Dataverse ортасын орнатыңыз және біз сіз үшін біреуін жасаймыз.
+Өзіңіздің өрісіңіз болмаса, бұл өрісті бос қалдырыңыз Dataverse ортасын және біз сіз үшін біреуін жасаймыз.
 
-Қосымша ақпаратты қараңыз [Customer Insights деректерімен жұмыс істеу Microsoft Dataverse](customer-insights-dataverse.md).
+Қосымша ақпарат алу үшін қараңыз [Customer Insights деректерімен жұмыс істеу Microsoft Dataverse](customer-insights-dataverse.md).
 
 :::image type="content" source="media/dataverse-provisioning.png" alt-text="деректермен алмасу Microsoft Dataverse ең жаңа орталар үшін автоматты түрде қосылған.":::
 

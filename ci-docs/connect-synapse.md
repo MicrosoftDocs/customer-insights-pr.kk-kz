@@ -1,6 +1,6 @@
 ---
-title: Деректерді қабылдау Azure Synapse Analytics
-description: Деректер базасын пайдаланыңыз Azure Synapse ішінде деректер көзі ретінде Dynamics 365 Customer Insights.
+title: жалғаңыз Azure Synapse деректер көзі (алдын ала қарау)
+description: ішінде дерекқорды пайдаланыңыз Azure Synapse ішінде деректер көзі ретінде Dynamics 365 Customer Insights.
 ms.date: 03/25/2022
 ms.reviewer: v-wendysmith
 ms.service: customer-insights
@@ -9,18 +9,18 @@ ms.topic: how-to
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 6f94cdbcc203fc4518544f7a945bd80e871b36c1
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: c4ae65613a02df38a30f907dae72d413bf1a702f
+ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011434"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9052706"
 ---
 # <a name="connect-an-azure-synapse-analytics-data-source-preview"></a>жалғаңыз Azure Synapse Analytics деректер көзі (алдын ала қарау)
 
-Azure Synapse Analytics деректер қоймалары мен үлкен деректер жүйелері бойынша түсініктерге уақытты жылдамдататын кәсіпорынның аналитикалық қызметі. Azure Synapse Analytics кәсіпорын деректер қоймасында қолданылатын SQL технологияларының ең жақсысын, үлкен деректер үшін пайдаланылатын Spark технологияларын, журнал мен уақыт серияларын талдауға арналған Data Explorer бағдарламасын, деректерді біріктіру және ETL/ELT үшін құбыр желілерін және басқа Azure қызметтерімен терең интеграцияны біріктіреді.Power BI,Cosmos DB, және AzureML.
+Azure Synapse Analytics деректер қоймалары мен үлкен деректер жүйелері бойынша түсініктерге уақытты жылдамдататын кәсіпорынның аналитикалық қызметі. Azure Synapse Analytics кәсіпорын деректер қоймасында қолданылатын SQL технологияларының ең жақсысын, үлкен деректер үшін пайдаланылатын Spark технологияларын, журнал мен уақыт қатарын талдауға арналған Data Explorer бағдарламасын, деректерді біріктіру және ETL/ELT үшін құбыр желілерін және басқа Azure қызметтерімен терең интеграцияны біріктіреді.Power BI,Cosmos DB, және AzureML.
 
-Қосымша ақпаратты қараңыз [Azure Synapse шолу](/azure/synapse-analytics/overview-what-is).
+Қосымша ақпарат алу үшін қараңыз [Azure Synapse шолу](/azure/synapse-analytics/overview-what-is).
 
 ## <a name="prerequisites"></a>Алғышарттар
 
@@ -59,7 +59,7 @@ Azure Synapse Analytics деректер қоймалары мен үлкен д
 
 1. таңдаңыз [қолжетімді қосылым](connections.md) дейін Azure Synapse Analytics немесе жаңасын жасаңыз.
 
-1. а таңдаңыз **Дерекқор** таңдалғанда қосылған жұмыс кеңістігінен Azure Synapse Analytics қосылым және таңдаңыз **Келесі**.
+1. а таңдаңыз **Дерекқор** таңдалғанда қосылған жұмыс кеңістігінен Azure Synapse Analytics қосылым және таңдаңыз **Келесі**. Қазіргі уақытта біз тек дерекқор түрін қолдаймыз *Көл деректері*.
 
 1. Қосылған дерекқордан қабылданатын нысандарды таңдап, таңдаңыз **Келесі**.
 
