@@ -9,12 +9,12 @@ ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 51f2e4e46aa25d10502d0feb5ea42eb7d2d637b9
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 71b35e4295e19c13edadc6548ac79715555e8183
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082556"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9196033"
 ---
 # <a name="enrich-company-profiles-with-dun--bradstreet-preview"></a>Dun & Bradstreet көмегімен компания профилін байыту (алдын ала қарау)
 
@@ -80,7 +80,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. Шолуды қарап шығыңыз, содан кейін таңдаңыз **Келесі**.
 
-1. Қосылымды таңдап, растаңыз. Қолжетімсіз болса, әкімшіге хабарласыңыз.
+1. Қосылымды таңдап, растаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз.
 
 1. **Келесі** пәрменін таңдаңыз.
 
@@ -100,7 +100,7 @@ Dun & Bradstreet лицензиясы бар пайдаланушы ретінд
 
 1. Таңдауларды қарап шыққаннан кейін **Жақсартуды сақтау** түймешігін таңдаңыз.
 
-1. таңдаңыз **Жүгіру** байыту процесін бастау үшін немесе қайта оралу үшін жақын **Байытулар** бет.
+1. таңдаңыз **Жүгіру** байыту процесін бастау немесе қайта оралу үшін жақын **Байытулар** бет.
 
 ## <a name="view-enrichment-results"></a>Байыту нәтижелерін көру
 

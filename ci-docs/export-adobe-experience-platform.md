@@ -1,32 +1,32 @@
 ---
 title: Сегменттерді келесіге экспорттау Adobe Experience Platform (алдын ала қарау)
 description: ішінде Customer Insights сегменттерін пайдалану жолын үйреніңіз Adobe Experience Platform.
-ms.date: 03/29/2021
+ms.date: 07/25/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: stefanie-msft
 ms.author: antando
 manager: shellyha
-ms.openlocfilehash: c29b8264019669ffd954a298ce3a633c852477fa
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: fcb43e0956c6d1f0ef36b222dd2b718906364244
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9052518"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195297"
 ---
 # <a name="export-segments-to-adobe-experience-platform-preview"></a>Сегменттерді келесіге экспорттау Adobe Experience Platform (алдын ала қарау)
 
-пайдаланушысы ретінде Dynamics 365 Customer Insights, сәйкес аудиторияны бағыттау арқылы маркетингтік науқандарыңызды тиімдірек ету үшін сегменттер жасаған болуыңыз мүмкін. Customer Insights сегментін пайдалану үшін Adobe Experience Platform және сияқты қолданбалар Adobe Науқан стандарты, сіз осы мақалада сипатталған бірнеше қадамдарды орындауыңыз керек.
+Тиісті аудиторияларға бағытталған сегменттерді экспорттау Adobe Experience Platform.
 
 :::image type="content" source="media/AEP-flow.png" alt-text="Осы мақалада көрсетілген қадамдардың процестік диаграммасы.":::
 
 ## <a name="prerequisites"></a>Алғышарттар
 
--   Dynamics 365 Customer Insights лицензиясы
--   Adobe Experience Platform лицензиясы
--   Adobe Campaign Standard лицензиясы
--   Azure Blob сақтау орны тіркелгісі
+- Ан Adobe Experience Platform лицензия.
+- Ан Adobe Campaign Standard лицензиясы.
+- Ан [Azure Blob сақтау тіркелгісі](/azure/storage/blobs/create-data-lake-storage-account) аты және тіркелгі кілті. Аты мен кілтін табу үшін қараңыз [Azure порталында сақтау тіркелгісінің параметрлерін басқарыңыз](/azure/storage/common/storage-account-manage).
+- Ан [Azure Blob сақтау контейнері](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
 ## <a name="campaign-overview"></a>Науқанды шолу
 
@@ -48,85 +48,89 @@ The [Customer Insights ішінде сіз анықтаған сегмент](se
 
 ## <a name="export-your-target-audience"></a>Мақсатты аудиторияңызды экспорттау
 
-Мақсатты аудиторияны анықтау арқылы біз Customer Insights жүйесінен Azure Blob Storage тіркелгісіне экспорттауды теңшей аламыз.
+Біз Customer Insights жүйесінен Azure Blob сақтау тіркелгісіне экспорттауды конфигурациялаймыз.
 
-### <a name="configure-a-connection"></a>Қосылымды конфигурациялау
+### <a name="set-up-connection-to-azure-blob-storage"></a>Azure Blob қоймасына қосылымды орнатыңыз
+
+[!INCLUDE [export-connection-include](includes/export-connection-admn.md)]
 
 1. **Әкімші** > **Қосылымдар** тармағына өтіңіз.
 
-1. **Қосылым қосу** түймешігін таңдаңыз және қосылымды конфигурациялау үшін **Azure Blob Storage** параметрін таңдаңыз немесе **Azure Blob Storage** тақтасында **Орнату** түймешігін таңдаңыз.
-
-   :::image type="content" source="media/export-azure-blob-storage-tile.png" alt-text="Azure Blob сақтау орнының конфигурация тақтасы."::: 
+1. таңдаңыз **Қосылым қосыңыз** және таңдаңыз **Azure Blob сақтау орны**.
 
 1. **Көрсетілетін аты** өрісінде қосылымға оңай танылатын атау енгізіңіз. Қосылым атауы мен түрі осы қосылымды сипаттайды. Қосылымның мақсатын түсіндіретін атауды таңдауды ұсынамыз.
 
-1. Осы қосылымды кім пайдалана алатынын таңдаңыз. Егер сіз ешқандай әрекет жасамасаңыз, әдепкі бойынша Әкімшілер болады. Қосымша ақпарат алу үшін [Салымшыларға экспорттау үшін қосылымды пайдалануға рұқсат беру](connections.md#allow-contributors-to-use-a-connection-for-exports) бөлімін қараңыз.
+1. Осы қосылымды кім пайдалана алатынын таңдаңыз. Әдепкі бойынша бұл тек әкімшілер. Қосымша ақпарат алу үшін [Салымшыларға экспорттау үшін қосылымды пайдалануға рұқсат беру](connections.md#allow-contributors-to-use-a-connection-for-exports) бөлімін қараңыз.
 
 1. Сегментті экспорттау керек Blob сақтау орны тіркелгісі үшін **Тіркелгі атауы**, **Тіркелгі кілті** және **Контейнер** өрістерін енгізіңіз.  
-      
-   :::image type="content" source="media/azure-blob-configuration.png" alt-text="Сақтау орны тіркелгісі конфигурациясының скриншоты."::: 
-   
-    - Blob сақтау орнының тіркелгі атауын және тіркелгі кілтін табу жолы туралы қосымша ақпарат алу үшін [Azure порталындағы сақтау орны тіркелгісінің параметрлерін басқару](/azure/storage/common/storage-account-manage) бөлімін қараңыз.
-    - Контейнерді жасау жөнінде мағлұмат алу үшін мына тақырыпты қараңыз: [Контейнер жасау](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container).
 
-1. Қосылымды аяқтау үшін **Сақтау** түймешігін таңдаңыз. 
+   :::image type="content" source="media/azure-blob-configuration.png" alt-text="Сақтау орны тіркелгісі конфигурациясының скриншоты.":::
+
+1. шолу [деректердің құпиялылығы және сәйкестігі](connections.md#data-privacy-and-compliance) және таңдаңыз **Мен келісемін**.
+
+1. Қосылымды аяқтау үшін **Сақтау** түймешігін таңдаңыз.
 
 ### <a name="configure-an-export"></a>Экспорттауды конфигурациялау
 
-Егер сіз осы түрдегі қосылымға қатынаса алсаңыз, сіз бұл экспорттауды конфигурациялай аласыз. Қосымша ақпарат алу үшін [Экспорттауды конфигурациялау үшін қажет рұқсаттар](export-destinations.md#set-up-a-new-export) бөлімін қараңыз.
+[!INCLUDE [export-permission-include](includes/export-permission.md)]
 
 1. **Деректер** > **Экспорттау** тармағына өтіңіз.
 
-1. Жаңа экспорттау жасау үшін **Экспорттау қосу** түймешігін таңдаңыз.
+1. таңдаңыз **Экспортты қосыңыз**.
 
-1. **Экспорттауға арналған қосылым** өрісінде Azure Blob сақтау орны бөлімінен қосылым таңдаңыз. Егер сіз бұл бөлімнің атауын көрмесеңіз, онда сіз үшін осы түрдегі қосылымдар қолжетімді емес.
+1. **Экспорттауға арналған қосылым** өрісінде Azure Blob сақтау орны бөлімінен қосылым таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз.
+
+1. Экспорттау үшін атау енгізіңіз.
 
 1. Экспорттау қажет сегментті таңдаңыз. Бұл мысалда ол **ChurnProneCustomers** болып табылады.
 
    :::image type="content" source="media/select-segment-churnpronecustomers.png" alt-text="Таңдалған ChurnProneCustomers сегментімен сегмент таңдау бойынша пайдаланушы интерфейсінің скриншоты.":::
 
-1. **Сақтау** опциясын таңдаңыз.
+1. **Сақтау** пәрменін таңдаңыз.
 
-Экспорттау мақсатты орнын сақтағаннан кейін оны **Деректер** > **Экспорттаулар** тармағынан таба аласыз.
-
-[Сегментті сұраныс бойынша экспорттауға](export-destinations.md#run-exports-on-demand) болады. Экспорттау сондай-ақ әрбір [жоспарланған жаңарту](system.md) сайын іске қосылады.
+[!INCLUDE [export-saving-include](includes/export-saving.md)]
 
 > [!NOTE]
 > Экспортталатын сегменттегі жазбалар саны Adobe Campaign Standard лицензиясының рұқсат етілген шегінде екеніне көз жеткізіңіз.
 
-Экспортталған деректер сіз жоғарыда конфигурациялаған Azure Blob сақтау контейнерінде сақталады. Контейнерде келесі қалта жолы автоматты түрде жасалады:
+Экспортталған деректер сіз конфигурациялаған Azure Blob сақтау контейнерінде сақталады. Контейнерде келесі қалта жолдары автоматты түрде жасалады:
 
-*%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv*
+- Бастапқы нысандар және жүйе арқылы жасалған нысандар үшін:  
 
-Мысал: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/ChurnSegmentDemo/2021/02/16/1433/ChurnProneCustomers_1.csv
+  *%ContainerName%/CustomerInsights_%instanceID%/%ExportDestinationName%/%EntityName%/%Year%/%Month%/%Day%/%HHMM%/%EntityName%_%PartitionId%.csv*
 
-Экспортталған нысандарға арналған *model.json* пішімі *%ExportDestinationName%* деңгейінде болады.
+  Мысал: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/BlobExport/ChurnSegmentDemo/2021/02/16/1433/ChurnProneCustomers_1.csv
 
-Мысал: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo/model.json
+- Экспортталған нысандарға арналған *model.json* пішімі *%ExportDestinationName%* деңгейінде болады.
+
+  Мысал: Dynamics365CustomerInsights/CustomerInsights_abcd1234-4312-11f4-93dc-24f72f43e7d5/ChurnSegmentDemo/model.json
 
 ## <a name="define-experience-data-model-xdm-in-adobe-experience-platform"></a>Adobe Experience Platform қызметінде тәжірибе деректерінің үлгісін (XDM) анықтау
 
-Customer Insights ішінен экспортталған деректерді пайдалану алдында Adobe Experience Platform, біз Experience Data Model схемасын анықтауымыз керек және [Нақты уақыттағы тұтынушы профилі үшін деректерді теңшеңіз](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials).
+Customer Insights ішінен экспортталған деректерді пайдалану алдында Adobe Experience Platform, Тәжірибе деректер үлгісінің схемасын анықтаңыз және [нақты уақыттағы тұтынушы профилі үшін деректерді теңшеңіз](https://experienceleague.adobe.com/docs/experience-platform/profile/tutorials/dataset-configuration.html#tutorials).
 
 [XDM үлгісі дегеніміз не екендігі туралы](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) мәлімет алып, [схема құрамының негіздері туралы](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schema) түсінік алыңыз.
 
 ## <a name="import-data-into-adobe-experience-platform"></a>Деректерді Adobe Experience Platform жүйесіне импорттау
 
-Енді бәрі орнында, біз Customer Insights ішінен дайындалған аудитория деректерін импорттауымыз керек Adobe Experience Platform.
+Customer Insights ішінен дайындалған аудитория деректерін импорттаңыз Adobe Experience Platform.
 
-Алдымен, [Azure Blob сақтау орнының бастапқы қосылымын жасаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).    
+1. [Azure Blob сақтау көзі қосылымын жасаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/blob.html#getting-started).
 
-Бастапқы қосылымды анықтағаннан кейін, [деректер ағынын конфигурациялаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials) сегмент шығысын Customer Insights ішінен импорттау үшін бұлтты сақтау пакеттік қосылымы үшін Adobe Experience Platform.
+1. [Деректер ағынын конфигурациялаңыз](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html#ui-tutorials) Customer Insights ішінен сегмент шығысын импорттау үшін бұлтты сақтау пакеттік қосылымы үшін Adobe Experience Platform.
 
 ## <a name="create-an-audience-in-adobe-campaign-standard"></a>Adobe Campaign Standard қызметінде аудитория жасау
 
-Осы науқанға электрондық хабар жіберу үшін біз Adobe Campaign Standard қызметін қолданамыз. Деректерді Adobe Experience Platform жүйесіне импорттағаннан кейін Adobe Campaign Standard жүйесінде Adobe Experience Platform қызметіндегі деректерді пайдаланып, [аудитория жасау](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) қажет.
+Осы науқанға электрондық хабар жіберу үшін біз Adobe Campaign Standard қызметін қолданамыз.
 
+1. [Аудиторияны құру](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/get-started-profiles-and-audiences.html#permission) жылы Adobe Науқан стандарты ішіндегі деректерді пайдалана отырып Adobe Experience Platform.
 
-Adobe Experience Platform қызметіндегі деректер негізінде аудиторияны анықтау үшін Adobe Campaign Standard жүйесінде [сегмент құрастырғышын пайдалану](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) жолдары туралы мәлімет алыңыз.
+1. [Сегмент құрастырушысын пайдаланыңыз](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/audience-destinations/aep-using-segment-builder.html) жылы Adobe ішіндегі деректер негізінде аудиторияны анықтауға арналған науқан стандарты Adobe Experience Platform.
 
 ## <a name="create-and-send-the-email-using-adobe-campaign-standard"></a>Adobe Campaign Standard көмегімен электрондық пошта хабарын жасау және жіберу
 
 Электрондық пошта мазмұнын жасап, содан кейін электрондық пошта хабарын [тексеріп, жіберіңіз](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/get-started-sending-messages.html#preparing-and-testing-messages).
 
 :::image type="content" source="media/contoso-sample-email.jpg" alt-text="Adobe Campaign Standard жүйесінен жаңарту ұсынысы бар электрондық поштаның үлгісі.":::
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

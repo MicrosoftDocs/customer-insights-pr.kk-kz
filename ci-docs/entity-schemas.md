@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: 92d37fc0950fefcb5c2a5d26214a469d3693980d
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: cc65314f1b083694b60ac0a2625bea906be7272b
+ms.sourcegitcommit: ad74ace653db9a25fce4343adef7db1c9b0d8904
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9054761"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183500"
 ---
 # <a name="entity-schemas-in-common-data-model"></a>Common Data Model қызметіндегі нысан схемалары
 
@@ -39,9 +39,8 @@ ms.locfileid: "9054761"
 
 ## <a name="view-entities-using-the-common-data-model-entity-navigator"></a>Common Data Model нысан навигаторы арқылы нысандарды қарау
 
-[Common Data Model нысаны навигаторында](https://microsoft.github.io/CDM/) нысандарды көре аласыз. Customer Insights нысандары мен олардың анықтамаларын алу үшін Insights бағдарлама бөлімінен нысанды таңдаңыз.
-> [!div class="mx-imgBorder"]
-> ![CustomerActivity нысанын көрсететін CDM нысаны навигаторы.](media/CDM-entity-navigator.png "CustomerActivity нысанын көрсететін CDM нысаны навигаторы")
+ішіндегі нысандарды көру [Жалпы деректер үлгісі нысанының навигаторы](https://microsoft.github.io/CDM/). Customer Insights нысандары мен олардың анықтамаларын алу үшін Insights бағдарлама бөлімінен нысанды таңдаңыз.
 
+:::image type="content" source="media/CDM-entity-navigator.png" alt-text="CustomerActivity нысанын көрсететін CDM нысаны навигаторы.":::
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]

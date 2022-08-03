@@ -1,6 +1,6 @@
 ---
 title: Customer Insights API үшін OData сұрау мысалдары
-description: Деректерді қарап шығу үшін Customer Insights API интерфейстерін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
+description: Деректерді қарап шығу үшін Customer Insights API интерфейсін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
 ms.date: 05/25/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
@@ -8,12 +8,12 @@ author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 54ba9f4e9baeb4b7021bb8c20a706bbb6eb1529f
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 8843fc04e4e6eaba0019d932c54f62561ffbdb92
+ms.sourcegitcommit: f3c12ad445d5f91a88f91a7bbc40790ebcfaa826
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9083165"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9121569"
 ---
 # <a name="odata-query-examples-for-customer-insights-apis"></a>Customer Insights API үшін OData сұрау мысалдары
 
@@ -23,7 +23,7 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 
 Мақсатты орталарда жұмыс істеуі үшін сұрау үлгілерін өзгерту керек: 
 
-- {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}` қайда{instanceId} сұрағыңыз келетін Customer Insights ортасының GUID болып табылады. The [ListAllInstances әрекеті](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) табуға мүмкіндік береді{InstanceId} қол жеткізе аласыз.
+- {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}/data` қайда{instanceId} сұрағыңыз келетін Customer Insights ортасының GUID болып табылады. The [ListAllInstances әрекеті](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) табуға мүмкіндік береді{InstanceId} қол жеткізе аласыз.
 - {CID}: Бірыңғай тұтынушы жазбасының GUID. Мысал:`ce759201f786d590bf2134bff576c369`.
 - {AlternateKey}: деректер көзі ішіндегі тұтынушы жазбасының бастапқы кілтінің идентификаторы. Мысалы: `CNTID_1002`
 - {DSname}: Customer Insights жүйесіне енетін деректер көзі нысан атауы бар жол. Мысал:`Website_contacts`.
@@ -39,9 +39,10 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 |баламалы кілт    | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} eq '{AlternateKey}'`         |  Баламалы кілттер бірыңғай тұтынушы нысанында сақталады       |
 |Select   | `{serviceRoot}/Customer?$select=CustomerId,FullName&$filter=customerid eq '1'`        |         |
 |Ішінде    | `{serviceRoot}/Customer?$filter=CustomerId in ('{CID1}',’{CID2}’)`        |         |
-|баламалы кілт + In   | `Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} in ('{AlternateKey}','{AlternateKey}')`         |         |
+|баламалы кілт + In   | `{serviceRoot}/Customer?$filter={DSname_EntityName_PrimaryKeyColumnName} in ('{AlternateKey}','{AlternateKey}')`         |         |
 |Іздеу  | `{serviceRoot}/Customer?$top=10&$skip=0&$search="string"`        |   Іздеу жолына арналған ең жақсы 10 нәтижені қайтарады      |
 |Сегмент мүшелігі  | `{serviceRoot}/Customer?select=*&$filter=IsMemberOfSegment('{SegmentName}')&$top=10`     | Сегменттеу нысанынан жолдардың алдын ала орнатылған санын қайтарады.      |
+|Тұтынушыға арналған сегмент мүшелігі | `{serviceRoot}/Customer?$filter=CustomerId eq '{CID}'&IsMemberOfSegment('{SegmentName}')`     | Егер олар берілген сегменттің мүшесі болса, тұтынушы профилін қайтарады     |
 
 ## <a name="unified-activity"></a>Бірыңғай әрекет
 

@@ -12,12 +12,12 @@ ms.custom: intro-internal
 searchScope:
 - ci-home
 - customerInsights
-ms.openlocfilehash: 62969527ceed906ff06fb9be90b972496323ce0a
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: 33c8910b7a4dd8723c0d62f2e28228cd2d8df4b7
+ms.sourcegitcommit: 5716025eb4828425ca237377b02a892de8689f4a
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9052752"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9142826"
 ---
 # <a name="how-to-create-a-new-environment"></a>Әдіс: Жаңа орта құру
 
@@ -68,8 +68,7 @@ ms.locfileid: "9052752"
 
 **Microsoft Dataverse** қадамы Customer Insights бағдарламасын Dataverse ортасымен байланыстыруға мүмкіндік береді. Деректермен бөлісіңіз Dataverse негізінде іскери қолданбалармен пайдалану Dataverse, Dynamics 365 Marketing немесе үлгіге негізделген қолданбалар сияқты Power Apps.
 
-
-Өзіңіздің өрісіңіз болмаса, бұл өрісті бос қалдырыңыз Dataverse ортасын және біз сіз үшін біреуін жасаймыз.
+Өзіңіздің өрісіңіз болмаса, бұл өрісті бос қалдырыңыз Dataverse орта және біз сіз үшін біреуін жасаймыз.
 
 Қосымша ақпарат алу үшін қараңыз [Customer Insights деректерімен жұмыс істеу Microsoft Dataverse](customer-insights-dataverse.md).
 

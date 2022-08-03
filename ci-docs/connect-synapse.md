@@ -1,7 +1,7 @@
 ---
 title: жалғаңыз Azure Synapse деректер көзі (алдын ала қарау)
 description: ішінде дерекқорды пайдаланыңыз Azure Synapse ішінде деректер көзі ретінде Dynamics 365 Customer Insights.
-ms.date: 03/25/2022
+ms.date: 07/26/2022
 ms.reviewer: v-wendysmith
 ms.service: customer-insights
 ms.subservice: audience-insights
@@ -9,12 +9,12 @@ ms.topic: how-to
 author: mukeshpo
 ms.author: mukeshpo
 manager: shellyha
-ms.openlocfilehash: c4ae65613a02df38a30f907dae72d413bf1a702f
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: 54247fbcdc27f6ed8314e0755164083eb461aa64
+ms.sourcegitcommit: 5807b7d8c822925b727b099713a74ce2cb7897ba
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9052706"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206914"
 ---
 # <a name="connect-an-azure-synapse-analytics-data-source-preview"></a>жалғаңыз Azure Synapse Analytics деректер көзі (алдын ала қарау)
 
@@ -66,3 +66,9 @@ Azure Synapse Analytics деректер қоймалары мен үлкен д
 1. Қосымша деректер профилін жасауға рұқсат беру үшін деректер нысандарын таңдаңыз.
 
 1. таңдаңыз **Сақтау** таңдауыңызды қолдану және жаңадан жасалған деректер көзі ішінен Лейк дерекқор кестелеріне байланыстырылған деректерді қабылдауды бастау үшін Azure Synapse Analytics. The **Деректер көздері** жаңа деректер көзі көрсететін бет ашылады **Сергіту** күй.
+
+   [!INCLUDE [progress-details-include](includes/progress-details-pane.md)]
+
+Деректерді жүктеу уақыт алуы мүмкін. Сәтті жаңартудан кейін енгізілген деректерді мына жерден қарап шығуға болады [**Субъектілер**](entities.md) бет.
+
+[!INCLUDE [footer-include](includes/footer-banner.md)]

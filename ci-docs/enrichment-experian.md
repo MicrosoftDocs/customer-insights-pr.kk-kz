@@ -8,12 +8,12 @@ ms.topic: how-to
 author: kishorem-ms
 ms.author: kishorem
 manager: shellyha
-ms.openlocfilehash: a30e98b06ed07590ab95cae1d8db8023e49ff7f9
-ms.sourcegitcommit: a97d31a647a5d259140a1baaeef8c6ea10b8cbde
+ms.openlocfilehash: 876853ab42e8c08ad1abacb8d8a205c0aadabcf7
+ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9053028"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9195943"
 ---
 # <a name="enrich-customer-profiles-with-demographics-from-experian-preview"></a>Тұтынушы профильдерін Experian (алдын ала қарау нұсқасы) демографиялық деректермен толықтырыңыз
 
@@ -59,7 +59,7 @@ Dynamics 365 Customer Insights бағдарламасын деректерді E
 
 1. Шолуды қарап шығыңыз, содан кейін таңдаңыз **Келесі**.
 
-1. Қосылымды таңдаңыз. Қолжетімсіз болса, әкімшіге хабарласыңыз.
+1. Қосылымды таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз.
 
 1. **Келесі** пәрменін таңдаңыз.
 
@@ -77,7 +77,7 @@ Dynamics 365 Customer Insights бағдарламасын деректерді E
 
 1. Таңдауларды қарап шыққаннан кейін **Жақсартуды сақтау** түймешігін таңдаңыз.
 
-1. таңдаңыз **Жүгіру** байыту процесін бастау үшін немесе қайта оралу үшін жақын **Байытулар** бет.
+1. таңдаңыз **Жүгіру** байыту процесін бастау немесе қайта оралу үшін жақын **Байытулар** бет.
 
 ## <a name="view-enrichment-results"></a>Байыту нәтижелерін көру
 
