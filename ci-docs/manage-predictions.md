@@ -8,12 +8,12 @@ ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-ms.openlocfilehash: a180f6462452d9830d0daa150a35a9d0acad925a
-ms.sourcegitcommit: dca46afb9e23ba87a0ff59a1776c1d139e209a32
+ms.openlocfilehash: 42abfb305efaccaeef48e32f2cc69f3d36fbe73d
+ms.sourcegitcommit: 49394c7216db1ec7b754db6014b651177e82ae5b
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9082850"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "9245472"
 ---
 # <a name="manage-predictions"></a>Болжамдарды басқару
 
@@ -58,7 +58,7 @@ ms.locfileid: "9082850"
 
 ## <a name="refresh-a-prediction"></a>Болжамды жаңарту
 
-Болжамдар параметрлерде теңшелген бір [деректер жаңартылатын кестеде](system.md#schedule-tab) автоматты жаңартылады. Сіз оларды қолмен де жаңарта аласыз.
+Болжамдар параметрлерде теңшелген бір [деректер жаңартылатын кестеде](schedule-refresh.md) автоматты жаңартылады. Сіз оларды қолмен де жаңарта аласыз.
 
 1. **Сараптау** > **Болжамдар** тарауына өтіп, **Менің болжамдарым** қойындысын таңдаңыз.
 

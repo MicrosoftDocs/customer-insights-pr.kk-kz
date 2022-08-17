@@ -1,19 +1,19 @@
 ---
 title: Тұтынушы профильдерін SFTP реттелетін импорттауымен байыту (алдын ала қарау)
 description: SFTP ерттелетін импорт арттыруы туралы жалпы ақпарат.
-ms.date: 06/10/2022
+ms.date: 08/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 81ef6c62240e26cb5c9475e6306e08edc7e5eb31
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 831d1d3d3045379bbc5bcdcd4b05b8a147221f31
+ms.sourcegitcommit: b1d06fe26934f12f0c5ed13e8ef1d37e52e67cc7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195803"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "9237773"
 ---
 # <a name="enrich-customer-profiles-with-sftp-custom-import-preview"></a>Тұтынушы профильдерін SFTP реттелетін импорттауымен байыту (алдын ала қарау)
 
@@ -85,14 +85,9 @@ SFTP серверіне импортталатын файлды қамтитын
 
 1. Импортталатын деректер орналасқан SFTP сервері үшін жарамды пайдаланушы атын, құпиясөзді және хосттың URL мекенжайын енгізіңіз.
 
-1. [Деректердің құпиялылығы мен сәйкестігі](#data-privacy-and-compliance) бөлімін қарап шығыңыз және **Келісемін** құсбелгісін қою арқылы келісім беріңіз.
+1. шолу [деректердің құпиялылығы және сәйкестігі](connections.md#data-privacy-and-compliance) және таңдаңыз **Мен келісемін**.
 
 1. таңдаңыз **Тексеру** конфигурацияны растау үшін, содан кейін таңдаңыз **Сақтау**.
-
-### <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
-
-Сіз қосқан кезде Dynamics 365 Customer Insights Теңшелетін импортты пайдалану арқылы деректерді жіберу үшін деректерді сәйкестік шекарасынан тыс тасымалдауға рұқсат бересіз Dynamics 365 Customer Insights, соның ішінде жеке деректер сияқты ықтимал құпия деректер. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ деректер сізде болуы мүмкін кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сәйкес келетініне сіз жауаптысыз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
-Бұл функцияны тоқтату үшін Dynamics 365 Customer Insights әкімшісі бұл толықтыруды кез келген уақытта жоя алады.
 
 ## <a name="configure-the-import"></a>Импорттауды конфигурациялау
 

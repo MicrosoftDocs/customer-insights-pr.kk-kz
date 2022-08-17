@@ -1,19 +1,19 @@
 ---
 title: Leadspace көмегімен компания профилдерін байыту (алдын ала қарау)
 description: Leadspace үшінші тарап арттыруы туралы жалпы ақпарат.
-ms.date: 06/10/2022
+ms.date: 08/08/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: how-to
 author: jodahlMSFT
 ms.author: jodahl
 manager: shellyha
-ms.openlocfilehash: 3f23fe7177f931db3e3179970915d0cd3c736f87
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: f45fabc036775e11fc439f69513678d0607729d0
+ms.sourcegitcommit: b1d06fe26934f12f0c5ed13e8ef1d37e52e67cc7
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196217"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "9237957"
 ---
 # <a name="enrich-company-profiles-with-leadspace-preview"></a>Leadspace көмегімен компания профилдерін байыту (алдын ала қарау)
 
@@ -35,14 +35,9 @@ Leadspace — бизнес-бизнес Customer Data Platform жүйесін ұ
 
 1. Қосылым атауын және жарамды Leadspace таңбалауышын енгізіңіз.
 
-1. [Деректердің құпиялылығы мен сәйкестігі](#data-privacy-and-compliance) бөлімін қарап шығыңыз және **Келісемін** құсбелгісін қою арқылы келісім беріңіз.
+1. шолу [деректердің құпиялылығы және сәйкестігі](connections.md#data-privacy-and-compliance) және таңдаңыз **Мен келісемін**.
 
 1. таңдаңыз **Тексеру** конфигурацияны растау үшін, содан кейін таңдаңыз **Сақтау**.
-
-### <a name="data-privacy-and-compliance"></a>Деректердің құпиялылығы мен сәйкестігі
-
-Деректерді Leadspace платформасына жіберу үшін Dynamics 365 Customer Insights бағдарламасын қосқан кезде, Dynamics 365 Customer Insights талаптарына сәйкестік шекарасынан тыс деректерді, соның ішінде жеке деректер сияқты ықтимал құпия деректерді беруге мүмкіндік бересіз. Microsoft мұндай деректерді сіздің нұсқауыңыз бойынша тасымалдайды, бірақ Leadspace платформасының кез келген құпиялылық немесе қауіпсіздік міндеттемелеріне сәйкес келуіне жауап бересіз. Қосымша ақпаратты [Microsoft құпиялық туралы мәлімдемесі](https://go.microsoft.com/fwlink/?linkid=396732) бөлімінен қараңыз.
-Бұл функцияны тоқтату үшін Dynamics 365 Customer Insights әкімшісі бұл толықтыруды кез келген уақытта жоя алады.
 
 ## <a name="configure-the-enrichment"></a>Жақсартуды конфигурациялау
 

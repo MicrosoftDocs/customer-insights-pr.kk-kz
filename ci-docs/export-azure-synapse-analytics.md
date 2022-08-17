@@ -1,6 +1,6 @@
 ---
 title: Деректерді экспорттау Azure Synapse Analytics (алдын ала қарау)
-description: Қосылымды конфигурациялауды үйреніңіз Azure Synapse Analytics.
+description: Қосылымды конфигурациялау жолын үйреніңіз Azure Synapse Analytics.
 ms.date: 07/25/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
@@ -8,12 +8,12 @@ ms.topic: how-to
 author: stefanie-msft
 ms.author: sthe
 manager: shellyha
-ms.openlocfilehash: f9c9ee55f2874ae1dcaf82f2ff17ed0fbbb7804d
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 0e953cfff12df433d033717d58b28c2834468916
+ms.sourcegitcommit: 086f75136132d561cd78a4c2cb1e1933e2301f32
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196401"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9259851"
 ---
 # <a name="export-data-to-azure-synapse-analytics-preview"></a>Деректерді экспорттау Azure Synapse Analytics (алдын ала қарау)
 
@@ -24,7 +24,7 @@ Azure Synapse — бұл деректер қоймалары мен үлкен �
 > [!NOTE]
 > Барлық **рөл тағайындауларын** сипатталғандай орнатқаныңызға көз жеткізіңіз.
 
-- Customer Insights қолданбасында сіздің Azure Active Directory (AD) пайдаланушы тіркелгісінде болуы керек [Әкімші рөлі](permissions.md#assign-roles-and-permissions).
+- Customer Insights қолданбасында сіздің Azure Active Directory (AD) пайдаланушы тіркелгісі болуы керек [Әкімші рөлі](permissions.md#add-users).
 
 Azure қызметінде:
 
@@ -39,6 +39,8 @@ Azure қызметінде:
 - The *[Azure Synapse жұмыс кеңістігі басқарылатын сәйкестік](/azure/synapse-analytics/security/synapse-workspace-managed-identity)* бар **Сақтау Blob деректерінің қатысушысы** бойынша рұқсаттар Azure Data Lake Storage Деректер орналасқан және байланыстырылған Gen2 тіркелгісі Azure Synapse жұмыс кеңістігі. [Azure порталын екілік нысан және кезек тізімі деректеріне қатынасуға арналған Azure рөлін тағайындау үшін пайдалану](/azure/storage/common/storage-auth-aad-rbac-portal) және [Сақтау екілік нысанының деректер салымшысы рұқсаттары](/azure/role-based-access-control/built-in-roles#storage-blob-data-contributor) туралы қосымша ақпарат алыңыз.
 
 - Үстінде Azure Synapse жұмыс кеңістігі, *Customer Insights үшін қызмет көрсетуші* бар **Synapse әкімшісі**[рөл тағайындалды](/azure/synapse-analytics/security/how-to-set-up-access-control).
+
+- Егер Customer Insights ортаңыз деректерді сақтаса [меншік Azure Data Lake Storage](own-data-lake-storage.md), қосылымды орнатқан пайдаланушы Azure Synapse Analytics кем дегенде кірістірілген болуы керек **Оқырман** Data Lake Storage тіркелгісіндегі рөл. Қосымша ақпарат алу үшін [Azure порталын пайдалану арқылы Azure рөлдерін тағайындау](/azure/role-based-access-control/role-assignments-portal) бөлімін қараңыз.
 
 ## <a name="set-up-connection-to-azure-synapse"></a>Қосылымды орнату Azure Synapse
 

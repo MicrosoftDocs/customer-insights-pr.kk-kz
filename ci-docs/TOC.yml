@@ -42,7 +42,7 @@
       href: work-with-tags-columns.md
     - name: Бизнес тіркелгілермен жұмыс істеу
       href: work-with-business-accounts.md
-    - name: Dynamics 365 Marketing бағдарламасымен біріктіру
+    - name: Dynamics 365 Marketing жүйесімен біріктіру
       href: marketing-get-started.md
 - name: Дерек көздері
   items:
@@ -284,18 +284,20 @@
       href: connect-service-principal.md
 - name: Әкімшілік
   items:
-    - name: Жүйе теңшелімін орнату
-      href: system.md
-    - name: Қауіпсіздік параметрлерін конфигурациялаңыз
-      href: security-overview.md
     - name: Пайдаланушы рұқсаттарын тағайындау
       href: permissions.md
     - name: Жеке Key Vault қызметін пайдалану
       href: use-azure-key-vault.md
+    - name: Қауіпсіздік параметрлерін конфигурациялаңыз
+      href: security-overview.md
     - name: Диагностикалық журналдарды экспорттау
       href: diagnostics.md
-    - name: Байланыстарға шолу
+    - name: Қосылымдарды басқару
       href: connections.md
+    - name: Жүйені жаңартуды жоспарлаңыз
+      href: schedule-refresh.md
+    - name: Жүйе конфигурациясын көру
+      href: system.md
 - name: API көрсеткіштері
   items:
     - name: API интерфейсімен жұмыс істеу
