@@ -42,7 +42,7 @@
       href: work-with-tags-columns.md
     - name: Бизнес тіркелгілермен жұмыс істеу
       href: work-with-business-accounts.md
-    - name: Dynamics 365 Marketing жүйесімен біріктіру
+    - name: Dynamics 365 Marketing бағдарламасымен біріктіру
       href: marketing-get-started.md
 - name: Дерек көздері
   items:
@@ -76,6 +76,8 @@
       href: merge-entities.md
     - name: Деректерді біріктіруді қарастырыңыз
       href: review-unification.md
+    - name: Бірыңғай контакт профилін жасаңыз
+      href: data-unification-contacts.md
     - name: Біріктіру параметрлерін жаңартыңыз
       href: data-unification-update.md
 - name: Деректерді арттыру

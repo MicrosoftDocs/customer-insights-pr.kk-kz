@@ -1,25 +1,25 @@
 ---
-title: Dynamics 365 Customer Insights қызметімен жұмысты бастау
+title: Dynamics 365 Customer Insights бағдарламасымен жұмысты бастау
 description: Customer Insights шолуы ресурстарды жылдам бастауға көмектеседі.
-ms.reviewer: v-wendysmith
+ms.reviewer: mhart
 ms.author: mhart
 author: m-hartmann
-ms.date: 04/12/2022
-ms.subservice: engagement-insights
+ms.date: 08/31/2021
+ms.subservice: audience-insights
 ms.topic: conceptual
 ms.manager: shellyha
 ms.custom: intro-internal
 searchScope:
 - ci-home
 - customerInsights
-ms.openlocfilehash: 1c925110f40319df77940d1c32f24a99504d6ec6
-ms.sourcegitcommit: 5e26cbb6d2258074471505af2da515818327cf2c
+ms.openlocfilehash: ce0336c4bf853bc81ec01c45410169a63b69eb03
+ms.sourcegitcommit: 267c317e10166146c9ac2c30560c479c9a005845
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "9011986"
+ms.lasthandoff: 08/16/2022
+ms.locfileid: "9304618"
 ---
-# <a name="get-started-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights қызметімен жұмысты бастау
+# <a name="get-started-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights бағдарламасымен жұмысты бастау
 
 Customer Insights тұтынушыларды тереңірек түсінуге көмектеседі. 360 градустық тұтынушы көрінісін жасау үшін әртүрлі транзакциялық, мінез-құлық және бақылау көздерінің деректерін қосыңыз. Бұл түсініктерді тұтынушыларға бағытталған тәжірибелер мен процестерді басқару үшін пайдаланыңыз. Тұтынушылардың деректерін біріктіріп, түсініңіз және оларды саналы түсініктер мен әрекеттер үшін пайдаланыңыз.
 
@@ -37,7 +37,7 @@ Customer Insights жүйесіне бірінші рет кірген кезде
 
 ## <a name="step-3-ingest-unify-and-set-up-relationships-for-your-data"></a>3-қадам: деректер үшін қатынастарды қабылдау, біріктіру және орнату
 
-Бірыңғай профильдер - бұл түсініктер алуға және деректер бойынша әрекет етуге негіз. Біркелкі профильдерді біріктіру үшін әртүрлі көздерден деректерді алыңыз және деректерді біріктіру процесін іске қосыңыз. Жұтылған нысандар арасындағы қарым-қатынастарды көрсетіңіз және профильдерге ақпаратты қосу үшін байыту мүмкіндіктерін пайдаланыңыз.
+Бірыңғай профильдер - бұл түсініктер алуға және деректер бойынша әрекет етуге негіз. Біркелкі профильдерді біріктіру үшін әртүрлі көздерден деректерді алыңыз және деректерді біріктіру процесін іске қосыңыз. Жіберілген нысандар арасындағы қатынастарды көрсетіңіз және профильдерге ақпарат қосу үшін байыту мүмкіндіктерін пайдаланыңыз.
 
 1. Бірнеше опциядан деректер көздерін жасау арқылы деректерді енгізіңіз. арасында таңдаңыз [Azure Data Lake Storage, соның ішінде Common Data Model](connect-common-data-model.md),[Azure Synapse Analytics](connect-synapse.md),[Microsoft Dataverse](connect-dataverse-managed-lake.md), немесе [Power Query қосқыштар](connect-power-query.md).
 
@@ -59,7 +59,7 @@ Customer Insights жүйесіне бірінші рет кірген кезде
 
 ## <a name="step-5-create-segments-and-activate-data-through-various-export-options"></a>5 -қадам: әртүрлі экспорттау опциялары арқылы сегменттер жасау және деректерді белсендіру
 
-Деректеріңіз аяқталды және тұтынушыларыңыз туралы ақпараттың кең ауқымын қамтиды, сол деректерге әрекет ету жолдарын іздеңіз.
+Деректеріңіз аяқталды және тұтынушылар туралы ақпараттың кең ауқымын қамтиды, сол деректерге әрекет ету жолдарын іздеңіз.
 
 1. Әрекеттеріңіздің мақсатты тұтынушыларға сәйкес келуін қамтамасыз ету үшін [сегменттер](segments.md), тұтынушылар негізінің ішкі жиындарын жасаңыз.
 

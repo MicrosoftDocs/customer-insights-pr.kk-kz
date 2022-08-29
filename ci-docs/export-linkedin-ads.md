@@ -1,19 +1,19 @@
 ---
 title: Сегменттерді LinkedIn Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 description: LinkedIn Ads қызметі үшін қосылымды конфигурациялау және экспорттау жолы туралы ақпарат.
-ms.date: 07/25/2022
+ms.date: 08/12/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: d1a9ae985043398f4bc38163be26ecf0c3c8e2ba
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 4c3928e05db0ebda262b4ad3e928ce85f70035b9
+ms.sourcegitcommit: 267c317e10166146c9ac2c30560c479c9a005845
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196815"
+ms.lasthandoff: 08/16/2022
+ms.locfileid: "9304710"
 ---
 # <a name="export-segments-to-linkedin-ads-preview"></a>Сегменттерді LinkedIn Ads қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -24,7 +24,7 @@ ms.locfileid: "9196815"
 - А [LinkedIn Campaign Manager есептік жазба](https://business.linkedin.com/marketing-solutions/ads) және сәйкес әкімшінің тіркелгі деректері.
 - А [LinkedIn Campaign Manager Тіркелгі идентификаторы](https://www.linkedin.com/help/lms/answer/a424270).
 - [Конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
-- Экспортталған сегменттердегі тұтынушылардың бірыңғай профильдері электрондық пошта мекенжайын көрсететін өрістен тұрады.
+- Экспортталған сегменттерге таңдауыңызға байланысты кемінде бір нақты өріс қажет [контактілерді бағыттау](https://business.linkedin.com/marketing-solutions/ad-targeting/contact-targeting) немесе [компанияның мақсаттылығы](https://business.linkedin.com/marketing-solutions/ad-targeting/account-targeting) LinkedIn сайтында. Мүмкін өрістер тізімде көрсетілген **Деректерді сәйкестендіру** қадам қашан [экспорттауды конфигурациялау](#configure-an-export).
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
