@@ -1,27 +1,27 @@
 ---
 title: Customer Insights API үшін OData сұрау мысалдары
-description: Деректерді қарап шығу үшін Customer Insights API интерфейсін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
-ms.date: 05/25/2022
+description: Деректерді қарап шығу үшін Customer Insights API интерфейстерін сұрау үшін Ашық деректер протоколының (OData) жиі пайдаланылатын мысалдары.
+ms.date: 08/30/2022
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: mhart
 manager: shellyha
-ms.openlocfilehash: 8843fc04e4e6eaba0019d932c54f62561ffbdb92
-ms.sourcegitcommit: f3c12ad445d5f91a88f91a7bbc40790ebcfaa826
+ms.openlocfilehash: 26e56a3bab01ba55284a52e72efbcbfbaadaad6f
+ms.sourcegitcommit: 624b27bb65a0de1970dc1ac436643b493f0a31cf
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9121569"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387209"
 ---
 # <a name="odata-query-examples-for-customer-insights-apis"></a>Customer Insights API үшін OData сұрау мысалдары
 
 Open Data Protocol (OData) — HTTP сияқты негізгі протоколдарға негізделген деректерге қол жеткізу протоколы. Ол REST for web сияқты жалпы қабылданған әдістемелерді пайдаланады. OData қызметтерін тұтыну үшін пайдалануға болатын әртүрлі кітапханалар мен құралдар бар.
 
-Бұл мақалада кейбір жиі сұралатын мысал сұрауларының тізімі берілген [Customer Insights API интерфейстері](apis.md).
+негізінде өзіңіздің іске асыруларыңызды құруға көмектесу үшін [Customer Insights API интерфейстері](apis.md), кейбір жиі сұралатын мысал сұрауларын қарап шығыңыз.
 
-Мақсатты орталарда жұмыс істеуі үшін сұрау үлгілерін өзгерту керек: 
+Мақсатты орталарда жұмыс істеу үшін сұрау үлгілерін өзгертіңіз:
 
 - {serviceRoot}:`https://api.ci.ai.dynamics.com/v1/instances/{instanceId}/data` қайда{instanceId} сұрағыңыз келетін Customer Insights ортасының GUID болып табылады. The [ListAllInstances әрекеті](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights&operation=Get-all-instances) табуға мүмкіндік береді{InstanceId} қол жеткізе аласыз.
 - {CID}: Бірыңғай тұтынушы жазбасының GUID. Мысал:`ce759201f786d590bf2134bff576c369`.
@@ -31,7 +31,7 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 
 ## <a name="customer"></a>Тұтынушы
 
-Келесі кестеде сұрау үлгілерінің жиыны бар *Тұтынушы* нысан.
+үшін үлгі сұраулар *Тұтынушы* нысан.
 
 |Сұрау түрі |Мысал  | Ескертпе  |
 |---------|---------|---------|
@@ -46,7 +46,7 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 
 ## <a name="unified-activity"></a>Бірыңғай әрекет
 
-Келесі кестеде сұрау үлгілерінің жиыны бар *UnifiedActivity* нысан.
+үшін үлгі сұраулар *UnifiedActivity* нысан.
 
 |Сұрау түрі |Мысал  | Ескертпе  |
 |---------|---------|---------|
@@ -59,7 +59,7 @@ Open Data Protocol (OData) — HTTP сияқты негізгі протокол
 
 ## <a name="other-examples"></a>Басқа мысалдар
 
-Келесі кестеде басқа нысандар үшін үлгі сұраулар жиыны бар.
+Басқа нысандар үшін үлгі сұраулар.
 
 |Сұрау түрі |Мысал  | Ескертпе  |
 |---------|---------|---------|
