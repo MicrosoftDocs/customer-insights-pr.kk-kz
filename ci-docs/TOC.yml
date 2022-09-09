@@ -160,8 +160,6 @@
           href: sentiment-analysis.md
         - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
           href: custom-models.md
-        - name: Толық емес деректерді толықтыру
-          href: predictions.md
     - name: Үлгі нұсқаулықтары
       items:
         - name: CLV болжамына арналған үлгі нұсқаулық

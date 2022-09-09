@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-api-usage
 - customerInsights
-ms.openlocfilehash: 2652e0868f5cc514ab6df9c150a9183cf95ae589
-ms.sourcegitcommit: 49394c7216db1ec7b754db6014b651177e82ae5b
+ms.openlocfilehash: dd433b57e8695891a08d6f7fdb8c87befd2e1cfa
+ms.sourcegitcommit: d7054a900f8c316804b6751e855e0fba4364914b
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "9246115"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9396068"
 ---
 # <a name="real-time-data-ingestion-preview"></a>Нақты уақыттағы деректерді қабылдау (алдын-ала қарау)
 
@@ -82,10 +82,5 @@ ms.locfileid: "9246115"
 Әрекетті бастапқы жүйенің пішімінде немесе UnifiedActivity пішімінде жариялауға болады. Пішімді /api/instances/{instanceId}/manage/entities/UnifiedActivity тармағына API қоңырауын жасау арқылы алыңыз.
 
 Параметрлер мен жауаптарды қоса алғанда, осы API туралы толық ақпаратты [Customer Insights API интерфейстері сілтемесіндегі](https://developer.ci.ai.dynamics.com/api-details#api=CustomerInsights) **EntityData** бөлімінен табуға болады. Қосымша ақпарат алу үшін [Customer Insights API интерфейстерімен жұмыс істеу](apis.md) бөлімін қараңыз.
-
-## <a name="understand-your-real-time-usage-with-telemetry"></a>Телеметриямен нақты уақыт қолданысын түсіну
-
-Нақты уақыттағы API сұрауларының көлеміне шолу жасаңыз және жүйе кездестіруі мүмкін мәселелер туралы ақпарат алыңыз. [Нақты уақыттағы телеметрияға қол жеткізуге](system.md#view-api-usage) болады. 
-
 
 [!INCLUDE [footer-include](includes/footer-banner.md)]
