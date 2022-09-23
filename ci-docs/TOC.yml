@@ -7,21 +7,21 @@
 - name: Оқыту каталогы
   items:
     - name: Microsoft тұтынушылық деректер платформасының маманы ретінде сертификаттаңыз
-      href: /learn/certifications/exams/mb-260?tab=tab-instructor-led
+      href: /certifications/exams/mb-260?tab=tab-instructor-led
     - name: Customer Insights бағдарламасын пайдалануға дайындық
-      href: /learn/modules/get-started-customer-data-platform/
+      href: /training/modules/get-started-customer-data-platform/
     - name: Деректерді қабылдау
-      href: /learn/modules/ingest-data-customer-insights/
+      href: /training/modules/ingest-data-customer-insights/
     - name: Тұтынушының бірыңғай профилін жасау
-      href: /learn/modules/unified-customer-profile/
+      href: /training/modules/unified-customer-profile/
     - name: Customer Insights көмегімен жұмыс істеу
-      href: /learn/modules/working-with-customer-insights/
+      href: /training/modules/working-with-customer-insights/
     - name: 'Деректерді байытып, болжам жасаңыз'
-      href: /learn/modules/enrich-data/
+      href: /training/modules/enrich-data/
     - name: Сыртқы қосылымдарды басқару
-      href: /learn/modules/configure-third-party-connections/
+      href: /training/modules/configure-third-party-connections/
     - name: Customer Insights бағдарламасын басқару
-      href: /learn/modules/administer-customer-data-platform/
+      href: /training/modules/administer-customer-data-platform/
 - name: Тегін сынақ нұсқасы
   items:
     - name: ' Тегін сынақ нұсқасына жазылу '
@@ -118,6 +118,8 @@
       href: consent-management.md
     - name: Жекелендіру үшін веб-деректерді пайдаланыңыз
       href: unknown-to-known.md
+    - name: Белгісіз тұтынушы профильдерін басқарыңыз
+      href: manage-unknown-profiles.md
 - name: Сегменттер
   items:
     - name: Сегменттерге шолу
