@@ -1,6 +1,6 @@
 ---
 title: Орталарды басқару
-description: Қолданыстағы Customer Insights орталарын әкімші ретінде басқару жолын үйреніңіз."
+description: Қолданыстағы Customer Insights орталарын әкімші ретінде басқару жолын үйреніңіз.
 ms.date: 08/15/2022
 ms.subservice: audience-insights
 ms.topic: how-to
@@ -11,12 +11,12 @@ manager: shellyha
 searchScope:
 - ci-system-about
 - customerInsights
-ms.openlocfilehash: 8b4a88bdb75c6e638a76c39d18647681ad4556d7
-ms.sourcegitcommit: 267c317e10166146c9ac2c30560c479c9a005845
+ms.openlocfilehash: 6d48f7088d722b27ca69cd591178651bdb6e2c23
+ms.sourcegitcommit: f959c85871777e5f4eab289e91b2fd114cd72153
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 08/16/2022
-ms.locfileid: "9304289"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588819"
 ---
 # <a name="manage-environments"></a>Орталарды басқару
 
@@ -58,7 +58,7 @@ ms.locfileid: "9304289"
 
 ## <a name="reset-an-existing-environment-preview"></a>Бар ортаны қалпына келтіру (алдын ала қарау)
 
-Ортаның иесі ретінде барлық конфигурацияларды жойғыңыз және қабылданған деректерді жойғыңыз келсе, ортаны бос күйге қалпына келтіріңіз.
+Ортаның иесі ретінде барлық конфигурацияларды жойғыңыз және қабылданған деректерді жойғыңыз келсе, ортаны бос күйге қайта орнатыңыз.
 
 1. Бағдарлама тақырыбында **Орта** таңдау құралын таңдаңыз.
 
