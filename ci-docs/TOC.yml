@@ -162,6 +162,8 @@
           href: sentiment-analysis.md
         - name: Azure компьютерлік оқыту функциясындағы реттелетін модельдерді пайдалану
           href: custom-models.md
+        - name: Болжамдар негізінде сегменттер жасау
+          href: prediction-based-segment.md
     - name: Үлгі нұсқаулықтары
       items:
         - name: CLV болжамына арналған үлгі нұсқаулық
@@ -174,10 +176,6 @@
           href: sample-guide-predict-product-recommendation.md
         - name: Azure Machine learning қызметімен эксперименттер
           href: azure-machine-learning-experiments.md
-    - name: Болжамдарды басқару
-      href: manage-predictions.md
-    - name: Болжамдар негізінде сегменттер жасау
-      href: prediction-based-segment.md
 - name: Экспорттау параметрлері
   items:
     - name: Экспорттаулар
