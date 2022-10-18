@@ -1,19 +1,19 @@
 ---
 title: Braze-ге сегменттерді экспорттау (алдын ала қарау)
 description: Қосылымды конфигурациялауды және Braze жүйесіне экспорттауды үйреніңіз.
-ms.date: 07/25/2022
+ms.date: 10/06/2022
 ms.reviewer: mhart
 ms.subservice: audience-insights
 ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 84dc7f13f30e0334d431fe5b5866c7f87e82ab27
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 2f52eb8196e057f934c8d2b5ac0518ce121606b6
+ms.sourcegitcommit: 003c1929f730d7d505c108aba84f6269f4c98978
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195114"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655299"
 ---
 # <a name="export-segments-to-braze-preview"></a>Braze-ге сегменттерді экспорттау (алдын ала қарау)
 
@@ -23,6 +23,7 @@ ms.locfileid: "9195114"
 
 - А [Braze тіркелгісі](https://www.braze.com/) және сәйкес әкімшінің тіркелгі деректері.
 - А [Braze API кілті](https://www.braze.com/docs/api/basics/)
+- Сіздің [Braze REST соңғы нүктесі](https://www.braze.com/docs/api/basics/#api-definitions) 
 - [Конфигурацияланған сегменттер](segments.md) Customer Insights ішінде.
 - Экспортталған сегменттердегі бірыңғай тұтынушы профильдері электрондық пошта мекенжайын және Braze тұтынушы идентификаторын көрсететін өрісті қамтиды.
 
@@ -30,6 +31,7 @@ ms.locfileid: "9195114"
 
 - Braze қолданбасына 1 миллион тұтынушы профиліне дейін, оны аяқтауға 40 минут кетуі мүмкін. Braze-ге экспорттауға болатын тұтынушы профильдерінің саны Braze-мен келісім-шартыңызға байланысты.
 - Тек сегменттер.
+- Azure жеке сілтемесіне Braze экспорты үшін қолдау көрсетілмейді.
 
 ## <a name="set-up-connection-to-braze"></a>Braze қосылымын орнатыңыз
 
@@ -62,6 +64,8 @@ ms.locfileid: "9195114"
 1. таңдаңыз **Экспортты қосыңыз**.
 
 1. Ішінде **Экспортқа арналған қосылым** өрісінде Braze бөлімінен қосылымды таңдаңыз. Егер қосылым болмаса, әкімшіге хабарласыңыз.
+
+1. REST соңғы нүктесін енгізіңіз **Хост атауы** өріс келесі форматта:`rest.iad-03.braze.com`.
 
 1. Экспорттау үшін атау енгізіңіз.
 
