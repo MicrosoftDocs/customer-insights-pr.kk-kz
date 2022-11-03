@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ffc591c01a5a9434cde41f2da25fa930a515b8c1
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: df38e9e88a9c116252fba26983b5f3711b46f051
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9199218"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725273"
 ---
 # <a name="export-segments-to-moengage-preview"></a>MoEngage-ге сегменттерді экспорттау (алдын ала қарау)
 
@@ -27,6 +27,7 @@ ms.locfileid: "9199218"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - MoEngage-ге экспорттау үшін 100'000 тұтынушы профиліне дейін, бұл 15 минутқа дейін созылуы мүмкін. MoEngage-ге экспорттауға болатын тұтынушы профильдерінің саны MoEngage-пен келісім-шартыңызға байланысты.
 - Тек сегменттер.
 

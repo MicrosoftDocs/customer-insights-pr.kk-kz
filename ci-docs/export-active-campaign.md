@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 178d2df8edf1abcec72664e19d73a88f2b97f12d
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: e62888a6d618fb1154890e607d8c23d3767d35f7
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195573"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725407"
 ---
 # <a name="export-segments-to-activecampaign-preview"></a>Сегменттерді ActiveCampaign қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -29,6 +29,7 @@ ms.locfileid: "9195573"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - ActiveCampaign бағдарламасына экспорттау үшін 1 миллионға дейін тұтынушы профилі, оны аяқтауға 90 минут кетуі мүмкін. ActiveCampaign қызметіне экспорттауға болатын тұтынушы профильдерінің саны ActiveCampaign қызметімен жасалған келісім-шартқа байланысты.
 - Тек сегменттер.
 

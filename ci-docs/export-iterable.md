@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: ccf10b6e3a28a75f9d1bd3d8da3bf870ebc2b1b2
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 69e2bd207c98fc2530620018bf95dd869d1798f6
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195436"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724553"
 ---
 # <a name="export-segments-to-iterable-preview"></a>Сегменттерді қайталанатын түрге экспорттау (алдын ала қарау)
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195436"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - Аяқтау 30 минутқа дейін созылуы мүмкін Iterable бағдарламасына 1 миллион тұтынушы профиліне дейін. Iterable бағдарламасына экспорттауға болатын тұтынушы профильдерінің саны Iterable бағдарламасымен келісім-шартыңызға байланысты.
 - Тек сегменттер.
 
@@ -43,7 +44,7 @@ ms.locfileid: "9195436"
 
 1. Осы қосылымды кім пайдалана алатынын таңдаңыз. Әдепкі бойынша бұл тек әкімшілер. Қосымша ақпарат алу үшін [Салымшыларға экспорттау үшін қосылымды пайдалануға рұқсат беру](connections.md#allow-contributors-to-use-a-connection-for-exports) бөлімін қараңыз.
 
-1. Жүйеге кіруді жалғастыру үшін Iterable API кілтін беріңіз.
+1. Жүйеге кіруді жалғастыру үшін қайталанатын API кілтін беріңіз.
 
 1. шолу [деректердің құпиялылығы және сәйкестігі](connections.md#data-privacy-and-compliance) және таңдаңыз **Мен келісемін**.
 

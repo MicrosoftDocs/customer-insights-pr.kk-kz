@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 8110eab199920ab8fc2ea15678139faf264a242a
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: 81adad4caf2d4c6f792bf920b29fc7c67eef42b0
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195757"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724719"
 ---
 # <a name="export-segments-to-adroll-preview"></a>Сегменттерді AdRoll қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195757"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - AdRoll-қа экспорттау үшін 250 000 тұтынушы профиліне дейін, оны аяқтауға 10 минут кетуі мүмкін. AdRoll қызметіне экспорттауға болатын тұтынушы профильдерінің саны AdRoll-пен келісім-шартыңызға байланысты.
 - Тек сегменттер. Сегмент кемінде 100 тұтынушы профилін қамтуы керек.
 

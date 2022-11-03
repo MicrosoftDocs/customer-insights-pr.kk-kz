@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 449d2c5e32697e4a5d2c9dff4a5a1cbdb26aeb4d
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: b4b14ba9de2c7e20175fac664a705f2212a411fd
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195067"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9724764"
 ---
 # <a name="export-segments-to-autopilot-preview"></a>Сегменттерді Autopilot қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195067"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - Автопилотқа экспорттау үшін 100 000 тұтынушы профиліне дейін, оны аяқтауға бірнеше сағат кетуі мүмкін. Автопилотқа экспорттауға болатын тұтынушы профильдерінің саны автопилотпен келісім-шартыңызға байланысты.
 - Тек сегменттер.
 

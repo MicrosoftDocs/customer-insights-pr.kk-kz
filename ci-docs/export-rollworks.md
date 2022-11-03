@@ -8,12 +8,12 @@ ms.topic: conceptual
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: e13aeca4ee5309f85e7de2986cd1a2ba5d2992fb
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: d857bf5d11de86521c4a9d4fc665c020496d89d2
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9195619"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725132"
 ---
 # <a name="export-segments-to-rollworks-preview"></a>Сегменттерді RollWorks қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,6 +28,7 @@ ms.locfileid: "9195619"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
 - RollWorks-ке экспорттау үшін 250 000 тұтынушы профиліне дейін, оны аяқтауға 10 минут кетуі мүмкін. RollWorks қызметіне экспорттауға болатын тұтынушы профильдерінің саны RollWorks компаниясымен келісім-шартыңызға байланысты.
 - Тек сегменттер.
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 author: pkieffer
 ms.author: philk
 manager: shellyha
-ms.openlocfilehash: 54aec10e24b6356e2e4317cf33e740a1a086a2dd
-ms.sourcegitcommit: 594081c82ca385f7143b3416378533aaf2d6d0d3
+ms.openlocfilehash: d74672768afec94e899ff0aec8c118c2afcde368
+ms.sourcegitcommit: c3ae7e7e0c9566f9479ba71a26afc5a17fb589c2
 ms.translationtype: MT
 ms.contentlocale: kk-KZ
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9196861"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725039"
 ---
 # <a name="export-segments-to-mailchimp-preview"></a>Сегменттерді Mailchimp қызметіне экспорттау (алдын ала қарау нұсқасы)
 
@@ -28,7 +28,8 @@ ms.locfileid: "9196861"
 
 ## <a name="known-limitations"></a>Белгілі шектеулер
 
-- Mailchimp-ке экспорттау үшін 1 миллионға дейін тұтынушы профилі, бұл үш сағатқа дейін созылуы мүмкін. Mailchimp-ке экспорттауға болатын тұтынушы профильдерінің саны Mailchimp-пен келісім-шартыңызға байланысты.
+- Өз жадыңызды әкеліңіз (BYOS) тіркесімімен жеке сілтемеге қолдау көрсетілмейді.
+- Mailchimp-ке экспорттау үшін 1 миллионға дейін тұтынушы профилі, бұл үш сағатқа дейін созылуы мүмкін. Mailchimp қызметіне экспорттауға болатын тұтынушы профильдерінің саны Mailchimp-пен келісім-шартыңызға байланысты.
 - Тек сегменттер.
 
 ## <a name="set-up-connection-to-mailchimp"></a>Mailchimp қызметіне қосылым орнату
